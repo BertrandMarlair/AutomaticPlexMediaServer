@@ -102,3 +102,4 @@ services:
             - RUNNOW=no
             - SKIPUPDATE=no
             - APP_BRANCH=master 
+        restart: unless-stopped
