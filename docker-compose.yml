@@ -28,19 +28,6 @@ services:
             - ./media/comics:/comics
             - ./media/media:/media
         restart: unless-stopped
-    plexpy: 
-        image: linuxserver/plexpy
-        container_name: plexpy
-        volumes:
-            - ./.config/plexpy:/config
-            - ./.config/plex/Library/Application Support/Plex Media Server/Logs:/logs:ro
-        environment:
-            - PUID=100O
-            - PGID=1000
-            - TZ=Europe/Brussels
-        ports:
-            - 8181:8181
-        restart: unless-stopped
     sonarr:
         image: ghcr.io/linuxserver/sonarr
         container_name: sonarr
