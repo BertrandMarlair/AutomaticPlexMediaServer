@@ -1,0 +1,472 @@
+2021-05-06 09:53:01,211 (7fddee4e3740) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: d7c624d (Mon Apr 19 14:14:06 UTC 2021)
+2021-05-06 09:53:01,211 (7fddee4e3740) :  DEBUG (core:361) - Using the elevated policy
+2021-05-06 09:53:01,212 (7fddee4e3740) :  DEBUG (core:450) - Starting runtime component.
+2021-05-06 09:53:01,215 (7fddee4e3740) :  DEBUG (core:450) - Starting caching component.
+2021-05-06 09:53:01,216 (7fddee4e3740) :  DEBUG (core:450) - Starting data component.
+2021-05-06 09:53:01,217 (7fddee4e3740) :  DEBUG (core:450) - Starting networking component.
+2021-05-06 09:53:01,220 (7fddee4e3740) :  DEBUG (networking:261) - Loaded HTTP cookies
+2021-05-06 09:53:01,222 (7fddee4e3740) :  DEBUG (caching:108) - No info file found, trashing the cache folder
+2021-05-06 09:53:01,246 (7fddee4e3740) :  DEBUG (networking:428) - Setting the default network timeout to 20.0
+2021-05-06 09:53:01,247 (7fddee4e3740) :  DEBUG (core:450) - Starting localization component.
+2021-05-06 09:53:01,248 (7fddee4e3740) :  INFO (localization:409) - Setting the default locale to en-us
+2021-05-06 09:53:01,249 (7fddee4e3740) :  DEBUG (core:450) - Starting messaging component.
+2021-05-06 09:53:01,251 (7fddee4e3740) :  DEBUG (core:450) - Starting debugging component.
+2021-05-06 09:53:01,252 (7fddee4e3740) :  DEBUG (core:450) - Starting services component.
+2021-05-06 09:53:01,253 (7fddee4e3740) :  DEBUG (core:450) - Starting myplex component.
+2021-05-06 09:53:01,254 (7fddee4e3740) :  DEBUG (core:450) - Starting notifications component.
+2021-05-06 09:53:01,254 (7fddc7fff700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.localmedia'
+2021-05-06 09:53:01,372 (7fddee4e3740) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.localmedia in namespace 'metadata'
+2021-05-06 09:53:01,382 (7fddee4e3740) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2021-05-06 09:53:01,401 (7fddc7fff700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2021-05-06 09:53:01,401 (7fddee4e3740) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2021-05-06 09:53:01,404 (7fddee4e3740) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2021-05-06 09:53:01,405 (7fddee4e3740) :  DEBUG (core:150) - Finished starting framework core
+2021-05-06 09:53:01,407 (7fddc7fff700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2021-05-06 09:53:01,408 (7fddee4e3740) :  DEBUG (core:560) - Loading plug-in code
+2021-05-06 09:53:01,412 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400'
+2021-05-06 09:53:01,446 (7fddc7fff700) :  DEBUG (services:362) - Loaded services
+2021-05-06 09:53:01,447 (7fddc6ffd700) :  DEBUG (core:538) - Machine identifier is 778bafc1525ee34cda762656e6028ff3452e0b58
+2021-05-06 09:53:01,451 (7fddc6ffd700) :  DEBUG (core:539) - Server version is 1.22.3.4392-d7c624def
+2021-05-06 09:53:01,459 (7fddc77fe700) :  DEBUG (services:438) - No shared code to load
+2021-05-06 09:53:01,634 (7fddee4e3740) :  DEBUG (core:566) - Finished loading plug-in code
+2021-05-06 09:53:02,205 (7fddee4e3740) :  DEBUG (messaging:69) - Exposing function ReadTags for remote access
+2021-05-06 09:53:02,207 (7fddee4e3740) :  DEBUG (agentkit:1132) - Creating new agent class called localMediaMovie
+2021-05-06 09:53:02,209 (7fddee4e3740) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Movie'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.imdb', 'com.plexapp.agents.none'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (Movies)'}]
+2021-05-06 09:53:02,215 (7fddee4e3740) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzEKcjIKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjQKczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjBzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMjcKTG9jYWwgTWVkaWEgQXNzZXRzIChNb3ZpZXMpczQKbmFtZTEKczUKTW92aWUyCnMyMwpjb20ucGxleGFwcC5hZ2VudHMuaW1kYnMyMwpjb20ucGxleGFwcC5hZ2VudHMubm9uZTEKczIKeG5yMAo_'
+2021-05-06 09:53:02,236 (7fddee4e3740) :  DEBUG (agentkit:1132) - Creating new agent class called localMediaTV
+2021-05-06 09:53:02,238 (7fddee4e3740) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Movie'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.imdb', 'com.plexapp.agents.none'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (Movies)'}, {'media_types': ['TV_Show'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.thetvdb', 'com.plexapp.agents.none'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (TV)'}]
+2021-05-06 09:53:02,244 (7fddee4e3740) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxMApkaWN0Cmxpc3QKZGljdApsaXN0Cmxpc3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzIKcjIKcjYKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjQKczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjBzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMjcKTG9jYWwgTWVkaWEgQXNzZXRzIChNb3ZpZXMpczQKbmFtZTEKczUKTW92aWUyCnMyMwpjb20ucGxleGFwcC5hZ2VudHMuaW1kYnMyMwpjb20ucGxleGFwcC5hZ2VudHMubm9uZTEKczIKeG4xMApyNwpzMTEKbWVkaWFfdHlwZXNuczEyCmFjY2VwdHNfZnJvbW5zMTQKZmFsbGJhY2tfYWdlbnRyOApzMTQKY29udHJpYnV0ZXNfdG9yOQpzOQpsYW5ndWFnZXNiMHMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMHMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3MyMwpMb2NhbCBNZWRpYSBBc3NldHMgKFRWKXM0Cm5hbWUxCnM3ClRWX1Nob3cyCnMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMyMwpjb20ucGxleGFwcC5hZ2VudHMubm9uZTEKczIKeG5yMAo_'
+2021-05-06 09:53:02,261 (7fddee4e3740) :  DEBUG (agentkit:1132) - Creating new agent class called localMediaArtistLegacy
+2021-05-06 09:53:02,262 (7fddee4e3740) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Movie'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.imdb', 'com.plexapp.agents.none'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (Movies)'}, {'media_types': ['TV_Show'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.thetvdb', 'com.plexapp.agents.none'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (TV)'}, {'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.discogs', 'com.plexapp.agents.lastfm', 'com.plexapp.agents.plexmusic', 'com.plexapp.agents.none', 'tv.plex.agents.music', 'org.musicbrainz.agents.music'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (Artists)'}]
+2021-05-06 09:53:02,267 (7fddee4e3740) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxNApkaWN0Cmxpc3QKZGljdApsaXN0Cmxpc3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CmRpY3QKbGlzdApsaXN0Cmxpc3QKMgpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLmxvY2FsbWVkaWFzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMwpyMgpyNgpyMTAKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjQKczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjBzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMjcKTG9jYWwgTWVkaWEgQXNzZXRzIChNb3ZpZXMpczQKbmFtZTEKczUKTW92aWUyCnMyMwpjb20ucGxleGFwcC5hZ2VudHMuaW1kYnMyMwpjb20ucGxleGFwcC5hZ2VudHMubm9uZTEKczIKeG4xMApyNwpzMTEKbWVkaWFfdHlwZXNuczEyCmFjY2VwdHNfZnJvbW5zMTQKZmFsbGJhY2tfYWdlbnRyOApzMTQKY29udHJpYnV0ZXNfdG9yOQpzOQpsYW5ndWFnZXNiMHMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMHMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3MyMwpMb2NhbCBNZWRpYSBBc3NldHMgKFRWKXM0Cm5hbWUxCnM3ClRWX1Nob3cyCnMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMyMwpjb20ucGxleGFwcC5hZ2VudHMubm9uZTEKczIKeG4xMApyMTEKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjEyCnMxNApjb250cmlidXRlc190b3IxMwpzOQpsYW5ndWFnZXNiMHMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMHMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3MyOApMb2NhbCBNZWRpYSBBc3NldHMgKEFydGlzdHMpczQKbmFtZTEKczYKQXJ0aXN0NgpzMjYKY29tLnBsZXhhcHAuYWdlbnRzLmRpc2NvZ3NzMjUKY29tLnBsZXhhcHAuYWdlbnRzLmxhc3RmbXMyOApjb20ucGxleGFwcC5hZ2VudHMucGxleG11c2ljczIzCmNvbS5wbGV4YXBwLmFnZW50cy5ub25lczIwCnR2LnBsZXguYWdlbnRzLm11c2ljczI4Cm9yZy5tdXNpY2JyYWluei5hZ2VudHMubXVzaWMxCnMyCnhucjAK'
+2021-05-06 09:53:02,285 (7fddee4e3740) :  DEBUG (agentkit:1132) - Creating new agent class called localMediaArtistModern
+2021-05-06 09:53:02,286 (7fddee4e3740) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Movie'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.imdb', 'com.plexapp.agents.none'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (Movies)'}, {'media_types': ['TV_Show'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.thetvdb', 'com.plexapp.agents.none'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (TV)'}, {'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.discogs', 'com.plexapp.agents.lastfm', 'com.plexapp.agents.plexmusic', 'com.plexapp.agents.none', 'tv.plex.agents.music', 'org.musicbrainz.agents.music'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (Artists)'}, {'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.plexmusic'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 2, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (Artists)'}]
+2021-05-06 09:53:02,291 (7fddee4e3740) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxNwpkaWN0Cmxpc3QKZGljdApsaXN0Cmxpc3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CmRpY3QKbGlzdApsaXN0Cmxpc3QKZGljdApsaXN0Cmxpc3QKMgpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLmxvY2FsbWVkaWFzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvNApyMgpyNgpyMTAKcjE0CjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI0CnMxNApjb250cmlidXRlc190b3I1CnM5Cmxhbmd1YWdlc2IwczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIwczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczI3CkxvY2FsIE1lZGlhIEFzc2V0cyAoTW92aWVzKXM0Cm5hbWUxCnM1Ck1vdmllMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMjMKY29tLnBsZXhhcHAuYWdlbnRzLm5vbmUxCnMyCnhuMTAKcjcKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjgKczE0CmNvbnRyaWJ1dGVzX3RvcjkKczkKbGFuZ3VhZ2VzYjBzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMjMKTG9jYWwgTWVkaWEgQXNzZXRzIChUVilzNApuYW1lMQpzNwpUVl9TaG93MgpzMjYKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGJzMjMKY29tLnBsZXhhcHAuYWdlbnRzLm5vbmUxCnMyCnhuMTAKcjExCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHIxMgpzMTQKY29udHJpYnV0ZXNfdG9yMTMKczkKbGFuZ3VhZ2VzYjBzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMjgKTG9jYWwgTWVkaWEgQXNzZXRzIChBcnRpc3RzKXM0Cm5hbWUxCnM2CkFydGlzdDYKczI2CmNvbS5wbGV4YXBwLmFnZW50cy5kaXNjb2dzczI1CmNvbS5wbGV4YXBwLmFnZW50cy5sYXN0Zm1zMjgKY29tLnBsZXhhcHAuYWdlbnRzLnBsZXhtdXNpY3MyMwpjb20ucGxleGFwcC5hZ2VudHMubm9uZXMyMAp0di5wbGV4LmFnZW50cy5tdXNpY3MyOApvcmcubXVzaWNicmFpbnouYWdlbnRzLm11c2ljMQpzMgp4bjEwCnIxNQpzMTEKbWVkaWFfdHlwZXNuczEyCmFjY2VwdHNfZnJvbW5zMTQKZmFsbGJhY2tfYWdlbnRyMTYKczE0CmNvbnRyaWJ1dGVzX3RvcjEzCnM5Cmxhbmd1YWdlc2IwczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTIKczcKdmVyc2lvbmIwczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczI4CkxvY2FsIE1lZGlhIEFzc2V0cyAoQXJ0aXN0cylzNApuYW1lMQpzNgpBcnRpc3QxCnMyOApjb20ucGxleGFwcC5hZ2VudHMucGxleG11c2ljcjAK'
+2021-05-06 09:53:02,306 (7fddee4e3740) :  DEBUG (agentkit:1132) - Creating new agent class called localMediaAlbum
+2021-05-06 09:53:02,308 (7fddee4e3740) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Movie'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.imdb', 'com.plexapp.agents.none'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (Movies)'}, {'media_types': ['TV_Show'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.thetvdb', 'com.plexapp.agents.none'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (TV)'}, {'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.discogs', 'com.plexapp.agents.lastfm', 'com.plexapp.agents.plexmusic', 'com.plexapp.agents.none', 'tv.plex.agents.music', 'org.musicbrainz.agents.music'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (Artists)'}, {'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.plexmusic'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 2, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (Artists)'}, {'media_types': ['Album'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.discogs', 'com.plexapp.agents.lastfm', 'com.plexapp.agents.plexmusic', 'com.plexapp.agents.none', 'tv.plex.agents.music', 'org.musicbrainz.agents.music'], 'languages': ['xn'], 'persist_stored_files': False, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'Local Media Assets (Albums)'}]
+2021-05-06 09:53:02,313 (7fddee4e3740) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyMQpkaWN0Cmxpc3QKZGljdApsaXN0Cmxpc3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CmRpY3QKbGlzdApsaXN0Cmxpc3QKZGljdApsaXN0Cmxpc3QKZGljdApsaXN0Cmxpc3QKbGlzdAoyCnMyOQpjb20ucGxleGFwcC5hZ2VudHMubG9jYWxtZWRpYXMxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm81CnIyCnI2CnIxMApyMTQKcjE3CjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI0CnMxNApjb250cmlidXRlc190b3I1CnM5Cmxhbmd1YWdlc2IwczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIwczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczI3CkxvY2FsIE1lZGlhIEFzc2V0cyAoTW92aWVzKXM0Cm5hbWUxCnM1Ck1vdmllMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMjMKY29tLnBsZXhhcHAuYWdlbnRzLm5vbmUxCnMyCnhuMTAKcjcKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjgKczE0CmNvbnRyaWJ1dGVzX3RvcjkKczkKbGFuZ3VhZ2VzYjBzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMjMKTG9jYWwgTWVkaWEgQXNzZXRzIChUVilzNApuYW1lMQpzNwpUVl9TaG93MgpzMjYKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGJzMjMKY29tLnBsZXhhcHAuYWdlbnRzLm5vbmUxCnMyCnhuMTAKcjExCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHIxMgpzMTQKY29udHJpYnV0ZXNfdG9yMTMKczkKbGFuZ3VhZ2VzYjBzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMjgKTG9jYWwgTWVkaWEgQXNzZXRzIChBcnRpc3RzKXM0Cm5hbWUxCnM2CkFydGlzdDYKczI2CmNvbS5wbGV4YXBwLmFnZW50cy5kaXNjb2dzczI1CmNvbS5wbGV4YXBwLmFnZW50cy5sYXN0Zm1zMjgKY29tLnBsZXhhcHAuYWdlbnRzLnBsZXhtdXNpY3MyMwpjb20ucGxleGFwcC5hZ2VudHMubm9uZXMyMAp0di5wbGV4LmFnZW50cy5tdXNpY3MyOApvcmcubXVzaWNicmFpbnouYWdlbnRzLm11c2ljMQpzMgp4bjEwCnIxNQpzMTEKbWVkaWFfdHlwZXNuczEyCmFjY2VwdHNfZnJvbW5zMTQKZmFsbGJhY2tfYWdlbnRyMTYKczE0CmNvbnRyaWJ1dGVzX3RvcjEzCnM5Cmxhbmd1YWdlc2IwczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTIKczcKdmVyc2lvbmIwczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczI4CkxvY2FsIE1lZGlhIEFzc2V0cyAoQXJ0aXN0cylzNApuYW1lMQpzNgpBcnRpc3QxCnMyOApjb20ucGxleGFwcC5hZ2VudHMucGxleG11c2ljMTAKcjE4CnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHIxOQpzMTQKY29udHJpYnV0ZXNfdG9yMjAKczkKbGFuZ3VhZ2VzYjBzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMjcKTG9jYWwgTWVkaWEgQXNzZXRzIChBbGJ1bXMpczQKbmFtZTEKczUKQWxidW02CnMyNgpjb20ucGxleGFwcC5hZ2VudHMuZGlzY29nc3MyNQpjb20ucGxleGFwcC5hZ2VudHMubGFzdGZtczI4CmNvbS5wbGV4YXBwLmFnZW50cy5wbGV4bXVzaWNzMjMKY29tLnBsZXhhcHAuYWdlbnRzLm5vbmVzMjAKdHYucGxleC5hZ2VudHMubXVzaWNzMjgKb3JnLm11c2ljYnJhaW56LmFnZW50cy5tdXNpYzEKczIKeG5yMAo_'
+2021-05-06 09:53:02,345 (7fddee4e3740) :  CRITICAL (sandbox:298) - Function named 'Start' couldn't be found in the current environment
+2021-05-06 09:53:02,346 (7fddee4e3740) :  INFO (core:611) - Started plug-in
+2021-05-06 09:53:02,347 (7fddee4e3740) :  DEBUG (socketinterface:160) - Starting socket server
+2021-05-06 09:53:02,349 (7fddee4e3740) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2021-05-06 09:53:02,350 (7fddee4e3740) :  INFO (socketinterface:184) - Socket server started on port 36095
+2021-05-06 09:53:02,351 (7fddee4e3740) :  INFO (pipeinterface:25) - Entering run loop
+2021-05-06 09:53:02,352 (7fddee4e3740) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2021-05-06 09:53:02,354 (7fddee4e3740) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2021-05-06 09:53:02,356 (7fddee4e3740) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 154 bytes
+2021-05-06 09:53:02,358 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQyCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vODAzNzk%40bGFuZz1mcnM0Cmd1aWRiMXM1CmZvcmNlczI2CmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiczEzCnByaW1hcnlfYWdlbnRzMQoxczIKaWRyMAo_
+2021-05-06 09:53:02,371 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQyCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vODAzNzk@bGFuZz1mcnM0Cmd1aWRiMXM1CmZvcmNlczI2CmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiczEzCnByaW1hcnlfYWdlbnRzMQoxczIKaWRyMAo_
+2021-05-06 09:53:02,373 (7fddc6ffd700) :  INFO (agentkit:961) - Searching for matches for {'id': '1', 'guid': 'com.plexapp.agents.thetvdb://80379?lang=fr', 'force': True, 'primary_agent': 'com.plexapp.agents.thetvdb', 'parentID': None}
+2021-05-06 09:53:02,378 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/1/tree'
+2021-05-06 09:53:02,394 (7fddc6ffd700) :  DEBUG (accessor:68) - Creating a new read-only model access point for provider com.plexapp.agents.thetvdb in namespace 'metadata'
+2021-05-06 09:53:02,398 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://80379?lang=fr
+2021-05-06 09:53:02,401 (7fddc6ffd700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/e/fe230b0ae169f73aae1e0865b828eced915b0a2.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 09:53:02,529 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 09:53:02,531 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 600 bytes
+2021-05-06 09:53:02,549 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQoxczQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDIKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly84MDM3OT9sYW5nPWZyczQKZ3VpZHM0Cm51bGxzMgppZHIwCg__
+2021-05-06 09:53:02,556 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQoxczQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDIKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly84MDM3OT9sYW5nPWZyczQKZ3VpZHM0Cm51bGxzMgppZHIwCg__
+2021-05-06 09:53:02,559 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://80379?lang=fr
+2021-05-06 09:53:02,561 (7fddc6ffd700) :  ERROR (model:205) - Cannot read model from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/e/fe230b0ae169f73aae1e0865b828eced915b0a2.bundle/Contents/com.plexapp.agents.localmedia
+2021-05-06 09:53:02,563 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/1/tree'
+2021-05-06 09:53:02,572 (7fddc6ffd700) :  INFO (__init__:121) - Creating season 12
+2021-05-06 09:53:02,576 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (The Big Bang Theory) in 1 paths (root file: The Big Bang Theory - S12E24 - The Stockholm Syndrome WEBRip-480p) with 1 media files.
+2021-05-06 09:53:02,577 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/The Big Bang Theory/Season 12
+2021-05-06 09:53:02,580 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern The\ Big\ Bang\ Theory\ \-\ S12E24\ \-\ The\ Stockholm\ Syndrome\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:53:02,581 (7fddc6ffd700) :  INFO (__init__:140) - Looking for show media for None.
+2021-05-06 09:53:02,584 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for show media (The Big Bang Theory) in 3 paths (root file: None) with 1 media files.
+2021-05-06 09:53:02,585 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/The Big Bang Theory/Season 12, /tv/The Big Bang Theory, /tv
+2021-05-06 09:53:02,587 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (show|poster|folder)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:53:02,589 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern banner-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:53:02,591 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (fanart|art|background|backdrop)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:53:02,593 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern theme-?[0-9]? (ext: ['mp3'])
+2021-05-06 09:53:02,594 (7fddc6ffd700) :  INFO (__init__:146) - Looking for season media for None season 12.
+2021-05-06 09:53:02,598 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for season media (The Big Bang Theory) in 3 paths (root file: None) with 1 media files.
+2021-05-06 09:53:02,600 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/The Big Bang Theory/Season 12, /tv/The Big Bang Theory, /tv
+2021-05-06 09:53:02,602 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?12[-a-z]?(-poster)? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:53:02,604 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?12-banner[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:53:02,607 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season(-|0|\s)?12-(fanart|art|background|backdrop)[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:53:02,609 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 1 media files.
+2021-05-06 09:53:02,611 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/The Big Bang Theory/Season 12
+2021-05-06 09:53:02,645 (7fddc6ffd700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/e/fe230b0ae169f73aae1e0865b828eced915b0a2.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 09:53:02,653 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 09:53:02,654 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 09:57:23,539 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQzCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzP2xhbmc9ZnJzNApndWlkYjFzNQpmb3JjZXMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMwpwcmltYXJ5X2FnZW50czEKNHMyCmlkcjAK
+2021-05-06 09:57:23,542 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 09:57:23,544 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQzCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzP2xhbmc9ZnJzNApndWlkYjFzNQpmb3JjZXMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMwpwcmltYXJ5X2FnZW50czEKNHMyCmlkcjAK
+2021-05-06 09:57:23,545 (7fddc6ffd700) :  INFO (agentkit:961) - Searching for matches for {'id': '4', 'guid': 'com.plexapp.agents.thetvdb://360893?lang=fr', 'force': True, 'primary_agent': 'com.plexapp.agents.thetvdb', 'parentID': None}
+2021-05-06 09:57:23,552 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 09:57:23,584 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 09:57:23,586 (7fddc6ffd700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 09:57:23,621 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 09:57:23,623 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 600 bytes
+2021-05-06 09:57:23,640 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM%40bGFuZz1mcnM0Cmd1aWRzNApudWxsczIKaWRyMAo_
+2021-05-06 09:57:23,642 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 09:57:23,644 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM@bGFuZz1mcnM0Cmd1aWRzNApudWxsczIKaWRyMAo_
+2021-05-06 09:57:23,646 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 09:57:23,649 (7fddc6ffd700) :  ERROR (model:205) - Cannot read model from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.localmedia
+2021-05-06 09:57:23,652 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 09:57:23,665 (7fddc6ffd700) :  INFO (__init__:121) - Creating season 1
+2021-05-06 09:57:23,670 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E01 - 1-23-45 WEBRip-480p) with 2 media files.
+2021-05-06 09:57:23,671 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:57:23,675 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E01\ \-\ 1\-23\-45\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:23,692 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E02 - Please Remain Calm SDTV) with 2 media files.
+2021-05-06 09:57:23,815 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:57:23,820 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E02\ \-\ Please\ Remain\ Calm\ SDTV(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:23,821 (7fddc6ffd700) :  INFO (__init__:140) - Looking for show media for None.
+2021-05-06 09:57:23,826 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for show media (Chernobyl) in 3 paths (root file: None) with 2 media files.
+2021-05-06 09:57:23,828 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 09:57:23,831 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (show|poster|folder)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:23,834 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern banner-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:23,836 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (fanart|art|background|backdrop)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:23,838 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern theme-?[0-9]? (ext: ['mp3'])
+2021-05-06 09:57:23,840 (7fddc6ffd700) :  INFO (__init__:146) - Looking for season media for None season 1.
+2021-05-06 09:57:23,845 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for season media (Chernobyl) in 3 paths (root file: None) with 2 media files.
+2021-05-06 09:57:23,859 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 09:57:23,862 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1[-a-z]?(-poster)? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:23,865 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1-banner[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:23,869 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season(-|0|\s)?1-(fanart|art|background|backdrop)[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:23,874 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 2 media files.
+2021-05-06 09:57:23,875 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:57:23,879 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 2 media files.
+2021-05-06 09:57:23,880 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:57:23,931 (7fddc6ffd700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 09:57:23,949 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 09:57:23,950 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 09:57:44,041 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQzCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzP2xhbmc9ZnJzNApndWlkYjFzNQpmb3JjZXMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMwpwcmltYXJ5X2FnZW50czEKNHMyCmlkcjAK
+2021-05-06 09:57:44,043 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 09:57:44,045 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQzCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzP2xhbmc9ZnJzNApndWlkYjFzNQpmb3JjZXMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMwpwcmltYXJ5X2FnZW50czEKNHMyCmlkcjAK
+2021-05-06 09:57:44,046 (7fddc6ffd700) :  INFO (agentkit:961) - Searching for matches for {'id': '4', 'guid': 'com.plexapp.agents.thetvdb://360893?lang=fr', 'force': True, 'primary_agent': 'com.plexapp.agents.thetvdb', 'parentID': None}
+2021-05-06 09:57:44,049 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 09:57:44,080 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 09:57:44,083 (7fddc6ffd700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 09:57:44,112 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 09:57:44,114 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 600 bytes
+2021-05-06 09:57:44,127 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM%40bGFuZz1mcnM0Cmd1aWRzNApudWxsczIKaWRyMAo_
+2021-05-06 09:57:44,129 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 09:57:44,131 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM@bGFuZz1mcnM0Cmd1aWRzNApudWxsczIKaWRyMAo_
+2021-05-06 09:57:44,133 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 09:57:44,135 (7fddc6ffd700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 09:57:44,144 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 09:57:44,154 (7fddc6ffd700) :  INFO (__init__:121) - Creating season 1
+2021-05-06 09:57:44,158 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E01 - 1-23-45 WEBRip-480p) with 3 media files.
+2021-05-06 09:57:44,159 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:57:44,160 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E01\ \-\ 1\-23\-45\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:44,163 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E03 - Open Wide, O Earth WEBRip-480p) with 3 media files.
+2021-05-06 09:57:44,164 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:57:44,168 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E03\ \-\ Open\ Wide\,\ O\ Earth\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:44,170 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E02 - Please Remain Calm SDTV) with 3 media files.
+2021-05-06 09:57:44,171 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:57:44,173 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E02\ \-\ Please\ Remain\ Calm\ SDTV(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:44,174 (7fddc6ffd700) :  INFO (__init__:140) - Looking for show media for None.
+2021-05-06 09:57:44,178 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for show media (Chernobyl) in 3 paths (root file: None) with 3 media files.
+2021-05-06 09:57:44,179 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 09:57:44,181 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (show|poster|folder)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:44,182 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern banner-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:44,184 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (fanart|art|background|backdrop)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:44,185 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern theme-?[0-9]? (ext: ['mp3'])
+2021-05-06 09:57:44,187 (7fddc6ffd700) :  INFO (__init__:146) - Looking for season media for None season 1.
+2021-05-06 09:57:44,190 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for season media (Chernobyl) in 3 paths (root file: None) with 3 media files.
+2021-05-06 09:57:44,191 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 09:57:44,193 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1[-a-z]?(-poster)? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:44,194 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1-banner[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:44,195 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season(-|0|\s)?1-(fanart|art|background|backdrop)[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:57:44,199 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 3 media files.
+2021-05-06 09:57:44,202 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:57:44,207 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 3 media files.
+2021-05-06 09:57:44,208 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:57:44,211 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 3 media files.
+2021-05-06 09:57:44,213 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:57:44,278 (7fddc6ffd700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 09:57:44,287 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 09:57:44,289 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 09:58:26,592 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQzCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzP2xhbmc9ZnJzNApndWlkYjFzNQpmb3JjZXMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMwpwcmltYXJ5X2FnZW50czEKNHMyCmlkcjAK
+2021-05-06 09:58:26,595 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 09:58:26,597 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQzCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzP2xhbmc9ZnJzNApndWlkYjFzNQpmb3JjZXMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMwpwcmltYXJ5X2FnZW50czEKNHMyCmlkcjAK
+2021-05-06 09:58:26,599 (7fddc6ffd700) :  INFO (agentkit:961) - Searching for matches for {'id': '4', 'guid': 'com.plexapp.agents.thetvdb://360893?lang=fr', 'force': True, 'primary_agent': 'com.plexapp.agents.thetvdb', 'parentID': None}
+2021-05-06 09:58:26,603 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 09:58:26,628 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 09:58:26,629 (7fddc6ffd700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 09:58:26,662 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 09:58:26,664 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 600 bytes
+2021-05-06 09:58:26,678 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM%40bGFuZz1mcnM0Cmd1aWRzNApudWxsczIKaWRyMAo_
+2021-05-06 09:58:26,683 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 09:58:26,686 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM@bGFuZz1mcnM0Cmd1aWRzNApudWxsczIKaWRyMAo_
+2021-05-06 09:58:26,688 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 09:58:26,690 (7fddc6ffd700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 09:58:26,699 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 09:58:26,713 (7fddc6ffd700) :  INFO (__init__:121) - Creating season 1
+2021-05-06 09:58:26,717 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E01 - 1-23-45 WEBRip-480p) with 4 media files.
+2021-05-06 09:58:26,719 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:58:26,722 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E01\ \-\ 1\-23\-45\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:58:26,726 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E03 - Open Wide, O Earth WEBRip-480p) with 4 media files.
+2021-05-06 09:58:26,727 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:58:26,729 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E03\ \-\ Open\ Wide\,\ O\ Earth\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:58:26,732 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E02 - Please Remain Calm SDTV) with 4 media files.
+2021-05-06 09:58:26,734 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:58:26,735 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E02\ \-\ Please\ Remain\ Calm\ SDTV(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:58:26,739 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E04 - The Happiness of All Mankind SDTV) with 4 media files.
+2021-05-06 09:58:26,740 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:58:26,752 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E04\ \-\ The\ Happiness\ of\ All\ Mankind\ SDTV(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:58:26,753 (7fddc6ffd700) :  INFO (__init__:140) - Looking for show media for None.
+2021-05-06 09:58:26,757 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for show media (Chernobyl) in 3 paths (root file: None) with 4 media files.
+2021-05-06 09:58:26,758 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 09:58:26,760 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (show|poster|folder)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:58:26,761 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern banner-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:58:26,763 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (fanart|art|background|backdrop)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:58:26,764 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern theme-?[0-9]? (ext: ['mp3'])
+2021-05-06 09:58:26,766 (7fddc6ffd700) :  INFO (__init__:146) - Looking for season media for None season 1.
+2021-05-06 09:58:26,769 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for season media (Chernobyl) in 3 paths (root file: None) with 4 media files.
+2021-05-06 09:58:26,771 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 09:58:26,772 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1[-a-z]?(-poster)? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:58:26,774 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1-banner[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:58:26,775 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season(-|0|\s)?1-(fanart|art|background|backdrop)[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:58:26,778 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 4 media files.
+2021-05-06 09:58:26,780 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:58:26,783 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 4 media files.
+2021-05-06 09:58:26,785 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:58:26,790 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 4 media files.
+2021-05-06 09:58:26,792 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:58:26,795 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 4 media files.
+2021-05-06 09:58:26,797 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:58:26,878 (7fddc6ffd700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 09:58:26,889 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 09:58:26,890 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 09:59:16,741 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQzCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzP2xhbmc9ZnJzNApndWlkYjFzNQpmb3JjZXMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMwpwcmltYXJ5X2FnZW50czEKNHMyCmlkcjAK
+2021-05-06 09:59:16,745 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 09:59:16,748 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQzCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzP2xhbmc9ZnJzNApndWlkYjFzNQpmb3JjZXMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMwpwcmltYXJ5X2FnZW50czEKNHMyCmlkcjAK
+2021-05-06 09:59:16,749 (7fddc6ffd700) :  INFO (agentkit:961) - Searching for matches for {'id': '4', 'guid': 'com.plexapp.agents.thetvdb://360893?lang=fr', 'force': True, 'primary_agent': 'com.plexapp.agents.thetvdb', 'parentID': None}
+2021-05-06 09:59:16,754 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 09:59:16,791 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 09:59:16,794 (7fddc6ffd700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 09:59:16,833 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 09:59:16,835 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 600 bytes
+2021-05-06 09:59:16,850 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM%40bGFuZz1mcnM0Cmd1aWRzNApudWxsczIKaWRyMAo_
+2021-05-06 09:59:16,855 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 09:59:16,859 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM@bGFuZz1mcnM0Cmd1aWRzNApudWxsczIKaWRyMAo_
+2021-05-06 09:59:16,861 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 09:59:16,864 (7fddc6ffd700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 09:59:16,876 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 09:59:16,891 (7fddc6ffd700) :  INFO (__init__:121) - Creating season 1
+2021-05-06 09:59:16,895 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E01 - 1-23-45 WEBRip-480p) with 5 media files.
+2021-05-06 09:59:16,898 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:59:16,899 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E01\ \-\ 1\-23\-45\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:59:16,903 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E03 - Open Wide, O Earth WEBRip-480p) with 5 media files.
+2021-05-06 09:59:16,905 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:59:16,907 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E03\ \-\ Open\ Wide\,\ O\ Earth\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:59:16,909 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E02 - Please Remain Calm SDTV) with 5 media files.
+2021-05-06 09:59:16,911 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:59:16,912 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E02\ \-\ Please\ Remain\ Calm\ SDTV(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:59:16,916 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E05 - Vichnaya Pamyat SDTV) with 5 media files.
+2021-05-06 09:59:16,918 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:59:16,923 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E05\ \-\ Vichnaya\ Pamyat\ SDTV(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:59:16,927 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E04 - The Happiness of All Mankind SDTV) with 5 media files.
+2021-05-06 09:59:16,931 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:59:16,933 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E04\ \-\ The\ Happiness\ of\ All\ Mankind\ SDTV(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:59:16,935 (7fddc6ffd700) :  INFO (__init__:140) - Looking for show media for None.
+2021-05-06 09:59:16,939 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for show media (Chernobyl) in 3 paths (root file: None) with 5 media files.
+2021-05-06 09:59:16,941 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 09:59:16,943 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (show|poster|folder)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:59:16,945 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern banner-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:59:16,946 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (fanart|art|background|backdrop)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:59:16,948 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern theme-?[0-9]? (ext: ['mp3'])
+2021-05-06 09:59:16,950 (7fddc6ffd700) :  INFO (__init__:146) - Looking for season media for None season 1.
+2021-05-06 09:59:16,953 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for season media (Chernobyl) in 3 paths (root file: None) with 5 media files.
+2021-05-06 09:59:16,955 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 09:59:16,957 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1[-a-z]?(-poster)? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:59:16,958 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1-banner[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:59:16,960 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season(-|0|\s)?1-(fanart|art|background|backdrop)[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 09:59:16,964 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 5 media files.
+2021-05-06 09:59:16,965 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:59:16,970 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 5 media files.
+2021-05-06 09:59:16,973 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:59:16,977 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 5 media files.
+2021-05-06 09:59:16,979 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:59:16,983 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 5 media files.
+2021-05-06 09:59:16,985 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:59:16,990 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 5 media files.
+2021-05-06 09:59:16,991 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 09:59:17,086 (7fddc6ffd700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 09:59:17,095 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 09:59:17,096 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 10:00:51,931 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQyCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vODAzNzk%40bGFuZz1mcnM0Cmd1aWRiMXM1CmZvcmNlczI2CmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiczEzCnByaW1hcnlfYWdlbnRzMQoxczIKaWRyMAo_
+2021-05-06 10:00:51,934 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 10:00:51,939 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQyCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vODAzNzk@bGFuZz1mcnM0Cmd1aWRiMXM1CmZvcmNlczI2CmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiczEzCnByaW1hcnlfYWdlbnRzMQoxczIKaWRyMAo_
+2021-05-06 10:00:51,941 (7fddc6ffd700) :  INFO (agentkit:961) - Searching for matches for {'id': '1', 'guid': 'com.plexapp.agents.thetvdb://80379?lang=fr', 'force': True, 'primary_agent': 'com.plexapp.agents.thetvdb', 'parentID': None}
+2021-05-06 10:00:51,945 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/1/tree'
+2021-05-06 10:00:51,966 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://80379?lang=fr
+2021-05-06 10:00:51,968 (7fddc6ffd700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/e/fe230b0ae169f73aae1e0865b828eced915b0a2.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 10:00:52,166 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 10:00:52,168 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 600 bytes
+2021-05-06 10:00:52,185 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQoxczQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDIKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly84MDM3OT9sYW5nPWZyczQKZ3VpZHM0Cm51bGxzMgppZHIwCg__
+2021-05-06 10:00:52,187 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 10:00:52,189 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQoxczQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDIKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly84MDM3OT9sYW5nPWZyczQKZ3VpZHM0Cm51bGxzMgppZHIwCg__
+2021-05-06 10:00:52,191 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://80379?lang=fr
+2021-05-06 10:00:52,194 (7fddc6ffd700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/e/fe230b0ae169f73aae1e0865b828eced915b0a2.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 10:00:52,202 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/1/tree'
+2021-05-06 10:00:52,215 (7fddc6ffd700) :  INFO (__init__:121) - Creating season 12
+2021-05-06 10:00:52,218 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (The Big Bang Theory) in 1 paths (root file: The Big Bang Theory - S12E24 - The Stockholm Syndrome WEBRip-480p) with 2 media files.
+2021-05-06 10:00:52,220 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/The Big Bang Theory/Season 12
+2021-05-06 10:00:52,225 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern The\ Big\ Bang\ Theory\ \-\ S12E24\ \-\ The\ Stockholm\ Syndrome\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:00:52,227 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (The Big Bang Theory) in 1 paths (root file: The Big Bang Theory - S12E23 - The Change Constant WEBRip-480p) with 2 media files.
+2021-05-06 10:00:52,229 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/The Big Bang Theory/Season 12
+2021-05-06 10:00:52,233 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern The\ Big\ Bang\ Theory\ \-\ S12E23\ \-\ The\ Change\ Constant\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:00:52,235 (7fddc6ffd700) :  INFO (__init__:140) - Looking for show media for None.
+2021-05-06 10:00:52,239 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for show media (The Big Bang Theory) in 3 paths (root file: None) with 2 media files.
+2021-05-06 10:00:52,241 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/The Big Bang Theory/Season 12, /tv/The Big Bang Theory, /tv
+2021-05-06 10:00:52,243 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (show|poster|folder)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:00:52,245 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern banner-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:00:52,247 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (fanart|art|background|backdrop)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:00:52,249 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern theme-?[0-9]? (ext: ['mp3'])
+2021-05-06 10:00:52,250 (7fddc6ffd700) :  INFO (__init__:146) - Looking for season media for None season 12.
+2021-05-06 10:00:52,253 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for season media (The Big Bang Theory) in 3 paths (root file: None) with 2 media files.
+2021-05-06 10:00:52,255 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/The Big Bang Theory/Season 12, /tv/The Big Bang Theory, /tv
+2021-05-06 10:00:52,258 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?12[-a-z]?(-poster)? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:00:52,260 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?12-banner[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:00:52,262 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season(-|0|\s)?12-(fanart|art|background|backdrop)[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:00:52,265 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 2 media files.
+2021-05-06 10:00:52,267 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/The Big Bang Theory/Season 12
+2021-05-06 10:00:52,271 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 2 media files.
+2021-05-06 10:00:52,272 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/The Big Bang Theory/Season 12
+2021-05-06 10:00:52,338 (7fddc6ffd700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/e/fe230b0ae169f73aae1e0865b828eced915b0a2.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 10:00:52,350 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 10:00:52,352 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 10:05:54,789 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKczEKNXM4CnBhcmVudElEczQ3CmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzLzEvMT9sYW5nPWZyczQKZ3VpZGIxczUKZm9yY2VzMjYKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGJzMTMKcHJpbWFyeV9hZ2VudHMxCjZzMgppZHIwCg__
+2021-05-06 10:05:54,806 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 10:05:54,882 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKczEKNXM4CnBhcmVudElEczQ3CmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzLzEvMT9sYW5nPWZyczQKZ3VpZGIxczUKZm9yY2VzMjYKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGJzMTMKcHJpbWFyeV9hZ2VudHMxCjZzMgppZHIwCg__
+2021-05-06 10:05:54,895 (7fddc6ffd700) :  INFO (agentkit:961) - Searching for matches for {'id': '6', 'guid': 'com.plexapp.agents.thetvdb://360893/1/1?lang=fr', 'force': True, 'primary_agent': 'com.plexapp.agents.thetvdb', 'parentID': '5'}
+2021-05-06 10:05:54,917 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/6/tree'
+2021-05-06 10:05:55,039 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893/1/1?lang=fr
+2021-05-06 10:05:55,045 (7fddc6ffd700) :  ERROR (model:205) - Cannot read model from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/8/f2f04b3c7d64997589217579c7b9b12359a4064.bundle/Contents/com.plexapp.agents.thetvdb
+2021-05-06 10:05:55,050 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 10:05:55,055 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 600 bytes
+2021-05-06 10:05:55,131 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo2czQKZGJpZGkwCnM3CnZlcnNpb25zNDUKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTMvMT9sYW5nPWZyczEwCnBhcmVudEdVSURzMQo1czgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDcKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTMvMS8xP2xhbmc9ZnJzNApndWlkczQKbnVsbHMyCmlkcjAK
+2021-05-06 10:05:55,136 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 10:05:55,165 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo2czQKZGJpZGkwCnM3CnZlcnNpb25zNDUKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTMvMT9sYW5nPWZyczEwCnBhcmVudEdVSURzMQo1czgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDcKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTMvMS8xP2xhbmc9ZnJzNApndWlkczQKbnVsbHMyCmlkcjAK
+2021-05-06 10:05:55,170 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893/1/1?lang=fr
+2021-05-06 10:05:55,175 (7fddc6ffd700) :  ERROR (model:205) - Cannot read model from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/8/f2f04b3c7d64997589217579c7b9b12359a4064.bundle/Contents/com.plexapp.agents.localmedia
+2021-05-06 10:05:55,180 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/6/tree'
+2021-05-06 10:05:55,219 (7fddc6ffd700) :  INFO (__init__:121) - Creating season 1
+2021-05-06 10:05:55,248 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E01 - 1-23-45 WEBRip-480p) with 5 media files.
+2021-05-06 10:05:55,254 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:05:55,260 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E01\ \-\ 1\-23\-45\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:05:55,263 (7fddc6ffd700) :  INFO (__init__:140) - Looking for show media for None.
+2021-05-06 10:05:55,277 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for show media (Chernobyl) in 3 paths (root file: None) with 5 media files.
+2021-05-06 10:05:55,283 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 10:05:55,289 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (show|poster|folder)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:05:55,295 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern banner-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:05:55,299 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (fanart|art|background|backdrop)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:05:55,303 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern theme-?[0-9]? (ext: ['mp3'])
+2021-05-06 10:05:55,306 (7fddc6ffd700) :  INFO (__init__:146) - Looking for season media for None season 1.
+2021-05-06 10:05:55,314 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for season media (Chernobyl) in 3 paths (root file: None) with 5 media files.
+2021-05-06 10:05:55,319 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 10:05:55,337 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1[-a-z]?(-poster)? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:05:55,343 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1-banner[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:05:55,347 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season(-|0|\s)?1-(fanart|art|background|backdrop)[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:05:55,353 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 5 media files.
+2021-05-06 10:05:55,355 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:05:55,365 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 1 media files.
+2021-05-06 10:05:55,368 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl
+2021-05-06 10:05:55,373 (7fddc6ffd700) :  INFO (videohelpers:179) - Reading MP4 tags
+2021-05-06 10:05:55,494 (7fddc6ffd700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/8/f2f04b3c7d64997589217579c7b9b12359a4064.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 10:05:55,509 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 10:05:55,511 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 10:07:07,608 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKczEKNXM4CnBhcmVudElEczQ3CmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzLzEvMT9sYW5nPWZyczQKZ3VpZGIxczUKZm9yY2VzMjYKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGJzMTMKcHJpbWFyeV9hZ2VudHMxCjZzMgppZHIwCg__
+2021-05-06 10:07:07,611 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 10:07:07,614 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKczEKNXM4CnBhcmVudElEczQ3CmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzLzEvMT9sYW5nPWZyczQKZ3VpZGIxczUKZm9yY2VzMjYKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGJzMTMKcHJpbWFyeV9hZ2VudHMxCjZzMgppZHIwCg__
+2021-05-06 10:07:07,617 (7fddc6ffd700) :  INFO (agentkit:961) - Searching for matches for {'id': '6', 'guid': 'com.plexapp.agents.thetvdb://360893/1/1?lang=fr', 'force': True, 'primary_agent': 'com.plexapp.agents.thetvdb', 'parentID': '5'}
+2021-05-06 10:07:07,624 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/6/tree'
+2021-05-06 10:07:07,653 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893/1/1?lang=fr
+2021-05-06 10:07:07,657 (7fddc6ffd700) :  ERROR (model:205) - Cannot read model from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/8/f2f04b3c7d64997589217579c7b9b12359a4064.bundle/Contents/com.plexapp.agents.thetvdb
+2021-05-06 10:07:07,660 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 10:07:07,665 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 600 bytes
+2021-05-06 10:07:07,759 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo2czQKZGJpZGkwCnM3CnZlcnNpb25zNDUKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTMvMT9sYW5nPWZyczEwCnBhcmVudEdVSURzMQo1czgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDcKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTMvMS8xP2xhbmc9ZnJzNApndWlkczQKbnVsbHMyCmlkcjAK
+2021-05-06 10:07:07,762 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 10:07:07,769 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo2czQKZGJpZGkwCnM3CnZlcnNpb25zNDUKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTMvMT9sYW5nPWZyczEwCnBhcmVudEdVSURzMQo1czgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDcKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTMvMS8xP2xhbmc9ZnJzNApndWlkczQKbnVsbHMyCmlkcjAK
+2021-05-06 10:07:07,775 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893/1/1?lang=fr
+2021-05-06 10:07:07,781 (7fddc6ffd700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/8/f2f04b3c7d64997589217579c7b9b12359a4064.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 10:07:08,059 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/6/tree'
+2021-05-06 10:07:08,077 (7fddc6ffd700) :  INFO (__init__:121) - Creating season 1
+2021-05-06 10:07:08,083 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E01 - 1-23-45 WEBRip-480p) with 5 media files.
+2021-05-06 10:07:08,086 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:07:08,088 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E01\ \-\ 1\-23\-45\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:07:08,092 (7fddc6ffd700) :  INFO (__init__:140) - Looking for show media for None.
+2021-05-06 10:07:08,097 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for show media (Chernobyl) in 3 paths (root file: None) with 5 media files.
+2021-05-06 10:07:08,100 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 10:07:08,103 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (show|poster|folder)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:07:08,105 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern banner-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:07:08,108 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (fanart|art|background|backdrop)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:07:08,110 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern theme-?[0-9]? (ext: ['mp3'])
+2021-05-06 10:07:08,113 (7fddc6ffd700) :  INFO (__init__:146) - Looking for season media for None season 1.
+2021-05-06 10:07:08,118 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for season media (Chernobyl) in 3 paths (root file: None) with 5 media files.
+2021-05-06 10:07:08,121 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 10:07:08,125 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1[-a-z]?(-poster)? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:07:08,127 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1-banner[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:07:08,129 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season(-|0|\s)?1-(fanart|art|background|backdrop)[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:07:08,134 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 5 media files.
+2021-05-06 10:07:08,137 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:07:08,144 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 1 media files.
+2021-05-06 10:07:08,147 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl
+2021-05-06 10:07:08,150 (7fddc6ffd700) :  INFO (videohelpers:179) - Reading MP4 tags
+2021-05-06 10:07:08,244 (7fddc6ffd700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/8/f2f04b3c7d64997589217579c7b9b12359a4064.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 10:07:08,258 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 10:07:08,271 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 10:08:52,307 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQzCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzP2xhbmc9ZnJzNApndWlkYjFzNQpmb3JjZXMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMwpwcmltYXJ5X2FnZW50czEKNHMyCmlkcjAK
+2021-05-06 10:08:52,314 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 10:08:52,321 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjBzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTUKbnM4CnBhcmVudElEczQzCmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiOi8vMzYwODkzP2xhbmc9ZnJzNApndWlkYjFzNQpmb3JjZXMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMwpwcmltYXJ5X2FnZW50czEKNHMyCmlkcjAK
+2021-05-06 10:08:52,326 (7fddc6ffd700) :  INFO (agentkit:961) - Searching for matches for {'id': '4', 'guid': 'com.plexapp.agents.thetvdb://360893?lang=fr', 'force': True, 'primary_agent': 'com.plexapp.agents.thetvdb', 'parentID': None}
+2021-05-06 10:08:52,334 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 10:08:52,401 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 10:08:52,405 (7fddc6ffd700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 10:08:52,476 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 10:08:52,479 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 600 bytes
+2021-05-06 10:08:52,512 (7fddc6ffd700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM%40bGFuZz1mcnM0Cmd1aWRzNApudWxsczIKaWRyMAo_
+2021-05-06 10:08:52,515 (7fddc6ffd700) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2021-05-06 10:08:52,519 (7fddc6ffd700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.localmedia/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM@bGFuZz1mcnM0Cmd1aWRzNApudWxsczIKaWRyMAo_
+2021-05-06 10:08:52,527 (7fddc6ffd700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 10:08:52,531 (7fddc6ffd700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 10:08:52,558 (7fddc6ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 10:08:52,596 (7fddc6ffd700) :  INFO (__init__:121) - Creating season 1
+2021-05-06 10:08:52,606 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E01 - 1-23-45 WEBRip-480p) with 5 media files.
+2021-05-06 10:08:52,608 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:08:52,611 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E01\ \-\ 1\-23\-45\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:08:52,622 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E03 - Open Wide, O Earth WEBRip-480p) with 5 media files.
+2021-05-06 10:08:52,624 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:08:52,627 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E03\ \-\ Open\ Wide\,\ O\ Earth\ WEBRip\-480p(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:08:52,632 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E02 - Please Remain Calm SDTV) with 5 media files.
+2021-05-06 10:08:52,638 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:08:52,640 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E02\ \-\ Please\ Remain\ Calm\ SDTV(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:08:52,644 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E05 - Vichnaya Pamyat SDTV) with 5 media files.
+2021-05-06 10:08:52,647 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:08:52,649 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E05\ \-\ Vichnaya\ Pamyat\ SDTV(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:08:52,655 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for episode media (Chernobyl) in 1 paths (root file: Chernobyl - S01E04 - The Happiness of All Mankind SDTV) with 5 media files.
+2021-05-06 10:08:52,658 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:08:52,660 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern Chernobyl\ \-\ S01E04\ \-\ The\ Happiness\ of\ All\ Mankind\ SDTV(-|-thumb)?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:08:52,664 (7fddc6ffd700) :  INFO (__init__:140) - Looking for show media for None.
+2021-05-06 10:08:52,672 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for show media (Chernobyl) in 3 paths (root file: None) with 5 media files.
+2021-05-06 10:08:52,675 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 10:08:52,679 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (show|poster|folder)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:08:52,682 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern banner-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:08:52,684 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern (fanart|art|background|backdrop)-?[0-9]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:08:52,689 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern theme-?[0-9]? (ext: ['mp3'])
+2021-05-06 10:08:52,693 (7fddc6ffd700) :  INFO (__init__:146) - Looking for season media for None season 1.
+2021-05-06 10:08:52,702 (7fddc6ffd700) :  INFO (localmedia:198) - Looking for season media (Chernobyl) in 3 paths (root file: None) with 5 media files.
+2021-05-06 10:08:52,705 (7fddc6ffd700) :  INFO (localmedia:198) - Paths: /tv/Chernobyl/Season 1, /tv/Chernobyl, /tv
+2021-05-06 10:08:52,711 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1[-a-z]?(-poster)? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:08:52,714 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season-?0?1-banner[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:08:52,724 (7fddc6ffd700) :  INFO (localmedia:225) - Found 0 valid things for pattern season(-|0|\s)?1-(fanart|art|background|backdrop)[-a-z]? (ext: ['jpg', 'png', 'jpeg', 'tbn'])
+2021-05-06 10:08:52,729 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 5 media files.
+2021-05-06 10:08:52,734 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:08:52,741 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 1 media files.
+2021-05-06 10:08:52,744 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl
+2021-05-06 10:08:52,748 (7fddc6ffd700) :  INFO (videohelpers:179) - Reading MP4 tags
+2021-05-06 10:08:52,756 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 5 media files.
+2021-05-06 10:08:52,762 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:08:52,767 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 5 media files.
+2021-05-06 10:08:52,769 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:08:52,780 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 5 media files.
+2021-05-06 10:08:52,783 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:08:52,791 (7fddc6ffd700) :  INFO (localmedia:275) - Looking for subtitle media in 1 paths with 5 media files.
+2021-05-06 10:08:52,796 (7fddc6ffd700) :  INFO (localmedia:276) - Paths: /tv/Chernobyl/Season 1
+2021-05-06 10:08:53,082 (7fddc6ffd700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.localmedia/Info.xml
+2021-05-06 10:08:53,097 (7fddc6ffd700) :  DEBUG (runtime:88) - Sending packed state data (110 bytes)
+2021-05-06 10:08:53,101 (7fddc6ffd700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes

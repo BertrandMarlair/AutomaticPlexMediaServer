@@ -1,0 +1,1240 @@
+2021-05-06 06:15:43 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 06:15:43 - DEBUG   :: MainThread : User "Local" does not exist. Adding user.
+2021-05-06 06:15:43 - DEBUG   :: MainThread : Generating UUID...
+2021-05-06 06:15:43 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 06:15:43 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 06:15:43 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 06:15:43 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 06:15:43 - DEBUG   :: MainThread : Git output: master
+2021-05-06 06:15:43 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 06:15:43 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 06:15:43 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 06:15:43 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 06:15:43 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 06:15:44 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 06:15:44 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 06:15:44 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 06:15:44 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 06:15:44 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 06:15:44 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 06:19:25 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2021-05-06 08:20:29 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 08:20:29 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 08:20:29 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:20:29 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 08:20:29 - DEBUG   :: MainThread : Git output: master
+2021-05-06 08:20:29 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 08:20:29 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 08:20:29 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 08:20:29 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 08:20:29 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:20:29 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 08:20:29 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 08:20:29 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 08:20:29 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 08:20:29 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 08:20:29 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 08:23:39 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2021-05-06 08:24:56 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 08:24:56 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 08:24:56 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:24:56 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 08:24:56 - DEBUG   :: MainThread : Git output: master
+2021-05-06 08:24:56 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 08:24:56 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 08:24:56 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 08:24:56 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 08:24:56 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:24:56 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 08:24:56 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 08:24:56 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 08:24:56 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 08:24:56 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 08:24:56 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 08:27:00 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2021-05-06 08:27:44 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 08:27:44 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 08:27:44 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:27:44 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 08:27:44 - DEBUG   :: MainThread : Git output: master
+2021-05-06 08:27:44 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 08:27:44 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 08:27:45 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 08:27:45 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 08:27:45 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:27:45 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 08:27:45 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 08:27:45 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 08:27:45 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 08:27:45 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 08:27:45 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 08:29:20 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2021-05-06 08:30:28 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 08:30:28 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 08:30:28 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:30:28 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 08:30:28 - DEBUG   :: MainThread : Git output: master
+2021-05-06 08:30:28 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 08:30:28 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 08:30:28 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 08:30:28 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 08:30:28 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:30:29 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 08:30:29 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 08:30:29 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 08:30:29 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 08:30:29 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 08:30:29 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 08:35:59 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2021-05-06 08:40:22 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 08:40:22 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 08:40:22 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:40:22 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 08:40:22 - DEBUG   :: MainThread : Git output: master
+2021-05-06 08:40:22 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 08:40:22 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 08:40:23 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 08:40:23 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 08:40:23 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:40:24 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 08:40:24 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 08:40:24 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 08:40:24 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 08:40:24 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 08:40:24 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 08:40:26 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2021-05-06 08:40:26 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 08:40:26 - INFO    :: MainThread : PlexPy is shutting down...
+2021-05-06 08:41:31 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 08:41:31 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 08:41:31 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:41:31 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 08:41:31 - DEBUG   :: MainThread : Git output: master
+2021-05-06 08:41:31 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 08:41:31 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 08:41:32 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 08:41:32 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 08:41:32 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:41:32 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 08:41:32 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 08:41:32 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 08:41:32 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 08:41:32 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 08:41:32 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 08:51:35 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2021-05-06 08:52:27 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 08:52:27 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 08:52:27 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:52:27 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 08:52:27 - DEBUG   :: MainThread : Git output: master
+2021-05-06 08:52:27 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 08:52:27 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 08:52:27 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 08:52:27 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 08:52:27 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:52:28 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 08:52:28 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 08:52:28 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 08:52:28 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 08:52:28 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 08:52:28 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 08:52:37 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2021-05-06 08:52:37 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 08:53:57 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 08:53:57 - DEBUG   :: MainThread : Generating UUID...
+2021-05-06 08:53:57 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 08:53:57 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 08:53:57 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:53:57 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 08:53:57 - DEBUG   :: MainThread : Git output: master
+2021-05-06 08:53:57 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 08:53:57 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 08:53:59 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 08:53:59 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 08:53:59 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 08:54:00 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 08:54:00 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 08:54:00 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 08:54:00 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 08:54:00 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 08:54:00 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 09:07:31 - INFO    :: CP Server Thread-4 : PlexPy PlexTV :: Fetching a new Plex.tv token for PlexPy.
+2021-05-06 09:07:31 - INFO    :: CP Server Thread-4 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:07:31 - INFO    :: CP Server Thread-4 : PlexPy PlexTV :: Updated Plex.tv token for PlexPy.
+2021-05-06 09:07:31 - INFO    :: CP Server Thread-4 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:08:11 - INFO    :: CP Server Thread-6 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:08:11 - INFO    :: CP Server Thread-6 : PlexPy PlexTV :: Requesting URLs for server...
+2021-05-06 09:08:11 - INFO    :: CP Server Thread-6 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:08:11 - DEBUG   :: CP Server Thread-6 : PlexPy PlexTV :: Plex Pass subscription not found.
+2021-05-06 09:08:11 - INFO    :: CP Server Thread-6 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:08:11 - INFO    :: CP Server Thread-6 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:08:11 - INFO    :: CP Server Thread-6 : PlexPy PlexTV :: Using user-defined URL.
+2021-05-06 09:08:11 - INFO    :: CP Server Thread-6 : PlexPy Pmsconnect :: Requesting name from server...
+2021-05-06 09:08:12 - INFO    :: CP Server Thread-6 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:08:12 - INFO    :: CP Server Thread-6 : PlexPy Pmsconnect :: Server name retrieved.
+2021-05-06 09:08:12 - INFO    :: CP Server Thread-6 : Scheduled background task: Refresh Plex server URLs
+2021-05-06 09:08:12 - INFO    :: CP Server Thread-6 : Scheduled background task: Refresh Plex server name
+2021-05-06 09:08:12 - INFO    :: CP Server Thread-6 : Scheduled background task: Check for active sessions
+2021-05-06 09:08:12 - INFO    :: CP Server Thread-6 : Scheduled background task: Refresh users list
+2021-05-06 09:08:12 - INFO    :: CP Server Thread-6 : Scheduled background task: Refresh libraries list
+2021-05-06 09:08:12 - INFO    :: Thread-12 : PlexPy Pmsconnect :: Requesting libraries list refresh...
+2021-05-06 09:08:12 - INFO    :: Thread-13 : PlexPy PlexTV :: Requesting users list refresh...
+2021-05-06 09:08:12 - DEBUG   :: Thread-12 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:08:12 - DEBUG   :: Thread-12 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:08:12 - DEBUG   :: Thread-12 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:08:12 - DEBUG   :: Thread-12 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:08:12 - DEBUG   :: Thread-12 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:08:12 - DEBUG   :: Thread-12 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:08:12 - DEBUG   :: Thread-12 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:08:12 - DEBUG   :: Thread-12 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:08:12 - DEBUG   :: Thread-12 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:08:12 - DEBUG   :: Thread-12 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:08:12 - DEBUG   :: Thread-12 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:08:12 - INFO    :: Thread-12 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:08:12 - INFO    :: Thread-12 : PlexPy Pmsconnect :: Libraries list refreshed.
+2021-05-06 09:08:12 - DEBUG   :: Thread-15 : PlexPy Libraries :: Updating labels in database.
+2021-05-06 09:08:12 - DEBUG   :: Thread-15 : PlexPy Pmsconnect :: No labels data.
+2021-05-06 09:08:12 - DEBUG   :: Thread-15 : PlexPy Pmsconnect :: No labels data.
+2021-05-06 09:08:12 - DEBUG   :: Thread-15 : PlexPy Pmsconnect :: No labels data.
+2021-05-06 09:08:12 - INFO    :: Thread-14 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:08:12 - DEBUG   :: Thread-15 : PlexPy Pmsconnect :: No labels data.
+2021-05-06 09:08:12 - INFO    :: Thread-15 : PlexPy Libraries :: Updated all labels in database.
+2021-05-06 09:08:12 - INFO    :: Thread-15 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:08:12 - WARNING :: Thread-13 : PlexPy PlexTV :: Unable to parse XML for get_full_users_list.
+2021-05-06 09:08:12 - INFO    :: Thread-13 : PlexPy PlexTV :: Users list refreshed.
+2021-05-06 09:08:17 - INFO    :: CP Server Thread-6 : Re-scheduled background task: Check for active sessions
+2021-05-06 09:56:37 - WARNING :: CP Server Thread-8 : Failed to access uri endpoint /servers/********58/sync_lists. Status code 401
+2021-05-06 09:56:37 - WARNING :: CP Server Thread-8 : PlexPy PlexTV :: Unable to parse XML for get_synced_items: Parse() argument 1 must be string or read-only buffer, not None
+2021-05-06 09:56:37 - WARNING :: CP Server Thread-8 : Unable to retrieve data for get_sync.
+2021-05-06 09:56:38 - DEBUG   :: CP Server Thread-2 : PlexPy PlexTV :: Plex Pass subscription not found.
+2021-05-06 09:56:38 - INFO    :: CP Server Thread-2 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:56:39 - DEBUG   :: CP Server Thread-10 : PlexPy PlexTV :: Plex Pass subscription not found.
+2021-05-06 09:56:39 - INFO    :: CP Server Thread-10 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:57:25 - WARNING :: CP Server Thread-7 : Failed to access uri endpoint /identity with error [Errno 113] Host is unreachable
+2021-05-06 09:57:25 - WARNING :: CP Server Thread-7 : Unable to retrieve the PMS identifier.
+2021-05-06 09:57:28 - WARNING :: CP Server Thread-7 : Failed to access uri endpoint /identity with error [Errno 113] Host is unreachable
+2021-05-06 09:57:28 - WARNING :: CP Server Thread-7 : Unable to retrieve the PMS identifier.
+2021-05-06 09:57:34 - INFO    :: CP Server Thread-7 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:57:34 - INFO    :: CP Server Thread-7 : PlexPy PlexTV :: Requesting URLs for server...
+2021-05-06 09:57:34 - INFO    :: CP Server Thread-7 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:57:34 - DEBUG   :: CP Server Thread-7 : PlexPy PlexTV :: Plex Pass subscription not found.
+2021-05-06 09:57:34 - INFO    :: CP Server Thread-7 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:57:34 - INFO    :: CP Server Thread-7 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:57:34 - INFO    :: CP Server Thread-7 : PlexPy PlexTV :: Using user-defined URL.
+2021-05-06 09:57:34 - INFO    :: CP Server Thread-7 : PlexPy Pmsconnect :: Requesting name from server...
+2021-05-06 09:57:34 - INFO    :: Thread-26 : PlexPy Pmsconnect :: Requesting libraries list refresh...
+2021-05-06 09:57:34 - INFO    :: Thread-27 : PlexPy PlexTV :: Requesting users list refresh...
+2021-05-06 09:57:34 - DEBUG   :: Thread-26 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:57:34 - DEBUG   :: Thread-26 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:57:34 - DEBUG   :: Thread-26 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:57:34 - DEBUG   :: Thread-26 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:57:34 - DEBUG   :: Thread-26 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:57:34 - DEBUG   :: Thread-26 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:57:34 - DEBUG   :: Thread-26 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:57:34 - DEBUG   :: Thread-26 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:57:34 - DEBUG   :: Thread-26 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:57:34 - DEBUG   :: Thread-26 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:57:34 - DEBUG   :: Thread-26 : PlexPy Pmsconnect :: No library data.
+2021-05-06 09:57:35 - INFO    :: Thread-26 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:57:35 - INFO    :: Thread-26 : PlexPy Pmsconnect :: Libraries list refreshed.
+2021-05-06 09:57:35 - DEBUG   :: CP Server Thread-11 : PlexPy PlexTV :: Plex Pass subscription not found.
+2021-05-06 09:57:35 - INFO    :: CP Server Thread-11 : PlexPy Config :: Writing configuration to file
+2021-05-06 09:57:35 - WARNING :: Thread-27 : PlexPy PlexTV :: Unable to parse XML for get_full_users_list.
+2021-05-06 09:57:35 - INFO    :: Thread-27 : PlexPy PlexTV :: Users list refreshed.
+2021-05-06 10:26:05 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2021-05-06 10:26:05 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 10:28:40 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 10:28:40 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 10:28:40 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 10:28:40 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 10:28:40 - DEBUG   :: MainThread : Git output: master
+2021-05-06 10:28:40 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 10:28:40 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 10:28:40 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 10:28:40 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 10:28:40 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 10:28:40 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 10:28:40 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 10:28:40 - INFO    :: MainThread : PlexPy PlexTV :: Requesting URLs for server...
+2021-05-06 10:28:40 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 10:28:40 - DEBUG   :: MainThread : PlexPy PlexTV :: Plex Pass subscription not found.
+2021-05-06 10:28:41 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 10:28:41 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 10:28:41 - INFO    :: MainThread : PlexPy PlexTV :: Using user-defined URL.
+2021-05-06 10:28:41 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting name from server...
+2021-05-06 10:28:42 - WARNING :: MainThread : Failed to access uri endpoint /:/prefs with error [Errno 111] Connection refused
+2021-05-06 10:28:42 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_local_server_name: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:28:42 - WARNING :: MainThread : Failed to access uri endpoint /servers with error [Errno 111] Connection refused
+2021-05-06 10:28:42 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_server_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:28:42 - INFO    :: MainThread : PlexPy PlexTV :: Requesting users list refresh...
+2021-05-06 10:28:42 - WARNING :: MainThread : PlexPy PlexTV :: Unable to parse XML for get_full_users_list.
+2021-05-06 10:28:42 - INFO    :: MainThread : PlexPy PlexTV :: Users list refreshed.
+2021-05-06 10:28:42 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting libraries list refresh...
+2021-05-06 10:28:42 - WARNING :: MainThread : Failed to access uri endpoint /library/sections with error [Errno 111] Connection refused
+2021-05-06 10:28:42 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_libraries_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:28:42 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to refresh libraries list.
+2021-05-06 10:28:42 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 10:28:42 - INFO    :: MainThread : Scheduled background task: Refresh Plex server URLs
+2021-05-06 10:28:42 - INFO    :: MainThread : Scheduled background task: Refresh Plex server name
+2021-05-06 10:28:42 - INFO    :: MainThread : Scheduled background task: Check for active sessions
+2021-05-06 10:28:42 - INFO    :: MainThread : Scheduled background task: Refresh users list
+2021-05-06 10:28:42 - INFO    :: MainThread : Scheduled background task: Refresh libraries list
+2021-05-06 10:28:42 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 10:28:42 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 10:28:42 - INFO    :: MainThread : PlexPy WebStart :: Web server authentication is enabled, username is 'Belegan243'
+2021-05-06 10:28:42 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 10:29:42 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:29:42 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:29:42 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:29:42 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 1.
+2021-05-06 10:30:42 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:30:42 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:30:42 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:30:42 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 2.
+2021-05-06 10:31:42 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:31:42 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:31:42 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:31:42 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 3.
+2021-05-06 10:31:52 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2021-05-06 10:32:47 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 10:32:47 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 10:32:47 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 10:32:47 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 10:32:47 - DEBUG   :: MainThread : Git output: master
+2021-05-06 10:32:47 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 10:32:47 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 10:32:47 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 10:32:47 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 10:32:47 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 10:32:47 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 10:32:47 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 10:32:47 - INFO    :: MainThread : PlexPy PlexTV :: Requesting URLs for server...
+2021-05-06 10:32:47 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 10:32:48 - DEBUG   :: MainThread : PlexPy PlexTV :: Plex Pass subscription not found.
+2021-05-06 10:32:48 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 10:32:48 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 10:32:48 - INFO    :: MainThread : PlexPy PlexTV :: Using user-defined URL.
+2021-05-06 10:32:48 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting name from server...
+2021-05-06 10:32:48 - WARNING :: MainThread : Failed to access uri endpoint /:/prefs with error [Errno 111] Connection refused
+2021-05-06 10:32:48 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_local_server_name: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:32:48 - WARNING :: MainThread : Failed to access uri endpoint /servers with error [Errno 111] Connection refused
+2021-05-06 10:32:48 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_server_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:32:48 - INFO    :: MainThread : PlexPy PlexTV :: Requesting users list refresh...
+2021-05-06 10:32:48 - WARNING :: MainThread : PlexPy PlexTV :: Unable to parse XML for get_full_users_list.
+2021-05-06 10:32:49 - INFO    :: MainThread : PlexPy PlexTV :: Users list refreshed.
+2021-05-06 10:32:49 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting libraries list refresh...
+2021-05-06 10:32:49 - WARNING :: MainThread : Failed to access uri endpoint /library/sections with error [Errno 111] Connection refused
+2021-05-06 10:32:49 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_libraries_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:32:49 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to refresh libraries list.
+2021-05-06 10:32:49 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 10:32:49 - INFO    :: MainThread : Scheduled background task: Refresh Plex server URLs
+2021-05-06 10:32:49 - INFO    :: MainThread : Scheduled background task: Refresh Plex server name
+2021-05-06 10:32:49 - INFO    :: MainThread : Scheduled background task: Check for active sessions
+2021-05-06 10:32:49 - INFO    :: MainThread : Scheduled background task: Refresh users list
+2021-05-06 10:32:49 - INFO    :: MainThread : Scheduled background task: Refresh libraries list
+2021-05-06 10:32:49 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 10:32:49 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 10:32:49 - INFO    :: MainThread : PlexPy WebStart :: Web server authentication is enabled, username is 'Belegan243'
+2021-05-06 10:32:49 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 10:33:49 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:33:49 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:33:49 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:33:49 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 1.
+2021-05-06 10:34:49 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:34:49 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:34:49 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:34:49 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 2.
+2021-05-06 10:35:49 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:35:49 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:35:49 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:35:49 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 3.
+2021-05-06 10:36:49 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:36:49 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:36:49 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:36:49 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 4.
+2021-05-06 10:37:49 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:37:49 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:37:49 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:37:49 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 5.
+2021-05-06 10:38:49 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:38:49 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:38:49 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:38:49 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 6.
+2021-05-06 10:39:49 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:39:49 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:39:49 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:39:49 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 7.
+2021-05-06 10:40:49 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:40:49 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:40:49 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:40:49 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 8.
+2021-05-06 10:41:49 - WARNING :: Thread-21 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:41:49 - WARNING :: Thread-21 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:41:49 - DEBUG   :: Thread-21 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:41:49 - WARNING :: Thread-21 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 9.
+2021-05-06 10:42:49 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:42:49 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:42:49 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:42:49 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 10.
+2021-05-06 10:43:50 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:43:50 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:43:50 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:43:50 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 11.
+2021-05-06 10:44:49 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:44:49 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:44:49 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:44:49 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 12.
+2021-05-06 10:45:49 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:45:49 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:45:49 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:45:49 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 13.
+2021-05-06 10:46:49 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:46:49 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:46:49 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:46:49 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 14.
+2021-05-06 10:47:49 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:47:49 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:47:49 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:47:49 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 15.
+2021-05-06 10:48:49 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:48:49 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:48:49 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:48:49 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 16.
+2021-05-06 10:49:49 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:49:49 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:49:49 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:49:49 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 17.
+2021-05-06 10:50:49 - WARNING :: Thread-21 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:50:49 - WARNING :: Thread-21 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:50:49 - DEBUG   :: Thread-21 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:50:49 - WARNING :: Thread-21 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 18.
+2021-05-06 10:51:49 - WARNING :: Thread-22 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:51:49 - WARNING :: Thread-22 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:51:49 - DEBUG   :: Thread-22 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:51:49 - WARNING :: Thread-22 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 19.
+2021-05-06 10:52:49 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:52:49 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:52:49 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:52:49 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 20.
+2021-05-06 10:53:49 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:53:49 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:53:49 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:53:49 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 21.
+2021-05-06 10:54:49 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:54:49 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:54:49 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:54:49 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 22.
+2021-05-06 10:55:49 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:55:49 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:55:49 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:55:49 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 23.
+2021-05-06 10:56:49 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:56:49 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:56:49 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:56:49 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 24.
+2021-05-06 10:57:49 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:57:49 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:57:49 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:57:49 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 25.
+2021-05-06 10:58:49 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:58:49 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:58:49 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:58:49 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 26.
+2021-05-06 10:59:49 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 10:59:49 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 10:59:49 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 10:59:49 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 27.
+2021-05-06 11:00:49 - WARNING :: Thread-21 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:00:49 - WARNING :: Thread-21 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:00:49 - DEBUG   :: Thread-21 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:00:49 - WARNING :: Thread-21 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 28.
+2021-05-06 11:01:49 - WARNING :: Thread-22 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:01:49 - WARNING :: Thread-22 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:01:49 - DEBUG   :: Thread-22 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:01:49 - WARNING :: Thread-22 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 29.
+2021-05-06 11:02:49 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:02:49 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:02:49 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:02:49 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 30.
+2021-05-06 11:03:49 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:03:49 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:03:49 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:03:49 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 31.
+2021-05-06 11:04:49 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:04:49 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:04:49 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:04:49 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 32.
+2021-05-06 11:05:49 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:05:49 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:05:49 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:05:49 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 33.
+2021-05-06 11:06:49 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:06:49 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:06:49 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:06:49 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 34.
+2021-05-06 11:07:49 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:07:49 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:07:49 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:07:49 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 35.
+2021-05-06 11:08:49 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:08:49 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:08:49 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:08:49 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 36.
+2021-05-06 11:09:49 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:09:49 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:09:49 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:09:49 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 37.
+2021-05-06 11:10:49 - WARNING :: Thread-21 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:10:49 - WARNING :: Thread-21 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:10:49 - DEBUG   :: Thread-21 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:10:49 - WARNING :: Thread-21 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 38.
+2021-05-06 11:11:49 - WARNING :: Thread-22 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:11:49 - WARNING :: Thread-22 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:11:49 - DEBUG   :: Thread-22 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:11:49 - WARNING :: Thread-22 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 39.
+2021-05-06 11:12:49 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:12:49 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:12:49 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:12:49 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 40.
+2021-05-06 11:13:49 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:13:49 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:13:49 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:13:49 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 41.
+2021-05-06 11:14:50 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:14:50 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:14:50 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:14:50 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 42.
+2021-05-06 11:15:50 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:15:50 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:15:50 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:15:50 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 43.
+2021-05-06 11:16:50 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:16:50 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:16:50 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:16:50 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 44.
+2021-05-06 11:17:50 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:17:50 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:17:50 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:17:50 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 45.
+2021-05-06 11:18:50 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:18:50 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:18:50 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:18:50 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 46.
+2021-05-06 11:19:50 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:19:50 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:19:50 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:19:50 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 47.
+2021-05-06 11:20:50 - WARNING :: Thread-21 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:20:50 - WARNING :: Thread-21 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:20:50 - DEBUG   :: Thread-21 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:20:50 - WARNING :: Thread-21 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 48.
+2021-05-06 11:21:50 - WARNING :: Thread-22 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:21:50 - WARNING :: Thread-22 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:21:50 - DEBUG   :: Thread-22 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:21:50 - WARNING :: Thread-22 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 49.
+2021-05-06 11:22:50 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:22:50 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:22:50 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:22:50 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 50.
+2021-05-06 11:23:50 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:23:50 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:23:50 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:23:50 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 51.
+2021-05-06 11:24:50 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:24:50 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:24:50 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:24:50 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 52.
+2021-05-06 11:25:50 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:25:50 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:25:50 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:25:50 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 53.
+2021-05-06 11:26:50 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:26:50 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:26:50 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:26:50 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 54.
+2021-05-06 11:27:50 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:27:50 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:27:50 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:27:50 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 55.
+2021-05-06 11:28:50 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:28:50 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:28:50 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:28:50 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 56.
+2021-05-06 11:29:50 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:29:50 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:29:50 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:29:50 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 57.
+2021-05-06 11:30:50 - WARNING :: Thread-21 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:30:50 - WARNING :: Thread-21 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:30:50 - DEBUG   :: Thread-21 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:30:50 - WARNING :: Thread-21 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 58.
+2021-05-06 11:31:50 - WARNING :: Thread-22 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:31:50 - WARNING :: Thread-22 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:31:50 - DEBUG   :: Thread-22 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:31:50 - WARNING :: Thread-22 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 59.
+2021-05-06 11:32:50 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:32:50 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:32:50 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:32:50 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 60.
+2021-05-06 11:33:50 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:33:50 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:33:50 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:33:50 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 61.
+2021-05-06 11:34:50 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:34:50 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:34:50 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:34:50 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 62.
+2021-05-06 11:35:50 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:35:50 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:35:50 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:35:50 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 63.
+2021-05-06 11:36:50 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:36:50 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:36:50 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:36:50 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 64.
+2021-05-06 11:37:50 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:37:50 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:37:50 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:37:50 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 65.
+2021-05-06 11:38:50 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:38:50 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:38:50 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:38:50 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 66.
+2021-05-06 11:39:49 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:39:49 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:39:49 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:39:49 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 67.
+2021-05-06 11:40:49 - WARNING :: Thread-21 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:40:49 - WARNING :: Thread-21 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:40:49 - DEBUG   :: Thread-21 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:40:49 - WARNING :: Thread-21 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 68.
+2021-05-06 11:41:49 - WARNING :: Thread-22 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:41:49 - WARNING :: Thread-22 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:41:49 - DEBUG   :: Thread-22 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:41:49 - WARNING :: Thread-22 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 69.
+2021-05-06 11:42:54 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:42:54 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:42:54 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:42:54 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 70.
+2021-05-06 11:43:50 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:43:50 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:43:50 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:43:50 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 71.
+2021-05-06 11:44:49 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:44:49 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:44:49 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:44:49 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 72.
+2021-05-06 11:45:49 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:45:49 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:45:49 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:45:49 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 73.
+2021-05-06 11:46:49 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:46:49 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:46:49 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:46:49 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 74.
+2021-05-06 11:47:50 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:47:50 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:47:50 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:47:50 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 75.
+2021-05-06 11:48:49 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:48:49 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:48:49 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:48:49 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 76.
+2021-05-06 11:49:49 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:49:49 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:49:49 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:49:49 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 77.
+2021-05-06 11:50:49 - WARNING :: Thread-21 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:50:49 - WARNING :: Thread-21 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:50:49 - DEBUG   :: Thread-21 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:50:49 - WARNING :: Thread-21 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 78.
+2021-05-06 11:51:49 - WARNING :: Thread-22 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:51:49 - WARNING :: Thread-22 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:51:49 - DEBUG   :: Thread-22 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:51:49 - WARNING :: Thread-22 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 79.
+2021-05-06 11:52:49 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:52:49 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:52:49 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:52:49 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 80.
+2021-05-06 11:53:49 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:53:49 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:53:49 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:53:49 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 81.
+2021-05-06 11:54:49 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:54:49 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:54:49 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:54:49 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 82.
+2021-05-06 11:55:49 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:55:49 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:55:49 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:55:49 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 83.
+2021-05-06 11:56:49 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:56:49 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:56:49 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:56:49 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 84.
+2021-05-06 11:57:50 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:57:50 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:57:50 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:57:50 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 85.
+2021-05-06 11:58:49 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:58:49 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:58:49 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:58:49 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 86.
+2021-05-06 11:59:49 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 11:59:49 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 11:59:49 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 11:59:49 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 87.
+2021-05-06 12:00:49 - WARNING :: Thread-21 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:00:49 - WARNING :: Thread-21 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:00:49 - DEBUG   :: Thread-21 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:00:49 - WARNING :: Thread-21 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 88.
+2021-05-06 12:01:49 - WARNING :: Thread-22 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:01:49 - WARNING :: Thread-22 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:01:49 - DEBUG   :: Thread-22 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:01:49 - WARNING :: Thread-22 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 89.
+2021-05-06 12:02:49 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:02:49 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:02:49 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:02:49 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 90.
+2021-05-06 12:03:51 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:03:51 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:03:51 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:03:51 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 91.
+2021-05-06 12:04:50 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:04:50 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:04:50 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:04:50 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 92.
+2021-05-06 12:05:49 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:05:49 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:05:49 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:05:49 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 93.
+2021-05-06 12:06:50 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:06:50 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:06:50 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:06:50 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 94.
+2021-05-06 12:07:49 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:07:49 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:07:49 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:07:49 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 95.
+2021-05-06 12:08:49 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:08:49 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:08:49 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:08:49 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 96.
+2021-05-06 12:09:49 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:09:49 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:09:49 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:09:49 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 97.
+2021-05-06 12:36:47 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 12:36:47 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 12:36:47 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 12:36:47 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 12:36:47 - DEBUG   :: MainThread : Git output: master
+2021-05-06 12:36:47 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 12:36:47 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 12:36:48 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 12:36:48 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 12:36:48 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 12:36:48 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 12:36:48 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 12:36:48 - INFO    :: MainThread : PlexPy PlexTV :: Requesting URLs for server...
+2021-05-06 12:36:48 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 12:36:49 - DEBUG   :: MainThread : PlexPy PlexTV :: Plex Pass subscription not found.
+2021-05-06 12:36:49 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 12:36:49 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 12:36:49 - INFO    :: MainThread : PlexPy PlexTV :: Using user-defined URL.
+2021-05-06 12:36:49 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting name from server...
+2021-05-06 12:36:49 - WARNING :: MainThread : Failed to access uri endpoint /:/prefs with error [Errno 111] Connection refused
+2021-05-06 12:36:49 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_local_server_name: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:36:49 - WARNING :: MainThread : Failed to access uri endpoint /servers with error [Errno 111] Connection refused
+2021-05-06 12:36:49 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_server_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:36:49 - INFO    :: MainThread : PlexPy PlexTV :: Requesting users list refresh...
+2021-05-06 12:36:50 - WARNING :: MainThread : PlexPy PlexTV :: Unable to parse XML for get_full_users_list.
+2021-05-06 12:36:50 - INFO    :: MainThread : PlexPy PlexTV :: Users list refreshed.
+2021-05-06 12:36:50 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting libraries list refresh...
+2021-05-06 12:36:50 - WARNING :: MainThread : Failed to access uri endpoint /library/sections with error [Errno 111] Connection refused
+2021-05-06 12:36:50 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_libraries_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:36:50 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to refresh libraries list.
+2021-05-06 12:36:50 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 12:36:50 - INFO    :: MainThread : Scheduled background task: Refresh Plex server URLs
+2021-05-06 12:36:50 - INFO    :: MainThread : Scheduled background task: Refresh Plex server name
+2021-05-06 12:36:50 - INFO    :: MainThread : Scheduled background task: Check for active sessions
+2021-05-06 12:36:50 - INFO    :: MainThread : Scheduled background task: Refresh users list
+2021-05-06 12:36:50 - INFO    :: MainThread : Scheduled background task: Refresh libraries list
+2021-05-06 12:36:50 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 12:36:50 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 12:36:50 - INFO    :: MainThread : PlexPy WebStart :: Web server authentication is enabled, username is 'Belegan243'
+2021-05-06 12:36:50 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 12:37:50 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:37:50 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:37:50 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:37:50 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 1.
+2021-05-06 12:38:50 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:38:50 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:38:50 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:38:50 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 2.
+2021-05-06 12:39:51 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:39:51 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:39:51 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:39:51 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 3.
+2021-05-06 12:40:17 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2021-05-06 12:53:41 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 12:53:41 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 12:53:41 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 12:53:41 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 12:53:41 - DEBUG   :: MainThread : Git output: master
+2021-05-06 12:53:41 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 12:53:41 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 12:53:42 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 12:53:42 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 12:53:42 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 12:53:43 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 12:53:43 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 12:53:43 - INFO    :: MainThread : PlexPy PlexTV :: Requesting URLs for server...
+2021-05-06 12:53:43 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 12:53:45 - DEBUG   :: MainThread : PlexPy PlexTV :: Plex Pass subscription not found.
+2021-05-06 12:53:45 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 12:53:45 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 12:53:45 - INFO    :: MainThread : PlexPy PlexTV :: Using user-defined URL.
+2021-05-06 12:53:45 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting name from server...
+2021-05-06 12:53:45 - WARNING :: MainThread : Failed to access uri endpoint /:/prefs with error [Errno 111] Connection refused
+2021-05-06 12:53:45 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_local_server_name: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:53:45 - WARNING :: MainThread : Failed to access uri endpoint /servers with error [Errno 111] Connection refused
+2021-05-06 12:53:45 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_server_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:53:45 - INFO    :: MainThread : PlexPy PlexTV :: Requesting users list refresh...
+2021-05-06 12:53:45 - WARNING :: MainThread : PlexPy PlexTV :: Unable to parse XML for get_full_users_list.
+2021-05-06 12:53:45 - INFO    :: MainThread : PlexPy PlexTV :: Users list refreshed.
+2021-05-06 12:53:45 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting libraries list refresh...
+2021-05-06 12:53:47 - WARNING :: MainThread : Failed to access uri endpoint /library/sections with error [Errno 111] Connection refused
+2021-05-06 12:53:47 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_libraries_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:53:47 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to refresh libraries list.
+2021-05-06 12:53:47 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 12:53:47 - INFO    :: MainThread : Scheduled background task: Refresh Plex server URLs
+2021-05-06 12:53:47 - INFO    :: MainThread : Scheduled background task: Refresh Plex server name
+2021-05-06 12:53:47 - INFO    :: MainThread : Scheduled background task: Check for active sessions
+2021-05-06 12:53:47 - INFO    :: MainThread : Scheduled background task: Refresh users list
+2021-05-06 12:53:47 - INFO    :: MainThread : Scheduled background task: Refresh libraries list
+2021-05-06 12:53:47 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 12:53:47 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 12:53:47 - INFO    :: MainThread : PlexPy WebStart :: Web server authentication is enabled, username is 'Belegan243'
+2021-05-06 12:53:47 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 12:54:47 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:54:47 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:54:47 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:54:47 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 1.
+2021-05-06 12:55:47 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:55:47 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:55:47 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:55:47 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 2.
+2021-05-06 12:56:47 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:56:47 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:56:47 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:56:47 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 3.
+2021-05-06 12:57:47 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:57:47 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:57:47 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:57:47 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 4.
+2021-05-06 12:58:47 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:58:47 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:58:47 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:58:47 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 5.
+2021-05-06 12:59:47 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 12:59:47 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 12:59:47 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 12:59:47 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 6.
+2021-05-06 13:00:47 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 13:00:47 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 13:00:47 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 13:00:47 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 7.
+2021-05-06 13:01:47 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 13:01:47 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 13:01:47 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 13:01:47 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 8.
+2021-05-06 13:02:02 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2021-05-06 13:02:47 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-06 13:02:47 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-06 13:02:47 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 13:02:47 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-06 13:02:47 - DEBUG   :: MainThread : Git output: master
+2021-05-06 13:02:47 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-06 13:02:47 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-06 13:02:48 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-06 13:02:48 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-06 13:02:48 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-06 13:02:48 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-06 13:02:48 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-06 13:02:48 - INFO    :: MainThread : PlexPy PlexTV :: Requesting URLs for server...
+2021-05-06 13:02:48 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 13:02:49 - DEBUG   :: MainThread : PlexPy PlexTV :: Plex Pass subscription not found.
+2021-05-06 13:02:49 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 13:02:49 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-06 13:02:49 - INFO    :: MainThread : PlexPy PlexTV :: Using user-defined URL.
+2021-05-06 13:02:49 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting name from server...
+2021-05-06 13:02:49 - WARNING :: MainThread : Failed to access uri endpoint /:/prefs with error [Errno 111] Connection refused
+2021-05-06 13:02:49 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_local_server_name: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 13:02:49 - WARNING :: MainThread : Failed to access uri endpoint /servers with error [Errno 111] Connection refused
+2021-05-06 13:02:49 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_server_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 13:02:49 - INFO    :: MainThread : PlexPy PlexTV :: Requesting users list refresh...
+2021-05-06 13:02:49 - WARNING :: MainThread : PlexPy PlexTV :: Unable to parse XML for get_full_users_list.
+2021-05-06 13:02:49 - INFO    :: MainThread : PlexPy PlexTV :: Users list refreshed.
+2021-05-06 13:02:49 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting libraries list refresh...
+2021-05-06 13:02:50 - WARNING :: MainThread : Failed to access uri endpoint /library/sections with error [Errno 111] Connection refused
+2021-05-06 13:02:50 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_libraries_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 13:02:50 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to refresh libraries list.
+2021-05-06 13:02:50 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-06 13:02:50 - INFO    :: MainThread : Scheduled background task: Refresh Plex server URLs
+2021-05-06 13:02:50 - INFO    :: MainThread : Scheduled background task: Refresh Plex server name
+2021-05-06 13:02:50 - INFO    :: MainThread : Scheduled background task: Check for active sessions
+2021-05-06 13:02:50 - INFO    :: MainThread : Scheduled background task: Refresh users list
+2021-05-06 13:02:50 - INFO    :: MainThread : Scheduled background task: Refresh libraries list
+2021-05-06 13:02:50 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-06 13:02:50 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-06 13:02:50 - INFO    :: MainThread : PlexPy WebStart :: Web server authentication is enabled, username is 'Belegan243'
+2021-05-06 13:02:50 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-06 13:03:50 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 13:03:50 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 13:03:50 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 13:03:50 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 1.
+2021-05-06 13:04:50 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 13:04:50 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 13:04:50 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 13:04:50 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 2.
+2021-05-06 13:05:52 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 13:05:52 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 13:05:52 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 13:05:52 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 3.
+2021-05-06 13:06:50 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-06 13:06:50 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-06 13:06:50 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-06 13:06:50 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 4.
+2021-05-06 13:07:06 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2021-05-07 08:15:35 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-07 08:15:35 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-07 08:15:35 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-07 08:15:35 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-07 08:15:35 - DEBUG   :: MainThread : Git output: master
+2021-05-07 08:15:35 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-07 08:15:35 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-07 08:15:36 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-07 08:15:36 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-07 08:15:36 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-07 08:15:36 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-07 08:15:36 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-07 08:15:36 - INFO    :: MainThread : PlexPy PlexTV :: Requesting URLs for server...
+2021-05-07 08:15:36 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-07 08:15:37 - DEBUG   :: MainThread : PlexPy PlexTV :: Plex Pass subscription not found.
+2021-05-07 08:15:37 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-07 08:15:37 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-07 08:15:37 - INFO    :: MainThread : PlexPy PlexTV :: Using user-defined URL.
+2021-05-07 08:15:37 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting name from server...
+2021-05-07 08:15:37 - WARNING :: MainThread : Failed to access uri endpoint /:/prefs with error [Errno 111] Connection refused
+2021-05-07 08:15:37 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_local_server_name: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:15:37 - WARNING :: MainThread : Failed to access uri endpoint /servers with error [Errno 111] Connection refused
+2021-05-07 08:15:37 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_server_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:15:37 - INFO    :: MainThread : PlexPy PlexTV :: Requesting users list refresh...
+2021-05-07 08:15:38 - WARNING :: MainThread : PlexPy PlexTV :: Unable to parse XML for get_full_users_list.
+2021-05-07 08:15:38 - INFO    :: MainThread : PlexPy PlexTV :: Users list refreshed.
+2021-05-07 08:15:38 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting libraries list refresh...
+2021-05-07 08:15:38 - WARNING :: MainThread : Failed to access uri endpoint /library/sections with error [Errno 111] Connection refused
+2021-05-07 08:15:38 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_libraries_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:15:38 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to refresh libraries list.
+2021-05-07 08:15:38 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-07 08:15:38 - INFO    :: MainThread : Scheduled background task: Refresh Plex server URLs
+2021-05-07 08:15:38 - INFO    :: MainThread : Scheduled background task: Refresh Plex server name
+2021-05-07 08:15:38 - INFO    :: MainThread : Scheduled background task: Check for active sessions
+2021-05-07 08:15:38 - INFO    :: MainThread : Scheduled background task: Refresh users list
+2021-05-07 08:15:38 - INFO    :: MainThread : Scheduled background task: Refresh libraries list
+2021-05-07 08:15:38 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-07 08:15:38 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-07 08:15:38 - INFO    :: MainThread : PlexPy WebStart :: Web server authentication is enabled, username is 'Belegan243'
+2021-05-07 08:15:38 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-07 08:16:38 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:16:38 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:16:38 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:16:38 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 1.
+2021-05-07 08:17:38 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:17:38 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:17:38 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:17:38 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 2.
+2021-05-07 08:18:38 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:18:38 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:18:38 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:18:38 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 3.
+2021-05-07 08:19:38 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:19:38 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:19:38 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:19:38 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 4.
+2021-05-07 08:20:40 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:20:40 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:20:40 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:20:40 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 5.
+2021-05-07 08:21:38 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:21:38 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:21:38 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:21:38 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 6.
+2021-05-07 08:22:40 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:22:40 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:22:40 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:22:40 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 7.
+2021-05-07 08:23:38 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:23:38 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:23:38 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:23:38 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 8.
+2021-05-07 08:24:38 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:24:38 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:24:38 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:24:38 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 9.
+2021-05-07 08:25:38 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:25:38 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:25:38 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:25:38 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 10.
+2021-05-07 08:26:38 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:26:38 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:26:38 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:26:38 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 11.
+2021-05-07 08:27:38 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:27:38 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:27:38 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:27:38 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 12.
+2021-05-07 08:28:39 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:28:39 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:28:39 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:28:39 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 13.
+2021-05-07 08:29:39 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:29:39 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:29:39 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:29:39 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 14.
+2021-05-07 08:30:38 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:30:38 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:30:38 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:30:38 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 15.
+2021-05-07 08:31:38 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:31:38 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:31:38 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:31:38 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 16.
+2021-05-07 08:32:38 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:32:38 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:32:38 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:32:38 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 17.
+2021-05-07 08:33:38 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:33:38 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:33:38 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:33:38 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 18.
+2021-05-07 08:34:38 - WARNING :: Thread-21 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:34:38 - WARNING :: Thread-21 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:34:38 - DEBUG   :: Thread-21 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:34:38 - WARNING :: Thread-21 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 19.
+2021-05-07 08:35:38 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:35:38 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:35:38 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:35:38 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 20.
+2021-05-07 08:36:38 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:36:38 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:36:38 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:36:38 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 21.
+2021-05-07 08:37:38 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:37:38 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:37:38 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:37:38 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 22.
+2021-05-07 08:38:38 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:38:38 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:38:38 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:38:38 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 23.
+2021-05-07 08:39:38 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:39:38 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:39:38 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:39:38 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 24.
+2021-05-07 08:40:38 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:40:38 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:40:38 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:40:38 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 25.
+2021-05-07 08:41:39 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:41:39 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:41:39 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:41:39 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 26.
+2021-05-07 08:42:39 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:42:39 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:42:39 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:42:39 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 27.
+2021-05-07 08:43:39 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:43:39 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:43:39 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:43:39 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 28.
+2021-05-07 08:44:39 - WARNING :: Thread-21 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:44:39 - WARNING :: Thread-21 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:44:39 - DEBUG   :: Thread-21 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:44:39 - WARNING :: Thread-21 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 29.
+2021-05-07 08:45:38 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:45:38 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:45:38 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:45:38 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 30.
+2021-05-07 08:46:38 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:46:38 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:46:38 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:46:38 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 31.
+2021-05-07 08:47:39 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:47:39 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:47:39 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:47:39 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 32.
+2021-05-07 08:48:40 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:48:40 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:48:40 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:48:40 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 33.
+2021-05-07 08:49:38 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:49:38 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:49:38 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:49:38 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 34.
+2021-05-07 08:50:39 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:50:39 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:50:39 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:50:39 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 35.
+2021-05-07 08:51:40 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:51:40 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:51:40 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:51:40 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 36.
+2021-05-07 08:52:40 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:52:40 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:52:40 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:52:40 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 37.
+2021-05-07 08:53:39 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:53:39 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:53:39 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:53:39 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 38.
+2021-05-07 08:54:38 - WARNING :: Thread-21 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:54:38 - WARNING :: Thread-21 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:54:38 - DEBUG   :: Thread-21 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:54:38 - WARNING :: Thread-21 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 39.
+2021-05-07 08:55:38 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:55:38 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:55:38 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:55:38 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 40.
+2021-05-07 08:56:38 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:56:38 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:56:38 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:56:38 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 41.
+2021-05-07 08:57:38 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:57:38 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:57:38 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:57:38 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 42.
+2021-05-07 08:58:38 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:58:38 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:58:38 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:58:38 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 43.
+2021-05-07 08:59:38 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 08:59:38 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 08:59:38 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 08:59:38 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 44.
+2021-05-07 09:00:38 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:00:38 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:00:38 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:00:38 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 45.
+2021-05-07 09:01:38 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:01:38 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:01:38 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:01:38 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 46.
+2021-05-07 09:02:38 - WARNING :: Thread-20 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:02:38 - WARNING :: Thread-20 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:02:38 - DEBUG   :: Thread-20 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:02:38 - WARNING :: Thread-20 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 47.
+2021-05-07 09:03:38 - WARNING :: Thread-14 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:03:38 - WARNING :: Thread-14 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:03:38 - DEBUG   :: Thread-14 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:03:38 - WARNING :: Thread-14 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 48.
+2021-05-07 09:04:38 - WARNING :: Thread-21 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:04:38 - WARNING :: Thread-21 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:04:38 - DEBUG   :: Thread-21 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:04:38 - WARNING :: Thread-21 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 49.
+2021-05-07 09:05:38 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:05:38 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:05:38 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:05:38 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 50.
+2021-05-07 09:06:38 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:06:38 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:06:38 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:06:38 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 51.
+2021-05-07 09:07:38 - WARNING :: Thread-17 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:07:38 - WARNING :: Thread-17 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:07:38 - DEBUG   :: Thread-17 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:07:38 - WARNING :: Thread-17 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 52.
+2021-05-07 09:08:38 - WARNING :: Thread-18 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:08:38 - WARNING :: Thread-18 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:08:38 - DEBUG   :: Thread-18 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:08:38 - WARNING :: Thread-18 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 53.
+2021-05-07 09:09:42 - WARNING :: Thread-15 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:09:42 - WARNING :: Thread-15 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:09:42 - DEBUG   :: Thread-15 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:09:42 - WARNING :: Thread-15 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 54.
+2021-05-07 09:09:52 - DEBUG   :: CP Server Thread-5 : PlexPy WebAuth :: Admin user 'Belegan243' logged into PlexPy.
+2021-05-07 09:09:52 - WARNING :: CP Server Thread-9 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:09:52 - WARNING :: CP Server Thread-9 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:09:52 - WARNING :: CP Server Thread-9 : Unable to retrieve data for get_activity.
+2021-05-07 09:09:52 - WARNING :: CP Server Thread-5 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:09:52 - WARNING :: CP Server Thread-5 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:09:52 - WARNING :: CP Server Thread-5 : Unable to retrieve data for get_current_activity_header.
+2021-05-07 09:09:52 - WARNING :: CP Server Thread-4 : Failed to access uri endpoint /library/recentlyAdded?X-Plex-Container-Start=0&X-Plex-Container-Size=50 with error [Errno 111] Connection refused
+2021-05-07 09:09:52 - WARNING :: CP Server Thread-4 : PlexPy Pmsconnect :: Unable to parse XML for get_recently_added: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:09:52 - WARNING :: CP Server Thread-4 : Unable to retrieve data for get_recently_added.
+2021-05-07 09:10:38 - WARNING :: Thread-19 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:10:38 - WARNING :: Thread-19 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:10:38 - DEBUG   :: Thread-19 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:10:38 - WARNING :: Thread-19 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 55.
+2021-05-07 09:12:53 - INFO    :: MainThread : Checking to see if the database has all tables....
+2021-05-07 09:12:53 - DEBUG   :: MainThread : Trying to execute: "git rev-parse HEAD" with shell in /app/plexpy
+2021-05-07 09:12:53 - DEBUG   :: MainThread : Git output: cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-07 09:12:53 - DEBUG   :: MainThread : Trying to execute: "git rev-parse --abbrev-ref HEAD" with shell in /app/plexpy
+2021-05-07 09:12:53 - DEBUG   :: MainThread : Git output: master
+2021-05-07 09:12:53 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2021-05-07 09:12:53 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/commits/master
+2021-05-07 09:12:54 - DEBUG   :: MainThread : Latest version is 39ad3f9047fb3f8ed7b18b1584b079a70280d37b
+2021-05-07 09:12:54 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2021-05-07 09:12:54 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/JonnyWong16/plexpy/compare/39ad3f9047fb3f8ed7b18b1584b079a70280d37b...cfd30996264b7e9fe4ef87f02d1cc52d1ae8bfca
+2021-05-07 09:12:54 - DEBUG   :: MainThread : In total, 2768 commits behind
+2021-05-07 09:12:54 - INFO    :: MainThread : New version is available. You are 2768 commits behind
+2021-05-07 09:12:54 - INFO    :: MainThread : PlexPy PlexTV :: Requesting URLs for server...
+2021-05-07 09:12:54 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-07 09:12:55 - DEBUG   :: MainThread : PlexPy PlexTV :: Plex Pass subscription not found.
+2021-05-07 09:12:55 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-07 09:12:55 - INFO    :: MainThread : PlexPy Config :: Writing configuration to file
+2021-05-07 09:12:55 - INFO    :: MainThread : PlexPy PlexTV :: Using user-defined URL.
+2021-05-07 09:12:55 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting name from server...
+2021-05-07 09:13:00 - WARNING :: MainThread : Failed to access uri endpoint /:/prefs with error [Errno 111] Connection refused
+2021-05-07 09:13:00 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_local_server_name: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:13:00 - WARNING :: MainThread : Failed to access uri endpoint /servers with error [Errno 111] Connection refused
+2021-05-07 09:13:00 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_server_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:13:00 - INFO    :: MainThread : PlexPy PlexTV :: Requesting users list refresh...
+2021-05-07 09:13:01 - WARNING :: MainThread : PlexPy PlexTV :: Unable to parse XML for get_full_users_list.
+2021-05-07 09:13:01 - INFO    :: MainThread : PlexPy PlexTV :: Users list refreshed.
+2021-05-07 09:13:01 - INFO    :: MainThread : PlexPy Pmsconnect :: Requesting libraries list refresh...
+2021-05-07 09:13:01 - WARNING :: MainThread : Failed to access uri endpoint /library/sections with error [Errno 111] Connection refused
+2021-05-07 09:13:01 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to parse XML for get_libraries_list: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:13:01 - WARNING :: MainThread : PlexPy Pmsconnect :: Unable to refresh libraries list.
+2021-05-07 09:13:01 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+2021-05-07 09:13:01 - INFO    :: MainThread : Scheduled background task: Refresh Plex server URLs
+2021-05-07 09:13:01 - INFO    :: MainThread : Scheduled background task: Refresh Plex server name
+2021-05-07 09:13:01 - INFO    :: MainThread : Scheduled background task: Check for active sessions
+2021-05-07 09:13:01 - INFO    :: MainThread : Scheduled background task: Refresh users list
+2021-05-07 09:13:01 - INFO    :: MainThread : Scheduled background task: Refresh libraries list
+2021-05-07 09:13:01 - INFO    :: MainThread : Scheduled background task: Backup PlexPy database
+2021-05-07 09:13:01 - INFO    :: MainThread : Scheduled background task: Backup PlexPy config
+2021-05-07 09:13:01 - INFO    :: MainThread : PlexPy WebStart :: Web server authentication is enabled, username is 'Belegan243'
+2021-05-07 09:13:01 - INFO    :: MainThread : PlexPy WebStart :: Starting PlexPy web server on http://0.0.0.0:8181/
+2021-05-07 09:14:01 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:14:01 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:14:01 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:14:01 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 1.
+2021-05-07 09:15:01 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:15:01 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:15:01 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:15:01 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 2.
+2021-05-07 09:16:01 - WARNING :: Thread-12 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:16:01 - WARNING :: Thread-12 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:16:01 - DEBUG   :: Thread-12 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:16:01 - WARNING :: Thread-12 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 3.
+2021-05-07 09:17:01 - WARNING :: Thread-13 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:17:01 - WARNING :: Thread-13 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:17:01 - DEBUG   :: Thread-13 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:17:01 - WARNING :: Thread-13 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 4.
+2021-05-07 09:18:01 - WARNING :: Thread-16 : Failed to access uri endpoint /status/sessions with error [Errno 111] Connection refused
+2021-05-07 09:18:01 - WARNING :: Thread-16 : PlexPy Pmsconnect :: Unable to parse XML for get_current_activity: 'NoneType' object has no attribute 'getElementsByTagName'.
+2021-05-07 09:18:01 - DEBUG   :: Thread-16 : PlexPy Monitor :: Unable to read session list.
+2021-05-07 09:18:01 - WARNING :: Thread-16 : PlexPy Monitor :: Unable to get an internal response from the server, ping attempt 5.
+2021-05-07 09:18:18 - INFO    :: MainThread : Signal 15 caught, saving and exiting...

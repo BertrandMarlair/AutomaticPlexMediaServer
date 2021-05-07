@@ -1,0 +1,797 @@
+2021-05-06 08:40:27.6|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-06 08:40:27.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-06 08:40:28.0|Info|Router|Application mode: Interactive
+2021-05-06 08:40:28.0|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 08:40:28.2|Info|MigrationLoggerProvider|*** VersionMigration migrating ***
+2021-05-06 08:40:28.2|Info|MigrationLoggerProvider|*** VersionUniqueMigration migrating ***
+2021-05-06 08:40:28.3|Info|MigrationLoggerProvider|*** VersionDescriptionMigration migrating ***
+2021-05-06 08:40:28.3|Info|MigrationLoggerProvider|*** 1: InitialSetup migrating ***
+2021-05-06 08:40:28.3|Info|InitialSetup|Starting migration to 1
+2021-05-06 08:40:28.4|Info|MigrationLoggerProvider|*** 104: add_moviefiles_table migrating ***
+2021-05-06 08:40:28.4|Info|add_moviefiles_table|Starting migration to 104
+2021-05-06 08:40:28.4|Info|MigrationLoggerProvider|*** 105: fix_history_movieId migrating ***
+2021-05-06 08:40:28.4|Info|fix_history_movieId|Starting migration to 105
+2021-05-06 08:40:28.4|Info|MigrationLoggerProvider|*** 106: add_tmdb_stuff migrating ***
+2021-05-06 08:40:28.4|Info|add_tmdb_stuff|Starting migration to 106
+2021-05-06 08:40:28.4|Info|MigrationLoggerProvider|*** 107: fix_movie_files migrating ***
+2021-05-06 08:40:28.4|Info|fix_movie_files|Starting migration to 107
+2021-05-06 08:40:28.5|Info|MigrationLoggerProvider|*** 108: update_schedule_intervale migrating ***
+2021-05-06 08:40:28.5|Info|update_schedule_intervale|Starting migration to 108
+2021-05-06 08:40:28.5|Info|MigrationLoggerProvider|*** 109: add_movie_formats_to_naming_config migrating ***
+2021-05-06 08:40:28.5|Info|add_movie_formats_to_naming_config|Starting migration to 109
+2021-05-06 08:40:28.5|Info|MigrationLoggerProvider|*** 110: add_phyiscal_release migrating ***
+2021-05-06 08:40:28.5|Info|add_phyiscal_release|Starting migration to 110
+2021-05-06 08:40:28.5|Info|MigrationLoggerProvider|*** 111: remove_bitmetv migrating ***
+2021-05-06 08:40:28.5|Info|remove_bitmetv|Starting migration to 111
+2021-05-06 08:40:28.5|Info|MigrationLoggerProvider|*** 112: remove_torrentleech migrating ***
+2021-05-06 08:40:28.5|Info|remove_torrentleech|Starting migration to 112
+2021-05-06 08:40:28.5|Info|MigrationLoggerProvider|*** 113: remove_broadcasthenet migrating ***
+2021-05-06 08:40:28.5|Info|remove_broadcasthenet|Starting migration to 113
+2021-05-06 08:40:28.5|Info|MigrationLoggerProvider|*** 114: remove_fanzub migrating ***
+2021-05-06 08:40:28.5|Info|remove_fanzub|Starting migration to 114
+2021-05-06 08:40:28.5|Info|MigrationLoggerProvider|*** 115: update_movie_sorttitle migrating ***
+2021-05-06 08:40:28.5|Info|update_movie_sorttitle|Starting migration to 115
+2021-05-06 08:40:28.5|Info|MigrationLoggerProvider|*** 116: update_movie_sorttitle_again migrating ***
+2021-05-06 08:40:28.5|Info|update_movie_sorttitle_again|Starting migration to 116
+2021-05-06 08:40:28.5|Info|MigrationLoggerProvider|*** 117: update_movie_file migrating ***
+2021-05-06 08:40:28.5|Info|update_movie_file|Starting migration to 117
+2021-05-06 08:40:28.5|Info|MigrationLoggerProvider|*** 118: update_movie_slug migrating ***
+2021-05-06 08:40:28.5|Info|update_movie_slug|Starting migration to 118
+2021-05-06 08:40:28.5|Info|MigrationLoggerProvider|*** 119: add_youtube_trailer_id migrating ***
+2021-05-06 08:40:28.6|Info|add_youtube_trailer_id|Starting migration to 119
+2021-05-06 08:40:28.6|Info|MigrationLoggerProvider|*** 120: add_studio migrating ***
+2021-05-06 08:40:28.6|Info|add_studio|Starting migration to 120
+2021-05-06 08:40:28.6|Info|MigrationLoggerProvider|*** 121: update_filedate_config migrating ***
+2021-05-06 08:40:28.6|Info|update_filedate_config|Starting migration to 121
+2021-05-06 08:40:28.6|Info|MigrationLoggerProvider|*** 122: add_movieid_to_blacklist migrating ***
+2021-05-06 08:40:28.6|Info|add_movieid_to_blacklist|Starting migration to 122
+2021-05-06 08:40:28.6|Info|MigrationLoggerProvider|*** 123: create_netimport_table migrating ***
+2021-05-06 08:40:28.6|Info|create_netimport_table|Starting migration to 123
+2021-05-06 08:40:28.6|Info|MigrationLoggerProvider|*** 124: add_preferred_tags_to_profile migrating ***
+2021-05-06 08:40:28.6|Info|add_preferred_tags_to_profile|Starting migration to 124
+2021-05-06 08:40:28.6|Info|MigrationLoggerProvider|*** 125: fix_imdb_unique migrating ***
+2021-05-06 08:40:28.6|Info|fix_imdb_unique|Starting migration to 125
+2021-05-06 08:40:28.6|Info|MigrationLoggerProvider|*** 126: update_qualities_and_profiles migrating ***
+2021-05-06 08:40:28.7|Info|update_qualities_and_profiles|Starting migration to 126
+2021-05-06 08:40:28.7|Info|MigrationLoggerProvider|*** 127: remove_wombles migrating ***
+2021-05-06 08:40:28.7|Info|remove_wombles|Starting migration to 127
+2021-05-06 08:40:28.7|Info|MigrationLoggerProvider|*** 128: remove_kickass migrating ***
+2021-05-06 08:40:28.7|Info|remove_kickass|Starting migration to 128
+2021-05-06 08:40:28.7|Info|MigrationLoggerProvider|*** 129: add_parsed_movie_info_to_pending_release migrating ***
+2021-05-06 08:40:28.7|Info|add_parsed_movie_info_to_pending_release|Starting migration to 129
+2021-05-06 08:40:28.7|Info|MigrationLoggerProvider|*** 130: remove_wombles_kickass migrating ***
+2021-05-06 08:40:28.7|Info|remove_wombles_kickass|Starting migration to 130
+2021-05-06 08:40:28.7|Info|MigrationLoggerProvider|*** 131: make_parsed_episode_info_nullable migrating ***
+2021-05-06 08:40:28.7|Info|make_parsed_episode_info_nullable|Starting migration to 131
+2021-05-06 08:40:28.7|Info|MigrationLoggerProvider|*** 132: rename_torrent_downloadstation migrating ***
+2021-05-06 08:40:28.7|Info|rename_torrent_downloadstation|Starting migration to 132
+2021-05-06 08:40:28.7|Info|MigrationLoggerProvider|*** 133: add_minimumavailability migrating ***
+2021-05-06 08:40:28.7|Info|add_minimumavailability|Starting migration to 133
+2021-05-06 08:40:28.8|Info|MigrationLoggerProvider|*** 134: add_remux_qualities_for_the_wankers migrating ***
+2021-05-06 08:40:28.8|Info|add_remux_qualities_for_the_wankers|Starting migration to 134
+2021-05-06 08:40:28.8|Info|MigrationLoggerProvider|*** 135: add_haspredbentry_to_movies migrating ***
+2021-05-06 08:40:28.8|Info|add_haspredbentry_to_movies|Starting migration to 135
+2021-05-06 08:40:28.8|Info|MigrationLoggerProvider|*** 136: add_pathstate_to_movies migrating ***
+2021-05-06 08:40:28.8|Info|add_pathstate_to_movies|Starting migration to 136
+2021-05-06 08:40:28.8|Info|MigrationLoggerProvider|*** 137: add_import_exclusions_table migrating ***
+2021-05-06 08:40:28.8|Info|add_import_exclusions_table|Starting migration to 137
+2021-05-06 08:40:28.8|Info|MigrationLoggerProvider|*** 138: add_physical_release_note migrating ***
+2021-05-06 08:40:28.8|Info|add_physical_release_note|Starting migration to 138
+2021-05-06 08:40:28.8|Info|MigrationLoggerProvider|*** 139: consolidate_indexer_baseurl migrating ***
+2021-05-06 08:40:28.8|Info|consolidate_indexer_baseurl|Starting migration to 139
+2021-05-06 08:40:28.9|Info|MigrationLoggerProvider|*** 140: add_alternative_titles_table migrating ***
+2021-05-06 08:40:28.9|Info|add_alternative_titles_table|Starting migration to 140
+2021-05-06 08:40:28.9|Info|MigrationLoggerProvider|*** 141: fix_duplicate_alt_titles migrating ***
+2021-05-06 08:40:28.9|Info|fix_duplicate_alt_titles|Starting migration to 141
+2021-05-06 08:40:28.9|Info|MigrationLoggerProvider|*** 142: movie_extras migrating ***
+2021-05-06 08:40:28.9|Info|movie_extras|Starting migration to 142
+2021-05-06 08:40:29.0|Info|MigrationLoggerProvider|*** 143: clean_core_tv migrating ***
+2021-05-06 08:40:29.0|Info|clean_core_tv|Starting migration to 143
+2021-05-06 08:40:29.0|Info|MigrationLoggerProvider|*** 144: add_cookies_to_indexer_status migrating ***
+2021-05-06 08:40:29.0|Info|add_cookies_to_indexer_status|Starting migration to 144
+2021-05-06 08:40:29.0|Info|MigrationLoggerProvider|*** 145: banner_to_fanart migrating ***
+2021-05-06 08:40:29.0|Info|banner_to_fanart|Starting migration to 145
+2021-05-06 08:40:29.1|Info|MigrationLoggerProvider|*** 146: naming_config_colon_action migrating ***
+2021-05-06 08:40:29.1|Info|naming_config_colon_action|Starting migration to 146
+2021-05-06 08:40:29.1|Info|MigrationLoggerProvider|*** 147: add_custom_formats migrating ***
+2021-05-06 08:40:29.1|Info|add_custom_formats|Starting migration to 147
+2021-05-06 08:40:29.1|Info|MigrationLoggerProvider|*** 148: remove_extra_naming_config migrating ***
+2021-05-06 08:40:29.1|Info|remove_extra_naming_config|Starting migration to 148
+2021-05-06 08:40:29.1|Info|MigrationLoggerProvider|*** 149: convert_regex_required_tags migrating ***
+2021-05-06 08:40:29.1|Info|convert_regex_required_tags|Starting migration to 149
+2021-05-06 08:40:29.1|Info|MigrationLoggerProvider|*** 150: fix_format_tags_double_underscore migrating ***
+2021-05-06 08:40:29.1|Info|fix_format_tags_double_underscore|Starting migration to 150
+2021-05-06 08:40:29.1|Info|MigrationLoggerProvider|*** 151: add_tags_to_net_import migrating ***
+2021-05-06 08:40:29.1|Info|add_tags_to_net_import|Starting migration to 151
+2021-05-06 08:40:29.1|Info|MigrationLoggerProvider|*** 152: add_custom_filters migrating ***
+2021-05-06 08:40:29.1|Info|add_custom_filters|Starting migration to 152
+2021-05-06 08:40:29.1|Info|MigrationLoggerProvider|*** 153: indexer_client_status_search_changes migrating ***
+2021-05-06 08:40:29.1|Info|indexer_client_status_search_changes|Starting migration to 153
+2021-05-06 08:40:29.2|Info|MigrationLoggerProvider|*** 154: add_language_to_files_history_blacklist migrating ***
+2021-05-06 08:40:29.2|Info|add_language_to_files_history_blacklist|Starting migration to 154
+2021-05-06 08:40:29.2|Info|MigrationLoggerProvider|*** 155: add_update_allowed_quality_profile migrating ***
+2021-05-06 08:40:29.2|Info|add_update_allowed_quality_profile|Starting migration to 155
+2021-05-06 08:40:29.2|Info|MigrationLoggerProvider|*** 156: add_download_client_priority migrating ***
+2021-05-06 08:40:29.2|Info|add_download_client_priority|Starting migration to 156
+2021-05-06 08:40:29.3|Info|MigrationLoggerProvider|*** 157: remove_growl_prowl migrating ***
+2021-05-06 08:40:29.3|Info|remove_growl_prowl|Starting migration to 157
+2021-05-06 08:40:29.3|Info|MigrationLoggerProvider|*** 158: remove_plex_hometheatre migrating ***
+2021-05-06 08:40:29.3|Info|remove_plex_hometheatre|Starting migration to 158
+2021-05-06 08:40:29.3|Info|MigrationLoggerProvider|*** 159: add_webrip_qualites migrating ***
+2021-05-06 08:40:29.3|Info|add_webrip_qualites|Starting migration to 159
+2021-05-06 08:40:29.3|Info|MigrationLoggerProvider|*** 160: health_issue_notification migrating ***
+2021-05-06 08:40:29.3|Info|health_issue_notification|Starting migration to 160
+2021-05-06 08:40:29.3|Info|MigrationLoggerProvider|*** 161: speed_improvements migrating ***
+2021-05-06 08:40:29.3|Info|speed_improvements|Starting migration to 161
+2021-05-06 08:40:29.4|Info|MigrationLoggerProvider|*** 162: fix_profile_format_default migrating ***
+2021-05-06 08:40:29.4|Info|fix_profile_format_default|Starting migration to 162
+2021-05-06 08:40:29.4|Info|MigrationLoggerProvider|*** 163: task_duration migrating ***
+2021-05-06 08:40:29.4|Info|task_duration|Starting migration to 163
+2021-05-06 08:40:29.4|Info|MigrationLoggerProvider|*** 164: movie_collections_crew migrating ***
+2021-05-06 08:40:29.4|Info|movie_collections_crew|Starting migration to 164
+2021-05-06 08:40:29.5|Info|MigrationLoggerProvider|*** 165: remove_custom_formats_from_quality_model migrating ***
+2021-05-06 08:40:29.5|Info|remove_custom_formats_from_quality_model|Starting migration to 165
+2021-05-06 08:40:29.6|Info|MigrationLoggerProvider|*** 166: fix_tmdb_list_config migrating ***
+2021-05-06 08:40:29.6|Info|fix_tmdb_list_config|Starting migration to 166
+2021-05-06 08:40:29.6|Info|MigrationLoggerProvider|*** 167: remove_movie_pathstate migrating ***
+2021-05-06 08:40:29.6|Info|remove_movie_pathstate|Starting migration to 167
+2021-05-06 08:40:29.6|Info|MigrationLoggerProvider|*** 168: custom_format_rework migrating ***
+2021-05-06 08:40:29.6|Info|custom_format_rework|Starting migration to 168
+2021-05-06 08:40:29.7|Info|MigrationLoggerProvider|*** 169: custom_format_scores migrating ***
+2021-05-06 08:40:29.7|Info|custom_format_scores|Starting migration to 169
+2021-05-06 08:40:29.7|Info|MigrationLoggerProvider|*** 170: fix_trakt_list_config migrating ***
+2021-05-06 08:40:29.7|Info|fix_trakt_list_config|Starting migration to 170
+2021-05-06 08:40:29.8|Info|MigrationLoggerProvider|*** 171: quality_definition_preferred_size migrating ***
+2021-05-06 08:40:29.8|Info|quality_definition_preferred_size|Starting migration to 171
+2021-05-06 08:40:29.9|Info|MigrationLoggerProvider|*** 172: add_download_history migrating ***
+2021-05-06 08:40:29.9|Info|add_download_history|Starting migration to 172
+2021-05-06 08:40:29.9|Info|MigrationLoggerProvider|*** 173: net_import_status migrating ***
+2021-05-06 08:40:29.9|Info|net_import_status|Starting migration to 173
+2021-05-06 08:40:29.9|Info|MigrationLoggerProvider|*** 174: email_multiple_addresses migrating ***
+2021-05-06 08:40:29.9|Info|email_multiple_addresses|Starting migration to 174
+2021-05-06 08:40:29.9|Info|MigrationLoggerProvider|*** 175: remove_chown_and_folderchmod_config migrating ***
+2021-05-06 08:40:29.9|Info|remove_chown_and_folderchmod_config|Starting migration to 175
+2021-05-06 08:40:29.9|Info|MigrationLoggerProvider|*** 176: movie_recommendations migrating ***
+2021-05-06 08:40:29.9|Info|movie_recommendations|Starting migration to 176
+2021-05-06 08:40:29.9|Info|MigrationLoggerProvider|*** 177: language_improvements migrating ***
+2021-05-06 08:40:30.0|Info|language_improvements|Starting migration to 177
+2021-05-06 08:40:30.0|Info|MigrationLoggerProvider|*** 178: new_list_server migrating ***
+2021-05-06 08:40:30.0|Info|new_list_server|Starting migration to 178
+2021-05-06 08:40:30.1|Info|MigrationLoggerProvider|*** 179: movie_translation_indexes migrating ***
+2021-05-06 08:40:30.1|Info|movie_translation_indexes|Starting migration to 179
+2021-05-06 08:40:30.1|Info|MigrationLoggerProvider|*** 180: fix_invalid_profile_references migrating ***
+2021-05-06 08:40:30.1|Info|fix_invalid_profile_references|Starting migration to 180
+2021-05-06 08:40:30.1|Info|MigrationLoggerProvider|*** 181: list_movies_table migrating ***
+2021-05-06 08:40:30.1|Info|list_movies_table|Starting migration to 181
+2021-05-06 08:40:30.1|Info|MigrationLoggerProvider|*** 182: on_delete_notification migrating ***
+2021-05-06 08:40:30.1|Info|on_delete_notification|Starting migration to 182
+2021-05-06 08:40:30.2|Info|MigrationLoggerProvider|*** 183: download_propers_config migrating ***
+2021-05-06 08:40:30.2|Info|download_propers_config|Starting migration to 183
+2021-05-06 08:40:30.2|Info|MigrationLoggerProvider|*** 184: add_priority_to_indexers migrating ***
+2021-05-06 08:40:30.2|Info|add_priority_to_indexers|Starting migration to 184
+2021-05-06 08:40:30.2|Info|MigrationLoggerProvider|*** 185: add_alternative_title_indices migrating ***
+2021-05-06 08:40:30.2|Info|add_alternative_title_indices|Starting migration to 185
+2021-05-06 08:40:30.2|Info|MigrationLoggerProvider|*** 186: fix_tmdb_duplicates migrating ***
+2021-05-06 08:40:30.2|Info|fix_tmdb_duplicates|Starting migration to 186
+2021-05-06 08:40:30.3|Info|MigrationLoggerProvider|*** 187: swap_filechmod_for_folderchmod migrating ***
+2021-05-06 08:40:30.3|Info|swap_filechmod_for_folderchmod|Starting migration to 187
+2021-05-06 08:40:30.3|Info|MigrationLoggerProvider|*** 188: mediainfo_channels migrating ***
+2021-05-06 08:40:30.3|Info|mediainfo_channels|Starting migration to 188
+2021-05-06 08:40:30.3|Info|MigrationLoggerProvider|*** 189: add_update_history migrating ***
+2021-05-06 08:40:30.3|Info|add_update_history|Starting migration to 189
+2021-05-06 08:40:30.3|Info|MigrationLoggerProvider|*** 190: update_awesome_hd_link migrating ***
+2021-05-06 08:40:30.3|Info|update_awesome_hd_link|Starting migration to 190
+2021-05-06 08:40:30.3|Info|MigrationLoggerProvider|*** 191: remove_awesomehd migrating ***
+2021-05-06 08:40:30.3|Info|remove_awesomehd|Starting migration to 191
+2021-05-06 08:40:30.3|Info|MigrationLoggerProvider|*** 192: add_on_delete_to_notifications migrating ***
+2021-05-06 08:40:30.4|Info|add_on_delete_to_notifications|Starting migration to 192
+2021-05-06 08:40:30.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 08:40:30.4|Info|MigrationLoggerProvider|*** VersionMigration migrating ***
+2021-05-06 08:40:30.5|Info|MigrationLoggerProvider|*** VersionUniqueMigration migrating ***
+2021-05-06 08:40:30.5|Info|MigrationLoggerProvider|*** VersionDescriptionMigration migrating ***
+2021-05-06 08:40:30.5|Info|MigrationLoggerProvider|*** 1: InitialSetup migrating ***
+2021-05-06 08:40:30.5|Info|InitialSetup|Starting migration to 1
+2021-05-06 08:40:30.5|Info|MigrationLoggerProvider|*** 104: add_moviefiles_table migrating ***
+2021-05-06 08:40:30.5|Info|add_moviefiles_table|Starting migration to 104
+2021-05-06 08:40:30.5|Info|MigrationLoggerProvider|*** 105: fix_history_movieId migrating ***
+2021-05-06 08:40:30.5|Info|fix_history_movieId|Starting migration to 105
+2021-05-06 08:40:30.5|Info|MigrationLoggerProvider|*** 106: add_tmdb_stuff migrating ***
+2021-05-06 08:40:30.5|Info|add_tmdb_stuff|Starting migration to 106
+2021-05-06 08:40:30.5|Info|MigrationLoggerProvider|*** 107: fix_movie_files migrating ***
+2021-05-06 08:40:30.5|Info|fix_movie_files|Starting migration to 107
+2021-05-06 08:40:30.6|Info|MigrationLoggerProvider|*** 108: update_schedule_intervale migrating ***
+2021-05-06 08:40:30.6|Info|update_schedule_intervale|Starting migration to 108
+2021-05-06 08:40:30.6|Info|MigrationLoggerProvider|*** 109: add_movie_formats_to_naming_config migrating ***
+2021-05-06 08:40:30.6|Info|add_movie_formats_to_naming_config|Starting migration to 109
+2021-05-06 08:40:30.6|Info|MigrationLoggerProvider|*** 110: add_phyiscal_release migrating ***
+2021-05-06 08:40:30.6|Info|add_phyiscal_release|Starting migration to 110
+2021-05-06 08:40:30.6|Info|MigrationLoggerProvider|*** 111: remove_bitmetv migrating ***
+2021-05-06 08:40:30.6|Info|remove_bitmetv|Starting migration to 111
+2021-05-06 08:40:30.6|Info|MigrationLoggerProvider|*** 112: remove_torrentleech migrating ***
+2021-05-06 08:40:30.6|Info|remove_torrentleech|Starting migration to 112
+2021-05-06 08:40:30.6|Info|MigrationLoggerProvider|*** 113: remove_broadcasthenet migrating ***
+2021-05-06 08:40:30.6|Info|remove_broadcasthenet|Starting migration to 113
+2021-05-06 08:40:30.6|Info|MigrationLoggerProvider|*** 114: remove_fanzub migrating ***
+2021-05-06 08:40:30.6|Info|remove_fanzub|Starting migration to 114
+2021-05-06 08:40:30.6|Info|MigrationLoggerProvider|*** 115: update_movie_sorttitle migrating ***
+2021-05-06 08:40:30.6|Info|update_movie_sorttitle|Starting migration to 115
+2021-05-06 08:40:30.7|Info|MigrationLoggerProvider|*** 116: update_movie_sorttitle_again migrating ***
+2021-05-06 08:40:30.7|Info|update_movie_sorttitle_again|Starting migration to 116
+2021-05-06 08:40:30.7|Info|MigrationLoggerProvider|*** 117: update_movie_file migrating ***
+2021-05-06 08:40:30.7|Info|update_movie_file|Starting migration to 117
+2021-05-06 08:40:30.7|Info|MigrationLoggerProvider|*** 118: update_movie_slug migrating ***
+2021-05-06 08:40:30.7|Info|update_movie_slug|Starting migration to 118
+2021-05-06 08:40:30.7|Info|MigrationLoggerProvider|*** 119: add_youtube_trailer_id migrating ***
+2021-05-06 08:40:30.7|Info|add_youtube_trailer_id|Starting migration to 119
+2021-05-06 08:40:30.7|Info|MigrationLoggerProvider|*** 120: add_studio migrating ***
+2021-05-06 08:40:30.7|Info|add_studio|Starting migration to 120
+2021-05-06 08:40:30.7|Info|MigrationLoggerProvider|*** 121: update_filedate_config migrating ***
+2021-05-06 08:40:30.7|Info|update_filedate_config|Starting migration to 121
+2021-05-06 08:40:30.7|Info|MigrationLoggerProvider|*** 122: add_movieid_to_blacklist migrating ***
+2021-05-06 08:40:30.7|Info|add_movieid_to_blacklist|Starting migration to 122
+2021-05-06 08:40:30.7|Info|MigrationLoggerProvider|*** 123: create_netimport_table migrating ***
+2021-05-06 08:40:30.7|Info|create_netimport_table|Starting migration to 123
+2021-05-06 08:40:30.7|Info|MigrationLoggerProvider|*** 124: add_preferred_tags_to_profile migrating ***
+2021-05-06 08:40:30.7|Info|add_preferred_tags_to_profile|Starting migration to 124
+2021-05-06 08:40:30.8|Info|MigrationLoggerProvider|*** 125: fix_imdb_unique migrating ***
+2021-05-06 08:40:30.8|Info|fix_imdb_unique|Starting migration to 125
+2021-05-06 08:40:30.8|Info|MigrationLoggerProvider|*** 126: update_qualities_and_profiles migrating ***
+2021-05-06 08:40:30.8|Info|update_qualities_and_profiles|Starting migration to 126
+2021-05-06 08:40:30.8|Info|MigrationLoggerProvider|*** 127: remove_wombles migrating ***
+2021-05-06 08:40:30.8|Info|remove_wombles|Starting migration to 127
+2021-05-06 08:40:30.8|Info|MigrationLoggerProvider|*** 128: remove_kickass migrating ***
+2021-05-06 08:40:30.8|Info|remove_kickass|Starting migration to 128
+2021-05-06 08:40:30.8|Info|MigrationLoggerProvider|*** 129: add_parsed_movie_info_to_pending_release migrating ***
+2021-05-06 08:40:30.8|Info|add_parsed_movie_info_to_pending_release|Starting migration to 129
+2021-05-06 08:40:30.8|Info|MigrationLoggerProvider|*** 130: remove_wombles_kickass migrating ***
+2021-05-06 08:40:30.8|Info|remove_wombles_kickass|Starting migration to 130
+2021-05-06 08:40:30.8|Info|MigrationLoggerProvider|*** 131: make_parsed_episode_info_nullable migrating ***
+2021-05-06 08:40:30.8|Info|make_parsed_episode_info_nullable|Starting migration to 131
+2021-05-06 08:40:30.8|Info|MigrationLoggerProvider|*** 132: rename_torrent_downloadstation migrating ***
+2021-05-06 08:40:30.8|Info|rename_torrent_downloadstation|Starting migration to 132
+2021-05-06 08:40:30.9|Info|MigrationLoggerProvider|*** 133: add_minimumavailability migrating ***
+2021-05-06 08:40:30.9|Info|add_minimumavailability|Starting migration to 133
+2021-05-06 08:40:30.9|Info|MigrationLoggerProvider|*** 134: add_remux_qualities_for_the_wankers migrating ***
+2021-05-06 08:40:30.9|Info|add_remux_qualities_for_the_wankers|Starting migration to 134
+2021-05-06 08:40:30.9|Info|MigrationLoggerProvider|*** 135: add_haspredbentry_to_movies migrating ***
+2021-05-06 08:40:30.9|Info|add_haspredbentry_to_movies|Starting migration to 135
+2021-05-06 08:40:30.9|Info|MigrationLoggerProvider|*** 136: add_pathstate_to_movies migrating ***
+2021-05-06 08:40:30.9|Info|add_pathstate_to_movies|Starting migration to 136
+2021-05-06 08:40:30.9|Info|MigrationLoggerProvider|*** 137: add_import_exclusions_table migrating ***
+2021-05-06 08:40:30.9|Info|add_import_exclusions_table|Starting migration to 137
+2021-05-06 08:40:30.9|Info|MigrationLoggerProvider|*** 138: add_physical_release_note migrating ***
+2021-05-06 08:40:30.9|Info|add_physical_release_note|Starting migration to 138
+2021-05-06 08:40:30.9|Info|MigrationLoggerProvider|*** 139: consolidate_indexer_baseurl migrating ***
+2021-05-06 08:40:30.9|Info|consolidate_indexer_baseurl|Starting migration to 139
+2021-05-06 08:40:30.9|Info|MigrationLoggerProvider|*** 140: add_alternative_titles_table migrating ***
+2021-05-06 08:40:30.9|Info|add_alternative_titles_table|Starting migration to 140
+2021-05-06 08:40:30.9|Info|MigrationLoggerProvider|*** 141: fix_duplicate_alt_titles migrating ***
+2021-05-06 08:40:30.9|Info|fix_duplicate_alt_titles|Starting migration to 141
+2021-05-06 08:40:30.9|Info|MigrationLoggerProvider|*** 142: movie_extras migrating ***
+2021-05-06 08:40:30.9|Info|movie_extras|Starting migration to 142
+2021-05-06 08:40:31.0|Info|MigrationLoggerProvider|*** 143: clean_core_tv migrating ***
+2021-05-06 08:40:31.0|Info|clean_core_tv|Starting migration to 143
+2021-05-06 08:40:31.0|Info|MigrationLoggerProvider|*** 144: add_cookies_to_indexer_status migrating ***
+2021-05-06 08:40:31.0|Info|add_cookies_to_indexer_status|Starting migration to 144
+2021-05-06 08:40:31.0|Info|MigrationLoggerProvider|*** 145: banner_to_fanart migrating ***
+2021-05-06 08:40:31.0|Info|banner_to_fanart|Starting migration to 145
+2021-05-06 08:40:31.0|Info|MigrationLoggerProvider|*** 146: naming_config_colon_action migrating ***
+2021-05-06 08:40:31.0|Info|naming_config_colon_action|Starting migration to 146
+2021-05-06 08:40:31.0|Info|MigrationLoggerProvider|*** 147: add_custom_formats migrating ***
+2021-05-06 08:40:31.0|Info|add_custom_formats|Starting migration to 147
+2021-05-06 08:40:31.0|Info|MigrationLoggerProvider|*** 148: remove_extra_naming_config migrating ***
+2021-05-06 08:40:31.0|Info|remove_extra_naming_config|Starting migration to 148
+2021-05-06 08:40:31.0|Info|MigrationLoggerProvider|*** 149: convert_regex_required_tags migrating ***
+2021-05-06 08:40:31.0|Info|convert_regex_required_tags|Starting migration to 149
+2021-05-06 08:40:31.0|Info|MigrationLoggerProvider|*** 150: fix_format_tags_double_underscore migrating ***
+2021-05-06 08:40:31.0|Info|fix_format_tags_double_underscore|Starting migration to 150
+2021-05-06 08:40:31.0|Info|MigrationLoggerProvider|*** 151: add_tags_to_net_import migrating ***
+2021-05-06 08:40:31.0|Info|add_tags_to_net_import|Starting migration to 151
+2021-05-06 08:40:31.0|Info|MigrationLoggerProvider|*** 152: add_custom_filters migrating ***
+2021-05-06 08:40:31.0|Info|add_custom_filters|Starting migration to 152
+2021-05-06 08:40:31.0|Info|MigrationLoggerProvider|*** 153: indexer_client_status_search_changes migrating ***
+2021-05-06 08:40:31.0|Info|indexer_client_status_search_changes|Starting migration to 153
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 154: add_language_to_files_history_blacklist migrating ***
+2021-05-06 08:40:31.1|Info|add_language_to_files_history_blacklist|Starting migration to 154
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 155: add_update_allowed_quality_profile migrating ***
+2021-05-06 08:40:31.1|Info|add_update_allowed_quality_profile|Starting migration to 155
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 156: add_download_client_priority migrating ***
+2021-05-06 08:40:31.1|Info|add_download_client_priority|Starting migration to 156
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 157: remove_growl_prowl migrating ***
+2021-05-06 08:40:31.1|Info|remove_growl_prowl|Starting migration to 157
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 158: remove_plex_hometheatre migrating ***
+2021-05-06 08:40:31.1|Info|remove_plex_hometheatre|Starting migration to 158
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 159: add_webrip_qualites migrating ***
+2021-05-06 08:40:31.1|Info|add_webrip_qualites|Starting migration to 159
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 160: health_issue_notification migrating ***
+2021-05-06 08:40:31.1|Info|health_issue_notification|Starting migration to 160
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 161: speed_improvements migrating ***
+2021-05-06 08:40:31.1|Info|speed_improvements|Starting migration to 161
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 162: fix_profile_format_default migrating ***
+2021-05-06 08:40:31.1|Info|fix_profile_format_default|Starting migration to 162
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 163: task_duration migrating ***
+2021-05-06 08:40:31.1|Info|task_duration|Starting migration to 163
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 164: movie_collections_crew migrating ***
+2021-05-06 08:40:31.1|Info|movie_collections_crew|Starting migration to 164
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 165: remove_custom_formats_from_quality_model migrating ***
+2021-05-06 08:40:31.1|Info|remove_custom_formats_from_quality_model|Starting migration to 165
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 166: fix_tmdb_list_config migrating ***
+2021-05-06 08:40:31.1|Info|fix_tmdb_list_config|Starting migration to 166
+2021-05-06 08:40:31.1|Info|MigrationLoggerProvider|*** 167: remove_movie_pathstate migrating ***
+2021-05-06 08:40:31.1|Info|remove_movie_pathstate|Starting migration to 167
+2021-05-06 08:40:31.2|Info|MigrationLoggerProvider|*** 168: custom_format_rework migrating ***
+2021-05-06 08:40:31.2|Info|custom_format_rework|Starting migration to 168
+2021-05-06 08:40:31.2|Info|MigrationLoggerProvider|*** 169: custom_format_scores migrating ***
+2021-05-06 08:40:31.2|Info|custom_format_scores|Starting migration to 169
+2021-05-06 08:40:31.2|Info|MigrationLoggerProvider|*** 170: fix_trakt_list_config migrating ***
+2021-05-06 08:40:31.2|Info|fix_trakt_list_config|Starting migration to 170
+2021-05-06 08:40:31.2|Info|MigrationLoggerProvider|*** 171: quality_definition_preferred_size migrating ***
+2021-05-06 08:40:31.2|Info|quality_definition_preferred_size|Starting migration to 171
+2021-05-06 08:40:31.2|Info|MigrationLoggerProvider|*** 172: add_download_history migrating ***
+2021-05-06 08:40:31.2|Info|add_download_history|Starting migration to 172
+2021-05-06 08:40:31.2|Info|MigrationLoggerProvider|*** 173: net_import_status migrating ***
+2021-05-06 08:40:31.2|Info|net_import_status|Starting migration to 173
+2021-05-06 08:40:31.2|Info|MigrationLoggerProvider|*** 174: email_multiple_addresses migrating ***
+2021-05-06 08:40:31.2|Info|email_multiple_addresses|Starting migration to 174
+2021-05-06 08:40:31.2|Info|MigrationLoggerProvider|*** 175: remove_chown_and_folderchmod_config migrating ***
+2021-05-06 08:40:31.2|Info|remove_chown_and_folderchmod_config|Starting migration to 175
+2021-05-06 08:40:31.2|Info|MigrationLoggerProvider|*** 176: movie_recommendations migrating ***
+2021-05-06 08:40:31.2|Info|movie_recommendations|Starting migration to 176
+2021-05-06 08:40:31.2|Info|MigrationLoggerProvider|*** 177: language_improvements migrating ***
+2021-05-06 08:40:31.2|Info|language_improvements|Starting migration to 177
+2021-05-06 08:40:31.2|Info|MigrationLoggerProvider|*** 178: new_list_server migrating ***
+2021-05-06 08:40:31.2|Info|new_list_server|Starting migration to 178
+2021-05-06 08:40:31.2|Info|MigrationLoggerProvider|*** 179: movie_translation_indexes migrating ***
+2021-05-06 08:40:31.2|Info|movie_translation_indexes|Starting migration to 179
+2021-05-06 08:40:31.2|Info|MigrationLoggerProvider|*** 180: fix_invalid_profile_references migrating ***
+2021-05-06 08:40:31.3|Info|fix_invalid_profile_references|Starting migration to 180
+2021-05-06 08:40:31.3|Info|MigrationLoggerProvider|*** 181: list_movies_table migrating ***
+2021-05-06 08:40:31.3|Info|list_movies_table|Starting migration to 181
+2021-05-06 08:40:31.3|Info|MigrationLoggerProvider|*** 182: on_delete_notification migrating ***
+2021-05-06 08:40:31.3|Info|on_delete_notification|Starting migration to 182
+2021-05-06 08:40:31.3|Info|MigrationLoggerProvider|*** 183: download_propers_config migrating ***
+2021-05-06 08:40:31.3|Info|download_propers_config|Starting migration to 183
+2021-05-06 08:40:31.3|Info|MigrationLoggerProvider|*** 184: add_priority_to_indexers migrating ***
+2021-05-06 08:40:31.3|Info|add_priority_to_indexers|Starting migration to 184
+2021-05-06 08:40:31.3|Info|MigrationLoggerProvider|*** 185: add_alternative_title_indices migrating ***
+2021-05-06 08:40:31.3|Info|add_alternative_title_indices|Starting migration to 185
+2021-05-06 08:40:31.3|Info|MigrationLoggerProvider|*** 186: fix_tmdb_duplicates migrating ***
+2021-05-06 08:40:31.3|Info|fix_tmdb_duplicates|Starting migration to 186
+2021-05-06 08:40:31.3|Info|MigrationLoggerProvider|*** 187: swap_filechmod_for_folderchmod migrating ***
+2021-05-06 08:40:31.3|Info|swap_filechmod_for_folderchmod|Starting migration to 187
+2021-05-06 08:40:31.3|Info|MigrationLoggerProvider|*** 188: mediainfo_channels migrating ***
+2021-05-06 08:40:31.3|Info|mediainfo_channels|Starting migration to 188
+2021-05-06 08:40:31.3|Info|MigrationLoggerProvider|*** 189: add_update_history migrating ***
+2021-05-06 08:40:31.3|Info|add_update_history|Starting migration to 189
+2021-05-06 08:40:31.3|Info|MigrationLoggerProvider|*** 190: update_awesome_hd_link migrating ***
+2021-05-06 08:40:31.3|Info|update_awesome_hd_link|Starting migration to 190
+2021-05-06 08:40:31.3|Info|MigrationLoggerProvider|*** 191: remove_awesomehd migrating ***
+2021-05-06 08:40:31.3|Info|remove_awesomehd|Starting migration to 191
+2021-05-06 08:40:31.3|Info|MigrationLoggerProvider|*** 192: add_on_delete_to_notifications migrating ***
+2021-05-06 08:40:31.3|Info|add_on_delete_to_notifications|Starting migration to 192
+2021-05-06 08:40:31.6|Info|WebHostController|Listening on the following URLs:
+2021-05-06 08:40:31.6|Info|WebHostController|  http://*:7878
+2021-05-06 08:40:31.9|Info|RadarrBootstrapper|Starting Web Server
+2021-05-06 08:40:32.7|Info|UpdaterConfigProvider|Update mechanism BuiltIn not supported in the current configuration, changing to Docker.
+2021-05-06 08:40:32.9|Info|ProfileService|Setting up default quality profiles
+2021-05-06 08:40:33.0|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-06 08:41:38.1|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-06 08:41:38.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-06 08:41:38.7|Info|Router|Application mode: Interactive
+2021-05-06 08:41:38.7|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 08:41:38.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 08:41:39.2|Info|WebHostController|Listening on the following URLs:
+2021-05-06 08:41:39.2|Info|WebHostController|  http://*:7878
+2021-05-06 08:41:39.4|Info|RadarrBootstrapper|Starting Web Server
+2021-05-06 08:41:40.6|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-06 08:52:19.0|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-06 08:52:19.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-06 08:52:19.4|Info|Router|Application mode: Interactive
+2021-05-06 08:52:19.4|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 08:52:19.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 08:52:19.8|Info|WebHostController|Listening on the following URLs:
+2021-05-06 08:52:19.8|Info|WebHostController|  http://*:7878
+2021-05-06 08:52:19.9|Info|RadarrBootstrapper|Starting Web Server
+2021-05-06 08:52:20.8|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-06 08:53:46.1|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-06 08:53:46.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-06 08:53:46.5|Info|Router|Application mode: Interactive
+2021-05-06 08:53:46.6|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 08:53:46.7|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 08:53:46.9|Info|WebHostController|Listening on the following URLs:
+2021-05-06 08:53:46.9|Info|WebHostController|  http://*:7878
+2021-05-06 08:53:47.1|Info|RadarrBootstrapper|Starting Web Server
+2021-05-06 08:53:47.8|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-06 09:40:46.9|Info|RssSyncService|Starting RSS Sync
+2021-05-06 09:40:46.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2021-05-06 09:40:46.9|Info|DownloadDecisionMaker|No results found
+2021-05-06 09:40:46.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2021-05-06 10:28:31.3|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-06 10:28:31.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-06 10:28:31.7|Info|Router|Application mode: Interactive
+2021-05-06 10:28:31.8|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 10:28:31.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 10:28:32.2|Info|WebHostController|Listening on the following URLs:
+2021-05-06 10:28:32.2|Info|WebHostController|  http://*:7878
+2021-05-06 10:28:32.4|Info|RadarrBootstrapper|Starting Web Server
+2021-05-06 10:28:33.4|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-06 10:32:57.9|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-06 10:32:58.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-06 10:32:58.4|Info|Router|Application mode: Interactive
+2021-05-06 10:32:58.4|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 10:32:58.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 10:32:58.9|Info|WebHostController|Listening on the following URLs:
+2021-05-06 10:32:58.9|Info|WebHostController|  http://*:7878
+2021-05-06 10:32:59.1|Info|RadarrBootstrapper|Starting Web Server
+2021-05-06 10:33:00.1|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-06 10:40:59.9|Info|RssSyncService|Starting RSS Sync
+2021-05-06 10:41:00.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2021-05-06 10:41:00.0|Info|DownloadDecisionMaker|No results found
+2021-05-06 10:41:00.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2021-05-06 11:41:28.5|Info|RssSyncService|Starting RSS Sync
+2021-05-06 11:41:28.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2021-05-06 11:41:28.5|Info|DownloadDecisionMaker|No results found
+2021-05-06 11:41:28.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2021-05-06 12:36:49.1|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-06 12:36:50.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-06 12:36:50.2|Info|Router|Application mode: Interactive
+2021-05-06 12:36:50.3|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 12:36:50.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 12:36:51.0|Info|WebHostController|Listening on the following URLs:
+2021-05-06 12:36:51.0|Info|WebHostController|  http://*:7878
+2021-05-06 12:36:51.2|Info|RadarrBootstrapper|Starting Web Server
+2021-05-06 12:36:52.9|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-06 12:53:28.2|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-06 12:53:28.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-06 12:53:28.6|Info|Router|Application mode: Interactive
+2021-05-06 12:53:28.7|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 12:53:28.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 12:53:29.0|Info|WebHostController|Listening on the following URLs:
+2021-05-06 12:53:29.0|Info|WebHostController|  http://*:7878
+2021-05-06 12:53:29.2|Info|RadarrBootstrapper|Starting Web Server
+2021-05-06 12:53:30.4|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-06 12:54:00.6|Info|RssSyncService|Starting RSS Sync
+2021-05-06 12:54:00.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2021-05-06 12:54:00.7|Info|DownloadDecisionMaker|No results found
+2021-05-06 12:54:00.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2021-05-06 12:55:37.2|Warn|Torznab|GkTorrent does not support the following categories: 2010, 2020, 2030, 2040, 2045, 2050, 2060. You should probably remove them.
+2021-05-06 12:55:39.0|Warn|Torznab|GkTorrent does not support the following categories: 2010, 2020, 2030, 2040, 2045, 2050, 2060. You should probably remove them.
+2021-05-06 12:56:01.5|Warn|Torznab|OxTorrent does not support the following categories: 2010, 2020, 2030, 2040, 2045, 2050, 2060. You should probably remove them.
+2021-05-06 12:56:03.3|Warn|Torznab|OxTorrent does not support the following categories: 2010, 2020, 2030, 2040, 2045, 2050, 2060. You should probably remove them.
+2021-05-06 12:56:21.7|Warn|Torznab|Unable to connect to indexer
+
+[v3.1.1.4954] System.Net.WebException: Cannot assign requested address [::1]:9117 (localhost:9117): 'http://localhost:9117/api/v2.0/indexers/torrent9/results/torznab/api?t=caps&apikey=(removed) ---> System.Net.WebException: Cannot assign requested address [::1]:9117 (localhost:9117)
+ ---> System.Net.Http.HttpRequestException: Cannot assign requested address [::1]:9117 (localhost:9117)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (99): Cannot assign requested address [::1]:9117
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Http.ConnectHelper.Connect(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.Connect(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DelegatingHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClientHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 81
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 107
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 241
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 57
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 114
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 34
+   at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 23
+   at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator() in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:line 27
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 325
+
+
+2021-05-06 12:56:21.7|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to connect to indexer, check the log for more details
+2021-05-06 12:56:38.4|Warn|Torznab|Torrent9 does not support the following categories: 2010, 2020, 2030, 2040, 2045, 2050, 2060. You should probably remove them.
+2021-05-06 12:56:38.7|Warn|Torznab|Torrent9 does not support the following categories: 2010, 2020, 2030, 2040, 2045, 2050, 2060. You should probably remove them.
+2021-05-06 12:56:42.6|Warn|Torznab|Torrent9 does not support the following categories: 2010, 2020, 2030, 2040, 2045, 2050, 2060. You should probably remove them.
+2021-05-06 12:56:44.6|Warn|Torznab|Torrent9 does not support the following categories: 2010, 2020, 2030, 2040, 2045, 2050, 2060. You should probably remove them.
+2021-05-06 12:58:37.3|Error|Deluge|Failed to authenticate with Deluge.
+
+[v3.1.1.4954] NzbDrone.Core.Download.Clients.DownloadClientAuthenticationException: Failed to authenticate with Deluge.
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.AuthenticateClient(JsonRpcRequestBuilder requestBuilder, DelugeSettings settings, Boolean reauthenticate) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 312
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.BuildRequest(DelugeSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 214
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult](DelugeSettings settings, String method, Object[] arguments) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 221
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetVersion(DelugeSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 54
+   at NzbDrone.Core.Download.Clients.Deluge.Deluge.TestConnection() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:line 247
+
+
+2021-05-06 12:58:37.4|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- Password: Authentication failed
+2021-05-06 13:03:01.8|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-06 13:03:02.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-06 13:03:02.7|Info|Router|Application mode: Interactive
+2021-05-06 13:03:02.8|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 13:03:03.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-06 13:03:03.6|Info|WebHostController|Listening on the following URLs:
+2021-05-06 13:03:03.6|Info|WebHostController|  http://*:7878
+2021-05-06 13:03:04.0|Info|RadarrBootstrapper|Starting Web Server
+2021-05-06 13:03:05.3|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-07 08:15:28.8|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-07 08:15:29.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-07 08:15:30.1|Info|Router|Application mode: Interactive
+2021-05-07 08:15:30.3|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-07 08:15:30.7|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-07 08:15:31.4|Info|WebHostController|Listening on the following URLs:
+2021-05-07 08:15:31.4|Info|WebHostController|  http://*:7878
+2021-05-07 08:15:31.9|Info|RadarrBootstrapper|Starting Web Server
+2021-05-07 08:15:32.9|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-07 08:16:03.3|Info|RssSyncService|Starting RSS Sync
+2021-05-07 08:16:06.8|Info|DownloadDecisionMaker|Processing 75 releases
+2021-05-07 08:16:07.6|Info|RssSyncService|RSS Sync Completed. Reports found: 75, Reports grabbed: 0
+2021-05-07 08:41:02.4|Info|HousekeepingService|Running housecleaning tasks
+2021-05-07 08:41:02.4|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2021-05-07 08:41:02.5|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2021-05-07 08:41:02.6|Info|Database|Vacuuming Log database
+2021-05-07 08:41:02.6|Info|Database|Log database compressed
+2021-05-07 08:41:02.6|Info|Database|Vacuuming Main database
+2021-05-07 08:41:02.7|Info|Database|Main database compressed
+2021-05-07 08:42:32.0|Error|LocalizationService|Missing translation/culture resource: /app/radarr/bin/Localization/Core/fr_FR.json
+2021-05-07 08:43:50.2|Info|AddMovieService|Adding Movie [The Dark Knight (2008)][tt0468569, 155] Path: [/movies/The Dark Knight (2008)]
+2021-05-07 08:43:50.2|Info|RefreshMovieService|Updating info for The Dark Knight
+2021-05-07 08:43:50.2|Warn|MediaCoverMapper|File /config/MediaCover/1/poster.jpg not found
+2021-05-07 08:43:50.9|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 08:43:50.9|Info|MediaCoverService|Downloading Poster for [The Dark Knight (2008)][tt0468569, 155] https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg
+2021-05-07 08:43:50.9|Info|MovieScannedHandler|[The Dark Knight] was recently added, performing post-add actions
+2021-05-07 08:43:51.0|Info|NzbSearchService|Searching 3 indexers for [The Dark Knight]
+2021-05-07 08:43:55.0|Info|MediaCoverService|Downloading Fanart for [The Dark Knight (2008)][tt0468569, 155] https://image.tmdb.org/t/p/original/hkBaDkMWbLaf8B1lsWsKX7Ew3Xq.jpg
+2021-05-07 08:43:57.4|Info|DownloadDecisionMaker|Processing 8 releases
+2021-05-07 08:43:58.6|Info|DownloadService|Report sent to Deluge. The Dark Knight : Le Chevalier noir 2008 FRENCH HDLight 1080p 
+2021-05-07 08:43:58.6|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2021-05-07 08:44:03.4|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 08:55:05.8|Info|AddMovieService|Adding Movie [Summer of 85 (2020)][tt10457128, 659959] Path: [/movies/Summer of 85 (2020)]
+2021-05-07 08:55:05.8|Info|RefreshMovieService|Updating info for Summer of 85
+2021-05-07 08:55:06.1|Info|MediaCoverService|Downloading Poster for [Summer of 85 (2020)][tt10457128, 659959] https://image.tmdb.org/t/p/original/ughGaKUpO61Eo0HDNq1pg6eNcfS.jpg
+2021-05-07 08:55:06.1|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 08:55:06.1|Info|MovieScannedHandler|[Summer of 85] was recently added, performing post-add actions
+2021-05-07 08:55:06.3|Info|NzbSearchService|Searching 3 indexers for [Summer of 85]
+2021-05-07 08:55:06.3|Info|MediaCoverService|Downloading Fanart for [Summer of 85 (2020)][tt10457128, 659959] https://image.tmdb.org/t/p/original/5NMxiETEUCT4297zrMdimNR5VqS.jpg
+2021-05-07 08:55:07.0|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 08:55:08.7|Info|DownloadDecisionMaker|No results found
+2021-05-07 08:55:08.7|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 08:55:09.2|Info|AddMovieService|Adding Movie [Teddy (2021)][tt10469804, 712123] Path: [/movies/Teddy (2021)]
+2021-05-07 08:55:09.2|Info|RefreshMovieService|Updating info for Teddy
+2021-05-07 08:55:09.5|Info|MediaCoverService|Downloading Poster for [Teddy (2021)][tt10469804, 712123] https://image.tmdb.org/t/p/original/54cw4B65RwGvs4pvkcT9WNBhcPX.jpg
+2021-05-07 08:55:09.5|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 08:55:09.5|Info|MovieScannedHandler|[Teddy] was recently added, performing post-add actions
+2021-05-07 08:55:09.6|Info|NzbSearchService|Searching 3 indexers for [Teddy]
+2021-05-07 08:55:12.0|Info|DownloadDecisionMaker|No results found
+2021-05-07 08:55:12.0|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 08:55:17.0|Info|AddMovieService|Adding Movie [Benedetta (2021)][tt6823148, 454527] Path: [/movies/Benedetta (2021)]
+2021-05-07 08:55:17.0|Info|RefreshMovieService|Updating info for Benedetta
+2021-05-07 08:55:17.2|Info|MediaCoverService|Downloading Poster for [Benedetta (2021)][tt6823148, 454527] https://image.tmdb.org/t/p/original/tFiNuFtfcDGZxp5vxTBdo9EvhPJ.jpg
+2021-05-07 08:55:17.2|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 08:55:17.2|Info|MovieScannedHandler|[Benedetta] was recently added, performing post-add actions
+2021-05-07 08:55:17.3|Info|NzbSearchService|Searching 3 indexers for [Benedetta]
+2021-05-07 08:55:17.8|Info|MediaCoverService|Downloading Fanart for [Benedetta (2021)][tt6823148, 454527] https://image.tmdb.org/t/p/original/fLZshCIFoLm3IypozhQ9Tnj0cd8.jpg
+2021-05-07 08:55:17.8|Info|MediaCoverService|Downloading Fanart for [Teddy (2021)][tt10469804, 712123] https://image.tmdb.org/t/p/original/ji9XFo11aN2zkDcSvwDd6bhvkaD.jpg
+2021-05-07 08:55:18.0|Info|DownloadDecisionMaker|No results found
+2021-05-07 08:55:18.0|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 08:55:18.5|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 08:55:18.8|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 08:56:00.5|Info|AddMovieService|Adding Movie [Oxygen (2021)][tt6341832, 471498] Path: [/movies/Oxygen (2021)]
+2021-05-07 08:56:00.5|Info|RefreshMovieService|Updating info for Oxygen
+2021-05-07 08:56:00.7|Info|MediaCoverService|Downloading Poster for [Oxygen (2021)][tt6341832, 471498] https://image.tmdb.org/t/p/original/9djnXnD9JiuR5WngLDD3pSmiGYu.jpg
+2021-05-07 08:56:00.7|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 08:56:00.7|Info|MovieScannedHandler|[Oxygen] was recently added, performing post-add actions
+2021-05-07 08:56:00.7|Info|NzbSearchService|Searching 3 indexers for [Oxygen]
+2021-05-07 08:56:00.8|Info|MediaCoverService|Downloading Fanart for [Oxygen (2021)][tt6341832, 471498] https://image.tmdb.org/t/p/original/ngavnE7Go8uHZBIulRiLccB2yo2.jpg
+2021-05-07 08:56:01.2|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 08:56:03.1|Info|DownloadDecisionMaker|No results found
+2021-05-07 08:56:03.1|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 08:56:03.6|Info|AddMovieService|Adding Movie [OSS 117: Red Alert in Black Africa (2021)][tt7972012, 604563] Path: [/movies/OSS 117 Red Alert in Black Africa (2021)]
+2021-05-07 08:56:03.6|Info|RefreshMovieService|Updating info for OSS 117: Red Alert in Black Africa
+2021-05-07 08:56:03.7|Info|MediaCoverService|Downloading Poster for [OSS 117: Red Alert in Black Africa (2021)][tt7972012, 604563] https://image.tmdb.org/t/p/original/6J0F1q9cJstqHbtaoS9nTQ4oCbx.jpg
+2021-05-07 08:56:03.7|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 08:56:03.7|Info|MovieScannedHandler|[OSS 117: Red Alert in Black Africa] was recently added, performing post-add actions
+2021-05-07 08:56:03.9|Info|NzbSearchService|Searching 3 indexers for [OSS 117: Red Alert in Black Africa]
+2021-05-07 08:56:04.1|Info|MediaCoverService|Downloading Fanart for [OSS 117: Red Alert in Black Africa (2021)][tt7972012, 604563] https://image.tmdb.org/t/p/original/8XhGzjS4MGbpprBbgwGzyyBvxXR.jpg
+2021-05-07 08:56:04.6|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 08:56:06.7|Info|AddMovieService|Adding Movie [Meander (2021)][tt5752192, 523936] Path: [/movies/Meander (2021)]
+2021-05-07 08:56:06.7|Info|RefreshMovieService|Updating info for Meander
+2021-05-07 08:56:06.8|Info|MediaCoverService|Downloading Poster for [Meander (2021)][tt5752192, 523936] https://image.tmdb.org/t/p/original/2QTIZdjqhSe40phTvlH8RN8na1Z.jpg
+2021-05-07 08:56:06.8|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 08:56:06.8|Info|MovieScannedHandler|[Meander] was recently added, performing post-add actions
+2021-05-07 08:56:06.9|Info|NzbSearchService|Searching 3 indexers for [Meander]
+2021-05-07 08:56:07.0|Info|MediaCoverService|Downloading Fanart for [Meander (2021)][tt5752192, 523936] https://image.tmdb.org/t/p/original/sgYvrv6w6VsKhdsnH7NyuW4oWGU.jpg
+2021-05-07 08:56:07.2|Info|DownloadDecisionMaker|No results found
+2021-05-07 08:56:07.2|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 08:56:07.3|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 08:56:11.2|Info|DownloadDecisionMaker|No results found
+2021-05-07 08:56:11.2|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 08:57:09.8|Info|AddMovieService|Adding Movie [The Intouchables (2011)][tt1675434, 77338] Path: [/movies/The Intouchables (2011)]
+2021-05-07 08:57:09.8|Info|RefreshMovieService|Updating info for The Intouchables
+2021-05-07 08:57:10.1|Info|MediaCoverService|Downloading Poster for [The Intouchables (2011)][tt1675434, 77338] https://image.tmdb.org/t/p/original/ttx4GQl0azO6NJFWj4XNZCQOY7S.jpg
+2021-05-07 08:57:10.1|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 08:57:10.1|Info|MovieScannedHandler|[The Intouchables] was recently added, performing post-add actions
+2021-05-07 08:57:10.2|Info|NzbSearchService|Searching 3 indexers for [The Intouchables]
+2021-05-07 08:57:11.3|Info|MediaCoverService|Downloading Fanart for [The Intouchables (2011)][tt1675434, 77338] https://image.tmdb.org/t/p/original/bGksau9GGu0uJ8DJQ8DYc9JW5LM.jpg
+2021-05-07 08:57:11.9|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 08:57:12.2|Info|DownloadDecisionMaker|Processing 7 releases
+2021-05-07 08:57:13.1|Info|AddMovieService|Adding Movie [Amélie (2001)][tt0211915, 194] Path: [/movies/Amélie (2001)]
+2021-05-07 08:57:13.1|Info|RefreshMovieService|Updating info for Amélie
+2021-05-07 08:57:13.3|Info|DownloadService|Report sent to Deluge. Intouchables 2011 FRENCH HDLight 1080p 
+2021-05-07 08:57:13.3|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2021-05-07 08:57:13.5|Info|MediaCoverService|Downloading Poster for [Amélie (2001)][tt0211915, 194] https://image.tmdb.org/t/p/original/vZ9NhNbQQ3yhtiC5sbhpy5KTXns.jpg
+2021-05-07 08:57:13.5|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 08:57:13.5|Info|MovieScannedHandler|[Amélie] was recently added, performing post-add actions
+2021-05-07 08:57:13.6|Info|NzbSearchService|Searching 3 indexers for [Amélie]
+2021-05-07 08:57:13.6|Info|MediaCoverService|Downloading Fanart for [Amélie (2001)][tt0211915, 194] https://image.tmdb.org/t/p/original/2WyjkKudTkDgtZo9CIN8NoPGHRB.jpg
+2021-05-07 08:57:13.9|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 08:57:16.3|Info|AddMovieService|Adding Movie [Anna (2019)][tt7456310, 484641] Path: [/movies/Anna (2019)]
+2021-05-07 08:57:16.3|Info|RefreshMovieService|Updating info for Anna
+2021-05-07 08:57:16.5|Info|MediaCoverService|Downloading Poster for [Anna (2019)][tt7456310, 484641] https://image.tmdb.org/t/p/original/2U0oAVAE0lDRhNmJPPYhDW9kQ8t.jpg
+2021-05-07 08:57:16.5|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 08:57:16.6|Info|MovieScannedHandler|[Anna] was recently added, performing post-add actions
+2021-05-07 08:57:16.8|Info|DownloadDecisionMaker|Processing 2 releases
+2021-05-07 08:57:16.8|Info|NzbSearchService|Searching 3 indexers for [Anna]
+2021-05-07 08:57:16.8|Info|MediaCoverService|Downloading Fanart for [Anna (2019)][tt7456310, 484641] https://image.tmdb.org/t/p/original/c1YQcpqsljC7lYEmTIeftcl22VS.jpg
+2021-05-07 08:57:17.7|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 08:57:18.7|Info|DownloadDecisionMaker|Processing 35 releases
+2021-05-07 08:57:19.1|Info|DownloadService|Report sent to Deluge. Le Fabuleux Destin d Amelie Poulain 2001 FRENCH HDlight 1080p 
+2021-05-07 08:57:19.1|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2021-05-07 08:57:21.2|Info|DownloadService|Report sent to Deluge. Anna 2019 TRUEFRENCH BluRay 1080p 
+2021-05-07 08:57:21.2|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2021-05-07 08:57:29.3|Info|AddMovieService|Adding Movie [Raw (2016)][tt4954522, 393519] Path: [/movies/Raw (2016)]
+2021-05-07 08:57:29.3|Info|RefreshMovieService|Updating info for Raw
+2021-05-07 08:57:29.9|Info|MediaCoverService|Downloading Poster for [Raw (2016)][tt4954522, 393519] https://image.tmdb.org/t/p/original/kc8jT1MAiKM0iwdjAwC5lQrTNry.jpg
+2021-05-07 08:57:29.9|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 08:57:29.9|Info|MovieScannedHandler|[Raw] was recently added, performing post-add actions
+2021-05-07 08:57:29.9|Info|NzbSearchService|Searching 3 indexers for [Raw]
+2021-05-07 08:57:31.7|Info|MediaCoverService|Downloading Fanart for [Raw (2016)][tt4954522, 393519] https://image.tmdb.org/t/p/original/46GikxYW84dRh71sWVY0eRQiHLX.jpg
+2021-05-07 08:57:32.5|Info|DownloadDecisionMaker|No results found
+2021-05-07 08:57:32.5|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 08:57:32.8|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 08:57:33.4|Info|AddMovieService|Adding Movie [Five (2016)][tt4741714, 381356] Path: [/movies/Five (2016)]
+2021-05-07 08:57:33.5|Info|RefreshMovieService|Updating info for Five
+2021-05-07 08:57:34.8|Info|MediaCoverService|Downloading Poster for [Five (2016)][tt4741714, 381356] https://image.tmdb.org/t/p/original/20WSLvExcsjv8wDBePiVpYeAgav.jpg
+2021-05-07 08:57:34.8|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 08:57:34.8|Info|MovieScannedHandler|[Five] was recently added, performing post-add actions
+2021-05-07 08:57:34.8|Info|NzbSearchService|Searching 3 indexers for [Five]
+2021-05-07 08:57:35.4|Info|DownloadDecisionMaker|Processing 1 releases
+2021-05-07 08:57:35.4|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 08:57:35.8|Info|MediaCoverService|Downloading Fanart for [Five (2016)][tt4741714, 381356] https://image.tmdb.org/t/p/original/A2rJ9r1e90Ir1dJoLHGRHWtTWSv.jpg
+2021-05-07 08:57:36.7|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 08:57:37.0|Info|AddMovieService|Adding Movie [My Cousin (2020)][tt10023150, 601297] Path: [/movies/My Cousin (2020)]
+2021-05-07 08:57:37.0|Info|RefreshMovieService|Updating info for My Cousin
+2021-05-07 08:57:37.3|Info|MediaCoverService|Downloading Poster for [My Cousin (2020)][tt10023150, 601297] https://image.tmdb.org/t/p/original/wRGGPn8iukAYqCwbqMyw60DH6KV.jpg
+2021-05-07 08:57:37.3|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 08:57:37.4|Info|MovieScannedHandler|[My Cousin] was recently added, performing post-add actions
+2021-05-07 08:57:37.4|Info|NzbSearchService|Searching 3 indexers for [My Cousin]
+2021-05-07 08:57:39.4|Info|MediaCoverService|Downloading Fanart for [My Cousin (2020)][tt10023150, 601297] https://image.tmdb.org/t/p/original/wbJFtHk4xvLH1YAHL2X9tt01ffo.jpg
+2021-05-07 08:57:39.9|Info|DownloadDecisionMaker|Processing 3 releases
+2021-05-07 08:57:39.9|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 08:57:40.3|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 09:05:58.2|Info|AddMovieService|Adding Movie [The Dry (2021)][tt5144174, 567797] Path: [/movies/The Dry (2021)]
+2021-05-07 09:05:58.2|Info|RefreshMovieService|Updating info for The Dry
+2021-05-07 09:05:58.4|Info|MediaCoverService|Downloading Poster for [The Dry (2021)][tt5144174, 567797] https://image.tmdb.org/t/p/original/zM12bfL2TEqVRXjiQIFUWUMLcCg.jpg
+2021-05-07 09:05:58.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 09:05:58.4|Info|MovieScannedHandler|[The Dry] was recently added, performing post-add actions
+2021-05-07 09:05:58.5|Info|NzbSearchService|Searching 3 indexers for [The Dry]
+2021-05-07 09:05:58.7|Info|MediaCoverService|Downloading Fanart for [The Dry (2021)][tt5144174, 567797] https://image.tmdb.org/t/p/original/sGIfwDYvfU0h1G7pGWEhdEi9hT2.jpg
+2021-05-07 09:05:59.1|Info|DownloadDecisionMaker|No results found
+2021-05-07 09:05:59.1|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 09:05:59.8|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 09:06:01.3|Info|AddMovieService|Adding Movie [Above Suspicion (2019)][tt5688068, 421473] Path: [/movies/Above Suspicion (2019)]
+2021-05-07 09:06:01.4|Info|RefreshMovieService|Updating info for Above Suspicion
+2021-05-07 09:06:01.6|Info|MediaCoverService|Downloading Poster for [Above Suspicion (2019)][tt5688068, 421473] https://image.tmdb.org/t/p/original/kpZ2SfwLHjuf2HmgaFko32cPgbl.jpg
+2021-05-07 09:06:01.6|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 09:06:01.6|Info|MovieScannedHandler|[Above Suspicion] was recently added, performing post-add actions
+2021-05-07 09:06:01.6|Info|NzbSearchService|Searching 3 indexers for [Above Suspicion]
+2021-05-07 09:06:01.9|Info|MediaCoverService|Downloading Fanart for [Above Suspicion (2019)][tt5688068, 421473] https://image.tmdb.org/t/p/original/np8F1uaawPO58wuBE8PgSXKo5F7.jpg
+2021-05-07 09:06:02.3|Info|DownloadDecisionMaker|No results found
+2021-05-07 09:06:02.3|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 09:06:02.5|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 09:06:04.5|Info|AddMovieService|Adding Movie [Riders of Justice (2020)][tt11655202, 663870] Path: [/movies/Riders of Justice (2020)]
+2021-05-07 09:06:04.5|Info|RefreshMovieService|Updating info for Riders of Justice
+2021-05-07 09:06:04.7|Info|MediaCoverService|Downloading Poster for [Riders of Justice (2020)][tt11655202, 663870] https://image.tmdb.org/t/p/original/yBi0eNLKqqB6bOK9dKBb56Q69i1.jpg
+2021-05-07 09:06:04.7|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 09:06:04.7|Info|MovieScannedHandler|[Riders of Justice] was recently added, performing post-add actions
+2021-05-07 09:06:04.8|Info|NzbSearchService|Searching 3 indexers for [Riders of Justice]
+2021-05-07 09:06:04.9|Info|MediaCoverService|Downloading Fanart for [Riders of Justice (2020)][tt11655202, 663870] https://image.tmdb.org/t/p/original/7XZsVVnqTsMJXg3J4CHzeV2Lro9.jpg
+2021-05-07 09:06:06.1|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 09:06:07.2|Info|DownloadDecisionMaker|No results found
+2021-05-07 09:06:07.2|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 09:06:15.9|Info|AddMovieService|Adding Movie [Godzilla vs. Kong (2021)][tt5034838, 399566] Path: [/movies/Godzilla vs. Kong (2021)]
+2021-05-07 09:06:16.0|Info|RefreshMovieService|Updating info for Godzilla vs. Kong
+2021-05-07 09:06:16.2|Info|MediaCoverService|Downloading Poster for [Godzilla vs. Kong (2021)][tt5034838, 399566] https://image.tmdb.org/t/p/original/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg
+2021-05-07 09:06:16.2|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 09:06:16.2|Info|MovieScannedHandler|[Godzilla vs. Kong] was recently added, performing post-add actions
+2021-05-07 09:06:16.4|Info|NzbSearchService|Searching 3 indexers for [Godzilla vs. Kong]
+2021-05-07 09:06:16.5|Info|MediaCoverService|Downloading Fanart for [Godzilla vs. Kong (2021)][tt5034838, 399566] https://image.tmdb.org/t/p/original/inJjDhCjfhh3RtrJWBmmDqeuSYC.jpg
+2021-05-07 09:06:16.9|Info|DownloadDecisionMaker|Processing 12 releases
+2021-05-07 09:06:17.4|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 09:06:18.6|Info|DownloadService|Report sent to Deluge. Godzilla vs Kong 2021 TRUEFRENCH WEBRIP 1080p 
+2021-05-07 09:06:18.7|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2021-05-07 09:06:19.5|Info|AddMovieService|Adding Movie [Mortal Kombat (2021)][tt0293429, 460465] Path: [/movies/Mortal Kombat (2021)]
+2021-05-07 09:06:19.5|Info|RefreshMovieService|Updating info for Mortal Kombat
+2021-05-07 09:06:19.7|Info|MediaCoverService|Downloading Poster for [Mortal Kombat (2021)][tt0293429, 460465] https://image.tmdb.org/t/p/original/xGuOF1T3WmPsAcQEQJfnG7Ud9f8.jpg
+2021-05-07 09:06:19.7|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 09:06:19.7|Info|MovieScannedHandler|[Mortal Kombat] was recently added, performing post-add actions
+2021-05-07 09:06:19.8|Info|NzbSearchService|Searching 3 indexers for [Mortal Kombat]
+2021-05-07 09:06:20.0|Info|MediaCoverService|Downloading Fanart for [Mortal Kombat (2021)][tt0293429, 460465] https://image.tmdb.org/t/p/original/9yBVqNruk6Ykrwc32qrK2TIE5xw.jpg
+2021-05-07 09:06:20.2|Info|DownloadDecisionMaker|Processing 10 releases
+2021-05-07 09:06:21.6|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 09:06:22.0|Info|DownloadService|Report sent to Deluge. Mortal Kombat 2021 TRUEFRENCH WEBRIP 1080p 
+2021-05-07 09:06:22.1|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2021-05-07 09:06:23.0|Info|AddMovieService|Adding Movie [Nobody (2021)][tt7888964, 615457] Path: [/movies/Nobody (2021)]
+2021-05-07 09:06:23.0|Info|RefreshMovieService|Updating info for Nobody
+2021-05-07 09:06:23.4|Info|MediaCoverService|Downloading Poster for [Nobody (2021)][tt7888964, 615457] https://image.tmdb.org/t/p/original/oBgWY00bEFeZ9N25wWVyuQddbAo.jpg
+2021-05-07 09:06:23.4|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 09:06:23.4|Info|MovieScannedHandler|[Nobody] was recently added, performing post-add actions
+2021-05-07 09:06:23.4|Info|NzbSearchService|Searching 3 indexers for [Nobody]
+2021-05-07 09:06:23.9|Info|DownloadDecisionMaker|Processing 12 releases
+2021-05-07 09:06:24.6|Info|MediaCoverService|Downloading Fanart for [Nobody (2021)][tt7888964, 615457] https://image.tmdb.org/t/p/original/6zbKgwgaaCyyBXE4Sun4oWQfQmi.jpg
+2021-05-07 09:06:25.7|Info|DownloadService|Report sent to Deluge. Nobody 2021 FRENCH WEBRIP 1080p 
+2021-05-07 09:06:25.7|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2021-05-07 09:06:26.3|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 09:06:28.7|Info|AddMovieService|Adding Movie [The Unholy (2021)][tt9419056, 632357] Path: [/movies/The Unholy (2021)]
+2021-05-07 09:06:28.8|Info|RefreshMovieService|Updating info for The Unholy
+2021-05-07 09:06:29.2|Info|MediaCoverService|Downloading Poster for [The Unholy (2021)][tt9419056, 632357] https://image.tmdb.org/t/p/original/b4gYVcl8pParX8AjkN90iQrWrWO.jpg
+2021-05-07 09:06:29.2|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 09:06:29.2|Info|MovieScannedHandler|[The Unholy] was recently added, performing post-add actions
+2021-05-07 09:06:29.4|Info|NzbSearchService|Searching 3 indexers for [The Unholy]
+2021-05-07 09:06:29.7|Info|MediaCoverService|Downloading Fanart for [The Unholy (2021)][tt9419056, 632357] https://image.tmdb.org/t/p/original/zDq2pwPyt4xwSFHKUoNN2LohDWj.jpg
+2021-05-07 09:06:30.1|Info|DownloadDecisionMaker|No results found
+2021-05-07 09:06:30.1|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 09:06:31.5|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 09:06:32.1|Info|AddMovieService|Adding Movie [Separation (2021)][tt9173154, 760195] Path: [/movies/Separation (2021)]
+2021-05-07 09:06:32.2|Info|RefreshMovieService|Updating info for Separation
+2021-05-07 09:06:32.6|Info|MediaCoverService|Downloading Poster for [Separation (2021)][tt9173154, 760195] https://image.tmdb.org/t/p/original/u97rvkruZxoIUio3r3ZySFETHB7.jpg
+2021-05-07 09:06:32.6|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 09:06:32.6|Info|MovieScannedHandler|[Separation] was recently added, performing post-add actions
+2021-05-07 09:06:32.7|Info|NzbSearchService|Searching 3 indexers for [Separation]
+2021-05-07 09:06:33.3|Info|DownloadDecisionMaker|No results found
+2021-05-07 09:06:33.3|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 09:06:33.4|Info|MediaCoverService|Downloading Fanart for [Separation (2021)][tt9173154, 760195] https://image.tmdb.org/t/p/original/26hRDM4CI2SWYanJ2S2uGOmfK5M.jpg
+2021-05-07 09:06:34.0|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 09:06:36.0|Info|AddMovieService|Adding Movie [Together Together (2021)][tt11285280, 776515] Path: [/movies/Together Together (2021)]
+2021-05-07 09:06:36.0|Info|RefreshMovieService|Updating info for Together Together
+2021-05-07 09:06:36.9|Info|MediaCoverService|Downloading Poster for [Together Together (2021)][tt11285280, 776515] https://image.tmdb.org/t/p/original/9WtVYwBs3a5zIzuSc169VLBIiS.jpg
+2021-05-07 09:06:36.9|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-07 09:06:36.9|Info|MovieScannedHandler|[Together Together] was recently added, performing post-add actions
+2021-05-07 09:06:36.9|Info|NzbSearchService|Searching 3 indexers for [Together Together]
+2021-05-07 09:06:37.5|Info|DownloadDecisionMaker|No results found
+2021-05-07 09:06:37.5|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2021-05-07 09:06:37.7|Info|MediaCoverService|Downloading Fanart for [Together Together (2021)][tt11285280, 776515] https://image.tmdb.org/t/p/original/4AFOBeCrrjAKFHyY7ZrD22GinyL.jpg
+2021-05-07 09:06:39.0|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-07 09:12:56.9|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-07 09:12:57.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-07 09:12:57.3|Info|Router|Application mode: Interactive
+2021-05-07 09:12:57.4|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-07 09:12:57.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-07 09:12:58.0|Info|WebHostController|Listening on the following URLs:
+2021-05-07 09:12:58.0|Info|WebHostController|  http://*:7878
+2021-05-07 09:12:58.2|Info|RadarrBootstrapper|Starting Web Server
+2021-05-07 09:12:59.1|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-07 09:16:29.2|Info|RssSyncService|Starting RSS Sync
+2021-05-07 09:16:30.6|Info|DownloadDecisionMaker|Processing 75 releases
+2021-05-07 09:16:31.5|Info|RssSyncService|RSS Sync Completed. Reports found: 75, Reports grabbed: 0

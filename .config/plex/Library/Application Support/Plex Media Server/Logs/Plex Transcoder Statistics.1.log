@@ -1,0 +1,18 @@
+<SessionReport version="2" startTime="0" startTimestamp="May 06, 2021 11:00:09.940" transcode="5cce5658-87b8-4dbe-9da3-3945b4f4396a">
+<User id="0" title="" />
+<Player address="0.0.0.0" device="" machineIdentifier="" model="" platform="" platformVersion="" product="" remotePublicAddress="0.0.0.0" state="" title="" vendor="" version="" local="0" relayed="0" secure="0" userID="0" />
+<Variants>
+<Variant id="667ce07c-a701-4f85-bc52-dddd3e916b1a" context="static" sourceVideoCodec="mpeg4" sourceAudioCodec="mp3" videoDecision="transcode" audioDecision="transcode" protocol="http" container="mp4" videoCodec="h264" audioCodec="aac" audioChannels="2" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media id="4" videoProfile="simple" audioChannels="2" audioCodec="aac" bitrate="1744" container="mp4" duration="3558583" height="406" optimizedForStreaming="1" videoCodec="h264" videoFrameRate="24p" videoResolution="SD" width="720" selected="1">
+<Part accessible="1" exists="1" id="4" videoProfile="simple" bitrate="1744" container="mp4" duration="3558583" height="406" optimizedForStreaming="1" width="720" decision="transcode" selected="1">
+<Stream bitrate="1488" codec="h264" displayTitle="SD (MPEG4)" extendedDisplayTitle="SD (MPEG4)" frameRate="24" height="406" id="7" streamType="1" width="720" decision="transcode" location="direct" />
+<Stream bitrate="256" bitrateMode="cbr" channels="2" codec="aac" displayTitle="Unknown (MP3 Stereo)" extendedDisplayTitle="French (MP3 Stereo)" id="8" selected="1" streamType="2" decision="transcode" location="direct" />
+</Part>
+</Media>
+</Variant>
+</Variants>
+<SegmentList />
+<PlaybackReports />
+<StateReports />
+<StateReports />
+</SessionReport>

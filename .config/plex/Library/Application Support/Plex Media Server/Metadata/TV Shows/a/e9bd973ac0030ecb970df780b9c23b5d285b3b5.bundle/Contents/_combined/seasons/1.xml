@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Season>
+  <art/>
+  <banners/>
+  <episodes>
+    <item external="True" key="1" originally_available_at="2019-05-06"/>
+    <item external="True" key="3" originally_available_at="2019-05-20"/>
+    <item external="True" key="2" originally_available_at="2019-05-13"/>
+    <item external="True" key="5" originally_available_at="2019-06-03"/>
+    <item external="True" key="4" originally_available_at="2019-05-27"/>
+  </episodes>
+  <posters>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/360893/seasons/801960/posters/62037069.jpg" sort_order="23" provider="com.plexapp.agents.thetvdb" media="com.plexapp.agents.thetvdb_91343e9ebc4de3cde88c6bbb26e8095a463b826a"/>
+  </posters>
+</Season>

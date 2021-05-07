@@ -1,0 +1,18 @@
+<SessionReport version="2" startTime="0" startTimestamp="May 06, 2021 10:39:08.238" transcode="3fb029b6-de24-4ed9-8ed4-2b9ba26fcc38">
+<User id="0" title="" />
+<Player address="0.0.0.0" device="" machineIdentifier="" model="" platform="" platformVersion="" product="" remotePublicAddress="0.0.0.0" state="" title="" vendor="" version="" local="0" relayed="0" secure="0" userID="0" />
+<Variants>
+<Variant id="ac1ea3e2-d954-4f9f-a88e-53618e85f1fa" context="static" sourceVideoCodec="mpeg4" sourceAudioCodec="mp3" videoDecision="transcode" audioDecision="transcode" protocol="http" container="mp4" videoCodec="h264" audioCodec="aac" audioChannels="2" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media id="3" videoProfile="advanced simple" audioChannels="2" audioCodec="aac" bitrate="1427" container="mp4" duration="3739920" height="360" optimizedForStreaming="1" videoCodec="h264" videoFrameRate="PAL" videoResolution="SD" width="720" selected="1">
+<Part accessible="1" exists="1" id="3" videoProfile="advanced simple" bitrate="1427" container="mp4" duration="3739920" height="360" optimizedForStreaming="1" width="720" decision="transcode" selected="1">
+<Stream bitrate="1171" codec="h264" displayTitle="SD (MPEG4)" extendedDisplayTitle="SD (MPEG4)" frameRate="25" height="360" id="5" streamType="1" width="720" decision="transcode" location="direct" />
+<Stream bitrate="256" bitrateMode="cbr" channels="2" codec="aac" displayTitle="Unknown (MP3 Stereo)" extendedDisplayTitle="Unknown (MP3 Stereo)" id="6" selected="1" streamType="2" decision="transcode" location="direct" />
+</Part>
+</Media>
+</Variant>
+</Variants>
+<SegmentList />
+<PlaybackReports />
+<StateReports />
+<StateReports />
+</SessionReport>

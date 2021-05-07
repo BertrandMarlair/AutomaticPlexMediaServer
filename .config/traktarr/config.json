@@ -1,0 +1,122 @@
+{
+  "automatic": {
+    "movies": {
+      "anticipated": 2,
+      "boxoffice": 2,
+      "interval": 24,
+      "popular": 2,
+      "trending": 2
+    },
+    "shows": {
+      "anticipated": 2,
+      "interval": 48,
+      "popular": 1,
+      "trending": 1
+    }
+  },
+  "core": {
+    "debug": false
+  },
+  "filters": {
+    "movies": {
+      "allowed_countries": [],
+      "allowed_languages": [],
+      "blacklisted_genres": [
+        "music",
+        "animation",
+        "game-show",
+        "talk-show",
+        "home-and-garden",
+        "children",
+        "reality",
+        "anime",
+        "news"
+      ],
+      "blacklisted_max_runtime": 0,
+      "blacklisted_max_year": 0,
+      "blacklisted_min_runtime": 60,
+      "blacklisted_min_year": 2000,
+      "blacklisted_title_keywords": [
+        "untitled",
+        "barbie"
+      ],
+      "blacklisted_tmdb_ids": [],
+      "disabled_for": [],
+      "rotten_tomatoes": ""
+    },
+    "shows": {
+      "allowed_countries": [],
+      "allowed_languages": [],
+      "blacklisted_genres": [
+        "music",
+        "animation",
+        "game-show",
+        "talk-show",
+        "home-and-garden",
+        "children",
+        "reality",
+        "anime",
+        "news"
+      ],
+      "blacklisted_max_runtime": 0,
+      "blacklisted_max_year": 0,
+      "blacklisted_min_runtime": 15,
+      "blacklisted_min_year": 2000,
+      "blacklisted_networks": [
+        "twitch",
+        "youtube",
+        "nickelodeon",
+        "hallmark",
+        "reelzchannel",
+        "disney",
+        "cnn",
+        "cbbc",
+        "the movie network",
+        "teletoon",
+        "cartoon network",
+        "espn",
+        "yahoo!",
+        "fox sports"
+      ],
+      "blacklisted_title_keywords": [
+        "untitled",
+        "barbie"
+      ],
+      "blacklisted_tvdb_ids": [],
+      "disabled_for": []
+    }
+  },
+  "notifications": {
+    "verbose": true
+  },
+  "omdb": {
+    "api_key": ""
+  },
+  "radarr": {
+    "api_key": "3ad650b76e024601953758ce188da6ad",
+    "minimum_availability": "released",
+    "quality": "HD-1080p",
+    "root_folder": "/movies/",
+    "url": "http://radarr:7878/"
+  },
+  "sonarr": {
+    "api_key": "24ecc63260214bd28af996fc32449b8f",
+    "language": "French",
+    "quality": "HD-1080p",
+    "root_folder": "/tv/",
+    "tags": [],
+    "url": "http://sonarr:8989/"
+  },
+  "trakt": {
+    "Belegan243": {
+      "access_token": "1980a6b9c0e1c6c460a7b990bf3e9c5313c46332a68b3cdcd2e803e926c4b11c",
+      "created_at": 1620368237,
+      "expires_in": 7776000,
+      "refresh_token": "407c97065c715d2ee3a092c46fa34eff31a5faaa63f8597bfa1b255b6c3403d1",
+      "scope": "public",
+      "token_type": "bearer"
+    },
+    "client_id": "9bc89de5b29ad720417d4cc13228ade9b7b1f473562bbe3b8c64eaffb31756e8",
+    "client_secret": "a61831b4f1809041b9f25c34b90146b65c0bfc9a3df252a6f88619d00bcf95db"
+  }
+}

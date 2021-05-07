@@ -1,0 +1,132 @@
+May 07, 2021 06:22:00.047 [0x7fae81335700] INFO - Plex Media Scanner v1.22.3.4392-d7c624def - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+May 07, 2021 06:22:00.048 [0x7fae81335700] INFO - Linux version: 5.10.25-linuxkit, language: en-US
+May 07, 2021 06:22:00.048 [0x7fae81335700] INFO - Processor Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+May 07, 2021 06:22:00.049 [0x7fae81335700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --item 8
+May 07, 2021 06:22:00.042 [0x7fae81e24780] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.26.0, threadsafe=1
+May 07, 2021 06:22:00.175 [0x7fae81e24780] DEBUG - Analyzing media parts for item 8 (Que la terre s'ouvre !): 4,10
+May 07, 2021 06:22:00.176 [0x7fae81e24780] DEBUG - [ID 4] Media part analysis: /tv/Chernobyl/Season 1/Chernobyl - S01E03 - Open Wide, O Earth WEBRip-480p.avi
+May 07, 2021 06:22:00.177 [0x7fae81e24780] DEBUG - [MI] Opening input file: "/tv/Chernobyl/Season 1/Chernobyl - S01E03 - Open Wide, O Earth WEBRip-480p.avi"
+May 07, 2021 06:22:00.177 [0x7fae81e24780] DEBUG - [FFMPEG] - Opening '/tv/Chernobyl/Season 1/Chernobyl - S01E03 - Open Wide, O Earth WEBRip-480p.avi' for reading
+May 07, 2021 06:22:00.177 [0x7fae81e24780] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+May 07, 2021 06:22:00.178 [0x7fae81e24780] DEBUG - [FFMPEG] - Format avi probed with size=2048 and score=100
+May 07, 2021 06:22:00.178 [0x7fae81e24780] DEBUG - [FFMPEG] - use odml:1
+May 07, 2021 06:22:00.231 [0x7fae81e24780] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 10004 bytes read:3869936 seeks:4 nb_streams:2
+May 07, 2021 06:22:00.232 [0x7fae81e24780] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 07, 2021 06:22:00.232 [0x7fae81e24780] DEBUG - [FFMPEG] - All info found
+May 07, 2021 06:22:00.232 [0x7fae81e24780] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 13865 bytes read:3869936 seeks:4 frames:2
+May 07, 2021 06:22:00.233 [0x7fae81e24780] DEBUG - [MI]  * 70976318d44f0014f30631cb3c4e2e4c0050358d [avi mpeg4/mp3] Duration: 3558583ms, 720x404 (1.775189) 24.000fps, bitrate=1196kbps, audio channels=2, optimizedForStreaming=0 ("/tv/Chernobyl/Season 1/Chernobyl - S01E03 - Open Wide, O Earth WEBRip-480p.avi")
+May 07, 2021 06:22:00.233 [0x7fae81e24780] DEBUG - [MI] Chapters had generic titles, clearing.
+May 07, 2021 06:22:00.233 [0x7fae81e24780] DEBUG - [MI] Closing input file: "/tv/Chernobyl/Season 1/Chernobyl - S01E03 - Open Wide, O Earth WEBRip-480p.avi"
+May 07, 2021 06:22:00.234 [0x7fae81e24780] DEBUG - Streams didn't change in analysis, not saving.
+May 07, 2021 06:22:00.234 [0x7fae81e24780] DEBUG - Updating media item 4, size=532285696, metadata_item_id=8
+May 07, 2021 06:22:00.235 [0x7fae81e24780] DEBUG - Updating part with ID=4 [/tv/Chernobyl/Season 1/Chernobyl - S01E03 - Open Wide, O Earth WEBRip-480p.avi]
+May 07, 2021 06:22:00.246 [0x7fae7b460700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 07, 2021 06:22:00.248 [0x7fae7b460700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 07, 2021 06:22:00.248 [0x7fae7b460700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
+May 07, 2021 06:22:00.248 [0x7fae81e24780] DEBUG - [ID 10] Media part analysis: /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E03.mp4
+May 07, 2021 06:22:00.249 [0x7fae7b460700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
+May 07, 2021 06:22:00.249 [0x7fae7b460700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 07, 2021 06:22:00.249 [0x7fae7b460700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 07, 2021 06:22:00.267 [0x7fae81e24780] DEBUG - [MI] Opening input file: "/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E03.mp4"
+May 07, 2021 06:22:00.267 [0x7fae81e24780] DEBUG - [FFMPEG] - Opening '/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E03.mp4' for reading
+May 07, 2021 06:22:00.267 [0x7fae81e24780] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+May 07, 2021 06:22:00.268 [0x7fae81e24780] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+May 07, 2021 06:22:00.268 [0x7fae81e24780] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+May 07, 2021 06:22:00.268 [0x7fae81e24780] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+May 07, 2021 06:22:00.282 [0x7fae81e24780] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1024, duration: 43727880
+May 07, 2021 06:22:00.286 [0x7fae81e24780] DEBUG - [FFMPEG] - Offset DTS by 1024 to make first pts zero.
+May 07, 2021 06:22:00.288 [0x7fae81e24780] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+May 07, 2021 06:22:00.288 [0x7fae81e24780] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+May 07, 2021 06:22:00.305 [0x7fae81e24780] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 1024, duration: 170810496
+May 07, 2021 06:22:00.305 [0x7fae81e24780] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+May 07, 2021 06:22:00.310 [0x7fae81e24780] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 2410812 bytes read:2429456 seeks:0 nb_streams:2
+May 07, 2021 06:22:00.315 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 07, 2021 06:22:00.315 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 07, 2021 06:22:00.315 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 07, 2021 06:22:00.315 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 07, 2021 06:22:00.315 [0x7fae81e24780] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 07, 2021 06:22:00.319 [0x7fae81e24780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:22:00.323 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 07, 2021 06:22:00.323 [0x7fae81e24780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:22:00.324 [0x7fae81e24780] DEBUG - [FFMPEG] - demuxer injecting skip 1024 / discard 0
+May 07, 2021 06:22:00.324 [0x7fae81e24780] DEBUG - [FFMPEG] - All info found
+May 07, 2021 06:22:00.324 [0x7fae81e24780] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 2412467 bytes read:2429456 seeks:0 frames:3
+May 07, 2021 06:22:00.324 [0x7fae81e24780] DEBUG - [MI] Opening "/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E03.mp4" for MP4 atom parsing
+May 07, 2021 06:22:00.325 [0x7fae81e24780] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+May 07, 2021 06:22:00.325 [0x7fae81e24780] DEBUG - Mp4AtomParser: Found moov atom of size 2410764 at offset 32
+May 07, 2021 06:22:00.326 [0x7fae81e24780] DEBUG - Mp4AtomParser: Found trak atom of size 1305053 at offset 148
+May 07, 2021 06:22:00.326 [0x7fae81e24780] DEBUG - Mp4AtomParser: Found trak atom of size 1105497 at offset 1305201
+May 07, 2021 06:22:00.326 [0x7fae81e24780] DEBUG - Mp4AtomParser: Found mdia atom of size 1304917 at offset 284
+May 07, 2021 06:22:00.326 [0x7fae81e24780] DEBUG - Mp4AtomParser: Found minf atom of size 1304832 at offset 369
+May 07, 2021 06:22:00.326 [0x7fae81e24780] DEBUG - Mp4AtomParser: Found stbl atom of size 1304768 at offset 433
+May 07, 2021 06:22:00.326 [0x7fae81e24780] DEBUG - Mp4AtomParser: Found mdia atom of size 1105361 at offset 1305337
+May 07, 2021 06:22:00.326 [0x7fae81e24780] DEBUG - Mp4AtomParser: Found minf atom of size 1105276 at offset 1305422
+May 07, 2021 06:22:00.326 [0x7fae81e24780] DEBUG - Mp4AtomParser: Found stbl atom of size 1105216 at offset 1305482
+May 07, 2021 06:22:00.326 [0x7fae81e24780] DEBUG - [MI]  * 8e5e231451d9995c8301f16b9de6a2e0ace3e504 [mp4 h264/aac] Duration: 3558584ms, 720x406 (1.775189) 24.000fps, bitrate=1164kbps, audio channels=2, optimizedForStreaming=1 ("/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E03.mp4")
+May 07, 2021 06:22:00.326 [0x7fae81e24780] DEBUG - [MI] Chapters had generic titles, clearing.
+May 07, 2021 06:22:00.327 [0x7fae81e24780] DEBUG - [MI] Closing input file: "/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E03.mp4"
+May 07, 2021 06:22:00.328 [0x7fae81e24780] DEBUG - Committing media stream changes for part 10
+May 07, 2021 06:22:00.340 [0x7fae81e24780] DEBUG - Updating media item 10, size=518092413, metadata_item_id=8
+May 07, 2021 06:22:00.340 [0x7fae81e24780] DEBUG - Updating part with ID=10 [/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E03.mp4]
+May 07, 2021 06:22:00.354 [0x7fae7b460700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 07, 2021 06:22:00.356 [0x7fae7b460700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+May 07, 2021 06:22:00.356 [0x7fae7b460700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
+May 07, 2021 06:22:00.358 [0x7fae7b460700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
+May 07, 2021 06:22:00.361 [0x7fae81e24780] DEBUG - [MI] Opening input file: "/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E03.mp4"
+May 07, 2021 06:22:00.361 [0x7fae81e24780] DEBUG - [FFMPEG] - Opening '/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E03.mp4' for reading
+May 07, 2021 06:22:00.361 [0x7fae81e24780] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+May 07, 2021 06:22:00.362 [0x7fae81e24780] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+May 07, 2021 06:22:00.362 [0x7fae81e24780] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+May 07, 2021 06:22:00.362 [0x7fae81e24780] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+May 07, 2021 06:22:00.374 [0x7fae81e24780] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1024, duration: 43727880
+May 07, 2021 06:22:00.378 [0x7fae81e24780] DEBUG - [FFMPEG] - Offset DTS by 1024 to make first pts zero.
+May 07, 2021 06:22:00.380 [0x7fae81e24780] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+May 07, 2021 06:22:00.380 [0x7fae81e24780] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+May 07, 2021 06:22:00.390 [0x7fae81e24780] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 1024, duration: 170810496
+May 07, 2021 06:22:00.390 [0x7fae81e24780] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+May 07, 2021 06:22:00.395 [0x7fae81e24780] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 2410812 bytes read:2429456 seeks:0 nb_streams:2
+May 07, 2021 06:22:00.395 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 07, 2021 06:22:00.395 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 07, 2021 06:22:00.396 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 07, 2021 06:22:00.396 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 07, 2021 06:22:00.396 [0x7fae81e24780] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 07, 2021 06:22:00.396 [0x7fae81e24780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:22:00.397 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 07, 2021 06:22:00.397 [0x7fae81e24780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:22:00.397 [0x7fae81e24780] DEBUG - [FFMPEG] - demuxer injecting skip 1024 / discard 0
+May 07, 2021 06:22:00.397 [0x7fae81e24780] DEBUG - [FFMPEG] - All info found
+May 07, 2021 06:22:00.398 [0x7fae81e24780] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 2412467 bytes read:2429456 seeks:0 frames:3
+May 07, 2021 06:22:00.398 [0x7fae81e24780] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/8/e5e231451d9995c8301f16b9de6a2e0ace3e504.bundle/Contents/Thumbnails/thumb1.jpg (50.0%, 720x512).
+May 07, 2021 06:22:00.398 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 07, 2021 06:22:00.398 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 07, 2021 06:22:00.399 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 07, 2021 06:22:00.399 [0x7fae81e24780] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 07, 2021 06:22:00.399 [0x7fae81e24780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:22:00.403 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 07, 2021 06:22:00.403 [0x7fae81e24780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:22:00.408 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 07, 2021 06:22:00.421 [0x7fae81e24780] DEBUG - Loaded memory image of size 720x406.
+May 07, 2021 06:22:00.438 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 07, 2021 06:22:00.438 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 07, 2021 06:22:00.441 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 07, 2021 06:22:00.441 [0x7fae81e24780] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 07, 2021 06:22:00.441 [0x7fae81e24780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:22:00.445 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 07, 2021 06:22:00.445 [0x7fae81e24780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:22:00.447 [0x7fae81e24780] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 07, 2021 06:22:00.457 [0x7fae81e24780] DEBUG - Loaded memory image of size 720x406.
+May 07, 2021 06:22:00.472 [0x7fae81e24780] DEBUG - [MI] Closing input file: "/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E03.mp4"
+May 07, 2021 06:22:00.477 [0x7fae81e24780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 07, 2021 06:22:00.477 [0x7fae81e24780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 07, 2021 06:22:00.481 [0x7fae81e24780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 07, 2021 06:22:00.482 [0x7fae81e24780] DEBUG - Updating metadata item (save) (Que la terre s'ouvre !) with ID 8
+May 07, 2021 06:22:00.487 [0x7fae7b460700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 07, 2021 06:22:00.488 [0x7fae7b460700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
+May 07, 2021 06:22:00.516 [0x7fae81e24780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 07, 2021 06:22:00.516 [0x7fae81e24780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 07, 2021 06:22:00.516 [0x7fae7b460700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 07, 2021 06:22:00.517 [0x7fae7b460700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 07, 2021 06:22:00.518 [0x7fae81e24780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 07, 2021 06:22:00.518 [0x7fae81e24780] DEBUG - Updating metadata item (save) (Que la terre s'ouvre !) with ID 8
+May 07, 2021 06:22:00.549 [0x7fae7b460700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 07, 2021 06:22:00.549 [0x7fae7b460700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)

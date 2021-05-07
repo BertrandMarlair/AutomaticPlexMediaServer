@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Season>
+  <index/>
+  <art/>
+  <thumb/>
+  <show/>
+  <title/>
+  <art_url/>
+  <episode_count/>
+  <summary/>
+  <episodes>
+    <item external="True" extension="xml" key="1"/>
+    <item external="True" extension="xml" key="3"/>
+    <item external="True" extension="xml" key="2"/>
+    <item external="True" extension="xml" key="5"/>
+    <item external="True" extension="xml" key="4"/>
+  </episodes>
+  <key/>
+  <posters>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/360893/seasons/801960/posters/62037069.jpg" preview="91343e9ebc4de3cde88c6bbb26e8095a463b826a" sort_order="23"/>
+  </posters>
+  <banners/>
+  <rating_key/>
+  <source_title/>
+</Season>

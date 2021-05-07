@@ -1,0 +1,21 @@
+{
+    "file": 3,
+    "format": 1
+}{
+    "hosts": [
+        [
+            "1483a96f7be5416ca589217a966d0d24",
+            "127.0.0.1",
+            58846,
+            "localclient",
+            "bbdf043b87d5430f1f4a1644f770b17c62c26493"
+        ],
+        [
+            "bf17c8fd2f4f44ab9415a6b1ca94129a",
+            "localhost",
+            58846,
+            "Belegan243",
+            "fArand0le"
+        ]
+    ]
+}

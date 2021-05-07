@@ -1,0 +1,132 @@
+May 07, 2021 06:31:15.588 [0x7f70e97a3700] INFO - Plex Media Scanner v1.22.3.4392-d7c624def - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+May 07, 2021 06:31:15.589 [0x7f70e97a3700] INFO - Linux version: 5.10.25-linuxkit, language: en-US
+May 07, 2021 06:31:15.590 [0x7f70e97a3700] INFO - Processor Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+May 07, 2021 06:31:15.590 [0x7f70e97a3700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --item 10
+May 07, 2021 06:31:15.579 [0x7f70ea292780] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.26.0, threadsafe=1
+May 07, 2021 06:31:15.688 [0x7f70ea292780] DEBUG - Analyzing media parts for item 10 (Vichnaya Pamyat): 6,12
+May 07, 2021 06:31:15.690 [0x7f70ea292780] DEBUG - [ID 6] Media part analysis: /tv/Chernobyl/Season 1/Chernobyl - S01E05 - Vichnaya Pamyat SDTV.avi
+May 07, 2021 06:31:15.691 [0x7f70ea292780] DEBUG - [MI] Opening input file: "/tv/Chernobyl/Season 1/Chernobyl - S01E05 - Vichnaya Pamyat SDTV.avi"
+May 07, 2021 06:31:15.691 [0x7f70ea292780] DEBUG - [FFMPEG] - Opening '/tv/Chernobyl/Season 1/Chernobyl - S01E05 - Vichnaya Pamyat SDTV.avi' for reading
+May 07, 2021 06:31:15.691 [0x7f70ea292780] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+May 07, 2021 06:31:15.692 [0x7f70ea292780] DEBUG - [FFMPEG] - Format avi probed with size=2048 and score=100
+May 07, 2021 06:31:15.692 [0x7f70ea292780] DEBUG - [FFMPEG] - use odml:1
+May 07, 2021 06:31:15.757 [0x7f70ea292780] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 10004 bytes read:4460176 seeks:4 nb_streams:2
+May 07, 2021 06:31:15.759 [0x7f70ea292780] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 07, 2021 06:31:15.759 [0x7f70ea292780] DEBUG - [FFMPEG] - All info found
+May 07, 2021 06:31:15.759 [0x7f70ea292780] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 13865 bytes read:4460176 seeks:4 frames:2
+May 07, 2021 06:31:15.760 [0x7f70ea292780] DEBUG - [MI]  * 789b78b9cb950163ebac05c7b85a54838b79b02a [avi mpeg4/mp3] Duration: 4120344ms, 720x404 (1.775189) 24.000fps, bitrate=1196kbps, audio channels=2, optimizedForStreaming=0 ("/tv/Chernobyl/Season 1/Chernobyl - S01E05 - Vichnaya Pamyat SDTV.avi")
+May 07, 2021 06:31:15.760 [0x7f70ea292780] DEBUG - [MI] Chapters had generic titles, clearing.
+May 07, 2021 06:31:15.760 [0x7f70ea292780] DEBUG - [MI] Closing input file: "/tv/Chernobyl/Season 1/Chernobyl - S01E05 - Vichnaya Pamyat SDTV.avi"
+May 07, 2021 06:31:15.761 [0x7f70ea292780] DEBUG - Streams didn't change in analysis, not saving.
+May 07, 2021 06:31:15.762 [0x7f70ea292780] DEBUG - Updating media item 6, size=616113168, metadata_item_id=10
+May 07, 2021 06:31:15.763 [0x7f70ea292780] DEBUG - Updating part with ID=6 [/tv/Chernobyl/Season 1/Chernobyl - S01E05 - Vichnaya Pamyat SDTV.avi]
+May 07, 2021 06:31:15.772 [0x7f70e38b6700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 07, 2021 06:31:15.773 [0x7f70e38b6700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 07, 2021 06:31:15.773 [0x7f70ea292780] DEBUG - [ID 12] Media part analysis: /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E05.mp4
+May 07, 2021 06:31:15.773 [0x7f70e38b6700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
+May 07, 2021 06:31:15.774 [0x7f70e38b6700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
+May 07, 2021 06:31:15.774 [0x7f70e38b6700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 07, 2021 06:31:15.774 [0x7f70e38b6700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 07, 2021 06:31:15.786 [0x7f70ea292780] DEBUG - [MI] Opening input file: "/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E05.mp4"
+May 07, 2021 06:31:15.786 [0x7f70ea292780] DEBUG - [FFMPEG] - Opening '/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E05.mp4' for reading
+May 07, 2021 06:31:15.786 [0x7f70ea292780] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+May 07, 2021 06:31:15.787 [0x7f70ea292780] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+May 07, 2021 06:31:15.787 [0x7f70ea292780] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+May 07, 2021 06:31:15.787 [0x7f70ea292780] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+May 07, 2021 06:31:15.809 [0x7f70ea292780] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1024, duration: 50630664
+May 07, 2021 06:31:15.819 [0x7f70ea292780] DEBUG - [FFMPEG] - Offset DTS by 1024 to make first pts zero.
+May 07, 2021 06:31:15.821 [0x7f70ea292780] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+May 07, 2021 06:31:15.821 [0x7f70ea292780] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+May 07, 2021 06:31:15.850 [0x7f70ea292780] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 1024, duration: 197776512
+May 07, 2021 06:31:15.850 [0x7f70ea292780] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+May 07, 2021 06:31:15.860 [0x7f70ea292780] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 2739924 bytes read:2770176 seeks:0 nb_streams:2
+May 07, 2021 06:31:15.860 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 07, 2021 06:31:15.860 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 07, 2021 06:31:15.861 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 07, 2021 06:31:15.861 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 07, 2021 06:31:15.861 [0x7f70ea292780] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 07, 2021 06:31:15.861 [0x7f70ea292780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:31:15.861 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 07, 2021 06:31:15.861 [0x7f70ea292780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:31:15.862 [0x7f70ea292780] DEBUG - [FFMPEG] - demuxer injecting skip 1024 / discard 0
+May 07, 2021 06:31:15.862 [0x7f70ea292780] DEBUG - [FFMPEG] - All info found
+May 07, 2021 06:31:15.862 [0x7f70ea292780] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 2741579 bytes read:2770176 seeks:0 frames:3
+May 07, 2021 06:31:15.862 [0x7f70ea292780] DEBUG - [MI] Opening "/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E05.mp4" for MP4 atom parsing
+May 07, 2021 06:31:15.863 [0x7f70ea292780] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+May 07, 2021 06:31:15.863 [0x7f70ea292780] DEBUG - Mp4AtomParser: Found moov atom of size 2739876 at offset 32
+May 07, 2021 06:31:15.865 [0x7f70ea292780] DEBUG - Mp4AtomParser: Found trak atom of size 1459733 at offset 148
+May 07, 2021 06:31:15.865 [0x7f70ea292780] DEBUG - Mp4AtomParser: Found trak atom of size 1279929 at offset 1459881
+May 07, 2021 06:31:15.865 [0x7f70ea292780] DEBUG - Mp4AtomParser: Found mdia atom of size 1459597 at offset 284
+May 07, 2021 06:31:15.865 [0x7f70ea292780] DEBUG - Mp4AtomParser: Found minf atom of size 1459512 at offset 369
+May 07, 2021 06:31:15.865 [0x7f70ea292780] DEBUG - Mp4AtomParser: Found stbl atom of size 1459448 at offset 433
+May 07, 2021 06:31:15.865 [0x7f70ea292780] DEBUG - Mp4AtomParser: Found mdia atom of size 1279793 at offset 1460017
+May 07, 2021 06:31:15.865 [0x7f70ea292780] DEBUG - Mp4AtomParser: Found minf atom of size 1279708 at offset 1460102
+May 07, 2021 06:31:15.865 [0x7f70ea292780] DEBUG - Mp4AtomParser: Found stbl atom of size 1279648 at offset 1460162
+May 07, 2021 06:31:15.865 [0x7f70ea292780] DEBUG - [MI]  * dcf74a4570647745794386d9988e4e021d697153 [mp4 h264/aac] Duration: 4120366ms, 720x406 (1.775189) 24.000fps, bitrate=1281kbps, audio channels=2, optimizedForStreaming=1 ("/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E05.mp4")
+May 07, 2021 06:31:15.865 [0x7f70ea292780] DEBUG - [MI] Chapters had generic titles, clearing.
+May 07, 2021 06:31:15.866 [0x7f70ea292780] DEBUG - [MI] Closing input file: "/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E05.mp4"
+May 07, 2021 06:31:15.868 [0x7f70ea292780] DEBUG - Committing media stream changes for part 12
+May 07, 2021 06:31:15.879 [0x7f70ea292780] DEBUG - Updating media item 12, size=660054151, metadata_item_id=10
+May 07, 2021 06:31:15.881 [0x7f70ea292780] DEBUG - Updating part with ID=12 [/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E05.mp4]
+May 07, 2021 06:31:15.899 [0x7f70e38b6700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 07, 2021 06:31:15.901 [0x7f70e38b6700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+May 07, 2021 06:31:15.901 [0x7f70e38b6700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
+May 07, 2021 06:31:15.902 [0x7f70e38b6700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
+May 07, 2021 06:31:15.909 [0x7f70ea292780] DEBUG - [MI] Opening input file: "/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E05.mp4"
+May 07, 2021 06:31:15.909 [0x7f70ea292780] DEBUG - [FFMPEG] - Opening '/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E05.mp4' for reading
+May 07, 2021 06:31:15.909 [0x7f70ea292780] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+May 07, 2021 06:31:15.911 [0x7f70ea292780] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+May 07, 2021 06:31:15.911 [0x7f70ea292780] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+May 07, 2021 06:31:15.911 [0x7f70ea292780] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+May 07, 2021 06:31:15.926 [0x7f70ea292780] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1024, duration: 50630664
+May 07, 2021 06:31:15.933 [0x7f70ea292780] DEBUG - [FFMPEG] - Offset DTS by 1024 to make first pts zero.
+May 07, 2021 06:31:15.935 [0x7f70ea292780] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+May 07, 2021 06:31:15.935 [0x7f70ea292780] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+May 07, 2021 06:31:15.954 [0x7f70ea292780] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 1024, duration: 197776512
+May 07, 2021 06:31:15.954 [0x7f70ea292780] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+May 07, 2021 06:31:15.962 [0x7f70ea292780] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 2739924 bytes read:2770176 seeks:0 nb_streams:2
+May 07, 2021 06:31:15.962 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 07, 2021 06:31:15.962 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 07, 2021 06:31:15.962 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 07, 2021 06:31:15.962 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 07, 2021 06:31:15.962 [0x7f70ea292780] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 07, 2021 06:31:15.963 [0x7f70ea292780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:31:15.963 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 07, 2021 06:31:15.963 [0x7f70ea292780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:31:15.964 [0x7f70ea292780] DEBUG - [FFMPEG] - demuxer injecting skip 1024 / discard 0
+May 07, 2021 06:31:15.964 [0x7f70ea292780] DEBUG - [FFMPEG] - All info found
+May 07, 2021 06:31:15.964 [0x7f70ea292780] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 2741579 bytes read:2770176 seeks:0 frames:3
+May 07, 2021 06:31:15.964 [0x7f70ea292780] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/d/cf74a4570647745794386d9988e4e021d697153.bundle/Contents/Thumbnails/thumb1.jpg (50.0%, 720x512).
+May 07, 2021 06:31:15.965 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 07, 2021 06:31:15.965 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 07, 2021 06:31:15.967 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 07, 2021 06:31:15.967 [0x7f70ea292780] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 07, 2021 06:31:15.967 [0x7f70ea292780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:31:15.979 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 07, 2021 06:31:15.979 [0x7f70ea292780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:31:15.985 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 07, 2021 06:31:16.002 [0x7f70ea292780] DEBUG - Loaded memory image of size 720x406.
+May 07, 2021 06:31:16.027 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 07, 2021 06:31:16.027 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 07, 2021 06:31:16.029 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 07, 2021 06:31:16.029 [0x7f70ea292780] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 07, 2021 06:31:16.029 [0x7f70ea292780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:31:16.035 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 07, 2021 06:31:16.035 [0x7f70ea292780] DEBUG - [FFMPEG] - no picture 
+May 07, 2021 06:31:16.036 [0x7f70ea292780] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 07, 2021 06:31:16.047 [0x7f70ea292780] DEBUG - Loaded memory image of size 720x406.
+May 07, 2021 06:31:16.061 [0x7f70ea292780] DEBUG - [MI] Closing input file: "/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E05.mp4"
+May 07, 2021 06:31:16.065 [0x7f70ea292780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 07, 2021 06:31:16.065 [0x7f70ea292780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 07, 2021 06:31:16.066 [0x7f70ea292780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 07, 2021 06:31:16.066 [0x7f70ea292780] DEBUG - Updating metadata item (save) (Vichnaya Pamyat) with ID 10
+May 07, 2021 06:31:16.071 [0x7f70e38b6700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 07, 2021 06:31:16.072 [0x7f70e38b6700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
+May 07, 2021 06:31:16.095 [0x7f70e38b6700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 07, 2021 06:31:16.095 [0x7f70e38b6700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 07, 2021 06:31:16.097 [0x7f70ea292780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 07, 2021 06:31:16.097 [0x7f70ea292780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 07, 2021 06:31:16.098 [0x7f70ea292780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 07, 2021 06:31:16.098 [0x7f70ea292780] DEBUG - Updating metadata item (save) (Vichnaya Pamyat) with ID 10
+May 07, 2021 06:31:16.123 [0x7f70e38b6700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 07, 2021 06:31:16.126 [0x7f70e38b6700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)

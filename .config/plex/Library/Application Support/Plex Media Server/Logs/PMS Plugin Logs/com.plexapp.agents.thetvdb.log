@@ -1,0 +1,1267 @@
+2021-05-06 09:52:37,551 (7f4c29c56740) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: d7c624d (Mon Apr 19 14:14:06 UTC 2021)
+2021-05-06 09:52:37,552 (7f4c29c56740) :  DEBUG (core:361) - Using the elevated policy
+2021-05-06 09:52:37,555 (7f4c29c56740) :  DEBUG (core:450) - Starting runtime component.
+2021-05-06 09:52:37,560 (7f4c29c56740) :  DEBUG (core:450) - Starting caching component.
+2021-05-06 09:52:37,562 (7f4c29c56740) :  DEBUG (core:450) - Starting data component.
+2021-05-06 09:52:37,564 (7f4c29c56740) :  DEBUG (core:450) - Starting networking component.
+2021-05-06 09:52:37,569 (7f4c29c56740) :  DEBUG (networking:261) - Loaded HTTP cookies
+2021-05-06 09:52:37,572 (7f4c29c56740) :  DEBUG (caching:108) - No info file found, trashing the cache folder
+2021-05-06 09:52:37,605 (7f4c29c56740) :  DEBUG (networking:428) - Setting the default network timeout to 20.0
+2021-05-06 09:52:37,607 (7f4c29c56740) :  DEBUG (core:450) - Starting localization component.
+2021-05-06 09:52:37,608 (7f4c29c56740) :  INFO (localization:409) - Setting the default locale to en-us
+2021-05-06 09:52:37,617 (7f4c29c56740) :  DEBUG (core:450) - Starting messaging component.
+2021-05-06 09:52:37,620 (7f4c29c56740) :  DEBUG (core:450) - Starting debugging component.
+2021-05-06 09:52:37,621 (7f4c29c56740) :  DEBUG (core:450) - Starting services component.
+2021-05-06 09:52:37,623 (7f4c29c56740) :  DEBUG (core:450) - Starting myplex component.
+2021-05-06 09:52:37,625 (7f4c29c56740) :  DEBUG (core:450) - Starting notifications component.
+2021-05-06 09:52:37,626 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.thetvdb'
+2021-05-06 09:52:37,749 (7f4c29c56740) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.thetvdb in namespace 'metadata'
+2021-05-06 09:52:37,758 (7f4c29c56740) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2021-05-06 09:52:37,778 (7f4c037fe700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2021-05-06 09:52:37,778 (7f4c29c56740) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2021-05-06 09:52:37,783 (7f4c29c56740) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2021-05-06 09:52:37,784 (7f4c29c56740) :  DEBUG (core:150) - Finished starting framework core
+2021-05-06 09:52:37,785 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2021-05-06 09:52:37,786 (7f4c29c56740) :  DEBUG (core:560) - Loading plug-in code
+2021-05-06 09:52:37,789 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400'
+2021-05-06 09:52:37,827 (7f4c037fe700) :  DEBUG (services:362) - Loaded services
+2021-05-06 09:52:37,831 (7f4c027fc700) :  DEBUG (core:538) - Machine identifier is 778bafc1525ee34cda762656e6028ff3452e0b58
+2021-05-06 09:52:37,834 (7f4c027fc700) :  DEBUG (core:539) - Server version is 1.22.3.4392-d7c624def
+2021-05-06 09:52:37,845 (7f4c02ffd700) :  DEBUG (services:438) - No shared code to load
+2021-05-06 09:52:38,139 (7f4c29c56740) :  DEBUG (core:566) - Finished loading plug-in code
+2021-05-06 09:52:38,147 (7f4c29c56740) :  DEBUG (agentkit:1132) - Creating new agent class called TVDBAgent
+2021-05-06 09:52:38,155 (7f4c29c56740) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['TV_Show'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'fr', 'zh', 'sv', 'no', 'da', 'fi', 'nl', 'de', 'it', 'es', 'pl', 'hu', 'el', 'tr', 'ru', 'he', 'ja', 'pt', 'cs', 'ko', 'sl', 'hr'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'TheTVDB'}]
+2021-05-06 09:52:38,169 (7f4c29c56740) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo1CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdAoyCnMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8xCnIyCjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudG5zMTQKY29udHJpYnV0ZXNfdG9yNApzOQpsYW5ndWFnZXNiMXMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMXMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3M3ClRoZVRWREJzNApuYW1lMQpzNwpUVl9TaG93MjMKczIKZW5zMgpmcnMyCnpoczIKc3ZzMgpub3MyCmRhczIKZmlzMgpubHMyCmRlczIKaXRzMgplc3MyCnBsczIKaHVzMgplbHMyCnRyczIKcnVzMgpoZXMyCmphczIKcHRzMgpjc3MyCmtvczIKc2xzMgpocnIwCg__'
+2021-05-06 09:52:38,185 (7f4c29c56740) :  INFO (core:611) - Started plug-in
+2021-05-06 09:52:38,186 (7f4c29c56740) :  DEBUG (socketinterface:160) - Starting socket server
+2021-05-06 09:52:38,188 (7f4c29c56740) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2021-05-06 09:52:38,189 (7f4c29c56740) :  INFO (socketinterface:184) - Socket server started on port 39323
+2021-05-06 09:52:38,190 (7f4c29c56740) :  INFO (pipeinterface:25) - Entering run loop
+2021-05-06 09:52:38,191 (7f4c29c56740) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2021-05-06 09:52:38,193 (7f4c29c56740) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2021-05-06 09:52:38,194 (7f4c29c56740) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 151 bytes
+2021-05-06 09:52:38,198 (7f4c027fc700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjFzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTkKczE2CmNlMDgxYTk5ZmQxM2VlMDhzMTcKb3BlblN1YnRpdGxlc0hhc2hzMgoyNHM3CmVwaXNvZGVzMQoxczgKZXBpc29kaWNzMTkKVGhlIEJpZyBCYW5nIFRoZW9yeXM0CnNob3dzMgoxMnM2CnNlYXNvbnMxNDEKJTJGdHYlMkZUaGUlMjBCaWclMjBCYW5nJTIwVGhlb3J5JTJGU2Vhc29uJTIwMTIlMkZUaGUlMjBCaWclMjBCYW5nJTIwVGhlb3J5JTIwLSUyMFMxMkUyNCUyMC0lMjBUaGUlMjBTdG9ja2hvbG0lMjBTeW5kcm9tZSUyMFdFQlJpcC00ODBwJTJFYXZpczgKZmlsZW5hbWVzNDAKNzY4NTI5OGMxYTZjMzQ5YWU0YTc2YmIyODZhYjdhNWVlNDA1OGEyNXM4CnBsZXhIYXNoczIKLTFzOApkdXJhdGlvbnMxCjFzMgppZHIwCg__
+2021-05-06 09:52:38,209 (7f4c027fc700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjFzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTkKczE2CmNlMDgxYTk5ZmQxM2VlMDhzMTcKb3BlblN1YnRpdGxlc0hhc2hzMgoyNHM3CmVwaXNvZGVzMQoxczgKZXBpc29kaWNzMTkKVGhlIEJpZyBCYW5nIFRoZW9yeXM0CnNob3dzMgoxMnM2CnNlYXNvbnMxNDEKJTJGdHYlMkZUaGUlMjBCaWclMjBCYW5nJTIwVGhlb3J5JTJGU2Vhc29uJTIwMTIlMkZUaGUlMjBCaWclMjBCYW5nJTIwVGhlb3J5JTIwLSUyMFMxMkUyNCUyMC0lMjBUaGUlMjBTdG9ja2hvbG0lMjBTeW5kcm9tZSUyMFdFQlJpcC00ODBwJTJFYXZpczgKZmlsZW5hbWVzNDAKNzY4NTI5OGMxYTZjMzQ5YWU0YTc2YmIyODZhYjdhNWVlNDA1OGEyNXM4CnBsZXhIYXNoczIKLTFzOApkdXJhdGlvbnMxCjFzMgppZHIwCg__
+2021-05-06 09:52:38,210 (7f4c027fc700) :  INFO (agentkit:961) - Searching for matches for {'openSubtitlesHash': 'ce081a99fd13ee08', 'episode': '24', 'episodic': '1', 'show': 'The Big Bang Theory', 'season': '12', 'filename': '%2Ftv%2FThe%20Big%20Bang%20Theory%2FSeason%2012%2FThe%20Big%20Bang%20Theory%20-%20S12E24%20-%20The%20Stockholm%20Syndrome%20WEBRip-480p%2Eavi', 'plexHash': '7685298c1a6c349ae4a76bb286ab7a5ee4058a25', 'duration': '-1', 'id': '1'}
+2021-05-06 09:52:38,215 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/1/tree'
+2021-05-06 09:52:38,260 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/tv/guid/a3/a303e2057f5f9a04967626c6187974efda3cae7c.xml'
+2021-05-06 09:52:38,446 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/tv/names/fr/95/95c4bea12e4edcf8aad730a222793324dc42c29d.xml'
+2021-05-06 09:52:38,753 (7f4c027fc700) :  ERROR (networking:196) - Error opening URL 'https://meta.plex.tv/tv/names/fr/95/95c4bea12e4edcf8aad730a222793324dc42c29d.xml'
+2021-05-06 09:52:38,771 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/tv/names/fr/0a/0ab79927a592f1727d4d2c6abd69b159462b349d.xml'
+2021-05-06 09:52:39,057 (7f4c027fc700) :  ERROR (networking:196) - Error opening URL 'https://meta.plex.tv/tv/names/fr/0a/0ab79927a592f1727d4d2c6abd69b159462b349d.xml'
+2021-05-06 09:52:39,142 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/tv/names/fr/64/6477d7f1fdbfb98330c914a77f4f220aba84f04b.xml'
+2021-05-06 09:52:39,425 (7f4c027fc700) :  ERROR (networking:196) - Error opening URL 'https://meta.plex.tv/tv/names/fr/64/6477d7f1fdbfb98330c914a77f4f220aba84f04b.xml'
+2021-05-06 09:52:39,427 (7f4c027fc700) :  INFO (__init__:369) - Searching for exact match with: The+Big+Bang+Theory (lang: fr)
+2021-05-06 09:52:39,434 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/login'
+2021-05-06 09:52:39,753 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/search/series?name=The+Big+Bang+Theory'
+2021-05-06 09:52:40,178 (7f4c027fc700) :  INFO (__init__:540) - Scoring result: The Big Bang Theory (80379)
+2021-05-06 09:52:40,180 (7f4c027fc700) :  INFO (__init__:584) - Score after heuristics: 93
+2021-05-06 09:52:40,182 (7f4c027fc700) :  INFO (__init__:508) - Final result: MetadataSearchResult(lang='fr', thumb=None, score=93, year='2007', id='80379', name='The Big Bang Theory')
+2021-05-06 09:52:40,184 (7f4c027fc700) :  DEBUG (runtime:88) - Sending packed state data (607 bytes)
+2021-05-06 09:52:40,185 (7f4c027fc700) :  DEBUG (runtime:924) - Response: [200] str, 644 bytes
+2021-05-06 09:52:40,310 (7f4c027fc700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQoxczQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDIKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly84MDM3OT9sYW5nPWZyczQKZ3VpZHM1CjgwMzc5czIKaWRyMAo_
+2021-05-06 09:52:40,312 (7f4c027fc700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQoxczQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDIKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly84MDM3OT9sYW5nPWZyczQKZ3VpZHM1CjgwMzc5czIKaWRyMAo_
+2021-05-06 09:52:40,313 (7f4c027fc700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://80379?lang=fr
+2021-05-06 09:52:40,315 (7f4c027fc700) :  ERROR (model:205) - Cannot read model from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/e/fe230b0ae169f73aae1e0865b828eced915b0a2.bundle/Contents/com.plexapp.agents.thetvdb
+2021-05-06 09:52:40,317 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/1/tree'
+2021-05-06 09:52:40,329 (7f4c027fc700) :  INFO (__init__:785) - def update()
+2021-05-06 09:52:40,334 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379?lang=fr'
+2021-05-06 09:52:40,608 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ffind%2F80379%3Fexternal_source%3Dtvdb_id'
+2021-05-06 09:52:42,899 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ftv%2F1418%2Frecommendations'
+2021-05-06 09:52:44,950 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/actors'
+2021-05-06 09:52:45,086 (7f4c027fc700) :  DEBUG (preferences:258) - Loaded preferences from DefaultPrefs.json
+2021-05-06 09:52:45,089 (7f4c027fc700) :  INFO (preferences:161) - No user preferences file exists
+2021-05-06 09:52:45,097 (7f4c027fc700) :  DEBUG (preferences:198) - Saved the user preferences
+2021-05-06 09:52:45,104 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/tv_e/80379/big+bang+theory/2007'
+2021-05-06 09:52:45,424 (7f4c027fc700) :  ERROR (networking:196) - Error opening URL 'https://meta.plex.tv/tv_e/80379/big+bang+theory/2007'
+2021-05-06 09:52:45,431 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/episodes?page=1'
+2021-05-06 09:52:45,790 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/episodes?page=2'
+2021-05-06 09:52:46,130 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/episodes?page=3'
+2021-05-06 09:52:46,466 (7f4c027fc700) :  INFO (__init__:903) - Show ordering is: aired
+2021-05-06 09:52:46,467 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 1 - skipping population of episode data
+2021-05-06 09:52:46,468 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 2 - skipping population of episode data
+2021-05-06 09:52:46,470 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 3 - skipping population of episode data
+2021-05-06 09:52:46,471 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 4 - skipping population of episode data
+2021-05-06 09:52:46,472 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 5 - skipping population of episode data
+2021-05-06 09:52:46,473 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 6 - skipping population of episode data
+2021-05-06 09:52:46,475 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 7 - skipping population of episode data
+2021-05-06 09:52:46,476 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 8 - skipping population of episode data
+2021-05-06 09:52:46,477 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 9 - skipping population of episode data
+2021-05-06 09:52:46,478 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 10 - skipping population of episode data
+2021-05-06 09:52:46,480 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 11 - skipping population of episode data
+2021-05-06 09:52:46,481 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 12 - skipping population of episode data
+2021-05-06 09:52:46,482 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 13 - skipping population of episode data
+2021-05-06 09:52:46,483 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 14 - skipping population of episode data
+2021-05-06 09:52:46,484 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 15 - skipping population of episode data
+2021-05-06 09:52:46,485 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 16 - skipping population of episode data
+2021-05-06 09:52:46,486 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 17 - skipping population of episode data
+2021-05-06 09:52:46,487 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 1 - skipping population of episode data
+2021-05-06 09:52:46,488 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 2 - skipping population of episode data
+2021-05-06 09:52:46,489 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 3 - skipping population of episode data
+2021-05-06 09:52:46,490 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 4 - skipping population of episode data
+2021-05-06 09:52:46,491 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 5 - skipping population of episode data
+2021-05-06 09:52:46,492 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 6 - skipping population of episode data
+2021-05-06 09:52:46,493 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 7 - skipping population of episode data
+2021-05-06 09:52:46,494 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 8 - skipping population of episode data
+2021-05-06 09:52:46,495 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 9 - skipping population of episode data
+2021-05-06 09:52:46,496 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 10 - skipping population of episode data
+2021-05-06 09:52:46,497 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 11 - skipping population of episode data
+2021-05-06 09:52:46,498 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 12 - skipping population of episode data
+2021-05-06 09:52:46,499 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 13 - skipping population of episode data
+2021-05-06 09:52:46,500 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 14 - skipping population of episode data
+2021-05-06 09:52:46,501 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 15 - skipping population of episode data
+2021-05-06 09:52:46,502 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 16 - skipping population of episode data
+2021-05-06 09:52:46,503 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 17 - skipping population of episode data
+2021-05-06 09:52:46,504 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 18 - skipping population of episode data
+2021-05-06 09:52:46,505 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 19 - skipping population of episode data
+2021-05-06 09:52:46,506 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 20 - skipping population of episode data
+2021-05-06 09:52:46,507 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 21 - skipping population of episode data
+2021-05-06 09:52:46,508 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 22 - skipping population of episode data
+2021-05-06 09:52:46,509 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 23 - skipping population of episode data
+2021-05-06 09:52:46,510 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 1 - skipping population of episode data
+2021-05-06 09:52:46,511 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 2 - skipping population of episode data
+2021-05-06 09:52:46,512 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 3 - skipping population of episode data
+2021-05-06 09:52:46,513 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 4 - skipping population of episode data
+2021-05-06 09:52:46,514 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 5 - skipping population of episode data
+2021-05-06 09:52:46,518 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 6 - skipping population of episode data
+2021-05-06 09:52:46,522 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 7 - skipping population of episode data
+2021-05-06 09:52:46,524 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 8 - skipping population of episode data
+2021-05-06 09:52:46,526 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 9 - skipping population of episode data
+2021-05-06 09:52:46,527 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 11 - skipping population of episode data
+2021-05-06 09:52:46,530 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 12 - skipping population of episode data
+2021-05-06 09:52:46,531 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 10 - skipping population of episode data
+2021-05-06 09:52:46,535 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 13 - skipping population of episode data
+2021-05-06 09:52:46,536 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 14 - skipping population of episode data
+2021-05-06 09:52:46,537 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 15 - skipping population of episode data
+2021-05-06 09:52:46,538 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 16 - skipping population of episode data
+2021-05-06 09:52:46,539 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 17 - skipping population of episode data
+2021-05-06 09:52:46,540 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 19 - skipping population of episode data
+2021-05-06 09:52:46,541 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 18 - skipping population of episode data
+2021-05-06 09:52:46,542 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 20 - skipping population of episode data
+2021-05-06 09:52:46,543 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 21 - skipping population of episode data
+2021-05-06 09:52:46,544 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 22 - skipping population of episode data
+2021-05-06 09:52:46,545 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 23 - skipping population of episode data
+2021-05-06 09:52:46,546 (7f4c027fc700) :  INFO (__init__:931) - No media for season 0 episode 1 - skipping population of episode data
+2021-05-06 09:52:46,547 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 1 - skipping population of episode data
+2021-05-06 09:52:46,548 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 2 - skipping population of episode data
+2021-05-06 09:52:46,549 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 3 - skipping population of episode data
+2021-05-06 09:52:46,550 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 4 - skipping population of episode data
+2021-05-06 09:52:46,551 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 5 - skipping population of episode data
+2021-05-06 09:52:46,552 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 6 - skipping population of episode data
+2021-05-06 09:52:46,553 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 7 - skipping population of episode data
+2021-05-06 09:52:46,553 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 8 - skipping population of episode data
+2021-05-06 09:52:46,554 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 9 - skipping population of episode data
+2021-05-06 09:52:46,555 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 10 - skipping population of episode data
+2021-05-06 09:52:46,556 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 11 - skipping population of episode data
+2021-05-06 09:52:46,557 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 12 - skipping population of episode data
+2021-05-06 09:52:46,558 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 13 - skipping population of episode data
+2021-05-06 09:52:46,559 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 14 - skipping population of episode data
+2021-05-06 09:52:46,560 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 15 - skipping population of episode data
+2021-05-06 09:52:46,561 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 16 - skipping population of episode data
+2021-05-06 09:52:46,562 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 17 - skipping population of episode data
+2021-05-06 09:52:46,563 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 18 - skipping population of episode data
+2021-05-06 09:52:46,564 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 19 - skipping population of episode data
+2021-05-06 09:52:46,565 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 20 - skipping population of episode data
+2021-05-06 09:52:46,566 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 21 - skipping population of episode data
+2021-05-06 09:52:46,567 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 22 - skipping population of episode data
+2021-05-06 09:52:46,568 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 23 - skipping population of episode data
+2021-05-06 09:52:46,569 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 24 - skipping population of episode data
+2021-05-06 09:52:46,570 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 1 - skipping population of episode data
+2021-05-06 09:52:46,571 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 2 - skipping population of episode data
+2021-05-06 09:52:46,572 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 3 - skipping population of episode data
+2021-05-06 09:52:46,573 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 4 - skipping population of episode data
+2021-05-06 09:52:46,574 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 5 - skipping population of episode data
+2021-05-06 09:52:46,575 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 6 - skipping population of episode data
+2021-05-06 09:52:46,576 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 7 - skipping population of episode data
+2021-05-06 09:52:46,577 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 8 - skipping population of episode data
+2021-05-06 09:52:46,578 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 9 - skipping population of episode data
+2021-05-06 09:52:46,579 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 10 - skipping population of episode data
+2021-05-06 09:52:46,580 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 11 - skipping population of episode data
+2021-05-06 09:52:46,581 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 12 - skipping population of episode data
+2021-05-06 09:52:46,582 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 13 - skipping population of episode data
+2021-05-06 09:52:46,583 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 14 - skipping population of episode data
+2021-05-06 09:52:46,584 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 15 - skipping population of episode data
+2021-05-06 09:52:46,585 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 16 - skipping population of episode data
+2021-05-06 09:52:46,586 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 17 - skipping population of episode data
+2021-05-06 09:52:46,586 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 18 - skipping population of episode data
+2021-05-06 09:52:46,587 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 19 - skipping population of episode data
+2021-05-06 09:52:46,588 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 20 - skipping population of episode data
+2021-05-06 09:52:46,589 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 21 - skipping population of episode data
+2021-05-06 09:52:46,590 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 22 - skipping population of episode data
+2021-05-06 09:52:46,591 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 23 - skipping population of episode data
+2021-05-06 09:52:46,592 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 24 - skipping population of episode data
+2021-05-06 09:52:46,593 (7f4c027fc700) :  INFO (__init__:931) - No media for season 0 episode 2 - skipping population of episode data
+2021-05-06 09:52:46,594 (7f4c027fc700) :  INFO (__init__:931) - No media for season 0 episode 3 - skipping population of episode data
+2021-05-06 09:52:46,595 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 1 - skipping population of episode data
+2021-05-06 09:52:46,596 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 2 - skipping population of episode data
+2021-05-06 09:52:46,597 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 3 - skipping population of episode data
+2021-05-06 09:52:46,598 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 4 - skipping population of episode data
+2021-05-06 09:52:46,599 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 5 - skipping population of episode data
+2021-05-06 09:52:46,600 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 6 - skipping population of episode data
+2021-05-06 09:52:46,601 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 7 - skipping population of episode data
+2021-05-06 09:52:46,602 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 8 - skipping population of episode data
+2021-05-06 09:52:46,603 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 9 - skipping population of episode data
+2021-05-06 09:52:46,604 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 10 - skipping population of episode data
+2021-05-06 09:52:46,605 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 11 - skipping population of episode data
+2021-05-06 09:52:46,606 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 12 - skipping population of episode data
+2021-05-06 09:52:46,607 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 13 - skipping population of episode data
+2021-05-06 09:52:46,608 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 14 - skipping population of episode data
+2021-05-06 09:52:46,609 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 15 - skipping population of episode data
+2021-05-06 09:52:46,610 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 16 - skipping population of episode data
+2021-05-06 09:52:46,611 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 17 - skipping population of episode data
+2021-05-06 09:52:46,612 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 18 - skipping population of episode data
+2021-05-06 09:52:46,613 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 19 - skipping population of episode data
+2021-05-06 09:52:46,614 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 20 - skipping population of episode data
+2021-05-06 09:52:46,615 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 21 - skipping population of episode data
+2021-05-06 09:52:46,616 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 22 - skipping population of episode data
+2021-05-06 09:52:46,617 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 23 - skipping population of episode data
+2021-05-06 09:52:46,618 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 24 - skipping population of episode data
+2021-05-06 09:52:46,619 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 1 - skipping population of episode data
+2021-05-06 09:52:46,620 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 2 - skipping population of episode data
+2021-05-06 09:52:46,621 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 3 - skipping population of episode data
+2021-05-06 09:52:46,622 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 4 - skipping population of episode data
+2021-05-06 09:52:46,623 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 5 - skipping population of episode data
+2021-05-06 09:52:46,624 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 6 - skipping population of episode data
+2021-05-06 09:52:46,625 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 7 - skipping population of episode data
+2021-05-06 09:52:46,626 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 8 - skipping population of episode data
+2021-05-06 09:52:46,627 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 9 - skipping population of episode data
+2021-05-06 09:52:46,628 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 10 - skipping population of episode data
+2021-05-06 09:52:46,629 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 12 - skipping population of episode data
+2021-05-06 09:52:46,630 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 11 - skipping population of episode data
+2021-05-06 09:52:46,631 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 13 - skipping population of episode data
+2021-05-06 09:52:46,632 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 14 - skipping population of episode data
+2021-05-06 09:52:46,633 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 15 - skipping population of episode data
+2021-05-06 09:52:46,634 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 16 - skipping population of episode data
+2021-05-06 09:52:46,635 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 17 - skipping population of episode data
+2021-05-06 09:52:46,636 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 18 - skipping population of episode data
+2021-05-06 09:52:46,637 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 19 - skipping population of episode data
+2021-05-06 09:52:46,638 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 20 - skipping population of episode data
+2021-05-06 09:52:46,639 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 21 - skipping population of episode data
+2021-05-06 09:52:46,640 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 22 - skipping population of episode data
+2021-05-06 09:52:46,641 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 23 - skipping population of episode data
+2021-05-06 09:52:46,642 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 24 - skipping population of episode data
+2021-05-06 09:52:46,643 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 1 - skipping population of episode data
+2021-05-06 09:52:46,644 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 2 - skipping population of episode data
+2021-05-06 09:52:46,645 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 3 - skipping population of episode data
+2021-05-06 09:52:46,646 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 4 - skipping population of episode data
+2021-05-06 09:52:46,647 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 5 - skipping population of episode data
+2021-05-06 09:52:46,648 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 6 - skipping population of episode data
+2021-05-06 09:52:46,649 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 8 - skipping population of episode data
+2021-05-06 09:52:46,649 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 7 - skipping population of episode data
+2021-05-06 09:52:46,650 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 9 - skipping population of episode data
+2021-05-06 09:52:46,651 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 10 - skipping population of episode data
+2021-05-06 09:52:46,652 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 11 - skipping population of episode data
+2021-05-06 09:52:46,653 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 12 - skipping population of episode data
+2021-05-06 09:52:46,654 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 13 - skipping population of episode data
+2021-05-06 09:52:46,655 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 14 - skipping population of episode data
+2021-05-06 09:52:46,656 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 15 - skipping population of episode data
+2021-05-06 09:52:46,657 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 16 - skipping population of episode data
+2021-05-06 09:52:46,658 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 17 - skipping population of episode data
+2021-05-06 09:52:46,659 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 18 - skipping population of episode data
+2021-05-06 09:52:46,660 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 19 - skipping population of episode data
+2021-05-06 09:52:46,661 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 20 - skipping population of episode data
+2021-05-06 09:52:46,662 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 21 - skipping population of episode data
+2021-05-06 09:52:46,663 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 22 - skipping population of episode data
+2021-05-06 09:52:46,664 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 23 - skipping population of episode data
+2021-05-06 09:52:46,665 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 24 - skipping population of episode data
+2021-05-06 09:52:46,666 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 1 - skipping population of episode data
+2021-05-06 09:52:46,667 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 2 - skipping population of episode data
+2021-05-06 09:52:46,668 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 3 - skipping population of episode data
+2021-05-06 09:52:46,669 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 4 - skipping population of episode data
+2021-05-06 09:52:46,670 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 5 - skipping population of episode data
+2021-05-06 09:52:46,671 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 7 - skipping population of episode data
+2021-05-06 09:52:46,672 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 6 - skipping population of episode data
+2021-05-06 09:52:46,673 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 8 - skipping population of episode data
+2021-05-06 09:52:46,674 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 9 - skipping population of episode data
+2021-05-06 09:52:46,675 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 10 - skipping population of episode data
+2021-05-06 09:52:46,676 (7f4c027fc700) :  INFO (__init__:931) - No media for season 0 episode 4 - skipping population of episode data
+2021-05-06 09:52:46,677 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 11 - skipping population of episode data
+2021-05-06 09:52:46,678 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 12 - skipping population of episode data
+2021-05-06 09:52:46,679 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 13 - skipping population of episode data
+2021-05-06 09:52:46,680 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 14 - skipping population of episode data
+2021-05-06 09:52:46,681 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 15 - skipping population of episode data
+2021-05-06 09:52:46,682 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 16 - skipping population of episode data
+2021-05-06 09:52:46,683 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 17 - skipping population of episode data
+2021-05-06 09:52:46,684 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 18 - skipping population of episode data
+2021-05-06 09:52:46,685 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 19 - skipping population of episode data
+2021-05-06 09:52:46,686 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 20 - skipping population of episode data
+2021-05-06 09:52:46,687 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 21 - skipping population of episode data
+2021-05-06 09:52:46,688 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 22 - skipping population of episode data
+2021-05-06 09:52:46,689 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 23 - skipping population of episode data
+2021-05-06 09:52:46,690 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 24 - skipping population of episode data
+2021-05-06 09:52:46,691 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 1 - skipping population of episode data
+2021-05-06 09:52:46,692 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 2 - skipping population of episode data
+2021-05-06 09:52:46,692 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 3 - skipping population of episode data
+2021-05-06 09:52:46,694 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 4 - skipping population of episode data
+2021-05-06 09:52:46,694 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 5 - skipping population of episode data
+2021-05-06 09:52:46,695 (7f4c027fc700) :  INFO (__init__:931) - No media for season 0 episode 5 - skipping population of episode data
+2021-05-06 09:52:46,696 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 6 - skipping population of episode data
+2021-05-06 09:52:46,697 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 7 - skipping population of episode data
+2021-05-06 09:52:46,698 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 8 - skipping population of episode data
+2021-05-06 09:52:46,699 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 9 - skipping population of episode data
+2021-05-06 09:52:46,701 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 10 - skipping population of episode data
+2021-05-06 09:52:46,702 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 11 - skipping population of episode data
+2021-05-06 09:52:46,703 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 12 - skipping population of episode data
+2021-05-06 09:52:46,704 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 13 - skipping population of episode data
+2021-05-06 09:52:46,705 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 14 - skipping population of episode data
+2021-05-06 09:52:46,706 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 15 - skipping population of episode data
+2021-05-06 09:52:46,707 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 16 - skipping population of episode data
+2021-05-06 09:52:46,708 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 17 - skipping population of episode data
+2021-05-06 09:52:46,709 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 18 - skipping population of episode data
+2021-05-06 09:52:46,710 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 19 - skipping population of episode data
+2021-05-06 09:52:46,712 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 20 - skipping population of episode data
+2021-05-06 09:52:46,713 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 21 - skipping population of episode data
+2021-05-06 09:52:46,714 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 22 - skipping population of episode data
+2021-05-06 09:52:46,715 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 23 - skipping population of episode data
+2021-05-06 09:52:46,716 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 24 - skipping population of episode data
+2021-05-06 09:52:46,717 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 1 - skipping population of episode data
+2021-05-06 09:52:46,718 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 2 - skipping population of episode data
+2021-05-06 09:52:46,719 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 3 - skipping population of episode data
+2021-05-06 09:52:46,720 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 4 - skipping population of episode data
+2021-05-06 09:52:46,721 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 5 - skipping population of episode data
+2021-05-06 09:52:46,722 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 6 - skipping population of episode data
+2021-05-06 09:52:46,723 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 7 - skipping population of episode data
+2021-05-06 09:52:46,724 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 8 - skipping population of episode data
+2021-05-06 09:52:46,725 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 9 - skipping population of episode data
+2021-05-06 09:52:46,726 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 10 - skipping population of episode data
+2021-05-06 09:52:46,727 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 11 - skipping population of episode data
+2021-05-06 09:52:46,728 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 12 - skipping population of episode data
+2021-05-06 09:52:46,729 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 13 - skipping population of episode data
+2021-05-06 09:52:46,730 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 14 - skipping population of episode data
+2021-05-06 09:52:46,731 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 15 - skipping population of episode data
+2021-05-06 09:52:46,732 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 16 - skipping population of episode data
+2021-05-06 09:52:46,733 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 17 - skipping population of episode data
+2021-05-06 09:52:46,734 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 18 - skipping population of episode data
+2021-05-06 09:52:46,735 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 19 - skipping population of episode data
+2021-05-06 09:52:46,736 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 20 - skipping population of episode data
+2021-05-06 09:52:46,737 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 21 - skipping population of episode data
+2021-05-06 09:52:46,738 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 22 - skipping population of episode data
+2021-05-06 09:52:46,739 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 23 - skipping population of episode data
+2021-05-06 09:52:46,740 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 24 - skipping population of episode data
+2021-05-06 09:52:46,741 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 1 - skipping population of episode data
+2021-05-06 09:52:46,742 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 2 - skipping population of episode data
+2021-05-06 09:52:46,743 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 3 - skipping population of episode data
+2021-05-06 09:52:46,744 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 4 - skipping population of episode data
+2021-05-06 09:52:46,745 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 5 - skipping population of episode data
+2021-05-06 09:52:46,746 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 6 - skipping population of episode data
+2021-05-06 09:52:46,747 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 7 - skipping population of episode data
+2021-05-06 09:52:46,748 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 8 - skipping population of episode data
+2021-05-06 09:52:46,749 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 9 - skipping population of episode data
+2021-05-06 09:52:46,750 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 10 - skipping population of episode data
+2021-05-06 09:52:46,751 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 11 - skipping population of episode data
+2021-05-06 09:52:46,752 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 12 - skipping population of episode data
+2021-05-06 09:52:46,753 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 13 - skipping population of episode data
+2021-05-06 09:52:46,754 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 14 - skipping population of episode data
+2021-05-06 09:52:46,755 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 15 - skipping population of episode data
+2021-05-06 09:52:46,756 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 16 - skipping population of episode data
+2021-05-06 09:52:46,757 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 17 - skipping population of episode data
+2021-05-06 09:52:46,758 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 18 - skipping population of episode data
+2021-05-06 09:52:46,759 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 19 - skipping population of episode data
+2021-05-06 09:52:46,760 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 20 - skipping population of episode data
+2021-05-06 09:52:46,761 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 21 - skipping population of episode data
+2021-05-06 09:52:46,762 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 22 - skipping population of episode data
+2021-05-06 09:52:46,763 (7f4c027fc700) :  INFO (__init__:931) - No media for season 0 episode 6 - skipping population of episode data
+2021-05-06 09:52:46,764 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 23 - skipping population of episode data
+2021-05-06 09:52:46,766 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named UpdateEpisodes with 1 tasks
+2021-05-06 09:52:46,770 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7177179?lang=fr'
+2021-05-06 09:52:46,903 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/episodes/80379/7177179.jpg'
+2021-05-06 09:52:47,056 (7f4c037fe700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:52:47,058 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set UpdateEpisodes ended
+2021-05-06 09:52:47,075 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/images?lang=fr'
+2021-05-06 09:52:47,385 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/images/query?keyType=fanart&lang=fr'
+2021-05-06 09:52:47,716 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/images/query?keyType=season&lang=fr'
+2021-05-06 09:52:48,043 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/images/query?keyType=series&lang=fr'
+2021-05-06 09:52:48,504 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/images?lang=en'
+2021-05-06 09:52:48,828 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/images/query?keyType=fanart&lang=en'
+2021-05-06 09:52:49,211 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/images/query?keyType=poster&lang=en'
+2021-05-06 09:52:49,555 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/images/query?keyType=seasonwide&lang=en'
+2021-05-06 09:52:49,895 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/images/query?keyType=series&lang=en'
+2021-05-06 09:52:50,229 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/images/query?keyType=season&lang=en'
+2021-05-06 09:52:50,628 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named DownloadImages with 381 tasks
+2021-05-06 09:52:50,652 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-2_t.jpg'
+2021-05-06 09:52:50,669 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-20_t.jpg'
+2021-05-06 09:52:50,686 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-38_t.jpg'
+2021-05-06 09:52:50,703 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-66_t.jpg'
+2021-05-06 09:52:51,145 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-38_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:51,158 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-66_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:51,162 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-52_t.jpg'
+2021-05-06 09:52:51,183 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-39_t.jpg'
+2021-05-06 09:52:51,202 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-20_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:51,216 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-44_t.jpg'
+2021-05-06 09:52:51,361 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-2_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:51,383 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5b8b22b2cecfb_t.jpg'
+2021-05-06 09:52:51,636 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-44_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:51,636 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-39_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:51,639 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-52_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:51,670 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5bdb4e5a18877_t.jpg'
+2021-05-06 09:52:51,700 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5c2e59f6ac43e_t.jpg'
+2021-05-06 09:52:51,714 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5cddc3984f352_t.jpg'
+2021-05-06 09:52:51,830 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5b8b22b2cecfb_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:51,845 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-55_t.jpg'
+2021-05-06 09:52:52,148 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5c2e59f6ac43e_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:52,159 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5bdb4e5a18877_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:52,171 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5cf70deb5404e_t.jpg'
+2021-05-06 09:52:52,189 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5cf70e258f16b_t.jpg'
+2021-05-06 09:52:52,492 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5cddc3984f352_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:52,509 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5d6519178d129_t.jpg'
+2021-05-06 09:52:52,669 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5cf70deb5404e_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:52,687 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5d8572d8adc05_t.jpg'
+2021-05-06 09:52:52,852 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5d6519178d129_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:52,870 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5d85739771395_t.jpg'
+2021-05-06 09:52:54,253 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5d85739771395_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,270 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5d8573b0cdb37_t.jpg'
+2021-05-06 09:52:54,287 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-55_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,301 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5d8573c8494ef_t.jpg'
+2021-05-06 09:52:54,362 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5d8573b0cdb37_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,377 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5d8573c8494ef_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,382 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5d9b3cb865b5d_t.jpg'
+2021-05-06 09:52:54,400 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5d9bdf8801c81_t.jpg'
+2021-05-06 09:52:54,469 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5d9b3cb865b5d_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,486 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5d9be022919cf_t.jpg'
+2021-05-06 09:52:54,499 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5d9bdf8801c81_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,510 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5dab6421548f6_t.jpg'
+2021-05-06 09:52:54,554 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5d9be022919cf_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,566 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/80379/backgrounds/62081386_t.jpg'
+2021-05-06 09:52:54,586 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5dab6421548f6_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,600 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g14_t.jpg'
+2021-05-06 09:52:54,653 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/80379/backgrounds/62081386_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,668 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-18_t.jpg'
+2021-05-06 09:52:54,690 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g14_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,706 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-9_t.jpg'
+2021-05-06 09:52:54,758 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-18_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,772 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-25_t.jpg'
+2021-05-06 09:52:54,800 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-9_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,813 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-1_t.jpg'
+2021-05-06 09:52:54,861 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-25_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,875 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-34_t.jpg'
+2021-05-06 09:52:54,908 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-1_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:54,922 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-13_t.jpg'
+2021-05-06 09:52:55,057 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-34_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,073 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-13_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,075 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-4_t.jpg'
+2021-05-06 09:52:55,096 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-22_t.jpg'
+2021-05-06 09:52:55,166 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-4_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,182 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-43_t.jpg'
+2021-05-06 09:52:55,196 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-22_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,211 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-1_t.jpg'
+2021-05-06 09:52:55,271 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-43_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,289 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-10_t.jpg'
+2021-05-06 09:52:55,319 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-1_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,334 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g13_t.jpg'
+2021-05-06 09:52:55,384 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-10_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,400 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5d8572d8adc05_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,401 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g23_t.jpg'
+2021-05-06 09:52:55,431 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g13_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,435 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g6_t.jpg'
+2021-05-06 09:52:55,463 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-24_t.jpg'
+2021-05-06 09:52:55,520 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g23_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,537 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g6_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,541 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-4_t.jpg'
+2021-05-06 09:52:55,568 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-19_t.jpg'
+2021-05-06 09:52:55,580 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-24_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,597 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-27_t.jpg'
+2021-05-06 09:52:55,646 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-4_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,664 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g2_t.jpg'
+2021-05-06 09:52:55,681 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-19_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,682 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-27_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,697 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g5_t.jpg'
+2021-05-06 09:52:55,716 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-11_t.jpg'
+2021-05-06 09:52:55,762 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g2_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,783 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g5_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,796 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-29_t.jpg'
+2021-05-06 09:52:55,825 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-11_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,833 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-14_t.jpg'
+2021-05-06 09:52:55,857 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-16_t.jpg'
+2021-05-06 09:52:55,903 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-29_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,916 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-40_t.jpg'
+2021-05-06 09:52:55,954 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-14_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:55,969 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-44_t.jpg'
+2021-05-06 09:52:55,984 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-16_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,000 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-48_t.jpg'
+2021-05-06 09:52:56,035 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-40_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,052 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-49_t.jpg'
+2021-05-06 09:52:56,068 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-44_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,087 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g15_t.jpg'
+2021-05-06 09:52:56,105 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-48_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,120 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-2_t.jpg'
+2021-05-06 09:52:56,152 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-49_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,168 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-30_t.jpg'
+2021-05-06 09:52:56,178 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g15_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,192 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-39_t.jpg'
+2021-05-06 09:52:56,209 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5cf70e258f16b_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,223 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-10_t.jpg'
+2021-05-06 09:52:56,231 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-2_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,245 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-31_t.jpg'
+2021-05-06 09:52:56,267 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-30_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,284 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-37_t.jpg'
+2021-05-06 09:52:56,299 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-39_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,312 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-60_t.jpg'
+2021-05-06 09:52:56,324 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-10_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,342 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-24_t.jpg'
+2021-05-06 09:52:56,349 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-31_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,365 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-26_t.jpg'
+2021-05-06 09:52:56,396 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-37_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,411 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-30_t.jpg'
+2021-05-06 09:52:56,426 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-60_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,439 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-42_t.jpg'
+2021-05-06 09:52:56,450 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-24_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,465 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g3_t.jpg'
+2021-05-06 09:52:56,493 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-26_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,508 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g11_t.jpg'
+2021-05-06 09:52:56,530 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-30_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,542 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g18_t.jpg'
+2021-05-06 09:52:56,553 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-42_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,558 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g3_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,575 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-19_t.jpg'
+2021-05-06 09:52:56,594 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-49_t.jpg'
+2021-05-06 09:52:56,630 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g11_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,638 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g18_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,644 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-38_t.jpg'
+2021-05-06 09:52:56,665 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-3_t.jpg'
+2021-05-06 09:52:56,705 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-19_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,722 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-12_t.jpg'
+2021-05-06 09:52:56,734 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-49_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,750 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-21_t.jpg'
+2021-05-06 09:52:56,773 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-3_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,777 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-38_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,791 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-27_t.jpg'
+2021-05-06 09:52:56,811 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-7_t.jpg'
+2021-05-06 09:52:56,821 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-12_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,835 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-20_t.jpg'
+2021-05-06 09:52:56,855 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-21_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,870 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-21_t.jpg'
+2021-05-06 09:52:56,883 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-27_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,901 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g20_t.jpg'
+2021-05-06 09:52:56,910 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-7_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,923 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-20_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,926 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-42_t.jpg'
+2021-05-06 09:52:56,950 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-45_t.jpg'
+2021-05-06 09:52:56,985 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-21_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:56,991 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g20_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,002 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-41_t.jpg'
+2021-05-06 09:52:57,014 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-42_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,023 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-50_t.jpg'
+2021-05-06 09:52:57,043 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-48_t.jpg'
+2021-05-06 09:52:57,043 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-45_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,067 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-16_t.jpg'
+2021-05-06 09:52:57,092 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-41_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,105 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-31_t.jpg'
+2021-05-06 09:52:57,127 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-50_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,140 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-33_t.jpg'
+2021-05-06 09:52:57,151 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-48_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,168 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-16_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,171 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-41_t.jpg'
+2021-05-06 09:52:57,193 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g4_t.jpg'
+2021-05-06 09:52:57,235 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-31_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,252 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-33_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,289 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g17_t.jpg'
+2021-05-06 09:52:57,303 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-41_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,320 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g4_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,323 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g19_t.jpg'
+2021-05-06 09:52:57,361 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/seasons/5baaa0d68b693_t.jpg'
+2021-05-06 09:52:57,387 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g28_t.jpg'
+2021-05-06 09:52:57,388 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g17_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,422 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g19_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,426 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-23_t.jpg'
+2021-05-06 09:52:57,452 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-28_t.jpg'
+2021-05-06 09:52:57,482 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/seasons/5baaa0d68b693_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,490 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g28_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,499 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-32_t.jpg'
+2021-05-06 09:52:57,520 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-64_t.jpg'
+2021-05-06 09:52:57,552 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-23_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,572 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-3_t.jpg'
+2021-05-06 09:52:57,586 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-28_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,602 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-23_t.jpg'
+2021-05-06 09:52:57,626 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-32_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,636 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-64_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,645 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-36_t.jpg'
+2021-05-06 09:52:57,674 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-37_t.jpg'
+2021-05-06 09:52:57,687 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-3_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,701 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-23_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,706 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-35_t.jpg'
+2021-05-06 09:52:57,733 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-34_t.jpg'
+2021-05-06 09:52:57,747 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-36_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,764 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-46_t.jpg'
+2021-05-06 09:52:57,792 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-37_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,811 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g_t.jpg'
+2021-05-06 09:52:57,823 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-35_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,839 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g12_t.jpg'
+2021-05-06 09:52:57,870 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-34_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,887 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-46_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,888 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g30_t.jpg'
+2021-05-06 09:52:57,908 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-35_t.jpg'
+2021-05-06 09:52:57,938 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g12_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,939 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:57,953 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-59_t.jpg'
+2021-05-06 09:52:57,972 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5c309a5f9ca27_t.jpg'
+2021-05-06 09:52:57,998 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g30_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,013 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-15_t.jpg'
+2021-05-06 09:52:58,023 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-35_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,038 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/5b8d57d601c5f_t.jpg'
+2021-05-06 09:52:58,053 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-59_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,069 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/80379/posters/5ebf2942b3be3_t.jpg'
+2021-05-06 09:52:58,089 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5c309a5f9ca27_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,104 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-15_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,105 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/blank/80379_t.jpg'
+2021-05-06 09:52:58,127 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g10_t.jpg'
+2021-05-06 09:52:58,141 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/5b8d57d601c5f_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,158 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g29_t.jpg'
+2021-05-06 09:52:58,172 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/80379/posters/5ebf2942b3be3_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,192 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g33_t.jpg'
+2021-05-06 09:52:58,204 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/blank/80379_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,223 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g10_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,225 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-36_t.jpg'
+2021-05-06 09:52:58,248 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-56_t.jpg'
+2021-05-06 09:52:58,259 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g29_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,275 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-61_t.jpg'
+2021-05-06 09:52:58,289 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g33_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,307 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/80379-65_t.jpg'
+2021-05-06 09:52:58,333 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-36_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,344 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-56_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,349 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5cdeec1a5b124_t.jpg'
+2021-05-06 09:52:58,370 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5d85726a49a75_t.jpg'
+2021-05-06 09:52:58,411 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-61_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,427 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-32_t.jpg'
+2021-05-06 09:52:58,452 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/80379-65_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,467 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-47_t.jpg'
+2021-05-06 09:52:58,479 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5cdeec1a5b124_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,497 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/80379-53_t.jpg'
+2021-05-06 09:52:58,525 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5d85726a49a75_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,541 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/5af4b7b3468ca_t.jpg'
+2021-05-06 09:52:58,551 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-32_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,565 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-47_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,568 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/5b64871cca599_t.jpg'
+2021-05-06 09:52:58,588 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/5b8b1e4b31701_t.jpg'
+2021-05-06 09:52:58,603 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/80379-53_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,619 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/5d1526b0ab9a1_t.jpg'
+2021-05-06 09:52:58,632 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/5af4b7b3468ca_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,648 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/5dab60e8c32d0_t.jpg'
+2021-05-06 09:52:58,685 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/5b64871cca599_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,701 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/5b8b1e4b31701_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,702 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/80379/posters/5eb5cc3fc0e4e_t.jpg'
+2021-05-06 09:52:58,729 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/80379/posters/5ed54cb3ed64f_t.jpg'
+2021-05-06 09:52:58,755 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/5dab60e8c32d0_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,769 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/80379/posters/5ed54d0f87394_t.jpg'
+2021-05-06 09:52:58,782 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/5d1526b0ab9a1_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,782 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/80379/posters/5eb5cc3fc0e4e_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,800 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/text/80379-2_t.jpg'
+2021-05-06 09:52:58,817 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/text/80379-3_t.jpg'
+2021-05-06 09:52:58,839 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/80379/posters/5ed54cb3ed64f_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,856 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/text/80379-4_t.jpg'
+2021-05-06 09:52:58,869 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/80379/posters/5ed54d0f87394_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,883 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g7_t.jpg'
+2021-05-06 09:52:58,911 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/text/80379-2_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,928 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/text/80379-3_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,930 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g22_t.jpg'
+2021-05-06 09:52:58,952 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g25_t.jpg'
+2021-05-06 09:52:58,975 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/text/80379-4_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,990 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g7_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:58,993 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/80379-g27_t.jpg'
+2021-05-06 09:52:59,012 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/5baaabc0b1082_t.jpg'
+2021-05-06 09:52:59,038 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g22_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:59,056 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g25_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:59,060 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/seasons/5b99a563bf2ce_t.jpg'
+2021-05-06 09:52:59,079 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/seasons/5ba9aa1d5c6d9_t.jpg'
+2021-05-06 09:52:59,093 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/80379-g27_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:59,114 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/seasons/5bd20ceee934f_t.jpg'
+2021-05-06 09:52:59,125 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/5baaabc0b1082_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:59,147 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/seasons/5b99a563bf2ce_t.jpg'
+2021-05-06 09:52:59,183 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/seasons/5b99a563bf2ce_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:59,212 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/seasons/5ba9aa1d5c6d9_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:59,212 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/seasons/5ba9aa1d5c6d9_t.jpg'
+2021-05-06 09:52:59,252 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/seasons/5bd20ceee934f_t.jpg'
+2021-05-06 09:52:59,267 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/seasons/5b99a563bf2ce_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:59,296 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/seasons/5bd20ceee934f_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:59,341 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/seasons/5ba9aa1d5c6d9_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:59,357 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/seasons/5bd20ceee934f_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:52:59,359 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set DownloadImages ended
+2021-05-06 09:52:59,363 (7f4c027fc700) :  INFO (__init__:1120) - Series Extra XML is empty - therefore, no season XML
+2021-05-06 09:53:00,366 (7f4c027fc700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/e/fe230b0ae169f73aae1e0865b828eced915b0a2.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 09:53:00,374 (7f4c027fc700) :  DEBUG (runtime:88) - Sending packed state data (607 bytes)
+2021-05-06 09:53:00,375 (7f4c027fc700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 09:57:04,709 (7f4c027fc700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjFzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTkKczE2CjZkNzNiNGE1YzI3MzMzNmZzMTcKb3BlblN1YnRpdGxlc0hhc2hzMQoyczcKZXBpc29kZXMxCjFzOAplcGlzb2RpY3M5CkNoZXJub2J5bHM0CnNob3dzMQoxczYKc2Vhc29uczk3CiUyRnR2JTJGQ2hlcm5vYnlsJTJGU2Vhc29uJTIwMSUyRkNoZXJub2J5bCUyMC0lMjBTMDFFMDIlMjAtJTIwUGxlYXNlJTIwUmVtYWluJTIwQ2FsbSUyMFNEVFYlMkVhdmlzOApmaWxlbmFtZXM0MApiOThmMDNiZjQ3ZjdhNWRmZjFlOTQzY2RkYjE5ZTQzZmMwOWRiMmYyczgKcGxleEhhc2hzMgotMXM4CmR1cmF0aW9uczEKNHMyCmlkcjAK
+2021-05-06 09:57:04,712 (7f4c027fc700) :  DEBUG (runtime:49) - Received packed state data (580 bytes)
+2021-05-06 09:57:04,714 (7f4c027fc700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmZyczQKbGFuZ2IwczYKbWFudWFsYjFzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M3ClRWX1Nob3dzMTAKbWVkaWFfdHlwZTkKczE2CjZkNzNiNGE1YzI3MzMzNmZzMTcKb3BlblN1YnRpdGxlc0hhc2hzMQoyczcKZXBpc29kZXMxCjFzOAplcGlzb2RpY3M5CkNoZXJub2J5bHM0CnNob3dzMQoxczYKc2Vhc29uczk3CiUyRnR2JTJGQ2hlcm5vYnlsJTJGU2Vhc29uJTIwMSUyRkNoZXJub2J5bCUyMC0lMjBTMDFFMDIlMjAtJTIwUGxlYXNlJTIwUmVtYWluJTIwQ2FsbSUyMFNEVFYlMkVhdmlzOApmaWxlbmFtZXM0MApiOThmMDNiZjQ3ZjdhNWRmZjFlOTQzY2RkYjE5ZTQzZmMwOWRiMmYyczgKcGxleEhhc2hzMgotMXM4CmR1cmF0aW9uczEKNHMyCmlkcjAK
+2021-05-06 09:57:04,717 (7f4c027fc700) :  INFO (agentkit:961) - Searching for matches for {'openSubtitlesHash': '6d73b4a5c273336f', 'episode': '2', 'episodic': '1', 'show': 'Chernobyl', 'season': '1', 'filename': '%2Ftv%2FChernobyl%2FSeason%201%2FChernobyl%20-%20S01E02%20-%20Please%20Remain%20Calm%20SDTV%2Eavi', 'plexHash': 'b98f03bf47f7a5dff1e943cddb19e43fc09db2f2', 'duration': '-1', 'id': '4'}
+2021-05-06 09:57:04,724 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 09:57:04,869 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/tv/guid/66/6658b83c4ead969f9cf45faab6dd57ee968bb4f6.xml'
+2021-05-06 09:57:05,103 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/tv/names/fr/66/6658b83c4ead969f9cf45faab6dd57ee968bb4f6.xml'
+2021-05-06 09:57:05,697 (7f4c027fc700) :  ERROR (networking:196) - Error opening URL 'https://meta.plex.tv/tv/names/fr/66/6658b83c4ead969f9cf45faab6dd57ee968bb4f6.xml'
+2021-05-06 09:57:05,699 (7f4c027fc700) :  INFO (__init__:369) - Searching for exact match with: Chernobyl (lang: fr)
+2021-05-06 09:57:05,703 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/search/series?name=Chernobyl'
+2021-05-06 09:57:09,413 (7f4c027fc700) :  INFO (__init__:540) - Scoring result: Chernobyl (360893)
+2021-05-06 09:57:09,415 (7f4c027fc700) :  INFO (__init__:584) - Score after heuristics: 95
+2021-05-06 09:57:09,416 (7f4c027fc700) :  INFO (__init__:540) - Scoring result: Чернобыль. Зона отчуждения (286970)
+2021-05-06 09:57:09,417 (7f4c027fc700) :  INFO (__init__:584) - Score after heuristics: 40
+2021-05-06 09:57:09,419 (7f4c027fc700) :  INFO (__init__:540) - Scoring result: La Bataille de Tchernobyl (165471)
+2021-05-06 09:57:09,421 (7f4c027fc700) :  INFO (__init__:584) - Score after heuristics: 76
+2021-05-06 09:57:09,423 (7f4c027fc700) :  INFO (__init__:540) - Scoring result: Chorna kvitka (374349)
+2021-05-06 09:57:09,425 (7f4c027fc700) :  INFO (__init__:584) - Score after heuristics: 76
+2021-05-06 09:57:09,427 (7f4c027fc700) :  INFO (__init__:540) - Scoring result: Chernobyl: A Natural History (291463)
+2021-05-06 09:57:09,429 (7f4c027fc700) :  INFO (__init__:584) - Score after heuristics: 75
+2021-05-06 09:57:09,430 (7f4c027fc700) :  INFO (__init__:540) - Scoring result: Chernobyl: Life in the Dead Zone (364982)
+2021-05-06 09:57:09,436 (7f4c027fc700) :  INFO (__init__:584) - Score after heuristics: 72
+2021-05-06 09:57:09,437 (7f4c027fc700) :  INFO (__init__:508) - Final result: MetadataSearchResult(lang='fr', thumb=None, score=95, year='2019', id='360893', name='Chernobyl')
+2021-05-06 09:57:09,438 (7f4c027fc700) :  INFO (__init__:508) - Final result: MetadataSearchResult(lang='fr', thumb=None, score=76, year='2016', id='374349', name='Chorna kvitka')
+2021-05-06 09:57:09,440 (7f4c027fc700) :  INFO (__init__:508) - Final result: MetadataSearchResult(lang='fr', thumb=None, score=76, year='2006', id='165471', name='La Bataille de Tchernobyl')
+2021-05-06 09:57:09,441 (7f4c027fc700) :  INFO (__init__:508) - Final result: MetadataSearchResult(lang='fr', thumb=None, score=75, year='2010', id='291463', name='Chernobyl: A Natural History')
+2021-05-06 09:57:09,442 (7f4c027fc700) :  INFO (__init__:508) - Final result: MetadataSearchResult(lang='fr', thumb=None, score=72, year=u'', id='364982', name='Chernobyl: Life in the Dead Zone')
+2021-05-06 09:57:09,444 (7f4c027fc700) :  INFO (__init__:508) - Final result: MetadataSearchResult(lang='fr', thumb=None, score=40, year='2014', id='286970', name=u'\u0427\u0435\u0440\u043d\u043e\u0431\u044b\u043b\u044c. \u0417\u043e\u043d\u0430 \u043e\u0442\u0447\u0443\u0436\u0434\u0435\u043d\u0438\u044f')
+2021-05-06 09:57:09,446 (7f4c027fc700) :  DEBUG (runtime:88) - Sending packed state data (607 bytes)
+2021-05-06 09:57:09,475 (7f4c027fc700) :  DEBUG (runtime:924) - Response: [200] str, 2336 bytes
+2021-05-06 09:57:09,673 (7f4c027fc700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM%40bGFuZz1mcnM0Cmd1aWRzNgozNjA4OTNzMgppZHIwCg__
+2021-05-06 09:57:09,676 (7f4c027fc700) :  DEBUG (runtime:49) - Received packed state data (580 bytes)
+2021-05-06 09:57:09,680 (7f4c027fc700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM@bGFuZz1mcnM0Cmd1aWRzNgozNjA4OTNzMgppZHIwCg__
+2021-05-06 09:57:09,685 (7f4c027fc700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 09:57:09,702 (7f4c027fc700) :  ERROR (model:205) - Cannot read model from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb
+2021-05-06 09:57:09,704 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 09:57:09,728 (7f4c027fc700) :  INFO (__init__:785) - def update()
+2021-05-06 09:57:09,732 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893?lang=fr'
+2021-05-06 09:57:11,281 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ffind%2F360893%3Fexternal_source%3Dtvdb_id'
+2021-05-06 09:57:16,559 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ftv%2F87108%2Frecommendations'
+2021-05-06 09:57:18,603 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/actors'
+2021-05-06 09:57:18,881 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/tv_e/360893/chernobyl/2019'
+2021-05-06 09:57:19,169 (7f4c027fc700) :  ERROR (networking:196) - Error opening URL 'https://meta.plex.tv/tv_e/360893/chernobyl/2019'
+2021-05-06 09:57:19,180 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/episodes?page=1'
+2021-05-06 09:57:19,441 (7f4c027fc700) :  INFO (__init__:903) - Show ordering is: aired
+2021-05-06 09:57:19,444 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 4 - skipping population of episode data
+2021-05-06 09:57:19,445 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 5 - skipping population of episode data
+2021-05-06 09:57:19,446 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 3 - skipping population of episode data
+2021-05-06 09:57:19,447 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named UpdateEpisodes with 2 tasks
+2021-05-06 09:57:19,453 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7082952?lang=fr'
+2021-05-06 09:57:19,463 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7109113?lang=fr'
+2021-05-06 09:57:19,578 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/episodes/360893/7082952.jpg'
+2021-05-06 09:57:19,594 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/episodes/360893/7109113.jpg'
+2021-05-06 09:57:19,683 (7f4c037fe700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:57:19,713 (7f4c012ba700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:57:19,715 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set UpdateEpisodes ended
+2021-05-06 09:57:19,736 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/images?lang=fr'
+2021-05-06 09:57:20,081 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/images/query?keyType=fanart&lang=fr'
+2021-05-06 09:57:20,396 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/images?lang=en'
+2021-05-06 09:57:20,726 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/images/query?keyType=fanart&lang=en'
+2021-05-06 09:57:21,066 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/images/query?keyType=poster&lang=en'
+2021-05-06 09:57:21,405 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/images/query?keyType=series&lang=en'
+2021-05-06 09:57:21,780 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/images/query?keyType=season&lang=en'
+2021-05-06 09:57:22,129 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named DownloadImages with 23 tasks
+2021-05-06 09:57:22,174 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017313_t.jpg'
+2021-05-06 09:57:22,209 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017317_t.jpg'
+2021-05-06 09:57:22,242 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017319_t.jpg'
+2021-05-06 09:57:22,285 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017313_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,286 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017320_t.jpg'
+2021-05-06 09:57:22,335 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017317_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,336 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017321_t.jpg'
+2021-05-06 09:57:22,392 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017319_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,397 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/360893/panels/5eee1df1d1cea_t.jpg'
+2021-05-06 09:57:22,429 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017320_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,454 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/5cc12861c93e4_t.jpg'
+2021-05-06 09:57:22,487 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017321_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,512 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5cd7e75b9e99a_t.jpg'
+2021-05-06 09:57:22,550 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/360893/panels/5eee1df1d1cea_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,584 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/5cc12861c93e4_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,589 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/posters/5d218b09c7dc3_t.jpg'
+2021-05-06 09:57:22,680 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/360893/posters/62015174_t.jpg'
+2021-05-06 09:57:22,682 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5cd7e75b9e99a_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,726 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5cb116e858285_t.jpg'
+2021-05-06 09:57:22,756 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/posters/5d218b09c7dc3_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,779 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5cbaf5ff5120b_t.jpg'
+2021-05-06 09:57:22,802 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/360893/posters/62015174_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,819 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/fanart/original/5cc12811c72b1_t.jpg'
+2021-05-06 09:57:22,855 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/360893/backgrounds/61998120_t.jpg'
+2021-05-06 09:57:22,869 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5cb116e858285_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,884 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5cbaf5ff5120b_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,899 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/v4/series/360893/posters/6046970596fdd_t.jpg'
+2021-05-06 09:57:22,936 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/fanart/original/5cc12811c72b1_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,947 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/graphical/5cc9f74c2ddd3_t.jpg'
+2021-05-06 09:57:22,972 (7f4c01abb700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/360893/backgrounds/61998120_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:22,983 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/series/360893/seasons/801960/posters/62037069_t.jpg'
+2021-05-06 09:57:23,035 (7f4c037fe700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/v4/series/360893/posters/6046970596fdd_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:23,078 (7f4c00ab9700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/graphical/5cc9f74c2ddd3_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:23,108 (7f4c012ba700) :  DEBUG (networking:175) - Not caching 'https://artworks.thetvdb.com/banners/series/360893/seasons/801960/posters/62037069_t.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2021-05-06 09:57:23,110 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set DownloadImages ended
+2021-05-06 09:57:23,112 (7f4c027fc700) :  INFO (__init__:1120) - Series Extra XML is empty - therefore, no season XML
+2021-05-06 09:57:23,402 (7f4c027fc700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 09:57:23,414 (7f4c027fc700) :  DEBUG (runtime:88) - Sending packed state data (607 bytes)
+2021-05-06 09:57:23,416 (7f4c027fc700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 09:57:37,828 (7f4c027fc700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM%40bGFuZz1mcnM0Cmd1aWRzNgozNjA4OTNzMgppZHIwCg__
+2021-05-06 09:57:37,831 (7f4c027fc700) :  DEBUG (runtime:49) - Received packed state data (580 bytes)
+2021-05-06 09:57:37,834 (7f4c027fc700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM@bGFuZz1mcnM0Cmd1aWRzNgozNjA4OTNzMgppZHIwCg__
+2021-05-06 09:57:37,838 (7f4c027fc700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 09:57:37,841 (7f4c027fc700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 09:57:37,891 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 09:57:37,980 (7f4c027fc700) :  INFO (__init__:785) - def update()
+2021-05-06 09:57:37,983 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893?lang=fr'
+2021-05-06 09:57:38,127 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ffind%2F360893%3Fexternal_source%3Dtvdb_id'
+2021-05-06 09:57:40,158 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ftv%2F87108%2Frecommendations'
+2021-05-06 09:57:42,189 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/actors'
+2021-05-06 09:57:42,329 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/tv_e/360893/chernobyl/2019'
+2021-05-06 09:57:42,659 (7f4c027fc700) :  ERROR (networking:196) - Error opening URL 'https://meta.plex.tv/tv_e/360893/chernobyl/2019'
+2021-05-06 09:57:42,666 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/episodes?page=1'
+2021-05-06 09:57:42,820 (7f4c027fc700) :  INFO (__init__:903) - Show ordering is: aired
+2021-05-06 09:57:42,822 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 4 - skipping population of episode data
+2021-05-06 09:57:42,824 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 5 - skipping population of episode data
+2021-05-06 09:57:42,826 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named UpdateEpisodes with 3 tasks
+2021-05-06 09:57:42,831 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7082952?lang=fr'
+2021-05-06 09:57:42,831 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7109113?lang=fr'
+2021-05-06 09:57:42,832 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7223774?lang=fr'
+2021-05-06 09:57:42,970 (7f4c037fe700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:57:42,979 (7f4c012ba700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:57:43,000 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/episodes/360893/7223774.jpg'
+2021-05-06 09:57:43,097 (7f4c01abb700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:57:43,099 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set UpdateEpisodes ended
+2021-05-06 09:57:43,144 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images?lang=fr' from the HTTP cache
+2021-05-06 09:57:43,210 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=fanart&lang=fr' from the HTTP cache
+2021-05-06 09:57:43,287 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images?lang=en' from the HTTP cache
+2021-05-06 09:57:43,360 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=fanart&lang=en' from the HTTP cache
+2021-05-06 09:57:43,424 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=poster&lang=en' from the HTTP cache
+2021-05-06 09:57:43,497 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=series&lang=en' from the HTTP cache
+2021-05-06 09:57:43,571 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=season&lang=en' from the HTTP cache
+2021-05-06 09:57:43,607 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named DownloadImages with 23 tasks
+2021-05-06 09:57:43,616 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set DownloadImages ended
+2021-05-06 09:57:43,618 (7f4c027fc700) :  INFO (__init__:1120) - Series Extra XML is empty - therefore, no season XML
+2021-05-06 09:57:43,928 (7f4c027fc700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 09:57:43,940 (7f4c027fc700) :  DEBUG (runtime:88) - Sending packed state data (607 bytes)
+2021-05-06 09:57:43,942 (7f4c027fc700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 09:58:19,661 (7f4c027fc700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM%40bGFuZz1mcnM0Cmd1aWRzNgozNjA4OTNzMgppZHIwCg__
+2021-05-06 09:58:19,666 (7f4c027fc700) :  DEBUG (runtime:49) - Received packed state data (580 bytes)
+2021-05-06 09:58:19,671 (7f4c027fc700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM@bGFuZz1mcnM0Cmd1aWRzNgozNjA4OTNzMgppZHIwCg__
+2021-05-06 09:58:19,675 (7f4c027fc700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 09:58:19,680 (7f4c027fc700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 09:58:19,754 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 09:58:19,868 (7f4c027fc700) :  INFO (__init__:785) - def update()
+2021-05-06 09:58:19,874 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893?lang=fr'
+2021-05-06 09:58:20,070 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ffind%2F360893%3Fexternal_source%3Dtvdb_id'
+2021-05-06 09:58:22,179 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ftv%2F87108%2Frecommendations'
+2021-05-06 09:58:24,208 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/actors'
+2021-05-06 09:58:24,370 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/tv_e/360893/chernobyl/2019'
+2021-05-06 09:58:24,722 (7f4c027fc700) :  ERROR (networking:196) - Error opening URL 'https://meta.plex.tv/tv_e/360893/chernobyl/2019'
+2021-05-06 09:58:24,727 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/episodes?page=1'
+2021-05-06 09:58:24,889 (7f4c027fc700) :  INFO (__init__:903) - Show ordering is: aired
+2021-05-06 09:58:24,892 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 5 - skipping population of episode data
+2021-05-06 09:58:24,894 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named UpdateEpisodes with 4 tasks
+2021-05-06 09:58:24,901 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7082952?lang=fr'
+2021-05-06 09:58:24,902 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7109113?lang=fr'
+2021-05-06 09:58:24,902 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7223774?lang=fr'
+2021-05-06 09:58:24,903 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7116984?lang=fr'
+2021-05-06 09:58:25,055 (7f4c00ab9700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:58:25,103 (7f4c037fe700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:58:25,140 (7f4c012ba700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:58:25,183 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/episodes/360893/7116984.jpg'
+2021-05-06 09:58:25,292 (7f4c01abb700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:58:25,295 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set UpdateEpisodes ended
+2021-05-06 09:58:25,352 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images?lang=fr' from the HTTP cache
+2021-05-06 09:58:25,439 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=fanart&lang=fr' from the HTTP cache
+2021-05-06 09:58:25,522 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images?lang=en' from the HTTP cache
+2021-05-06 09:58:25,609 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=fanart&lang=en' from the HTTP cache
+2021-05-06 09:58:25,692 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=poster&lang=en' from the HTTP cache
+2021-05-06 09:58:25,776 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=series&lang=en' from the HTTP cache
+2021-05-06 09:58:25,872 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=season&lang=en' from the HTTP cache
+2021-05-06 09:58:25,949 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named DownloadImages with 23 tasks
+2021-05-06 09:58:25,963 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set DownloadImages ended
+2021-05-06 09:58:25,965 (7f4c027fc700) :  INFO (__init__:1120) - Series Extra XML is empty - therefore, no season XML
+2021-05-06 09:58:26,442 (7f4c027fc700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 09:58:26,454 (7f4c027fc700) :  DEBUG (runtime:88) - Sending packed state data (607 bytes)
+2021-05-06 09:58:26,455 (7f4c027fc700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 09:59:08,159 (7f4c027fc700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM%40bGFuZz1mcnM0Cmd1aWRzNgozNjA4OTNzMgppZHIwCg__
+2021-05-06 09:59:08,168 (7f4c027fc700) :  DEBUG (runtime:49) - Received packed state data (580 bytes)
+2021-05-06 09:59:08,178 (7f4c027fc700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM@bGFuZz1mcnM0Cmd1aWRzNgozNjA4OTNzMgppZHIwCg__
+2021-05-06 09:59:08,190 (7f4c027fc700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 09:59:08,195 (7f4c027fc700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 09:59:08,280 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 09:59:08,409 (7f4c027fc700) :  INFO (__init__:785) - def update()
+2021-05-06 09:59:08,413 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893?lang=fr'
+2021-05-06 09:59:08,626 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ffind%2F360893%3Fexternal_source%3Dtvdb_id'
+2021-05-06 09:59:10,658 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ftv%2F87108%2Frecommendations'
+2021-05-06 09:59:12,687 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/actors'
+2021-05-06 09:59:12,837 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/tv_e/360893/chernobyl/2019'
+2021-05-06 09:59:14,206 (7f4c027fc700) :  ERROR (networking:196) - Error opening URL 'https://meta.plex.tv/tv_e/360893/chernobyl/2019'
+2021-05-06 09:59:14,211 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/episodes?page=1'
+2021-05-06 09:59:14,400 (7f4c027fc700) :  INFO (__init__:903) - Show ordering is: aired
+2021-05-06 09:59:14,404 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named UpdateEpisodes with 5 tasks
+2021-05-06 09:59:14,415 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7082952?lang=fr'
+2021-05-06 09:59:14,416 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7109113?lang=fr'
+2021-05-06 09:59:14,417 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7116984?lang=fr'
+2021-05-06 09:59:14,435 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7116987?lang=fr'
+2021-05-06 09:59:14,614 (7f4c037fe700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:59:14,624 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7223774?lang=fr'
+2021-05-06 09:59:14,656 (7f4c00ab9700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:59:14,664 (7f4c01abb700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:59:14,688 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/episodes/360893/7116987.jpg'
+2021-05-06 09:59:14,844 (7f4c037fe700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:59:14,860 (7f4c012ba700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 09:59:14,863 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set UpdateEpisodes ended
+2021-05-06 09:59:15,000 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images?lang=fr' from the HTTP cache
+2021-05-06 09:59:15,223 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=fanart&lang=fr' from the HTTP cache
+2021-05-06 09:59:15,451 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images?lang=en' from the HTTP cache
+2021-05-06 09:59:15,585 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=fanart&lang=en' from the HTTP cache
+2021-05-06 09:59:15,689 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=poster&lang=en' from the HTTP cache
+2021-05-06 09:59:15,810 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=series&lang=en' from the HTTP cache
+2021-05-06 09:59:15,916 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=season&lang=en' from the HTTP cache
+2021-05-06 09:59:15,969 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named DownloadImages with 23 tasks
+2021-05-06 09:59:15,985 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set DownloadImages ended
+2021-05-06 09:59:15,988 (7f4c027fc700) :  INFO (__init__:1120) - Series Extra XML is empty - therefore, no season XML
+2021-05-06 09:59:16,550 (7f4c027fc700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 09:59:16,565 (7f4c027fc700) :  DEBUG (runtime:88) - Sending packed state data (607 bytes)
+2021-05-06 09:59:16,568 (7f4c027fc700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 10:00:40,897 (7f4c027fc700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQoxczQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDIKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly84MDM3OT9sYW5nPWZyczQKZ3VpZHM1CjgwMzc5czIKaWRyMAo_
+2021-05-06 10:00:40,902 (7f4c027fc700) :  DEBUG (runtime:49) - Received packed state data (580 bytes)
+2021-05-06 10:00:40,907 (7f4c027fc700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQoxczQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDIKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly84MDM3OT9sYW5nPWZyczQKZ3VpZHM1CjgwMzc5czIKaWRyMAo_
+2021-05-06 10:00:40,910 (7f4c027fc700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://80379?lang=fr
+2021-05-06 10:00:40,913 (7f4c027fc700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/e/fe230b0ae169f73aae1e0865b828eced915b0a2.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 10:00:41,190 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/1/tree'
+2021-05-06 10:00:41,264 (7f4c027fc700) :  INFO (__init__:785) - def update()
+2021-05-06 10:00:41,273 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379?lang=fr'
+2021-05-06 10:00:41,789 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ffind%2F80379%3Fexternal_source%3Dtvdb_id'
+2021-05-06 10:00:43,916 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ftv%2F1418%2Frecommendations'
+2021-05-06 10:00:45,949 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/actors'
+2021-05-06 10:00:46,266 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/tv_e/80379/big+bang+theory/2007'
+2021-05-06 10:00:46,754 (7f4c027fc700) :  ERROR (networking:196) - Error opening URL 'https://meta.plex.tv/tv_e/80379/big+bang+theory/2007'
+2021-05-06 10:00:46,761 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/episodes?page=1'
+2021-05-06 10:00:46,949 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/episodes?page=2'
+2021-05-06 10:00:47,144 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/80379/episodes?page=3'
+2021-05-06 10:00:47,376 (7f4c027fc700) :  INFO (__init__:903) - Show ordering is: aired
+2021-05-06 10:00:47,379 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 1 - skipping population of episode data
+2021-05-06 10:00:47,381 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 2 - skipping population of episode data
+2021-05-06 10:00:47,382 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 3 - skipping population of episode data
+2021-05-06 10:00:47,384 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 4 - skipping population of episode data
+2021-05-06 10:00:47,386 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 5 - skipping population of episode data
+2021-05-06 10:00:47,388 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 6 - skipping population of episode data
+2021-05-06 10:00:47,390 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 7 - skipping population of episode data
+2021-05-06 10:00:47,392 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 8 - skipping population of episode data
+2021-05-06 10:00:47,393 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 9 - skipping population of episode data
+2021-05-06 10:00:47,395 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 10 - skipping population of episode data
+2021-05-06 10:00:47,397 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 11 - skipping population of episode data
+2021-05-06 10:00:47,398 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 12 - skipping population of episode data
+2021-05-06 10:00:47,400 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 13 - skipping population of episode data
+2021-05-06 10:00:47,402 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 14 - skipping population of episode data
+2021-05-06 10:00:47,404 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 15 - skipping population of episode data
+2021-05-06 10:00:47,406 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 16 - skipping population of episode data
+2021-05-06 10:00:47,408 (7f4c027fc700) :  INFO (__init__:931) - No media for season 1 episode 17 - skipping population of episode data
+2021-05-06 10:00:47,410 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 1 - skipping population of episode data
+2021-05-06 10:00:47,412 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 2 - skipping population of episode data
+2021-05-06 10:00:47,414 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 3 - skipping population of episode data
+2021-05-06 10:00:47,416 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 4 - skipping population of episode data
+2021-05-06 10:00:47,418 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 5 - skipping population of episode data
+2021-05-06 10:00:47,420 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 6 - skipping population of episode data
+2021-05-06 10:00:47,422 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 7 - skipping population of episode data
+2021-05-06 10:00:47,424 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 8 - skipping population of episode data
+2021-05-06 10:00:47,426 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 9 - skipping population of episode data
+2021-05-06 10:00:47,427 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 10 - skipping population of episode data
+2021-05-06 10:00:47,429 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 11 - skipping population of episode data
+2021-05-06 10:00:47,431 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 12 - skipping population of episode data
+2021-05-06 10:00:47,433 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 13 - skipping population of episode data
+2021-05-06 10:00:47,435 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 14 - skipping population of episode data
+2021-05-06 10:00:47,437 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 15 - skipping population of episode data
+2021-05-06 10:00:47,439 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 16 - skipping population of episode data
+2021-05-06 10:00:47,441 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 17 - skipping population of episode data
+2021-05-06 10:00:47,443 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 18 - skipping population of episode data
+2021-05-06 10:00:47,445 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 19 - skipping population of episode data
+2021-05-06 10:00:47,450 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 20 - skipping population of episode data
+2021-05-06 10:00:47,456 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 21 - skipping population of episode data
+2021-05-06 10:00:47,458 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 22 - skipping population of episode data
+2021-05-06 10:00:47,460 (7f4c027fc700) :  INFO (__init__:931) - No media for season 2 episode 23 - skipping population of episode data
+2021-05-06 10:00:47,462 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 1 - skipping population of episode data
+2021-05-06 10:00:47,464 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 2 - skipping population of episode data
+2021-05-06 10:00:47,466 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 3 - skipping population of episode data
+2021-05-06 10:00:47,468 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 4 - skipping population of episode data
+2021-05-06 10:00:47,470 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 5 - skipping population of episode data
+2021-05-06 10:00:47,472 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 6 - skipping population of episode data
+2021-05-06 10:00:47,475 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 7 - skipping population of episode data
+2021-05-06 10:00:47,476 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 8 - skipping population of episode data
+2021-05-06 10:00:47,478 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 9 - skipping population of episode data
+2021-05-06 10:00:47,480 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 11 - skipping population of episode data
+2021-05-06 10:00:47,482 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 12 - skipping population of episode data
+2021-05-06 10:00:47,484 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 10 - skipping population of episode data
+2021-05-06 10:00:47,486 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 13 - skipping population of episode data
+2021-05-06 10:00:47,488 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 14 - skipping population of episode data
+2021-05-06 10:00:47,490 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 15 - skipping population of episode data
+2021-05-06 10:00:47,491 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 16 - skipping population of episode data
+2021-05-06 10:00:47,493 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 17 - skipping population of episode data
+2021-05-06 10:00:47,496 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 19 - skipping population of episode data
+2021-05-06 10:00:47,499 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 18 - skipping population of episode data
+2021-05-06 10:00:47,501 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 20 - skipping population of episode data
+2021-05-06 10:00:47,504 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 21 - skipping population of episode data
+2021-05-06 10:00:47,506 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 22 - skipping population of episode data
+2021-05-06 10:00:47,508 (7f4c027fc700) :  INFO (__init__:931) - No media for season 3 episode 23 - skipping population of episode data
+2021-05-06 10:00:47,510 (7f4c027fc700) :  INFO (__init__:931) - No media for season 0 episode 1 - skipping population of episode data
+2021-05-06 10:00:47,512 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 1 - skipping population of episode data
+2021-05-06 10:00:47,515 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 2 - skipping population of episode data
+2021-05-06 10:00:47,516 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 3 - skipping population of episode data
+2021-05-06 10:00:47,519 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 4 - skipping population of episode data
+2021-05-06 10:00:47,520 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 5 - skipping population of episode data
+2021-05-06 10:00:47,522 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 6 - skipping population of episode data
+2021-05-06 10:00:47,524 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 7 - skipping population of episode data
+2021-05-06 10:00:47,526 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 8 - skipping population of episode data
+2021-05-06 10:00:47,528 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 9 - skipping population of episode data
+2021-05-06 10:00:47,529 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 10 - skipping population of episode data
+2021-05-06 10:00:47,531 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 11 - skipping population of episode data
+2021-05-06 10:00:47,533 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 12 - skipping population of episode data
+2021-05-06 10:00:47,535 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 13 - skipping population of episode data
+2021-05-06 10:00:47,537 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 14 - skipping population of episode data
+2021-05-06 10:00:47,539 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 15 - skipping population of episode data
+2021-05-06 10:00:47,541 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 16 - skipping population of episode data
+2021-05-06 10:00:47,543 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 17 - skipping population of episode data
+2021-05-06 10:00:47,544 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 18 - skipping population of episode data
+2021-05-06 10:00:47,546 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 19 - skipping population of episode data
+2021-05-06 10:00:47,548 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 20 - skipping population of episode data
+2021-05-06 10:00:47,549 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 21 - skipping population of episode data
+2021-05-06 10:00:47,551 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 22 - skipping population of episode data
+2021-05-06 10:00:47,553 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 23 - skipping population of episode data
+2021-05-06 10:00:47,555 (7f4c027fc700) :  INFO (__init__:931) - No media for season 4 episode 24 - skipping population of episode data
+2021-05-06 10:00:47,557 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 1 - skipping population of episode data
+2021-05-06 10:00:47,559 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 2 - skipping population of episode data
+2021-05-06 10:00:47,561 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 3 - skipping population of episode data
+2021-05-06 10:00:47,564 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 4 - skipping population of episode data
+2021-05-06 10:00:47,566 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 5 - skipping population of episode data
+2021-05-06 10:00:47,568 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 6 - skipping population of episode data
+2021-05-06 10:00:47,570 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 7 - skipping population of episode data
+2021-05-06 10:00:47,572 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 8 - skipping population of episode data
+2021-05-06 10:00:47,574 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 9 - skipping population of episode data
+2021-05-06 10:00:47,576 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 10 - skipping population of episode data
+2021-05-06 10:00:47,579 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 11 - skipping population of episode data
+2021-05-06 10:00:47,581 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 12 - skipping population of episode data
+2021-05-06 10:00:47,583 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 13 - skipping population of episode data
+2021-05-06 10:00:47,585 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 14 - skipping population of episode data
+2021-05-06 10:00:47,587 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 15 - skipping population of episode data
+2021-05-06 10:00:47,589 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 16 - skipping population of episode data
+2021-05-06 10:00:47,591 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 17 - skipping population of episode data
+2021-05-06 10:00:47,593 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 18 - skipping population of episode data
+2021-05-06 10:00:47,594 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 19 - skipping population of episode data
+2021-05-06 10:00:47,596 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 20 - skipping population of episode data
+2021-05-06 10:00:47,598 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 21 - skipping population of episode data
+2021-05-06 10:00:47,600 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 22 - skipping population of episode data
+2021-05-06 10:00:47,602 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 23 - skipping population of episode data
+2021-05-06 10:00:47,604 (7f4c027fc700) :  INFO (__init__:931) - No media for season 5 episode 24 - skipping population of episode data
+2021-05-06 10:00:47,606 (7f4c027fc700) :  INFO (__init__:931) - No media for season 0 episode 2 - skipping population of episode data
+2021-05-06 10:00:47,607 (7f4c027fc700) :  INFO (__init__:931) - No media for season 0 episode 3 - skipping population of episode data
+2021-05-06 10:00:47,610 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 1 - skipping population of episode data
+2021-05-06 10:00:47,612 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 2 - skipping population of episode data
+2021-05-06 10:00:47,614 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 3 - skipping population of episode data
+2021-05-06 10:00:47,616 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 4 - skipping population of episode data
+2021-05-06 10:00:47,618 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 5 - skipping population of episode data
+2021-05-06 10:00:47,620 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 6 - skipping population of episode data
+2021-05-06 10:00:47,622 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 7 - skipping population of episode data
+2021-05-06 10:00:47,624 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 8 - skipping population of episode data
+2021-05-06 10:00:47,625 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 9 - skipping population of episode data
+2021-05-06 10:00:47,628 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 10 - skipping population of episode data
+2021-05-06 10:00:47,630 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 11 - skipping population of episode data
+2021-05-06 10:00:47,632 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 12 - skipping population of episode data
+2021-05-06 10:00:47,634 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 13 - skipping population of episode data
+2021-05-06 10:00:47,635 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 14 - skipping population of episode data
+2021-05-06 10:00:47,637 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 15 - skipping population of episode data
+2021-05-06 10:00:47,639 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 16 - skipping population of episode data
+2021-05-06 10:00:47,641 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 17 - skipping population of episode data
+2021-05-06 10:00:47,643 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 18 - skipping population of episode data
+2021-05-06 10:00:47,645 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 19 - skipping population of episode data
+2021-05-06 10:00:47,647 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 20 - skipping population of episode data
+2021-05-06 10:00:47,649 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 21 - skipping population of episode data
+2021-05-06 10:00:47,651 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 22 - skipping population of episode data
+2021-05-06 10:00:47,653 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 23 - skipping population of episode data
+2021-05-06 10:00:47,655 (7f4c027fc700) :  INFO (__init__:931) - No media for season 6 episode 24 - skipping population of episode data
+2021-05-06 10:00:47,658 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 1 - skipping population of episode data
+2021-05-06 10:00:47,660 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 2 - skipping population of episode data
+2021-05-06 10:00:47,662 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 3 - skipping population of episode data
+2021-05-06 10:00:47,664 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 4 - skipping population of episode data
+2021-05-06 10:00:47,667 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 5 - skipping population of episode data
+2021-05-06 10:00:47,669 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 6 - skipping population of episode data
+2021-05-06 10:00:47,671 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 7 - skipping population of episode data
+2021-05-06 10:00:47,673 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 8 - skipping population of episode data
+2021-05-06 10:00:47,674 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 9 - skipping population of episode data
+2021-05-06 10:00:47,677 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 10 - skipping population of episode data
+2021-05-06 10:00:47,679 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 12 - skipping population of episode data
+2021-05-06 10:00:47,681 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 11 - skipping population of episode data
+2021-05-06 10:00:47,683 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 13 - skipping population of episode data
+2021-05-06 10:00:47,685 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 14 - skipping population of episode data
+2021-05-06 10:00:47,687 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 15 - skipping population of episode data
+2021-05-06 10:00:47,689 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 16 - skipping population of episode data
+2021-05-06 10:00:47,691 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 17 - skipping population of episode data
+2021-05-06 10:00:47,693 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 18 - skipping population of episode data
+2021-05-06 10:00:47,695 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 19 - skipping population of episode data
+2021-05-06 10:00:47,697 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 20 - skipping population of episode data
+2021-05-06 10:00:47,699 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 21 - skipping population of episode data
+2021-05-06 10:00:47,700 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 22 - skipping population of episode data
+2021-05-06 10:00:47,702 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 23 - skipping population of episode data
+2021-05-06 10:00:47,704 (7f4c027fc700) :  INFO (__init__:931) - No media for season 7 episode 24 - skipping population of episode data
+2021-05-06 10:00:47,707 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 1 - skipping population of episode data
+2021-05-06 10:00:47,709 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 2 - skipping population of episode data
+2021-05-06 10:00:47,712 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 3 - skipping population of episode data
+2021-05-06 10:00:47,714 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 4 - skipping population of episode data
+2021-05-06 10:00:47,717 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 5 - skipping population of episode data
+2021-05-06 10:00:47,719 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 6 - skipping population of episode data
+2021-05-06 10:00:47,722 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 8 - skipping population of episode data
+2021-05-06 10:00:47,724 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 7 - skipping population of episode data
+2021-05-06 10:00:47,725 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 9 - skipping population of episode data
+2021-05-06 10:00:47,727 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 10 - skipping population of episode data
+2021-05-06 10:00:47,729 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 11 - skipping population of episode data
+2021-05-06 10:00:47,731 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 12 - skipping population of episode data
+2021-05-06 10:00:47,733 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 13 - skipping population of episode data
+2021-05-06 10:00:47,735 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 14 - skipping population of episode data
+2021-05-06 10:00:47,737 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 15 - skipping population of episode data
+2021-05-06 10:00:47,739 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 16 - skipping population of episode data
+2021-05-06 10:00:47,742 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 17 - skipping population of episode data
+2021-05-06 10:00:47,744 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 18 - skipping population of episode data
+2021-05-06 10:00:47,746 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 19 - skipping population of episode data
+2021-05-06 10:00:47,748 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 20 - skipping population of episode data
+2021-05-06 10:00:47,750 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 21 - skipping population of episode data
+2021-05-06 10:00:47,753 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 22 - skipping population of episode data
+2021-05-06 10:00:47,755 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 23 - skipping population of episode data
+2021-05-06 10:00:47,757 (7f4c027fc700) :  INFO (__init__:931) - No media for season 8 episode 24 - skipping population of episode data
+2021-05-06 10:00:47,759 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 1 - skipping population of episode data
+2021-05-06 10:00:47,761 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 2 - skipping population of episode data
+2021-05-06 10:00:47,763 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 3 - skipping population of episode data
+2021-05-06 10:00:47,765 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 4 - skipping population of episode data
+2021-05-06 10:00:47,768 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 5 - skipping population of episode data
+2021-05-06 10:00:47,770 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 7 - skipping population of episode data
+2021-05-06 10:00:47,772 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 6 - skipping population of episode data
+2021-05-06 10:00:47,775 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 8 - skipping population of episode data
+2021-05-06 10:00:47,777 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 9 - skipping population of episode data
+2021-05-06 10:00:47,780 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 10 - skipping population of episode data
+2021-05-06 10:00:47,783 (7f4c027fc700) :  INFO (__init__:931) - No media for season 0 episode 4 - skipping population of episode data
+2021-05-06 10:00:47,785 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 11 - skipping population of episode data
+2021-05-06 10:00:47,788 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 12 - skipping population of episode data
+2021-05-06 10:00:47,790 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 13 - skipping population of episode data
+2021-05-06 10:00:47,791 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 14 - skipping population of episode data
+2021-05-06 10:00:47,793 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 15 - skipping population of episode data
+2021-05-06 10:00:47,795 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 16 - skipping population of episode data
+2021-05-06 10:00:47,797 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 17 - skipping population of episode data
+2021-05-06 10:00:47,799 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 18 - skipping population of episode data
+2021-05-06 10:00:47,802 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 19 - skipping population of episode data
+2021-05-06 10:00:47,803 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 20 - skipping population of episode data
+2021-05-06 10:00:47,805 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 21 - skipping population of episode data
+2021-05-06 10:00:47,808 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 22 - skipping population of episode data
+2021-05-06 10:00:47,810 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 23 - skipping population of episode data
+2021-05-06 10:00:47,812 (7f4c027fc700) :  INFO (__init__:931) - No media for season 9 episode 24 - skipping population of episode data
+2021-05-06 10:00:47,814 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 1 - skipping population of episode data
+2021-05-06 10:00:47,816 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 2 - skipping population of episode data
+2021-05-06 10:00:47,818 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 3 - skipping population of episode data
+2021-05-06 10:00:47,820 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 4 - skipping population of episode data
+2021-05-06 10:00:47,822 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 5 - skipping population of episode data
+2021-05-06 10:00:47,825 (7f4c027fc700) :  INFO (__init__:931) - No media for season 0 episode 5 - skipping population of episode data
+2021-05-06 10:00:47,827 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 6 - skipping population of episode data
+2021-05-06 10:00:47,829 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 7 - skipping population of episode data
+2021-05-06 10:00:47,831 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 8 - skipping population of episode data
+2021-05-06 10:00:47,833 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 9 - skipping population of episode data
+2021-05-06 10:00:47,835 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 10 - skipping population of episode data
+2021-05-06 10:00:47,837 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 11 - skipping population of episode data
+2021-05-06 10:00:47,839 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 12 - skipping population of episode data
+2021-05-06 10:00:47,841 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 13 - skipping population of episode data
+2021-05-06 10:00:47,843 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 14 - skipping population of episode data
+2021-05-06 10:00:47,844 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 15 - skipping population of episode data
+2021-05-06 10:00:47,846 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 16 - skipping population of episode data
+2021-05-06 10:00:47,848 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 17 - skipping population of episode data
+2021-05-06 10:00:47,850 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 18 - skipping population of episode data
+2021-05-06 10:00:47,852 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 19 - skipping population of episode data
+2021-05-06 10:00:47,854 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 20 - skipping population of episode data
+2021-05-06 10:00:47,857 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 21 - skipping population of episode data
+2021-05-06 10:00:47,859 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 22 - skipping population of episode data
+2021-05-06 10:00:47,861 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 23 - skipping population of episode data
+2021-05-06 10:00:47,863 (7f4c027fc700) :  INFO (__init__:931) - No media for season 10 episode 24 - skipping population of episode data
+2021-05-06 10:00:47,865 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 1 - skipping population of episode data
+2021-05-06 10:00:47,867 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 2 - skipping population of episode data
+2021-05-06 10:00:47,869 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 3 - skipping population of episode data
+2021-05-06 10:00:47,871 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 4 - skipping population of episode data
+2021-05-06 10:00:47,873 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 5 - skipping population of episode data
+2021-05-06 10:00:47,875 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 6 - skipping population of episode data
+2021-05-06 10:00:47,877 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 7 - skipping population of episode data
+2021-05-06 10:00:47,879 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 8 - skipping population of episode data
+2021-05-06 10:00:47,882 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 9 - skipping population of episode data
+2021-05-06 10:00:47,887 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 10 - skipping population of episode data
+2021-05-06 10:00:47,890 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 11 - skipping population of episode data
+2021-05-06 10:00:47,892 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 12 - skipping population of episode data
+2021-05-06 10:00:47,895 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 13 - skipping population of episode data
+2021-05-06 10:00:47,897 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 14 - skipping population of episode data
+2021-05-06 10:00:47,899 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 15 - skipping population of episode data
+2021-05-06 10:00:47,901 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 16 - skipping population of episode data
+2021-05-06 10:00:47,903 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 17 - skipping population of episode data
+2021-05-06 10:00:47,905 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 18 - skipping population of episode data
+2021-05-06 10:00:47,907 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 19 - skipping population of episode data
+2021-05-06 10:00:47,908 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 20 - skipping population of episode data
+2021-05-06 10:00:47,910 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 21 - skipping population of episode data
+2021-05-06 10:00:47,912 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 22 - skipping population of episode data
+2021-05-06 10:00:47,914 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 23 - skipping population of episode data
+2021-05-06 10:00:47,916 (7f4c027fc700) :  INFO (__init__:931) - No media for season 11 episode 24 - skipping population of episode data
+2021-05-06 10:00:47,918 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 1 - skipping population of episode data
+2021-05-06 10:00:47,920 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 2 - skipping population of episode data
+2021-05-06 10:00:47,922 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 3 - skipping population of episode data
+2021-05-06 10:00:47,924 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 4 - skipping population of episode data
+2021-05-06 10:00:47,926 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 5 - skipping population of episode data
+2021-05-06 10:00:47,927 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 6 - skipping population of episode data
+2021-05-06 10:00:47,929 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 7 - skipping population of episode data
+2021-05-06 10:00:47,931 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 8 - skipping population of episode data
+2021-05-06 10:00:47,933 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 9 - skipping population of episode data
+2021-05-06 10:00:47,935 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 10 - skipping population of episode data
+2021-05-06 10:00:47,937 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 11 - skipping population of episode data
+2021-05-06 10:00:47,939 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 12 - skipping population of episode data
+2021-05-06 10:00:47,941 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 13 - skipping population of episode data
+2021-05-06 10:00:47,943 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 14 - skipping population of episode data
+2021-05-06 10:00:47,945 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 15 - skipping population of episode data
+2021-05-06 10:00:47,947 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 16 - skipping population of episode data
+2021-05-06 10:00:47,948 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 17 - skipping population of episode data
+2021-05-06 10:00:47,950 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 18 - skipping population of episode data
+2021-05-06 10:00:47,952 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 19 - skipping population of episode data
+2021-05-06 10:00:47,954 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 20 - skipping population of episode data
+2021-05-06 10:00:47,956 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 21 - skipping population of episode data
+2021-05-06 10:00:47,958 (7f4c027fc700) :  INFO (__init__:931) - No media for season 12 episode 22 - skipping population of episode data
+2021-05-06 10:00:47,959 (7f4c027fc700) :  INFO (__init__:931) - No media for season 0 episode 6 - skipping population of episode data
+2021-05-06 10:00:47,962 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named UpdateEpisodes with 2 tasks
+2021-05-06 10:00:47,968 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7177179?lang=fr'
+2021-05-06 10:00:47,972 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7161279?lang=fr'
+2021-05-06 10:00:48,103 (7f4c012ba700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 10:00:48,118 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://artworks.thetvdb.com/banners/episodes/80379/7161279.jpg'
+2021-05-06 10:00:48,236 (7f4c01abb700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 10:00:48,239 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set UpdateEpisodes ended
+2021-05-06 10:00:48,291 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/80379/images?lang=fr' from the HTTP cache
+2021-05-06 10:00:48,385 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/80379/images/query?keyType=fanart&lang=fr' from the HTTP cache
+2021-05-06 10:00:48,474 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/80379/images/query?keyType=season&lang=fr' from the HTTP cache
+2021-05-06 10:00:48,566 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/80379/images/query?keyType=series&lang=fr' from the HTTP cache
+2021-05-06 10:00:48,670 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/80379/images?lang=en' from the HTTP cache
+2021-05-06 10:00:48,774 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/80379/images/query?keyType=fanart&lang=en' from the HTTP cache
+2021-05-06 10:00:48,869 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/80379/images/query?keyType=poster&lang=en' from the HTTP cache
+2021-05-06 10:00:48,966 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/80379/images/query?keyType=seasonwide&lang=en' from the HTTP cache
+2021-05-06 10:00:49,053 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/80379/images/query?keyType=series&lang=en' from the HTTP cache
+2021-05-06 10:00:49,156 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/80379/images/query?keyType=season&lang=en' from the HTTP cache
+2021-05-06 10:00:49,207 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named DownloadImages with 381 tasks
+2021-05-06 10:00:49,375 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set DownloadImages ended
+2021-05-06 10:00:49,379 (7f4c027fc700) :  INFO (__init__:1120) - Series Extra XML is empty - therefore, no season XML
+2021-05-06 10:00:51,296 (7f4c027fc700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/e/fe230b0ae169f73aae1e0865b828eced915b0a2.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 10:00:51,309 (7f4c027fc700) :  DEBUG (runtime:88) - Sending packed state data (607 bytes)
+2021-05-06 10:00:51,311 (7f4c027fc700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2021-05-06 10:08:43,576 (7f4c027fc700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM%40bGFuZz1mcnM0Cmd1aWRzNgozNjA4OTNzMgppZHIwCg__
+2021-05-06 10:08:43,586 (7f4c027fc700) :  DEBUG (runtime:49) - Received packed state data (580 bytes)
+2021-05-06 10:08:43,598 (7f4c027fc700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.thetvdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZnJzNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQo0czQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNwpUVl9TaG93czEwCm1lZGlhX3R5cGVzNDMKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGI6Ly8zNjA4OTM@bGFuZz1mcnM0Cmd1aWRzNgozNjA4OTNzMgppZHIwCg__
+2021-05-06 10:08:43,605 (7f4c027fc700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.thetvdb://360893?lang=fr
+2021-05-06 10:08:43,609 (7f4c027fc700) :  DEBUG (model:234) - Deserializing from /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 10:08:43,763 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/4/tree'
+2021-05-06 10:08:43,812 (7f4c027fc700) :  INFO (__init__:785) - def update()
+2021-05-06 10:08:43,817 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893?lang=fr'
+2021-05-06 10:08:43,996 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ffind%2F360893%3Fexternal_source%3Dtvdb_id'
+2021-05-06 10:08:46,120 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Ftv%2F87108%2Frecommendations'
+2021-05-06 10:08:48,177 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/actors'
+2021-05-06 10:08:48,366 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/tv_e/360893/chernobyl/2019'
+2021-05-06 10:08:48,762 (7f4c027fc700) :  ERROR (networking:196) - Error opening URL 'https://meta.plex.tv/tv_e/360893/chernobyl/2019'
+2021-05-06 10:08:48,779 (7f4c027fc700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/series/360893/episodes?page=1'
+2021-05-06 10:08:48,966 (7f4c027fc700) :  INFO (__init__:903) - Show ordering is: 
+2021-05-06 10:08:48,974 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named UpdateEpisodes with 5 tasks
+2021-05-06 10:08:48,988 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7082952?lang=fr'
+2021-05-06 10:08:48,991 (7f4c037fe700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7109113?lang=fr'
+2021-05-06 10:08:48,991 (7f4c01abb700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7116984?lang=fr'
+2021-05-06 10:08:48,993 (7f4c00ab9700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7116987?lang=fr'
+2021-05-06 10:08:49,311 (7f4c012ba700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 10:08:49,321 (7f4c012ba700) :  DEBUG (networking:143) - Requesting 'https://tvdb2.plex.tv/episodes/7223774?lang=fr'
+2021-05-06 10:08:49,419 (7f4c037fe700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 10:08:49,442 (7f4c01abb700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 10:08:49,452 (7f4c00ab9700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 10:08:49,532 (7f4c012ba700) :  INFO (__init__:1027) - Season Extra XML is empty - therefore, no episode XML
+2021-05-06 10:08:49,537 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set UpdateEpisodes ended
+2021-05-06 10:08:49,655 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images?lang=fr' from the HTTP cache
+2021-05-06 10:08:49,841 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=fanart&lang=fr' from the HTTP cache
+2021-05-06 10:08:50,041 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images?lang=en' from the HTTP cache
+2021-05-06 10:08:50,274 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=fanart&lang=en' from the HTTP cache
+2021-05-06 10:08:50,622 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=poster&lang=en' from the HTTP cache
+2021-05-06 10:08:50,791 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=series&lang=en' from the HTTP cache
+2021-05-06 10:08:50,959 (7f4c027fc700) :  DEBUG (networking:138) - Fetching 'https://tvdb2.plex.tv/series/360893/images/query?keyType=season&lang=en' from the HTTP cache
+2021-05-06 10:08:51,055 (7f4c027fc700) :  DEBUG (threadkit:234) - Starting a parallel task set named DownloadImages with 23 tasks
+2021-05-06 10:08:51,078 (7f4c027fc700) :  DEBUG (threadkit:244) - Parallel task set DownloadImages ended
+2021-05-06 10:08:51,085 (7f4c027fc700) :  INFO (__init__:1120) - Series Extra XML is empty - therefore, no season XML
+2021-05-06 10:08:51,923 (7f4c027fc700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/TV Shows/a/e9bd973ac0030ecb970df780b9c23b5d285b3b5.bundle/Contents/com.plexapp.agents.thetvdb/Info.xml
+2021-05-06 10:08:51,944 (7f4c027fc700) :  DEBUG (runtime:88) - Sending packed state data (607 bytes)
+2021-05-06 10:08:51,948 (7f4c027fc700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes

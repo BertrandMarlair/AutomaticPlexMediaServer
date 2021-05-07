@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TV_Show>
+  <art>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017319.jpg" sort_order="1" provider="com.plexapp.agents.thetvdb" media="com.plexapp.agents.thetvdb_684f20aff400bc4be90c5290c44ed4cde592261e"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017313.jpg" preview="com.plexapp.agents.thetvdb_3eb9174e69ea7376a79b60829c2f7694aac10a34" sort_order="2" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017317.jpg" preview="com.plexapp.agents.thetvdb_2ee618eec93aa4a28920fcf805cb27f95933c6d1" sort_order="3" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017320.jpg" preview="com.plexapp.agents.thetvdb_c5b288e8625bb9a138c7c41bcf281b802d9a17b1" sort_order="4" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/360893/backgrounds/62017321.jpg" preview="com.plexapp.agents.thetvdb_ef0bce43e4f826455e92063b094b16064ffbbe72" sort_order="5" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/360893/panels/5eee1df1d1cea.jpg" preview="com.plexapp.agents.thetvdb_6defcd648dc51bb9f98c7053477a8bbb6ec135ec" sort_order="6" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5cd7e75b9e99a.jpg" preview="com.plexapp.agents.thetvdb_4d21e9528f1cf75de3e5c59f9eb017ce17a3f452" sort_order="9" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5cb116e858285.jpg" preview="com.plexapp.agents.thetvdb_b101f6b8c2d9f760ce3abcdbe10b311efd8ae401" sort_order="12" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5cbaf5ff5120b.jpg" preview="com.plexapp.agents.thetvdb_9a73a8afcc525726d2ebfdb0e02228f61f215913" sort_order="13" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5cc12811c72b1.jpg" preview="com.plexapp.agents.thetvdb_618411699cf64b1ed486f95bdf0347b67a103cca" sort_order="14" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/360893/backgrounds/61998120.jpg" preview="com.plexapp.agents.thetvdb_5038f2acb4e78a04a2679c69c446812bf3404edc" sort_order="15" provider="com.plexapp.agents.thetvdb"/>
+  </art>
+  <banners>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/5cc9f74c2ddd3.jpg" sort_order="22" provider="com.plexapp.agents.thetvdb" media="com.plexapp.agents.thetvdb_ac718c34a2dc54c6aa34f6bc61e1ce11fcfdae32"/>
+  </banners>
+  <collections/>
+  <content_rating>TV-MA</content_rating>
+  <countries/>
+  <duration>3900000</duration>
+  <genres>
+    <item index="0">Drama</item>
+    <item index="1">History</item>
+    <item index="2">Mini-Series</item>
+  </genres>
+  <originally_available_at>2019-05-06</originally_available_at>
+  <posters>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/5cc12861c93e4.jpg" sort_order="7" provider="com.plexapp.agents.thetvdb" media="com.plexapp.agents.thetvdb_a8d728869334ff8870c5ab14d914cddb1310d7a1"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/5d218b09c7dc3.jpg" preview="com.plexapp.agents.thetvdb_59eefb264223f47556546405eaa80b33cd9ffd31" sort_order="10" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/360893/posters/62015174.jpg" preview="com.plexapp.agents.thetvdb_db6ad5947a81af48fa34b25ed851f8a45cf3d626" sort_order="11" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/v4/series/360893/posters/6046970596fdd.jpg" preview="com.plexapp.agents.thetvdb_845bcf1f2eb067a5a68bd5f43b323eb399d8343e" sort_order="21" provider="com.plexapp.agents.thetvdb"/>
+  </posters>
+  <rating>8.7</rating>
+  <rating_image/>
+  <audience_rating/>
+  <audience_rating_image/>
+  <reviews/>
+  <roles>
+    <item index="0">
+      <photo>https://artworks.thetvdb.com/banners/person/385238/63799789.jpg</photo>
+      <role>Aleksandr Akimov</role>
+      <name>Sam Troughton</name>
+    </item>
+    <item index="1">
+      <photo>https://artworks.thetvdb.com/banners/actors/529661.jpg</photo>
+      <role>Valery Legasov</role>
+      <name>Jared Harris</name>
+    </item>
+    <item index="2">
+      <photo>https://artworks.thetvdb.com/banners/person/449517/63799766.jpg</photo>
+      <role>Viktor Bryukhanov</role>
+      <name>Con O'Neill</name>
+    </item>
+    <item index="3">
+      <photo>https://artworks.thetvdb.com/banners/actors/541724.jpg</photo>
+      <role>Glukhov</role>
+      <name>Alex Ferns</name>
+    </item>
+    <item index="4">
+      <photo>https://artworks.thetvdb.com/banners/actors/537199.jpg</photo>
+      <role>Boris Shcherbina</role>
+      <name>Stellan Skarsgård</name>
+    </item>
+    <item index="5">
+      <photo>https://artworks.thetvdb.com/banners/person/503454/63799772.jpg</photo>
+      <role>Anatoly Dyatlov</role>
+      <name>Paul Ritter</name>
+    </item>
+    <item index="6">
+      <photo>https://artworks.thetvdb.com/banners/actors/537200.jpg</photo>
+      <role>Ulana Khomyuk</role>
+      <name>Emily Watson </name>
+    </item>
+    <item index="7">
+      <photo>https://artworks.thetvdb.com/banners/person/463556/63799778.jpg</photo>
+      <role>Mikhail Gorbachev</role>
+      <name>David Dencik</name>
+    </item>
+    <item index="8">
+      <photo>https://artworks.thetvdb.com/banners/person/477089/63799757.jpg</photo>
+      <role>Lyudmila Ignatenko</role>
+      <name>Jessie Buckley</name>
+    </item>
+    <item index="9">
+      <photo>https://artworks.thetvdb.com/banners/person/594437/63799784.jpg</photo>
+      <role>Leonid Toptunov</role>
+      <name>Robert Emms</name>
+    </item>
+    <item index="10">
+      <photo>https://artworks.thetvdb.com/banners/person/322198/63799762.jpg</photo>
+      <role>Nikolai Fomin</role>
+      <name>Adrian Rawlins</name>
+    </item>
+  </roles>
+  <seasons>
+    <item external="True" key="1"/>
+  </seasons>
+  <similar>
+    <item index="0">Breaking Bad</item>
+    <item index="1">Game of Thrones</item>
+    <item index="2">Stranger Things</item>
+    <item index="3">Black Mirror</item>
+    <item index="4">The Witcher</item>
+    <item index="5">Westworld</item>
+    <item index="6">Sherlock</item>
+    <item index="7">Dark</item>
+    <item index="8">Peaky Blinders</item>
+    <item index="9">Rick and Morty</item>
+    <item index="10">Mr. Robot</item>
+    <item index="11">The Mandalorian</item>
+    <item index="12">Money Heist</item>
+    <item index="13">Love, Death &amp; Robots</item>
+    <item index="14">True Detective</item>
+    <item index="15">The Boys</item>
+    <item index="16">Sex Education</item>
+    <item index="17">Friends</item>
+    <item index="18">Lost</item>
+    <item index="19">Better Call Saul</item>
+    <item index="20">Mindhunter</item>
+  </similar>
+  <studio>HBO</studio>
+  <summary>Cette mini-série raconte l'histoire vraie de la catastrophe nucléaire de Tchernobyl du 26 avril 1986 et explore les conséquences de cet événement tragique ainsi que les sacrifices qui ont dû être faits pour sauver l'Europe du désastre.</summary>
+  <tags/>
+  <themes>
+    <item external="True" url="https://tvthemes.plexapp.com/360893.mp3" media="com.plexapp.agents.plexthememusic_cd3d9445d67446dd13d909f1cf3507371040e5f5" provider="com.plexapp.agents.plexthememusic"/>
+  </themes>
+  <title>Chernobyl</title>
+</TV_Show>

@@ -1,0 +1,278 @@
+2021-05-06 12:53:24,667 - INFO       - Traktarr                            - run                                 - Automatic mode is now running.
+2021-05-06 12:53:24,668 - INFO       - Traktarr                            - run                                 - Next job at 2021-05-07 08:53:24.668782
+2021-05-06 13:02:42,606 - INFO       - Traktarr                            - run                                 - Automatic mode is now running.
+2021-05-06 13:02:42,608 - INFO       - Traktarr                            - run                                 - Next job at 2021-05-07 09:02:42.608330
+2021-05-07 08:15:10,641 - INFO       - Traktarr                            - run                                 - Automatic mode is now running.
+2021-05-07 08:15:10,642 - INFO       - Traktarr                            - run                                 - Next job at 2021-05-08 04:15:10.642647
+2021-05-07 08:17:00,782 - INFO       - media.trakt                         - __oauth_request_device_code         - We're talking to Trakt to get your verification code. Please wait a moment...
+2021-05-07 08:17:01,151 - INFO       - media.trakt                         - __oauth_request_device_code         - Go to: https://trakt.tv/activate on any device and enter DE636E59. We'll be polling Trakt every 5 seconds for a reply
+2021-05-07 08:27:02,275 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 08:27:02,490 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 08:27:02,548 - INFO       - Traktarr                            - validate_pvr                        - Validated Radarr URL & API Key.
+2021-05-07 08:27:02,609 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 08:27:02,634 - ERROR      - Traktarr                            - get_objects                         - Aborting due to failure to retrieve movies list from Radarr
+2021-05-07 08:27:42,948 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 08:27:44,147 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 08:27:44,319 - INFO       - Traktarr                            - validate_pvr                        - Validated Sonarr URL & API Key.
+2021-05-07 08:27:44,391 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 08:27:44,468 - ERROR      - Traktarr                            - get_language_profile_id             - No Language Profile ID for: French
+2021-05-07 08:27:44,508 - INFO       - Traktarr                            - get_profile_tags                    - Retrieved Sonarr Tag IDs: 0
+2021-05-07 08:27:44,641 - INFO       - Traktarr                            - get_objects                         - Retrieved Sonarr shows list, shows found: 2
+2021-05-07 08:27:46,645 - INFO       - Traktarr                            - shows                               - Retrieved Trakt 'Trending' shows list, shows found: 510
+2021-05-07 08:27:46,648 - INFO       - Traktarr                            - shows                               - Removed existing Sonarr shows from Trakt shows list, shows left to process: 509
+2021-05-07 08:27:46,651 - INFO       - Traktarr                            - shows                               - Sorted shows list to process by highest 'votes'.
+2021-05-07 08:27:46,654 - INFO       - Traktarr                            - shows                               - Processing list now...
+2021-05-07 08:27:47,044 - INFO       - Traktarr                            - shows                               - ADDING: Game of Thrones (2011) | Country: US | Language: EN | Genre(s): Drama, Fantasy, Science-Fiction, Action, Adventure | Network: HBO
+2021-05-07 08:27:47,875 - INFO       - Traktarr                            - shows                               - ADDED: 'Game of Thrones (2011)'
+2021-05-07 08:27:47,877 - INFO       - Traktarr                            - shows                               - Added 1 new show(s) to Sonarr
+2021-05-07 08:40:48,364 - INFO       - Traktarr                            - run                                 - Automatic mode is now running.
+2021-05-07 08:40:48,373 - INFO       - Traktarr                            - automatic_movies                    - Automatic Movies task started.
+2021-05-07 08:40:48,375 - INFO       - Traktarr                            - automatic_movies                    - ADDING 3 movie(s) from Trakt's 'Anticipated' list.
+2021-05-07 08:40:48,383 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 08:40:48,684 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 08:40:48,693 - INFO       - Traktarr                            - validate_pvr                        - Validated Radarr URL & API Key.
+2021-05-07 08:40:48,713 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 08:40:48,728 - ERROR      - Traktarr                            - get_objects                         - Aborting due to failure to retrieve movies list from Radarr
+2021-05-07 08:55:03,741 - INFO       - Traktarr                            - run                                 - Automatic mode is now running.
+2021-05-07 08:55:03,748 - INFO       - Traktarr                            - automatic_movies                    - Automatic Movies task started.
+2021-05-07 08:55:03,750 - INFO       - Traktarr                            - automatic_movies                    - ADDING 3 movie(s) from Trakt's 'Anticipated' list.
+2021-05-07 08:55:03,755 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 08:55:03,921 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 08:55:03,946 - INFO       - Traktarr                            - validate_pvr                        - Validated Radarr URL & API Key.
+2021-05-07 08:55:03,958 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 08:55:03,987 - INFO       - Traktarr                            - get_objects                         - Retrieved Radarr movies list, movies found: 1
+2021-05-07 08:55:04,016 - INFO       - Traktarr                            - get_exclusions                      - No movie exclusions list found from Radarr
+2021-05-07 08:55:04,019 - INFO       - Traktarr                            - get_exclusions                      - Retrieved Radarr movie list, movie found: 0
+2021-05-07 08:55:05,102 - INFO       - Traktarr                            - movies                              - Retrieved Trakt 'Anticipated' movies list, movies found: 68
+2021-05-07 08:55:05,104 - INFO       - Traktarr                            - movies                              - Removed existing and excluded Radarr movies from Trakt movies list. Movies left to process: 68
+2021-05-07 08:55:05,107 - INFO       - Traktarr                            - movies                              - Sorted movies list to process by highest 'votes'.
+2021-05-07 08:55:05,109 - INFO       - Traktarr                            - movies                              - Processing list now...
+2021-05-07 08:55:05,620 - INFO       - Traktarr                            - movies                              - ADDING: 'Summer of 85 (2020)' | Country: FR | Language: FR | Genre(s): Drama, Romance 
+2021-05-07 08:55:05,895 - INFO       - Traktarr                            - movies                              - ADDED: 'Summer of 85 (2020)'
+2021-05-07 08:55:09,130 - INFO       - Traktarr                            - movies                              - ADDING: 'Teddy (2021)' | Country: FR | Language: FR | Genre(s): Comedy, Fantasy, Drama 
+2021-05-07 08:55:09,292 - INFO       - Traktarr                            - movies                              - ADDED: 'Teddy (2021)'
+2021-05-07 08:55:16,841 - INFO       - Traktarr                            - movies                              - ADDING: 'Benedetta (2021)' | Country: FR | Language: FR | Genre(s): History, Drama, Romance 
+2021-05-07 08:55:17,038 - INFO       - Traktarr                            - movies                              - ADDED: 'Benedetta (2021)'
+2021-05-07 08:55:17,040 - INFO       - Traktarr                            - movies                              - Added 3 new movie(s) to Radarr
+2021-05-07 08:55:21,285 - INFO       - Traktarr                            - exit_handler                        - Received SIGINT, canceling jobs and exiting.
+2021-05-07 08:55:59,777 - INFO       - Traktarr                            - run                                 - Automatic mode is now running.
+2021-05-07 08:55:59,783 - INFO       - Traktarr                            - automatic_movies                    - Automatic Movies task started.
+2021-05-07 08:55:59,787 - INFO       - Traktarr                            - automatic_movies                    - ADDING 3 movie(s) from Trakt's 'Anticipated' list.
+2021-05-07 08:55:59,792 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 08:55:59,925 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 08:55:59,933 - INFO       - Traktarr                            - validate_pvr                        - Validated Radarr URL & API Key.
+2021-05-07 08:55:59,940 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 08:55:59,953 - INFO       - Traktarr                            - get_objects                         - Retrieved Radarr movies list, movies found: 4
+2021-05-07 08:55:59,963 - INFO       - Traktarr                            - get_exclusions                      - No movie exclusions list found from Radarr
+2021-05-07 08:55:59,965 - INFO       - Traktarr                            - get_exclusions                      - Retrieved Radarr movie list, movie found: 0
+2021-05-07 08:55:59,968 - INFO       - Traktarr                            - movies                              - Retrieved Trakt 'Anticipated' movies list, movies found: 68
+2021-05-07 08:55:59,970 - INFO       - Traktarr                            - movies                              - Removed existing and excluded Radarr movies from Trakt movies list. Movies left to process: 65
+2021-05-07 08:55:59,971 - INFO       - Traktarr                            - movies                              - Sorted movies list to process by highest 'votes'.
+2021-05-07 08:55:59,973 - INFO       - Traktarr                            - movies                              - Processing list now...
+2021-05-07 08:56:00,418 - INFO       - Traktarr                            - movies                              - ADDING: 'Oxygen (2021)' | Country: US | Language: FR | Genre(s): Science-Fiction, Thriller 
+2021-05-07 08:56:00,563 - INFO       - Traktarr                            - movies                              - ADDED: 'Oxygen (2021)'
+2021-05-07 08:56:03,491 - INFO       - Traktarr                            - movies                              - ADDING: 'OSS 117: Red Alert in Black Africa (2021)' | Country: FR | Language: FR | Genre(s): Adventure, Action, Comedy 
+2021-05-07 08:56:03,639 - INFO       - Traktarr                            - movies                              - ADDED: 'OSS 117: Red Alert in Black Africa (2021)'
+2021-05-07 08:56:06,574 - INFO       - Traktarr                            - movies                              - ADDING: 'Meander (2021)' | Country: FR | Language: FR | Genre(s): Horror, Science-Fiction, Drama 
+2021-05-07 08:56:06,744 - INFO       - Traktarr                            - movies                              - ADDED: 'Meander (2021)'
+2021-05-07 08:56:06,746 - INFO       - Traktarr                            - movies                              - Added 3 new movie(s) to Radarr
+2021-05-07 08:56:16,733 - INFO       - Traktarr                            - automatic_movies                    - ADDING 10 movie(s) from Trakt's 'Boxoffice' list.
+2021-05-07 08:56:16,736 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 08:56:16,876 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 08:56:16,883 - INFO       - Traktarr                            - validate_pvr                        - Validated Radarr URL & API Key.
+2021-05-07 08:56:16,898 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 08:56:16,914 - INFO       - Traktarr                            - get_objects                         - Retrieved Radarr movies list, movies found: 7
+2021-05-07 08:56:16,921 - INFO       - Traktarr                            - get_exclusions                      - No movie exclusions list found from Radarr
+2021-05-07 08:56:16,923 - INFO       - Traktarr                            - get_exclusions                      - Retrieved Radarr movie list, movie found: 0
+2021-05-07 08:56:17,029 - INFO       - Traktarr                            - movies                              - Retrieved Trakt 'Boxoffice' movies list, movies found: 10
+2021-05-07 08:56:17,031 - INFO       - Traktarr                            - movies                              - Removed existing and excluded Radarr movies from Trakt movies list. Movies left to process: 10
+2021-05-07 08:56:17,032 - INFO       - Traktarr                            - movies                              - Sorted movies list to process by highest 'votes'.
+2021-05-07 08:56:17,033 - INFO       - Traktarr                            - movies                              - Processing list now...
+2021-05-07 08:56:17,521 - INFO       - Traktarr                            - movies                              - SKIPPED: 'Scott Pilgrim vs. the World (2010)'
+2021-05-07 08:56:17,976 - INFO       - Traktarr                            - movies                              - SKIPPED: 'Godzilla vs. Kong (2021)'
+2021-05-07 08:56:18,430 - INFO       - Traktarr                            - movies                              - SKIPPED: 'Raya and the Last Dragon (2021)'
+2021-05-07 08:56:18,872 - INFO       - Traktarr                            - movies                              - SKIPPED: 'Mortal Kombat (2021)'
+2021-05-07 08:56:19,307 - INFO       - Traktarr                            - movies                              - SKIPPED: 'Nobody (2021)'
+2021-05-07 08:56:19,729 - INFO       - Traktarr                            - movies                              - SKIPPED: 'Tom & Jerry (2021)'
+2021-05-07 08:56:20,051 - INFO       - Traktarr                            - movies                              - SKIPPED: 'Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train (2020)'
+2021-05-07 08:56:20,449 - INFO       - Traktarr                            - movies                              - SKIPPED: 'The Unholy (2021)'
+2021-05-07 08:56:20,854 - INFO       - Traktarr                            - movies                              - SKIPPED: 'Separation (2021)'
+2021-05-07 08:56:21,304 - INFO       - Traktarr                            - movies                              - SKIPPED: 'Together Together (2021)'
+2021-05-07 08:56:21,307 - INFO       - Traktarr                            - movies                              - Added 0 new movie(s) to Radarr
+2021-05-07 08:56:31,315 - INFO       - Traktarr                            - automatic_movies                    - ADDING 3 movie(s) from Trakt's 'Popular' list.
+2021-05-07 08:56:31,319 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 08:56:31,427 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 08:56:31,434 - INFO       - Traktarr                            - validate_pvr                        - Validated Radarr URL & API Key.
+2021-05-07 08:56:31,443 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 08:56:31,461 - INFO       - Traktarr                            - get_objects                         - Retrieved Radarr movies list, movies found: 7
+2021-05-07 08:56:31,471 - INFO       - Traktarr                            - get_exclusions                      - No movie exclusions list found from Radarr
+2021-05-07 08:56:31,474 - INFO       - Traktarr                            - get_exclusions                      - Retrieved Radarr movie list, movie found: 0
+2021-05-07 08:56:33,536 - INFO       - media.trakt                         - _make_items_request                 - There are 5 page(s) left to retrieve results from.
+2021-05-07 08:56:40,709 - INFO       - media.trakt                         - _make_items_request                 - There are 4 page(s) left to retrieve results from.
+2021-05-07 08:56:47,539 - INFO       - media.trakt                         - _make_items_request                 - There are 3 page(s) left to retrieve results from.
+2021-05-07 08:56:54,402 - INFO       - media.trakt                         - _make_items_request                 - There are 2 page(s) left to retrieve results from.
+2021-05-07 08:57:01,443 - INFO       - media.trakt                         - _make_items_request                 - There are 1 page(s) left to retrieve results from.
+2021-05-07 08:57:09,153 - INFO       - Traktarr                            - movies                              - Retrieved Trakt 'Popular' movies list, movies found: 5934
+2021-05-07 08:57:09,164 - INFO       - Traktarr                            - movies                              - Removed existing and excluded Radarr movies from Trakt movies list. Movies left to process: 5928
+2021-05-07 08:57:09,171 - INFO       - Traktarr                            - movies                              - Sorted movies list to process by highest 'votes'.
+2021-05-07 08:57:09,173 - INFO       - Traktarr                            - movies                              - Processing list now...
+2021-05-07 08:57:09,668 - INFO       - Traktarr                            - movies                              - ADDING: 'The Intouchables (2011)' | Country: FR | Language: FR | Genre(s): Comedy, Drama 
+2021-05-07 08:57:09,830 - INFO       - Traktarr                            - movies                              - ADDED: 'The Intouchables (2011)'
+2021-05-07 08:57:12,799 - INFO       - Traktarr                            - movies                              - ADDING: 'Amélie (2001)' | Country: FR | Language: FR | Genre(s): Comedy, Romance 
+2021-05-07 08:57:13,173 - INFO       - Traktarr                            - movies                              - ADDED: 'Amélie (2001)'
+2021-05-07 08:57:16,183 - INFO       - Traktarr                            - movies                              - ADDING: 'Anna (2019)' | Country: US | Language: FR | Genre(s): Thriller, Action 
+2021-05-07 08:57:16,355 - INFO       - Traktarr                            - movies                              - ADDED: 'Anna (2019)'
+2021-05-07 08:57:16,357 - INFO       - Traktarr                            - movies                              - Added 3 new movie(s) to Radarr
+2021-05-07 08:57:26,381 - INFO       - Traktarr                            - automatic_movies                    - ADDING 3 movie(s) from Trakt's 'Trending' list.
+2021-05-07 08:57:26,384 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 08:57:26,996 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 08:57:27,003 - INFO       - Traktarr                            - validate_pvr                        - Validated Radarr URL & API Key.
+2021-05-07 08:57:27,011 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 08:57:27,021 - INFO       - Traktarr                            - get_objects                         - Retrieved Radarr movies list, movies found: 10
+2021-05-07 08:57:27,027 - INFO       - Traktarr                            - get_exclusions                      - No movie exclusions list found from Radarr
+2021-05-07 08:57:27,030 - INFO       - Traktarr                            - get_exclusions                      - Retrieved Radarr movie list, movie found: 0
+2021-05-07 08:57:27,740 - INFO       - Traktarr                            - movies                              - Retrieved Trakt 'Trending' movies list, movies found: 5
+2021-05-07 08:57:27,742 - INFO       - Traktarr                            - movies                              - Removed existing and excluded Radarr movies from Trakt movies list. Movies left to process: 4
+2021-05-07 08:57:27,743 - INFO       - Traktarr                            - movies                              - Sorted movies list to process by highest 'votes'.
+2021-05-07 08:57:27,744 - INFO       - Traktarr                            - movies                              - Processing list now...
+2021-05-07 08:57:28,848 - INFO       - Traktarr                            - movies                              - ADDING: 'Raw (2016)' | Country: BE | Language: FR | Genre(s): Drama, Horror, Mystery 
+2021-05-07 08:57:29,354 - INFO       - Traktarr                            - movies                              - ADDED: 'Raw (2016)'
+2021-05-07 08:57:32,838 - INFO       - Traktarr                            - movies                              - ADDING: 'Five (2016)' | Country: FR | Language: FR | Genre(s): Comedy 
+2021-05-07 08:57:33,521 - INFO       - Traktarr                            - movies                              - ADDED: 'Five (2016)'
+2021-05-07 08:57:36,740 - INFO       - Traktarr                            - movies                              - ADDING: 'My Cousin (2020)' | Country: FR | Language: FR | Genre(s): Comedy 
+2021-05-07 08:57:37,095 - INFO       - Traktarr                            - movies                              - ADDED: 'My Cousin (2020)'
+2021-05-07 08:57:37,097 - INFO       - Traktarr                            - movies                              - Added 3 new movie(s) to Radarr
+2021-05-07 08:57:47,088 - INFO       - Traktarr                            - automatic_movies                    - FINISHED: Added 9 movie(s) total to Radarr!
+2021-05-07 08:57:49,592 - INFO       - Traktarr                            - automatic_shows                     - Automatic Shows task started.
+2021-05-07 08:57:49,594 - INFO       - Traktarr                            - automatic_shows                     - ADDING 10 show(s) from Trakt's 'Anticipated' list.
+2021-05-07 08:57:49,599 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 08:57:50,046 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 08:57:50,069 - INFO       - Traktarr                            - validate_pvr                        - Validated Sonarr URL & API Key.
+2021-05-07 08:57:50,095 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 08:57:50,119 - ERROR      - Traktarr                            - get_language_profile_id             - No Language Profile ID for: French
+2021-05-07 08:57:50,133 - INFO       - Traktarr                            - get_profile_tags                    - Retrieved Sonarr Tag IDs: 0
+2021-05-07 08:57:50,174 - INFO       - Traktarr                            - get_objects                         - Retrieved Sonarr shows list, shows found: 3
+2021-05-07 08:57:51,478 - INFO       - Traktarr                            - shows                               - Retrieved Trakt 'Anticipated' shows list, shows found: 2
+2021-05-07 08:57:51,481 - INFO       - Traktarr                            - shows                               - Removed existing Sonarr shows from Trakt shows list, shows left to process: 2
+2021-05-07 08:57:51,485 - INFO       - Traktarr                            - shows                               - Sorted shows list to process by highest 'votes'.
+2021-05-07 08:57:51,488 - INFO       - Traktarr                            - shows                               - Processing list now...
+2021-05-07 08:57:55,446 - INFO       - Traktarr                            - shows                               - ADDING: Plan B (FR) (2021) | Country: FR | Language: FR | Genre(s): Drama | Network: TF1
+2021-05-07 08:57:56,205 - INFO       - Traktarr                            - shows                               - ADDED: 'Plan B (FR) (2021)'
+2021-05-07 08:57:59,268 - INFO       - Traktarr                            - shows                               - ADDING: Luther (FR) (2021) | Country: FR | Language: FR | Genre(s): Drama, Crime, Mystery | Network: TF1
+2021-05-07 08:58:00,019 - INFO       - Traktarr                            - shows                               - ADDED: 'Luther (FR) (2021)'
+2021-05-07 08:58:02,525 - INFO       - Traktarr                            - shows                               - Added 2 new show(s) to Sonarr
+2021-05-07 08:58:12,515 - INFO       - Traktarr                            - automatic_shows                     - ADDING 1 show(s) from Trakt's 'Popular' list.
+2021-05-07 08:58:12,518 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 08:58:12,971 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 08:58:12,984 - INFO       - Traktarr                            - validate_pvr                        - Validated Sonarr URL & API Key.
+2021-05-07 08:58:13,004 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 08:58:13,026 - ERROR      - Traktarr                            - get_language_profile_id             - No Language Profile ID for: French
+2021-05-07 08:58:13,039 - INFO       - Traktarr                            - get_profile_tags                    - Retrieved Sonarr Tag IDs: 0
+2021-05-07 08:58:13,063 - INFO       - Traktarr                            - get_objects                         - Retrieved Sonarr shows list, shows found: 5
+2021-05-07 08:58:15,409 - INFO       - Traktarr                            - shows                               - Retrieved Trakt 'Popular' shows list, shows found: 619
+2021-05-07 08:58:15,412 - INFO       - Traktarr                            - shows                               - Removed existing Sonarr shows from Trakt shows list, shows left to process: 619
+2021-05-07 08:58:15,414 - INFO       - Traktarr                            - shows                               - Sorted shows list to process by highest 'votes'.
+2021-05-07 08:58:15,415 - INFO       - Traktarr                            - shows                               - Processing list now...
+2021-05-07 08:58:15,766 - INFO       - Traktarr                            - shows                               - ADDING: Lupin (2021) | Country: FR | Language: FR | Genre(s): Crime, Drama, Mystery | Network: NETFLIX
+2021-05-07 08:58:16,527 - INFO       - Traktarr                            - shows                               - ADDED: 'Lupin (2021)'
+2021-05-07 08:58:16,529 - INFO       - Traktarr                            - shows                               - Added 1 new show(s) to Sonarr
+2021-05-07 08:58:26,543 - INFO       - Traktarr                            - automatic_shows                     - ADDING 1 show(s) from Trakt's 'Trending' list.
+2021-05-07 08:58:26,545 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 08:58:27,172 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 08:58:27,182 - INFO       - Traktarr                            - validate_pvr                        - Validated Sonarr URL & API Key.
+2021-05-07 08:58:27,196 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 08:58:27,212 - ERROR      - Traktarr                            - get_language_profile_id             - No Language Profile ID for: French
+2021-05-07 08:58:27,220 - INFO       - Traktarr                            - get_profile_tags                    - Retrieved Sonarr Tag IDs: 0
+2021-05-07 08:58:27,250 - INFO       - Traktarr                            - get_objects                         - Retrieved Sonarr shows list, shows found: 6
+2021-05-07 08:58:28,151 - INFO       - Traktarr                            - shows                               - Retrieved Trakt 'Trending' shows list, shows found: 3
+2021-05-07 08:58:28,153 - INFO       - Traktarr                            - shows                               - Removed existing Sonarr shows from Trakt shows list, shows left to process: 2
+2021-05-07 08:58:28,154 - INFO       - Traktarr                            - shows                               - Sorted shows list to process by highest 'votes'.
+2021-05-07 08:58:28,156 - INFO       - Traktarr                            - shows                               - Processing list now...
+2021-05-07 08:58:28,474 - INFO       - Traktarr                            - shows                               - SKIPPED: 'Miraculous: Tales of Ladybug & Cat Noir (2015)'
+2021-05-07 08:58:29,076 - INFO       - Traktarr                            - shows                               - ADDING: Les innocents (2018) | Country: NO | Language: FR | Genre(s): Crime, Drama | Network: LA UNE
+2021-05-07 08:58:30,038 - INFO       - Traktarr                            - shows                               - ADDED: 'Les innocents (2018)'
+2021-05-07 08:58:30,041 - INFO       - Traktarr                            - shows                               - Added 1 new show(s) to Sonarr
+2021-05-07 08:58:40,024 - INFO       - Traktarr                            - automatic_shows                     - FINISHED: Added 4 show(s) total to Sonarr!
+2021-05-07 08:58:42,529 - INFO       - Traktarr                            - run                                 - Next job at 2021-05-08 08:57:47.089876
+2021-05-07 09:04:50,695 - INFO       - Traktarr                            - exit_handler                        - Received SIGINT, canceling jobs and exiting.
+2021-05-07 09:05:48,509 - INFO       - Traktarr                            - run                                 - Automatic mode is now running.
+2021-05-07 09:05:48,518 - INFO       - Traktarr                            - automatic_movies                    - Automatic Movies task started.
+2021-05-07 09:05:48,520 - INFO       - Traktarr                            - automatic_movies                    - ADDING 3 movie(s) from Trakt's 'Anticipated' list.
+2021-05-07 09:05:48,526 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 09:05:48,704 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 09:05:48,712 - INFO       - Traktarr                            - validate_pvr                        - Validated Radarr URL & API Key.
+2021-05-07 09:05:48,720 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 09:05:48,732 - INFO       - Traktarr                            - get_objects                         - Retrieved Radarr movies list, movies found: 13
+2021-05-07 09:05:48,738 - INFO       - Traktarr                            - get_exclusions                      - No movie exclusions list found from Radarr
+2021-05-07 09:05:48,740 - INFO       - Traktarr                            - get_exclusions                      - Retrieved Radarr movie list, movie found: 0
+2021-05-07 09:05:50,746 - INFO       - media.trakt                         - _make_items_request                 - There are 1 page(s) left to retrieve results from.
+2021-05-07 09:05:57,313 - INFO       - Traktarr                            - movies                              - Retrieved Trakt 'Anticipated' movies list, movies found: 1464
+2021-05-07 09:05:57,317 - INFO       - Traktarr                            - movies                              - Removed existing and excluded Radarr movies from Trakt movies list. Movies left to process: 1458
+2021-05-07 09:05:57,320 - INFO       - Traktarr                            - movies                              - Sorted movies list to process by highest 'votes'.
+2021-05-07 09:05:57,322 - INFO       - Traktarr                            - movies                              - Processing list now...
+2021-05-07 09:05:57,945 - INFO       - Traktarr                            - movies                              - ADDING: 'The Dry (2021)' | Country: US | Language: EN | Genre(s): Drama, Crime, Mystery, Thriller 
+2021-05-07 09:05:58,283 - INFO       - Traktarr                            - movies                              - ADDED: 'The Dry (2021)'
+2021-05-07 09:06:01,240 - INFO       - Traktarr                            - movies                              - ADDING: 'Above Suspicion (2019)' | Country: US | Language: EN | Genre(s): Thriller, Crime 
+2021-05-07 09:06:01,426 - INFO       - Traktarr                            - movies                              - ADDED: 'Above Suspicion (2019)'
+2021-05-07 09:06:04,373 - INFO       - Traktarr                            - movies                              - ADDING: 'Riders of Justice (2020)' | Country: DK | Language: DA | Genre(s): Comedy, Action, Drama 
+2021-05-07 09:06:04,531 - INFO       - Traktarr                            - movies                              - ADDED: 'Riders of Justice (2020)'
+2021-05-07 09:06:04,532 - INFO       - Traktarr                            - movies                              - Added 3 new movie(s) to Radarr
+2021-05-07 09:06:14,525 - INFO       - Traktarr                            - automatic_movies                    - ADDING 10 movie(s) from Trakt's 'Boxoffice' list.
+2021-05-07 09:06:14,528 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 09:06:14,647 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 09:06:14,658 - INFO       - Traktarr                            - validate_pvr                        - Validated Radarr URL & API Key.
+2021-05-07 09:06:14,666 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 09:06:14,677 - INFO       - Traktarr                            - get_objects                         - Retrieved Radarr movies list, movies found: 16
+2021-05-07 09:06:14,685 - INFO       - Traktarr                            - get_exclusions                      - No movie exclusions list found from Radarr
+2021-05-07 09:06:14,687 - INFO       - Traktarr                            - get_exclusions                      - Retrieved Radarr movie list, movie found: 0
+2021-05-07 09:06:14,832 - INFO       - Traktarr                            - movies                              - Retrieved Trakt 'Boxoffice' movies list, movies found: 10
+2021-05-07 09:06:14,835 - INFO       - Traktarr                            - movies                              - Removed existing and excluded Radarr movies from Trakt movies list. Movies left to process: 10
+2021-05-07 09:06:14,837 - INFO       - Traktarr                            - movies                              - Sorted movies list to process by highest 'votes'.
+2021-05-07 09:06:14,839 - INFO       - Traktarr                            - movies                              - Processing list now...
+2021-05-07 09:06:15,370 - INFO       - Traktarr                            - movies                              - SKIPPED: 'Scott Pilgrim vs. the World (2010)'
+2021-05-07 09:06:15,872 - INFO       - Traktarr                            - movies                              - ADDING: 'Godzilla vs. Kong (2021)' | Country: US | Language: EN | Genre(s): Science-Fiction, Action, Drama 
+2021-05-07 09:06:16,090 - INFO       - Traktarr                            - movies                              - ADDED: 'Godzilla vs. Kong (2021)'
+2021-05-07 09:06:19,077 - INFO       - Traktarr                            - movies                              - SKIPPED: 'Raya and the Last Dragon (2021)'
+2021-05-07 09:06:19,374 - INFO       - Traktarr                            - movies                              - ADDING: 'Mortal Kombat (2021)' | Country: US | Language: EN | Genre(s): Fantasy, Action, Adventure, Science-Fiction, Thriller 
+2021-05-07 09:06:19,531 - INFO       - Traktarr                            - movies                              - ADDED: 'Mortal Kombat (2021)'
+2021-05-07 09:06:22,644 - INFO       - Traktarr                            - movies                              - ADDING: 'Nobody (2021)' | Country: US | Language: EN | Genre(s): Action, Thriller, Crime 
+2021-05-07 09:06:23,074 - INFO       - Traktarr                            - movies                              - ADDED: 'Nobody (2021)'
+2021-05-07 09:06:26,785 - INFO       - Traktarr                            - movies                              - SKIPPED: 'Tom & Jerry (2021)'
+2021-05-07 09:06:27,753 - INFO       - Traktarr                            - movies                              - SKIPPED: 'Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train (2020)'
+2021-05-07 09:06:28,456 - INFO       - Traktarr                            - movies                              - ADDING: 'The Unholy (2021)' | Country: US | Language: EN | Genre(s): Horror 
+2021-05-07 09:06:28,823 - INFO       - Traktarr                            - movies                              - ADDED: 'The Unholy (2021)'
+2021-05-07 09:06:31,830 - INFO       - Traktarr                            - movies                              - ADDING: 'Separation (2021)' | Country: US | Language: EN | Genre(s): Horror 
+2021-05-07 09:06:32,219 - INFO       - Traktarr                            - movies                              - ADDED: 'Separation (2021)'
+2021-05-07 09:06:35,579 - INFO       - Traktarr                            - movies                              - ADDING: 'Together Together (2021)' | Country: US | Language: EN | Genre(s): Comedy, Romance 
+2021-05-07 09:06:36,066 - INFO       - Traktarr                            - movies                              - ADDED: 'Together Together (2021)'
+2021-05-07 09:06:38,549 - INFO       - Traktarr                            - movies                              - Added 6 new movie(s) to Radarr
+2021-05-07 09:06:48,553 - INFO       - Traktarr                            - automatic_movies                    - ADDING 3 movie(s) from Trakt's 'Popular' list.
+2021-05-07 09:06:48,556 - INFO       - Traktarr                            - validate_trakt                      - Validating Trakt API Key...
+2021-05-07 09:06:49,230 - INFO       - Traktarr                            - validate_trakt                      - ...Validated Trakt API Key.
+2021-05-07 09:06:49,239 - INFO       - Traktarr                            - validate_pvr                        - Validated Radarr URL & API Key.
+2021-05-07 09:06:49,248 - INFO       - Traktarr                            - get_quality_profile_id              - Retrieved Quality Profile ID for 'HD-1080p': 4
+2021-05-07 09:06:49,261 - INFO       - Traktarr                            - get_objects                         - Retrieved Radarr movies list, movies found: 22
+2021-05-07 09:06:49,274 - INFO       - Traktarr                            - get_exclusions                      - No movie exclusions list found from Radarr
+2021-05-07 09:06:49,277 - INFO       - Traktarr                            - get_exclusions                      - Retrieved Radarr movie list, movie found: 0
+2021-05-07 09:06:52,784 - INFO       - media.trakt                         - _make_items_request                 - There are 108 page(s) left to retrieve results from.
+2021-05-07 09:07:01,107 - INFO       - media.trakt                         - _make_items_request                 - There are 107 page(s) left to retrieve results from.
+2021-05-07 09:07:09,888 - INFO       - media.trakt                         - _make_items_request                 - There are 106 page(s) left to retrieve results from.
+2021-05-07 09:07:18,523 - INFO       - media.trakt                         - _make_items_request                 - There are 105 page(s) left to retrieve results from.
+2021-05-07 09:07:26,544 - INFO       - media.trakt                         - _make_items_request                 - There are 104 page(s) left to retrieve results from.
+2021-05-07 09:07:36,411 - INFO       - media.trakt                         - _make_items_request                 - There are 103 page(s) left to retrieve results from.
+2021-05-07 09:07:44,738 - INFO       - media.trakt                         - _make_items_request                 - There are 102 page(s) left to retrieve results from.
+2021-05-07 09:07:53,169 - INFO       - media.trakt                         - _make_items_request                 - There are 101 page(s) left to retrieve results from.
+2021-05-07 09:08:01,608 - INFO       - media.trakt                         - _make_items_request                 - There are 100 page(s) left to retrieve results from.
+2021-05-07 09:08:10,732 - INFO       - media.trakt                         - _make_items_request                 - There are 99 page(s) left to retrieve results from.
+2021-05-07 09:08:20,196 - INFO       - media.trakt                         - _make_items_request                 - There are 98 page(s) left to retrieve results from.
+2021-05-07 09:08:28,772 - INFO       - media.trakt                         - _make_items_request                 - There are 97 page(s) left to retrieve results from.
+2021-05-07 09:08:37,966 - INFO       - media.trakt                         - _make_items_request                 - There are 96 page(s) left to retrieve results from.
+2021-05-07 09:08:48,989 - INFO       - media.trakt                         - _make_items_request                 - There are 95 page(s) left to retrieve results from.
+2021-05-07 09:08:56,465 - INFO       - media.trakt                         - _make_items_request                 - There are 94 page(s) left to retrieve results from.
+2021-05-07 09:09:04,167 - INFO       - media.trakt                         - _make_items_request                 - There are 93 page(s) left to retrieve results from.
+2021-05-07 09:09:11,719 - INFO       - media.trakt                         - _make_items_request                 - There are 92 page(s) left to retrieve results from.
+2021-05-07 09:09:19,162 - INFO       - media.trakt                         - _make_items_request                 - There are 91 page(s) left to retrieve results from.
+2021-05-07 09:09:26,649 - INFO       - media.trakt                         - _make_items_request                 - There are 90 page(s) left to retrieve results from.
+2021-05-07 09:09:27,880 - INFO       - Traktarr                            - exit_handler                        - Received SIGINT, canceling jobs and exiting.
+2021-05-07 09:12:46,349 - INFO       - Traktarr                            - run                                 - Automatic mode is now running.
+2021-05-07 09:12:46,351 - INFO       - Traktarr                            - run                                 - Next job at 2021-05-08 09:12:46.351101

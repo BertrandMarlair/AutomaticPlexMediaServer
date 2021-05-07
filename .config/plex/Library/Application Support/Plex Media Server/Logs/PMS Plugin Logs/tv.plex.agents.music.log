@@ -1,0 +1,44 @@
+2021-05-06 06:12:59,583 (7fc96a6c8740) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: d7c624d (Mon Apr 19 14:14:06 UTC 2021)
+2021-05-06 06:12:59,584 (7fc96a6c8740) :  DEBUG (core:361) - Using the elevated policy
+2021-05-06 06:12:59,585 (7fc96a6c8740) :  DEBUG (core:450) - Starting runtime component.
+2021-05-06 06:12:59,587 (7fc96a6c8740) :  DEBUG (core:450) - Starting caching component.
+2021-05-06 06:12:59,588 (7fc96a6c8740) :  DEBUG (core:450) - Starting data component.
+2021-05-06 06:12:59,589 (7fc96a6c8740) :  DEBUG (core:450) - Starting networking component.
+2021-05-06 06:12:59,591 (7fc96a6c8740) :  DEBUG (networking:265) - No cookie jar found
+2021-05-06 06:12:59,601 (7fc96a6c8740) :  DEBUG (networking:428) - Setting the default network timeout to 20.0
+2021-05-06 06:12:59,602 (7fc96a6c8740) :  DEBUG (core:450) - Starting localization component.
+2021-05-06 06:12:59,603 (7fc96a6c8740) :  INFO (localization:409) - Setting the default locale to en-us
+2021-05-06 06:12:59,604 (7fc96a6c8740) :  DEBUG (core:450) - Starting messaging component.
+2021-05-06 06:12:59,605 (7fc96a6c8740) :  DEBUG (core:450) - Starting debugging component.
+2021-05-06 06:12:59,606 (7fc96a6c8740) :  DEBUG (core:450) - Starting services component.
+2021-05-06 06:12:59,607 (7fc96a6c8740) :  DEBUG (core:450) - Starting myplex component.
+2021-05-06 06:12:59,608 (7fc96a6c8740) :  DEBUG (core:450) - Starting notifications component.
+2021-05-06 06:12:59,608 (7fc943fff700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/tv.plex.agents.music'
+2021-05-06 06:12:59,721 (7fc96a6c8740) :  DEBUG (accessor:68) - Creating a new model access point for provider tv.plex.agents.music in namespace 'metadata'
+2021-05-06 06:12:59,729 (7fc96a6c8740) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2021-05-06 06:12:59,745 (7fc943fff700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2021-05-06 06:12:59,745 (7fc96a6c8740) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2021-05-06 06:12:59,749 (7fc96a6c8740) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2021-05-06 06:12:59,751 (7fc943fff700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2021-05-06 06:12:59,779 (7fc942ffd700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400'
+2021-05-06 06:12:59,802 (7fc96a6c8740) :  DEBUG (core:150) - Finished starting framework core
+2021-05-06 06:12:59,803 (7fc96a6c8740) :  DEBUG (core:560) - Loading plug-in code
+2021-05-06 06:12:59,805 (7fc942ffd700) :  DEBUG (core:538) - Machine identifier is 778bafc1525ee34cda762656e6028ff3452e0b58
+2021-05-06 06:12:59,810 (7fc943fff700) :  DEBUG (services:362) - Loaded services
+2021-05-06 06:12:59,811 (7fc942ffd700) :  DEBUG (core:539) - Server version is 1.22.3.4392-d7c624def
+2021-05-06 06:12:59,821 (7fc9437fe700) :  DEBUG (services:438) - No shared code to load
+2021-05-06 06:12:59,870 (7fc96a6c8740) :  DEBUG (core:566) - Finished loading plug-in code
+2021-05-06 06:12:59,871 (7fc96a6c8740) :  DEBUG (agentkit:1132) - Creating new agent class called PlexMusicArtistAgent
+2021-05-06 06:12:59,873 (7fc96a6c8740) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.localmedia'], 'languages': ['en', 'ar', 'bg', 'zh', 'hr', 'cs', 'da', 'nl', 'fi', 'fr', 'de', 'el', 'hu', 'id', 'it', 'ja', 'ko', 'nn', 'pl', 'pt', 'ro', 'ru', 'sr', 'sk', 'es', 'sv', 'th', 'tr', 'vi', 'xx'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Plex Music'}]
+2021-05-06 06:12:59,877 (7fc96a6c8740) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczIwCnR2LnBsZXguYWdlbnRzLm11c2ljczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzEKcjIKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjQKczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjFzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjFzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMTAKUGxleCBNdXNpY3M0Cm5hbWUxCnM2CkFydGlzdDEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMzAKczIKZW5zMgphcnMyCmJnczIKemhzMgpocnMyCmNzczIKZGFzMgpubHMyCmZpczIKZnJzMgpkZXMyCmVsczIKaHVzMgppZHMyCml0czIKamFzMgprb3MyCm5uczIKcGxzMgpwdHMyCnJvczIKcnVzMgpzcnMyCnNrczIKZXNzMgpzdnMyCnRoczIKdHJzMgp2aXMyCnh4cjAK'
+2021-05-06 06:12:59,887 (7fc96a6c8740) :  DEBUG (agentkit:1132) - Creating new agent class called PlexMusicAlbumAgent
+2021-05-06 06:12:59,890 (7fc96a6c8740) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.localmedia'], 'languages': ['en', 'ar', 'bg', 'zh', 'hr', 'cs', 'da', 'nl', 'fi', 'fr', 'de', 'el', 'hu', 'id', 'it', 'ja', 'ko', 'nn', 'pl', 'pt', 'ro', 'ru', 'sr', 'sk', 'es', 'sv', 'th', 'tr', 'vi', 'xx'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Plex Music'}, {'media_types': ['Album'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.localmedia'], 'languages': ['en', 'ar', 'bg', 'zh', 'hr', 'cs', 'da', 'nl', 'fi', 'fr', 'de', 'el', 'hu', 'id', 'it', 'ja', 'ko', 'nn', 'pl', 'pt', 'ro', 'ru', 'sr', 'sk', 'es', 'sv', 'th', 'tr', 'vi', 'xx'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Plex Music'}]
+2021-05-06 06:12:59,895 (7fc96a6c8740) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo5CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CmRpY3QKbGlzdApsaXN0CjIKczIwCnR2LnBsZXguYWdlbnRzLm11c2ljczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzIKcjIKcjYKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjQKczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjFzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjFzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMTAKUGxleCBNdXNpY3M0Cm5hbWUxCnM2CkFydGlzdDEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMzAKczIKZW5zMgphcnMyCmJnczIKemhzMgpocnMyCmNzczIKZGFzMgpubHMyCmZpczIKZnJzMgpkZXMyCmVsczIKaHVzMgppZHMyCml0czIKamFzMgprb3MyCm5uczIKcGxzMgpwdHMyCnJvczIKcnVzMgpzcnMyCnNrczIKZXNzMgpzdnMyCnRoczIKdHJzMgp2aXMyCnh4MTAKcjcKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjgKczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjFzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjFzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMTAKUGxleCBNdXNpY3M0Cm5hbWUxCnM1CkFsYnVtMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLmxvY2FsbWVkaWFyMAo_'
+2021-05-06 06:12:59,906 (7fc96a6c8740) :  INFO (core:611) - Started plug-in
+2021-05-06 06:12:59,906 (7fc96a6c8740) :  DEBUG (socketinterface:160) - Starting socket server
+2021-05-06 06:12:59,908 (7fc96a6c8740) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2021-05-06 06:12:59,909 (7fc96a6c8740) :  INFO (socketinterface:184) - Socket server started on port 55185
+2021-05-06 06:12:59,911 (7fc96a6c8740) :  INFO (pipeinterface:25) - Entering run loop
+2021-05-06 06:12:59,912 (7fc96a6c8740) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2021-05-06 06:12:59,913 (7fc96a6c8740) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2021-05-06 06:12:59,915 (7fc96a6c8740) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 145 bytes

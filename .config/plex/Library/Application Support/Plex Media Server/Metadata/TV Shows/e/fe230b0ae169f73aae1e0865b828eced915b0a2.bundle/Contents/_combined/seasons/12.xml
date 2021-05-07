@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Season>
+  <art/>
+  <banners/>
+  <episodes>
+    <item external="True" key="24" originally_available_at="2019-05-16"/>
+    <item external="True" key="23" originally_available_at="2019-05-16"/>
+  </episodes>
+  <posters>
+    <item external="True" url="https://artworks.thetvdb.com/banners/seasons/5baaa0d68b693.jpg" sort_order="111" provider="com.plexapp.agents.thetvdb" media="com.plexapp.agents.thetvdb_fdc9e9021852ff4ac742f753c8b106ad1961c738"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/seasons/5b99a563bf2ce.jpg" preview="com.plexapp.agents.thetvdb_8cdabc4301cf39993936f8e2c4f5bef919a780e3" sort_order="341" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/seasons/5ba9aa1d5c6d9.jpg" preview="com.plexapp.agents.thetvdb_e269255668950c304da69ceccc18593ecf414f8e" sort_order="342" provider="com.plexapp.agents.thetvdb"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/seasons/5bd20ceee934f.jpg" preview="com.plexapp.agents.thetvdb_39090e59df85bb980ad7d3162e3e4db15fa487ca" sort_order="344" provider="com.plexapp.agents.thetvdb"/>
+  </posters>
+</Season>

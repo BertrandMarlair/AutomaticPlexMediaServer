@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TV_Show id="80379">
+  <rating>8.8</rating>
+  <title_sort/>
+  <art>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-2.jpg" preview="012f054fe8d9007ffe2ea90c0a394fc4cf0c11f3" sort_order="1"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-38.jpg" preview="c28db14b6e6d347fffd7ba4d1fcbd8266b7ac8f2" sort_order="2"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-20.jpg" preview="bf62abcf5998e8e2a6c0c4ec04c966c14f512bf5" sort_order="3"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-66.jpg" preview="5cd37e4983c9be1a3176c50bef56d2eb72ebbfe4" sort_order="4"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-52.jpg" preview="e84280e830ef2cd994ba893671fb64177c36bd33" sort_order="5"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-39.jpg" preview="ad2c560e6c737e87e928577133704ae41e94f936" sort_order="6"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-44.jpg" preview="219aae796963a0ae89bfab452204d3422be611b7" sort_order="7"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5b8b22b2cecfb.jpg" preview="7dd79ed9e423221df48584ea0a6e7becc9f68de3" sort_order="8"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5bdb4e5a18877.jpg" preview="08cb3bbf060eb6d9557f950685f85dc802cf941c" sort_order="9"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5c2e59f6ac43e.jpg" preview="8eb804c2f516767637f70c2e16b71bb48e9436ca" sort_order="10"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5cddc3984f352.jpg" preview="a8295b91d352d130c6a540e22c42470fdd3ecace" sort_order="11"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-55.jpg" preview="94c62a08822f15847e54dcdde37852d4ebc046ad" sort_order="12"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5cf70deb5404e.jpg" preview="d0259c7418eb8de23428e55993468c69338b358d" sort_order="13"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5cf70e258f16b.jpg" preview="5586c5fa105fed37b2133314e66fb385dae205e1" sort_order="14"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5d6519178d129.jpg" preview="55c324cef28f190c88744b1b5a2d1d4ce1f319f1" sort_order="15"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5d8572d8adc05.jpg" preview="d22c52507d282481909e841abf3fdc3e742d8b46" sort_order="16"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5d85739771395.jpg" preview="116fb9b9f76ae0ac48b1fe0ff413e539912cb1f4" sort_order="17"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5d8573b0cdb37.jpg" preview="58c6ed0d0659b7d88da447005557cfeb5cfe6fdf" sort_order="18"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5d8573c8494ef.jpg" preview="1fb95336b57b442d442b177976d97bbd026dd6e5" sort_order="19"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5d9b3cb865b5d.jpg" preview="035d414d1a7673680dc61a1aa7a20b99b12f058e" sort_order="20"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5d9bdf8801c81.jpg" preview="497146b327032753624efdea43c5665e97948344" sort_order="21"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5d9be022919cf.jpg" preview="5597636ed7de0916e9a3b9fc6109690e060b5ba1" sort_order="22"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5dab6421548f6.jpg" preview="c61ff97ea199b75e531fe009c812f374e28e0750" sort_order="23"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/80379/backgrounds/62081386.jpg" preview="27e0eeadf393af176d3ae4133bc0636acf4be9c0" sort_order="24"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-34.jpg" preview="721f8a2e45d10449bca798ab7961f1ba3d013f7d" sort_order="46"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-4.jpg" preview="4e364cdc4476661e928a260f07cac5ceb43ae70e" sort_order="48"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-1.jpg" preview="8c2ad23185495dac10b1fc239b9d33e7ac7c166f" sort_order="51"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-24.jpg" preview="66d90f69144543c43ebd4abb6bdb424dbffdca5f" sort_order="56"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-11.jpg" preview="703c738866f90dfbc87c44b6df199d584d5e2f09" sort_order="62"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-29.jpg" preview="6783753218abde0b4503a7c9d477840c8441cb76" sort_order="63"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-14.jpg" preview="a12d547dc87e38f032f0654ee9a81f3f8302d328" sort_order="64"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-16.jpg" preview="b3a93ac3b7800f4aa856823de371c39d38d917cd" sort_order="65"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-40.jpg" preview="cecc39c7b268be03d1a008d7a6a068bfe6f1b433" sort_order="66"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-30.jpg" preview="0f0ce0f1f5b6294271c33cc282763d3f2cf0b6cc" sort_order="72"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-10.jpg" preview="0c97921a97fd355b8b073380504acf9880d84680" sort_order="74"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-31.jpg" preview="f0eb6f24acbaafa5f8310385937ebe0360df13ce" sort_order="75"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-37.jpg" preview="03b2a5ed34133e881fa3c16a162ed48bf2370ff0" sort_order="76"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-60.jpg" preview="5b97a7af31763a39672daf21e552cc8ce123c527" sort_order="77"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-19.jpg" preview="19eeb71e6bd09869a16c43523bff0a28cc99af5b" sort_order="85"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-49.jpg" preview="5f9bbb6fbb0749235f6ffa05de1cf9bc676a47af" sort_order="86"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-3.jpg" preview="359782b97fb251b7930ffba95ae24cdebd46c3c7" sort_order="89"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-12.jpg" preview="37cffbb5df0742c05955521062b91740f2120071" sort_order="90"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-21.jpg" preview="182fe8f3f9f6bc37a16615d6fcb333587f39ccf4" sort_order="91"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-27.jpg" preview="edbe6e780103201df2973c00dcda6aa6a909b34a" sort_order="92"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-42.jpg" preview="f0d5fba667775d47d19632f9767855fd8847b2de" sort_order="97"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-45.jpg" preview="29f871ba418370eaa754b51a45c36c7380565cb7" sort_order="98"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-41.jpg" preview="1f5533c6fe9e01b48c5b3cfaf6952a6c55f8ddd1" sort_order="99"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-50.jpg" preview="6e96190d6bde0315b01266f3e736433d0f63979a" sort_order="100"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-48.jpg" preview="cc0933d649e614fc1f7389ae6c10c199b0644af3" sort_order="101"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-23.jpg" preview="6504595a9ca0a3dbf41201d40a719408d250159a" sort_order="112"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-28.jpg" preview="a3af772aad089a4a06fc3ac9d18287640523d554" sort_order="113"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-32.jpg" preview="f6eb9bd9a937c888e4f1f44b1504c567d050c254" sort_order="114"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-64.jpg" preview="93ee1a4e308e72fe788886655da21eed88614d95" sort_order="116"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-35.jpg" preview="aac29b67591453b41d46c9ed2a9f913bf0e2680c" sort_order="127"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-59.jpg" preview="612e937333f69ec8104ad061fa01fe9f8ebde236" sort_order="130"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5c309a5f9ca27.jpg" preview="84c0a3a565eedb615faa5000d2c11b923f87d576" sort_order="134"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-36.jpg" preview="0d096d29e363dfc377663919a6dc83a50309a159" sort_order="147"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-56.jpg" preview="02a212e1da2f2bf235a4a3d5c92d0da258b0f489" sort_order="149"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-61.jpg" preview="6421306503d833732d29ab8326a05b9c533ebafd" sort_order="150"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/80379-65.jpg" preview="8835c0c674d1d1cfafaa6be36b9c02373edec5c3" sort_order="151"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5cdeec1a5b124.jpg" preview="b024956b9ffeec89171d8b4ba2e0dfe3d59da060" sort_order="152"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/fanart/original/5d85726a49a75.jpg" preview="a5f1d8191093c3581645542dda3c85f5baeebbff" sort_order="156"/>
+  </art>
+  <themes/>
+  <posters>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-18.jpg" preview="4b73192e9991b022d2352451e9966f81cc3cb052" sort_order="40"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-9.jpg" preview="12234b1e8df4daea7361acff1a7e758fdd11e8b8" sort_order="43"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-25.jpg" preview="d1bf20fd951b15179d986c64a069a957dbd3358e" sort_order="44"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-1.jpg" preview="dbb3366d0b8b271dccfecd2966ad9e0fb0f15345" sort_order="45"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-13.jpg" preview="4ae153010b53d58b08fea5d128375b4151423ae4" sort_order="47"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-22.jpg" preview="a2d24fc4abe27f3cc3dcd9f9b1900add4db7ff84" sort_order="49"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-43.jpg" preview="d93cfce340cf7c30e601681c701d702ec0b6f0eb" sort_order="50"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-10.jpg" preview="c5a55b4b172c521cce673d68e5781481196f0bdc" sort_order="52"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-4.jpg" preview="c5be4121079aa03ebacf99bd62816fd815a72de1" sort_order="57"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-19.jpg" preview="f888be36ec4c4b99499fd1feb4b02aa9e90fef40" sort_order="58"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-27.jpg" preview="e19a37e6938009af5839b5b784303b59bbbef144" sort_order="59"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-44.jpg" preview="1418393a134eb089be695a52099f612a88e3ddda" sort_order="67"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-48.jpg" preview="0204ec5b3491ac4e59ec0c6560742910f43a3d5e" sort_order="68"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-49.jpg" preview="2bc3d082037dbc0bb870721b78858a25cbd8c0dd" sort_order="69"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-2.jpg" preview="5fc4198d670564b43ae45b0d319ade43dc870947" sort_order="71"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-39.jpg" preview="c80dbbdd03581634036794e4a658fda47f42d193" sort_order="73"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-24.jpg" preview="387f9e4fbc9b17eccef74f3b54ee7d759f064ae2" sort_order="78"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-26.jpg" preview="e797d78ff1dccf43f7467b4f76dca5cb3e28e75c" sort_order="79"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-30.jpg" preview="ab58ca46122e8d1ec91fcf2f51ce01dc07d1947c" sort_order="80"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-42.jpg" preview="6cfe1f580f78f22386e633a6e545c0a001776777" sort_order="81"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-38.jpg" preview="f695a54f11df4a63026b2ffcf2f547f589b56ebc" sort_order="88"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-7.jpg" preview="544ec69dc1a73063473de76c7550e9af704c56c4" sort_order="93"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-20.jpg" preview="96d84e9dea321f0dedc29913bf9e42117cebd238" sort_order="94"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-21.jpg" preview="1a3c54e57e1109888ba75f02e9a6ca88247da934" sort_order="95"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-16.jpg" preview="e20504cb70be9052aad8752026d153d7ba92fbd1" sort_order="102"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-31.jpg" preview="258433a11b0e7162d501b3fe531c71ad5d3009fa" sort_order="103"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-33.jpg" preview="cfdfc8461e0d3cc70405ccc548655eda6360f469" sort_order="104"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-41.jpg" preview="cdb419814d3f3f3c3b849eab3cd1e400df108214" sort_order="105"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-3.jpg" preview="158f44f73195b5633e1dff9bfd2a7362aad965fe" sort_order="117"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-23.jpg" preview="f25be1815e1e06f38685c5be712e62e5f3b048eb" sort_order="118"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-36.jpg" preview="1d02d426c28f04c6a471b22454a9c58d046a296e" sort_order="119"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-37.jpg" preview="c8b608f66337cbd6875026a8928baf9faa487d0e" sort_order="120"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-35.jpg" preview="f45fdff3a700e770a0977222bfc4a6958246ac1b" sort_order="121"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-34.jpg" preview="7bd7d02ed9bb959945cd9883df211474d98cf571" sort_order="122"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-46.jpg" preview="d607dcb29e400c7a8a4396cf257a836d11580251" sort_order="123"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-15.jpg" preview="a9a0bd53b724afcdafbf670e9e65f8db8a9a0477" sort_order="136"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/5b8d57d601c5f.jpg" preview="06cbef0853d500cb0d2971cfa34e2f77fa7e0299" sort_order="137"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/80379/posters/5ebf2942b3be3.jpg" preview="72324211ffeb91d344db2ada101c46fc6c7863fe" sort_order="138"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-32.jpg" preview="e0b4543fe0dccfa8e9aea0311f6d723c8f345e57" sort_order="166"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-47.jpg" preview="c1b761aed553b9d1bb17f5fec9538f5cc72507a9" sort_order="167"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/80379-53.jpg" preview="e4e7f2e4c1b45a182c12a011e7f4b9551447b406" sort_order="168"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/5af4b7b3468ca.jpg" preview="53a503fd3d59e410f8773828db4759176c7d49f7" sort_order="169"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/5b64871cca599.jpg" preview="c62a8c922e9ed6bd5a18532bec38fd201721a535" sort_order="170"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/5b8b1e4b31701.jpg" preview="c6413d81f7f49bb3c8734219e52eba9bc52b1fe6" sort_order="171"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/5d1526b0ab9a1.jpg" preview="f76a8062cf53c6aa4cb6b656b46865d993748c07" sort_order="172"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/posters/5dab60e8c32d0.jpg" preview="ab13938ee2cf71ce3008f9f337410225944ffad6" sort_order="173"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/80379/posters/5eb5cc3fc0e4e.jpg" preview="6a2360328c6afa771f06f164550fc173abd58de1" sort_order="174"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/80379/posters/5ed54cb3ed64f.jpg" preview="5c33f8972207fc0149bf9cbbc0a3dffed3018153" sort_order="175"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/series/80379/posters/5ed54d0f87394.jpg" preview="d722c3dc3cd09914750c9f71e0eb3cedc4cccfb2" sort_order="176"/>
+  </posters>
+  <duration>1500000</duration>
+  <genres>
+    <item index="0">Comedy</item>
+  </genres>
+  <title>The Big Bang Theory</title>
+  <rating_count/>
+  <collections/>
+  <tags/>
+  <audience_rating_image/>
+  <rating_image/>
+  <audience_rating/>
+  <studio>CBS</studio>
+  <seasons>
+    <item external="True" extension="xml" key="12"/>
+  </seasons>
+  <originally_available_at>2007-09-24</originally_available_at>
+  <roles>
+    <item index="0">
+      <photo>https://artworks.thetvdb.com/banners/actors/325467.jpg</photo>
+      <role>Sheldon Cooper</role>
+      <name>Jim Parsons</name>
+    </item>
+    <item index="1">
+      <photo>https://artworks.thetvdb.com/banners/actors/325466.jpg</photo>
+      <role>Leonard Hofstadter</role>
+      <name>Johnny Galecki</name>
+    </item>
+    <item index="2">
+      <photo>https://artworks.thetvdb.com/banners/actors/325465.jpg</photo>
+      <role>Penny</role>
+      <name>Kaley Cuoco</name>
+    </item>
+    <item index="3">
+      <photo>https://artworks.thetvdb.com/banners/actors/325463.jpg</photo>
+      <role>Rajesh Koothrappali</role>
+      <name>Kunal Nayyar</name>
+    </item>
+    <item index="4">
+      <photo>https://artworks.thetvdb.com/banners/actors/325464.jpg</photo>
+      <role>Howard Wolowitz</role>
+      <name>Simon Helberg</name>
+    </item>
+    <item index="5">
+      <photo>https://artworks.thetvdb.com/banners/actors/325462.jpg</photo>
+      <role>Bernadette Rostenkowski</role>
+      <name>Melissa Rauch</name>
+    </item>
+    <item index="6">
+      <photo>https://artworks.thetvdb.com/banners/actors/325461.jpg</photo>
+      <role>Amy Farrah Fowler</role>
+      <name>Mayim Bialik</name>
+    </item>
+    <item index="7">
+      <photo>https://artworks.thetvdb.com/banners/actors/358188.jpg</photo>
+      <role>Emily Sweeney</role>
+      <name>Laura Spencer</name>
+    </item>
+    <item index="8">
+      <photo>https://artworks.thetvdb.com/banners/actors/378343.jpg</photo>
+      <role>Leslie Winkle</role>
+      <name>Sara Gilbert</name>
+    </item>
+    <item index="9">
+      <photo>https://artworks.thetvdb.com/banners/actors/378344.jpg</photo>
+      <role>Stuart Bloom</role>
+      <name>Kevin Sussman</name>
+    </item>
+    <item index="10">
+      <photo>https://artworks.thetvdb.com/banners/actors/382566.jpg</photo>
+      <role>Barry Kripke</role>
+      <name>John Ross Bowie</name>
+    </item>
+    <item index="11">
+      <photo>https://artworks.thetvdb.com/banners/actors/403186.jpg</photo>
+      <role>Debbie Wolowitz</role>
+      <name>Carol Ann Susi</name>
+    </item>
+  </roles>
+  <countries/>
+  <content_rating>TV-14</content_rating>
+  <original_title/>
+  <summary>Que se passe-t-il quand les très intelligents colocataires Sheldon et Leonard rencontrent Penny, une beauté libre d'esprit qui emménage la porte d'à côté, et réalisent qu'ils ne connaissent presque rien de la vie hors de leur laboratoire. Leur bande d'amis est complétée par le mielleux Wolowitz, qui pense être aussi sexy que futé, et Koothrappali, qui est incapable de parler en présence de femmes.</summary>
+  <reviews/>
+  <banners>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g14.jpg" preview="4943fa4d10532be0a59979900dad0d2afe2da1eb" sort_order="38"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g13.jpg" preview="4f3b73adac3154e5a947a0d4ab78476e154e353f" sort_order="53"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g23.jpg" preview="6903283562ed17a3eb5dc264a1a0469d16ff2c82" sort_order="54"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g6.jpg" preview="00136d8fd55a50344592a4d6b68b8a3bcb021b27" sort_order="55"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g2.jpg" preview="e1df33cc188112d09f3b9ba75f79f2ea0588c435" sort_order="60"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g5.jpg" preview="df4a3ba5265e45a44631331f8b18e3eaf2fe8b49" sort_order="61"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g15.jpg" preview="74f6a9a0501b87dfe803b403ff94d0a7e145c96b" sort_order="70"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g3.jpg" preview="8de19efdecaeb3177e1be56945b300b94fa9e814" sort_order="82"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g11.jpg" preview="4f0cac834a39b951ec37672150b8f96476f4a30e" sort_order="83"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g18.jpg" preview="74daeb68b0a8290b18102517562ae0b54022710e" sort_order="84"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g20.jpg" preview="1a05b30eec41c11e5ea96d447051d1d8c10b77cb" sort_order="96"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g4.jpg" preview="4258e9332f20d634f0488f5c802d88bcd5f4fb84" sort_order="106"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g17.jpg" preview="a720129e5eedce255f98ca8cd6023332eb782b10" sort_order="107"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g19.jpg" preview="a422bbd9443a5eda20f3c4e65b2525c0200e13cc" sort_order="108"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g28.jpg" preview="74c883eb532771ead4a06666f3a9e2953a2e2adf" sort_order="109"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g.jpg" preview="5d1bd5179cb63f02db9f088418bbeadf9d3f9df0" sort_order="124"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g12.jpg" preview="66415ac44d7817f7c97203c256f4f1dd35302db0" sort_order="125"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g30.jpg" preview="5743362772d38d0d706dc14475dbb3c92fb5c5d5" sort_order="126"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/blank/80379.jpg" preview="42ddba0cff44dad08e6f7da607fc45c805a46211" sort_order="139"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g10.jpg" preview="f9d7d7bbf6432ea6218f68b8684d360b785702f8" sort_order="140"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g29.jpg" preview="07c5a108407df13f6e75a34542a93bbd31f0a17f" sort_order="141"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g33.jpg" preview="294ee554b843f7e8a6373d36bce0a0ff743d6a83" sort_order="142"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/text/80379-2.jpg" preview="28bcb5e530fae1de3ccd3dcfbd04ef6d1e670e48" sort_order="214"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/text/80379-3.jpg" preview="600cbb95cf5b97e7ece93edbfee6c926c6747d52" sort_order="215"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/text/80379-4.jpg" preview="128f3f2ae65bfd18594f29d3f6530c64b6503e09" sort_order="216"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g7.jpg" preview="eb75317a2f6b3975da72327a40ab92662926ffca" sort_order="217"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g22.jpg" preview="901bd9f12493cf9edae6915e3d8f9d4aed5ce660" sort_order="218"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g25.jpg" preview="fdabe828435e043b6cdd5117b2db62cdf83565f8" sort_order="219"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/80379-g27.jpg" preview="e33e960afadb5498f2386e84dabc96673ea13518" sort_order="220"/>
+    <item external="True" url="https://artworks.thetvdb.com/banners/graphical/5baaabc0b1082.jpg" preview="d6b656c3515bb7088e144036d7262cda153c2716" sort_order="221"/>
+  </banners>
+  <similar>
+    <item index="0">Friends</item>
+    <item index="1">How I Met Your Mother</item>
+    <item index="2">Game of Thrones</item>
+    <item index="3">Breaking Bad</item>
+    <item index="4">Two and a Half Men</item>
+    <item index="5">The Simpsons</item>
+    <item index="6">The Walking Dead</item>
+    <item index="7">Family Guy</item>
+    <item index="8">House</item>
+    <item index="9">Modern Family</item>
+    <item index="10">Dexter</item>
+    <item index="11">Lost</item>
+    <item index="12">Sherlock</item>
+    <item index="13">South Park</item>
+    <item index="14">House of Cards</item>
+    <item index="15">Arrow</item>
+    <item index="16">Futurama</item>
+    <item index="17">Young Sheldon</item>
+    <item index="18">Supernatural</item>
+    <item index="19">Doctor Who</item>
+    <item index="20">Scrubs</item>
+  </similar>
+</TV_Show>

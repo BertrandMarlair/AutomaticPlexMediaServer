@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TV_Show id="80379">
+  <rating/>
+  <title_sort/>
+  <art/>
+  <themes>
+    <item external="True" url="https://tvthemes.plexapp.com/80379.mp3" media="a1e8bd8b52fde35176a910a2c050800c362bd67a"/>
+  </themes>
+  <posters/>
+  <duration/>
+  <genres/>
+  <title/>
+  <rating_count/>
+  <collections/>
+  <tags/>
+  <audience_rating_image/>
+  <rating_image/>
+  <audience_rating/>
+  <studio/>
+  <seasons/>
+  <originally_available_at/>
+  <roles/>
+  <countries/>
+  <content_rating/>
+  <original_title/>
+  <summary/>
+  <reviews/>
+  <banners/>
+  <similar/>
+</TV_Show>

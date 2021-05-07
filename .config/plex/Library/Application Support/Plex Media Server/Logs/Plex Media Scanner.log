@@ -1,0 +1,54 @@
+May 07, 2021 07:06:51.615 [0x7f608a868700] INFO - Plex Media Scanner v1.22.3.4392-d7c624def - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+May 07, 2021 07:06:51.616 [0x7f608a868700] INFO - Linux version: 5.10.25-linuxkit, language: en-US
+May 07, 2021 07:06:51.616 [0x7f608a868700] INFO - Processor Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+May 07, 2021 07:06:51.617 [0x7f608a868700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 2 --activity 482a925c-02c2-44b7-a771-ba2efa0164c9
+May 07, 2021 07:06:51.604 [0x7f608b357780] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.26.0, threadsafe=1
+May 07, 2021 07:06:51.713 [0x7f608b357780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=0
+May 07, 2021 07:06:51.714 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1620370011
+May 07, 2021 07:06:51.714 [0x7f608b357780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=0
+May 07, 2021 07:06:51.714 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1620370011
+May 07, 2021 07:06:51.715 [0x7f608b357780] DEBUG - Scanning Séries TV using fr(Plex Series Scanner) with 12 current media items and 1 section locations in the database.
+May 07, 2021 07:06:51.781 [0x7f608b357780] DEBUG - Performing a scan with 'Plex Series Scanner' (language: fr virtual: 0).
+May 07, 2021 07:06:51.781 [0x7f608b357780] DEBUG -   * Scanning /tv
+May 07, 2021 07:06:51.781 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv (parent: no)
+May 07, 2021 07:06:51.783 [0x7f608b357780] DEBUG - Skipping over directory '', as nothing has changed; removing 0 media items from map.
+May 07, 2021 07:06:51.784 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/Chernobyl (parent: yes)
+May 07, 2021 07:06:51.786 [0x7f608b357780] DEBUG - Skipping over directory 'Chernobyl', as nothing has changed; removing 0 media items from map.
+May 07, 2021 07:06:51.786 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl
+May 07, 2021 07:06:51.787 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl (reused)
+May 07, 2021 07:06:51.788 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1 (parent: yes)
+May 07, 2021 07:06:51.790 [0x7f608b357780] DEBUG - Skipping over directory 'Chernobyl/Season 1', as nothing has changed; removing 5 media items from map.
+May 07, 2021 07:06:51.790 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201
+May 07, 2021 07:06:51.790 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions (parent: yes)
+May 07, 2021 07:06:51.791 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201 (reused)
+May 07, 2021 07:06:51.791 [0x7f608b357780] DEBUG - Skipping over directory 'Chernobyl/Season 1/Plex Versions', as nothing has changed; removing 0 media items from map.
+May 07, 2021 07:06:51.791 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions
+May 07, 2021 07:06:51.791 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV (parent: yes)
+May 07, 2021 07:06:51.792 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions (reused)
+May 07, 2021 07:06:51.794 [0x7f608b357780] DEBUG - Skipping over directory 'Chernobyl/Season 1/Plex Versions/Optimized for TV', as nothing has changed; removing 0 media items from map.
+May 07, 2021 07:06:51.794 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV
+May 07, 2021 07:06:51.794 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl (parent: yes)
+May 07, 2021 07:06:51.795 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV (reused)
+May 07, 2021 07:06:51.798 [0x7f608b357780] DEBUG - Skipping over directory 'Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl', as nothing has changed; removing 5 media items from map.
+May 07, 2021 07:06:51.799 [0x7f608b357780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=%2B49%2E5&subtitle=Optimized%20for%20TV%20-%20Chernobyl
+May 07, 2021 07:06:51.799 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV%2FChernobyl
+May 07, 2021 07:06:51.799 [0x7f608b357780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=%2B49%2E5&subtitle=Optimized%20for%20TV%20-%20Chernobyl (reused)
+May 07, 2021 07:06:51.799 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/The Big Bang Theory (parent: yes)
+May 07, 2021 07:06:51.800 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV%2FChernobyl (reused)
+May 07, 2021 07:06:51.802 [0x7f608b357780] DEBUG - Skipping over directory 'The Big Bang Theory', as nothing has changed; removing 0 media items from map.
+May 07, 2021 07:06:51.802 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory
+May 07, 2021 07:06:51.803 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/The Big Bang Theory/Season 12 (parent: yes)
+May 07, 2021 07:06:51.803 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory (reused)
+May 07, 2021 07:06:51.804 [0x7f608b357780] DEBUG - Skipping over directory 'The Big Bang Theory/Season 12', as nothing has changed; removing 2 media items from map.
+May 07, 2021 07:06:51.804 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory%2FSeason%2012
+May 07, 2021 07:06:51.805 [0x7f608b357780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=%2B49%2E5&subtitle=The%20Big%20Bang%20Theory%20-%20Season%2012
+May 07, 2021 07:06:51.805 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory%2FSeason%2012 (reused)
+May 07, 2021 07:06:51.806 [0x7f608b357780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=%2B49%2E5&subtitle=The%20Big%20Bang%20Theory%20-%20Season%2012 (reused)
+May 07, 2021 07:06:51.807 [0x7f608b357780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=99.000000
+May 07, 2021 07:06:51.808 [0x7f608b357780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=99.000000 (reused)
+May 07, 2021 07:06:51.809 [0x7f608b357780] DEBUG - Removing 0 media items that were left.
+May 07, 2021 07:06:51.809 [0x7f608b357780] DEBUG - Removing 0 directories that were left.
+May 07, 2021 07:06:51.816 [0x7f608b357780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=100
+May 07, 2021 07:06:51.817 [0x7f608b357780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=100 (reused)
+May 07, 2021 07:06:51.819 [0x7f608b357780] DEBUG - Refreshing section 2 of type: 2
+May 07, 2021 07:06:51.823 [0x7f60823d9700] DEBUG - Refreshing 0 IDs.

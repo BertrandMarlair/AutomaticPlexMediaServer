@@ -1,0 +1,946 @@
+<SessionReport version="2" startTime="0" startTimestamp="May 06, 2021 09:59:30.192" key="/library/metadata/6" session="703uuc2734nedtmm9i6wmvpc" transcode="l27tfntlvxi9wu9l3x7alnwp">
+<User id="1" thumb="https://plex.tv/users/accdfc8f58c69c87/avatar?c=1619848985" title="Belegan243" />
+<Player address="192.168.32.1" device="OSX" machineIdentifier="x8wg5ikfuvh970vc7rlzssas" model="bundled" platform="Chrome" platformVersion="90.0" product="Plex Web" remotePublicAddress="78.129.62.36" state="" title="Chrome" vendor="" version="4.54.5" local="1" relayed="0" secure="0" userID="1" />
+<Variants>
+<Variant id="5a17c14e-188d-4c69-a39f-b273c07fce80" targetBitrate="1581" context="streaming" sourceVideoCodec="mpeg4" sourceAudioCodec="mp3" videoDecision="transcode" audioDecision="transcode" protocol="dash" container="mp4" videoCodec="h264" audioCodec="aac" audioChannels="2" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media id="2" videoProfile="simple" audioChannels="2" audioCodec="aac" bitrate="1505" container="mp4" duration="3392679" height="404" optimizedForStreaming="1" protocol="dash" videoCodec="h264" videoFrameRate="PAL" videoResolution="SD" width="720" selected="1">
+<Part id="2" videoProfile="simple" bitrate="1505" container="mp4" duration="3392679" height="404" optimizedForStreaming="1" protocol="dash" width="720" decision="transcode" selected="1">
+<Stream bitrate="1249" codec="h264" displayTitle="SD (MPEG4)" extendedDisplayTitle="SD (MPEG4)" frameRate="25" height="404" id="3" streamType="1" width="720" decision="transcode" location="segments-video" />
+<Stream bitrate="256" bitrateMode="cbr" channels="2" codec="aac" displayTitle="Unknown (MP3 Stereo)" extendedDisplayTitle="Unknown (MP3 Stereo)" id="4" selected="1" streamType="2" decision="transcode" location="segments-audio" />
+</Part>
+</Media>
+</Variant>
+<Variant id="1ebbde7e-3579-4288-8912-a63dacf74808" targetBitrate="2000" context="streaming" sourceVideoCodec="mpeg4" sourceAudioCodec="mp3" videoDecision="transcode" audioDecision="transcode" protocol="dash" container="mp4" videoCodec="h264" audioCodec="aac" audioChannels="2" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media id="2" videoProfile="simple" audioChannels="2" audioCodec="aac" bitrate="1505" container="mp4" duration="3392679" height="404" optimizedForStreaming="1" protocol="dash" videoCodec="h264" videoFrameRate="PAL" videoResolution="SD" width="720" selected="1">
+<Part id="2" videoProfile="simple" bitrate="1505" container="mp4" duration="3392679" height="404" optimizedForStreaming="1" protocol="dash" width="720" decision="transcode" selected="1">
+<Stream bitrate="1249" codec="h264" displayTitle="SD (MPEG4)" extendedDisplayTitle="SD (MPEG4)" frameRate="25" height="404" id="3" streamType="1" width="720" decision="transcode" location="segments-video" />
+<Stream bitrate="256" bitrateMode="cbr" channels="2" codec="aac" displayTitle="Unknown (MP3 Stereo)" extendedDisplayTitle="Unknown (MP3 Stereo)" id="4" selected="1" streamType="2" decision="transcode" location="segments-audio" />
+</Part>
+</Media>
+</Variant>
+<Variant id="ca53cd78-53d8-41f0-8472-771f0c9082e9" targetBitrate="2000" context="streaming" sourceVideoCodec="mpeg4" sourceAudioCodec="mp3" videoDecision="transcode" audioDecision="transcode" protocol="dash" container="mp4" videoCodec="h264" audioCodec="aac" audioChannels="2" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media id="2" videoProfile="simple" audioChannels="2" audioCodec="aac" bitrate="1505" container="mp4" duration="3392679" height="404" optimizedForStreaming="1" protocol="dash" videoCodec="h264" videoFrameRate="PAL" videoResolution="SD" width="720" selected="1">
+<Part id="2" videoProfile="simple" bitrate="1505" container="mp4" duration="3392679" height="404" optimizedForStreaming="1" protocol="dash" width="720" decision="transcode" selected="1">
+<Stream bitrate="1249" codec="h264" displayTitle="SD (MPEG4)" extendedDisplayTitle="SD (MPEG4)" frameRate="25" height="404" id="3" streamType="1" width="720" decision="transcode" location="segments-video" />
+<Stream bitrate="256" bitrateMode="cbr" channels="2" codec="aac" displayTitle="Unknown (MP3 Stereo)" extendedDisplayTitle="Unknown (MP3 Stereo)" id="4" selected="1" streamType="2" decision="transcode" location="segments-audio" />
+</Part>
+</Media>
+</Variant>
+<Variant id="d61060e0-36d0-4846-b921-5e220fec8e12" targetBitrate="8000" context="streaming" sourceVideoCodec="mpeg4" sourceAudioCodec="mp3" videoDecision="transcode" audioDecision="transcode" protocol="dash" container="mp4" videoCodec="h264" audioCodec="aac" audioChannels="2" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media id="2" videoProfile="simple" audioChannels="2" audioCodec="aac" bitrate="1505" container="mp4" duration="3392679" height="404" optimizedForStreaming="1" protocol="dash" videoCodec="h264" videoFrameRate="PAL" videoResolution="SD" width="720" selected="1">
+<Part id="2" videoProfile="simple" bitrate="1505" container="mp4" duration="3392679" height="404" optimizedForStreaming="1" protocol="dash" width="720" decision="transcode" selected="1">
+<Stream bitrate="1249" codec="h264" displayTitle="SD (MPEG4)" extendedDisplayTitle="SD (MPEG4)" frameRate="25" height="404" id="3" streamType="1" width="720" decision="transcode" location="segments-video" />
+<Stream bitrate="256" bitrateMode="cbr" channels="2" codec="aac" displayTitle="Unknown (MP3 Stereo)" extendedDisplayTitle="Unknown (MP3 Stereo)" id="4" selected="1" streamType="2" decision="transcode" location="segments-audio" />
+</Part>
+</Media>
+</Variant>
+</Variants>
+<SegmentList>
+<Segment duration="3000" startOffset="0" endOffset="3000">
+<File name="chunk-stream0-00001.m4s" type="video">
+<FileVariant size="65904" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<File name="chunk-stream1-00001.m4s" type="audio">
+<FileVariant size="1471" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<Timelines>
+<Download startTime="1107" endTime="2421" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="1107" endTime="2413" />
+</Download>
+<Download startTime="1107" endTime="2420" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="1107" endTime="2413" />
+</Download>
+<Transcode startTime="1071" endTime="2341" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+<Transcode startTime="1071" endTime="2342" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="3000" endOffset="6000">
+<File name="chunk-stream0-00002.m4s" type="video">
+<FileVariant size="83059" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<File name="chunk-stream1-00002.m4s" type="audio">
+<FileVariant size="958" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<Timelines>
+<Download startTime="2447" endTime="2586" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="2447" endTime="2548" />
+</Download>
+<Download startTime="2447" endTime="2556" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="2447" endTime="2548" />
+</Download>
+<Transcode startTime="2341" endTime="2532" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+<Transcode startTime="2342" endTime="2533" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="6000" endOffset="9000">
+<File name="chunk-stream0-00003.m4s" type="video">
+<FileVariant size="89109" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<File name="chunk-stream1-00003.m4s" type="audio">
+<FileVariant size="21868" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<Timelines>
+<Download startTime="2586" endTime="3855" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="2586" endTime="3838" />
+</Download>
+<Download startTime="2601" endTime="3852" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="2601" endTime="3836" />
+</Download>
+<Transcode startTime="2532" endTime="3809" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+<Transcode startTime="2533" endTime="3811" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="9000" endOffset="12000">
+<File name="chunk-stream0-00004.m4s" type="video">
+<FileVariant size="55389" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<File name="chunk-stream1-00004.m4s" type="audio">
+<FileVariant size="85159" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<Timelines>
+<Download startTime="3871" endTime="4177" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="3871" endTime="4171" />
+</Download>
+<Download startTime="3871" endTime="4179" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="3871" endTime="4171" />
+</Download>
+<Transcode startTime="3809" endTime="4097" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+<Transcode startTime="3811" endTime="4098" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="12000" endOffset="15000">
+<File name="chunk-stream0-00005.m4s" type="video">
+<FileVariant size="52295" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<File name="chunk-stream1-00005.m4s" type="audio">
+<FileVariant size="85002" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<Timelines>
+<Download startTime="4198" endTime="4403" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="4198" endTime="4399" />
+</Download>
+<Download startTime="4205" endTime="4412" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="4205" endTime="4406" />
+</Download>
+<Transcode startTime="4097" endTime="4369" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+<Transcode startTime="4098" endTime="4370" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="15000" endOffset="18000">
+<File name="chunk-stream0-00006.m4s" type="video">
+<FileVariant size="45437" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<File name="chunk-stream1-00006.m4s" type="audio">
+<FileVariant size="86152" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<Timelines>
+<Download startTime="4418" endTime="4723" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="4418" endTime="4718" />
+</Download>
+<Download startTime="4425" endTime="4736" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="4425" endTime="4727" />
+</Download>
+<Transcode startTime="4369" endTime="4656" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+<Transcode startTime="4370" endTime="4657" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="18000" endOffset="21000">
+<File name="chunk-stream0-00007.m4s" type="video">
+<FileVariant size="54314" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<File name="chunk-stream1-00007.m4s" type="audio">
+<FileVariant size="86095" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<Timelines>
+<Download startTime="4736" endTime="4948" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="4736" endTime="4938" />
+</Download>
+<Download startTime="4748" endTime="4960" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="4748" endTime="4949" />
+</Download>
+<Transcode startTime="4656" endTime="4924" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+<Transcode startTime="4657" endTime="4925" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="21000" endOffset="24000">
+<File name="chunk-stream0-00008.m4s" type="video">
+<FileVariant size="51962" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<File name="chunk-stream1-00008.m4s" type="audio">
+<FileVariant size="90986" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</File>
+<Timelines>
+<Download startTime="4962" endTime="5526" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="4962" endTime="5263" />
+<Pause type="throttle" startTime="5263" endTime="5473" rate="8" />
+</Download>
+<Download startTime="4970" endTime="5480" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="segmentWait" startTime="4970" endTime="5271" />
+<Pause type="throttle" startTime="5271" endTime="5473" rate="8" />
+</Download>
+<Transcode startTime="4924" endTime="5242" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+<Transcode startTime="4925" endTime="5243" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="24000" endOffset="27000">
+<File name="chunk-stream0-00009.m4s" type="video">
+<FileVariant size="49814" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+<FileVariant size="48649" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00009.m4s" type="audio">
+<FileVariant size="86394" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+<FileVariant size="86729" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="5242" endTime="5473" complete="1" fileType="video" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+<Transcode startTime="5243" endTime="5474" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80" />
+<Download startTime="5493" endTime="8492" complete="1" fileType="audio" variant="5a17c14e-188d-4c69-a39f-b273c07fce80">
+<Pause type="throttle" startTime="5493" endTime="8473" rate="8" />
+</Download>
+<Download startTime="5568" endTime="5574" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="5567" endTime="6131" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="5567" endTime="6132" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="26960" endOffset="29960">
+<File name="chunk-stream0-00010.m4s" type="video">
+<FileVariant size="49320" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00010.m4s" type="audio">
+<FileVariant size="90100" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Download startTime="5590" endTime="11476" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808">
+<Pause type="segmentWait" startTime="5590" endTime="6392" />
+<Pause type="throttle" startTime="6392" endTime="11434" rate="8" />
+</Download>
+<Transcode startTime="6131" endTime="6346" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="6132" endTime="6347" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Download startTime="8505" endTime="12489" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808">
+<Pause type="throttle" startTime="8505" endTime="12465" rate="8" />
+</Download>
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="29960" endOffset="32960">
+<File name="chunk-stream0-00011.m4s" type="video">
+<FileVariant size="37217" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00011.m4s" type="audio">
+<FileVariant size="101010" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="6346" endTime="6530" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="6347" endTime="6531" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Download startTime="11486" endTime="17530" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808">
+<Pause type="throttle" startTime="11486" endTime="17486" rate="8" />
+</Download>
+<Download startTime="12499" endTime="18545" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808">
+<Pause type="throttle" startTime="12499" endTime="18499" rate="8" />
+</Download>
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="32960" endOffset="35960">
+<File name="chunk-stream0-00012.m4s" type="video">
+<FileVariant size="34524" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00012.m4s" type="audio">
+<FileVariant size="86921" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="6530" endTime="6784" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="6531" endTime="6786" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Download startTime="17538" endTime="23566" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808">
+<Pause type="throttle" startTime="17538" endTime="23538" rate="8" />
+</Download>
+<Download startTime="18558" endTime="24082" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808">
+<Pause type="throttle" startTime="18558" endTime="24049" rate="8" />
+</Download>
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="35960" endOffset="38960">
+<File name="chunk-stream0-00013.m4s" type="video">
+<FileVariant size="34212" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00013.m4s" type="audio">
+<FileVariant size="88597" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="6784" endTime="7058" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="6786" endTime="7059" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="38960" endOffset="41960">
+<File name="chunk-stream0-00014.m4s" type="video">
+<FileVariant size="264991" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00014.m4s" type="audio">
+<FileVariant size="87195" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="7058" endTime="7328" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="7059" endTime="7330" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="41960" endOffset="44960">
+<File name="chunk-stream0-00015.m4s" type="video">
+<FileVariant size="340658" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00015.m4s" type="audio">
+<FileVariant size="93026" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="7328" endTime="7552" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="7330" endTime="7553" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="44960" endOffset="47960">
+<File name="chunk-stream0-00016.m4s" type="video">
+<FileVariant size="251403" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00016.m4s" type="audio">
+<FileVariant size="94670" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="7552" endTime="7785" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="7553" endTime="7786" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="47960" endOffset="50960">
+<File name="chunk-stream0-00017.m4s" type="video">
+<FileVariant size="173826" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00017.m4s" type="audio">
+<FileVariant size="91006" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="7785" endTime="8021" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="7786" endTime="8022" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="50960" endOffset="53960">
+<File name="chunk-stream0-00018.m4s" type="video">
+<FileVariant size="208208" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00018.m4s" type="audio">
+<FileVariant size="88881" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="8021" endTime="8283" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="8022" endTime="8284" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="53960" endOffset="56960">
+<File name="chunk-stream0-00019.m4s" type="video">
+<FileVariant size="210894" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00019.m4s" type="audio">
+<FileVariant size="91742" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="8283" endTime="8599" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="8284" endTime="8599" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="56960" endOffset="59960">
+<File name="chunk-stream0-00020.m4s" type="video">
+<FileVariant size="180408" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00020.m4s" type="audio">
+<FileVariant size="95830" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="8599" endTime="8882" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="8599" endTime="8883" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="59960" endOffset="62960">
+<File name="chunk-stream0-00021.m4s" type="video">
+<FileVariant size="302145" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00021.m4s" type="audio">
+<FileVariant size="100469" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="8882" endTime="9103" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="8883" endTime="9104" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="62960" endOffset="65960">
+<File name="chunk-stream0-00022.m4s" type="video">
+<FileVariant size="280751" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00022.m4s" type="audio">
+<FileVariant size="94145" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="9103" endTime="9315" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="9104" endTime="9316" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="65960" endOffset="68960">
+<File name="chunk-stream0-00023.m4s" type="video">
+<FileVariant size="243141" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00023.m4s" type="audio">
+<FileVariant size="91049" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="9315" endTime="9558" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="9316" endTime="9559" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="68960" endOffset="71960">
+<File name="chunk-stream0-00024.m4s" type="video">
+<FileVariant size="211427" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00024.m4s" type="audio">
+<FileVariant size="95063" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="9558" endTime="9823" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="9559" endTime="9824" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="71960" endOffset="74960">
+<File name="chunk-stream0-00025.m4s" type="video">
+<FileVariant size="278792" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00025.m4s" type="audio">
+<FileVariant size="94028" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="9823" endTime="10051" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="9824" endTime="10053" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="74960" endOffset="77960">
+<File name="chunk-stream0-00026.m4s" type="video">
+<FileVariant size="266980" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00026.m4s" type="audio">
+<FileVariant size="97090" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="10051" endTime="10300" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="10053" endTime="10301" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="77960" endOffset="80960">
+<File name="chunk-stream0-00027.m4s" type="video">
+<FileVariant size="268762" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00027.m4s" type="audio">
+<FileVariant size="93917" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="10300" endTime="10535" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="10301" endTime="10535" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="80960" endOffset="83960">
+<File name="chunk-stream0-00028.m4s" type="video">
+<FileVariant size="287520" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00028.m4s" type="audio">
+<FileVariant size="90129" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="10535" endTime="10769" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="10535" endTime="10770" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="83960" endOffset="86960">
+<File name="chunk-stream0-00029.m4s" type="video">
+<FileVariant size="298953" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00029.m4s" type="audio">
+<FileVariant size="93520" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="10769" endTime="11016" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="10770" endTime="11017" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="86960" endOffset="89960">
+<File name="chunk-stream0-00030.m4s" type="video">
+<FileVariant size="312459" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00030.m4s" type="audio">
+<FileVariant size="93574" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="11016" endTime="11266" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="11017" endTime="11267" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="89960" endOffset="92960">
+<File name="chunk-stream0-00031.m4s" type="video">
+<FileVariant size="324295" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00031.m4s" type="audio">
+<FileVariant size="96960" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="11266" endTime="11535" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="11267" endTime="11537" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="92960" endOffset="95960">
+<File name="chunk-stream0-00032.m4s" type="video">
+<FileVariant size="348031" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00032.m4s" type="audio">
+<FileVariant size="91973" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="11535" endTime="11776" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="11537" endTime="11777" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="95960" endOffset="98960">
+<File name="chunk-stream0-00033.m4s" type="video">
+<FileVariant size="348023" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<File name="chunk-stream1-00033.m4s" type="audio">
+<FileVariant size="94669" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</File>
+<Timelines>
+<Transcode startTime="11776" endTime="12166" complete="1" fileType="video" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+<Transcode startTime="11777" endTime="12167" complete="1" fileType="audio" variant="1ebbde7e-3579-4288-8912-a63dacf74808" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="279000" endOffset="282000">
+<File name="chunk-stream0-00094.m4s" type="video">
+<FileVariant size="242521" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<File name="chunk-stream1-00094.m4s" type="audio">
+<FileVariant size="92220" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<Timelines>
+<Download startTime="24180" endTime="27025" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="24180" endTime="26996" />
+</Download>
+<Download startTime="24990" endTime="26925" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="24990" endTime="26911" />
+</Download>
+<Transcode startTime="24180" endTime="26899" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+<Transcode startTime="24180" endTime="26900" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="282000" endOffset="285000">
+<File name="chunk-stream0-00095.m4s" type="video">
+<FileVariant size="210183" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<File name="chunk-stream1-00095.m4s" type="audio">
+<FileVariant size="95130" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<Timelines>
+<Download startTime="26954" endTime="27272" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="26954" endTime="27255" />
+</Download>
+<Download startTime="27037" endTime="27344" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="27037" endTime="27338" />
+</Download>
+<Transcode startTime="26899" endTime="27244" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+<Transcode startTime="26900" endTime="27245" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="285000" endOffset="288000">
+<File name="chunk-stream0-00096.m4s" type="video">
+<FileVariant size="215147" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<File name="chunk-stream1-00096.m4s" type="audio">
+<FileVariant size="96180" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<Timelines>
+<Download startTime="27289" endTime="27600" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="27289" endTime="27590" />
+</Download>
+<Download startTime="27358" endTime="27664" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="27358" endTime="27659" />
+</Download>
+<Transcode startTime="27244" endTime="27574" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+<Transcode startTime="27245" endTime="27575" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="288000" endOffset="291000">
+<File name="chunk-stream0-00097.m4s" type="video">
+<FileVariant size="248881" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<File name="chunk-stream1-00097.m4s" type="audio">
+<FileVariant size="91286" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<Timelines>
+<Download startTime="27615" endTime="28042" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="27615" endTime="28016" />
+</Download>
+<Download startTime="27675" endTime="27988" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="27675" endTime="27976" />
+</Download>
+<Transcode startTime="27574" endTime="27944" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+<Transcode startTime="27575" endTime="27945" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="291000" endOffset="294000">
+<File name="chunk-stream0-00098.m4s" type="video">
+<FileVariant size="278985" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<File name="chunk-stream1-00098.m4s" type="audio">
+<FileVariant size="97700" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<Timelines>
+<Download startTime="28001" endTime="28312" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="28001" endTime="28303" />
+</Download>
+<Download startTime="28057" endTime="28376" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="28057" endTime="28358" />
+</Download>
+<Transcode startTime="27944" endTime="28284" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+<Transcode startTime="27945" endTime="28285" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="294000" endOffset="297000">
+<File name="chunk-stream0-00099.m4s" type="video">
+<FileVariant size="244264" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<File name="chunk-stream1-00099.m4s" type="audio">
+<FileVariant size="100660" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<Timelines>
+<Download startTime="28339" endTime="28750" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="28339" endTime="28740" />
+</Download>
+<Download startTime="28446" endTime="28772" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="28446" endTime="28747" />
+</Download>
+<Transcode startTime="28284" endTime="28695" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+<Transcode startTime="28285" endTime="28696" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="297000" endOffset="300000">
+<File name="chunk-stream0-00100.m4s" type="video">
+<FileVariant size="181552" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<File name="chunk-stream1-00100.m4s" type="audio">
+<FileVariant size="95885" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<Timelines>
+<Download startTime="28769" endTime="29076" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="28769" endTime="29070" />
+</Download>
+<Download startTime="28784" endTime="29095" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="28784" endTime="29085" />
+</Download>
+<Transcode startTime="28695" endTime="28991" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+<Transcode startTime="28696" endTime="28992" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="300000" endOffset="303000">
+<File name="chunk-stream0-00101.m4s" type="video">
+<FileVariant size="212364" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<File name="chunk-stream1-00101.m4s" type="audio">
+<FileVariant size="97371" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<Timelines>
+<Download startTime="29100" endTime="29407" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="29100" endTime="29401" />
+</Download>
+<Download startTime="29150" endTime="29359" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="29150" endTime="29352" />
+</Download>
+<Transcode startTime="28991" endTime="29350" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+<Transcode startTime="28992" endTime="29351" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="303000" endOffset="306000">
+<File name="chunk-stream0-00102.m4s" type="video">
+<FileVariant size="244632" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<File name="chunk-stream1-00102.m4s" type="audio">
+<FileVariant size="97648" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<Timelines>
+<Download startTime="29375" endTime="29688" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="29375" endTime="29676" />
+</Download>
+<Download startTime="29425" endTime="29739" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="29425" endTime="29727" />
+</Download>
+<Transcode startTime="29350" endTime="29636" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+<Transcode startTime="29351" endTime="29637" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="306000" endOffset="309000">
+<File name="chunk-stream0-00103.m4s" type="video">
+<FileVariant size="252308" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<File name="chunk-stream1-00103.m4s" type="audio">
+<FileVariant size="93946" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</File>
+<Timelines>
+<Download startTime="29708" endTime="30159" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="29708" endTime="30136" />
+</Download>
+<Download startTime="29756" endTime="31188" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9">
+<Pause type="segmentWait" startTime="29756" endTime="30058" />
+<Pause type="throttle" startTime="30058" endTime="31157" rate="8" />
+</Download>
+<Transcode startTime="29636" endTime="30043" complete="1" fileType="video" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+<Transcode startTime="29637" endTime="30045" complete="1" fileType="audio" variant="ca53cd78-53d8-41f0-8472-771f0c9082e9" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="308960" endOffset="311960">
+<File name="chunk-stream0-00104.m4s" type="video">
+<FileVariant size="504761" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<File name="chunk-stream1-00104.m4s" type="audio">
+<FileVariant size="93145" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<Timelines>
+<Download startTime="30210" endTime="34162" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12">
+<Pause type="segmentWait" startTime="30210" endTime="31013" />
+<Pause type="throttle" startTime="31013" endTime="34116" rate="8" />
+</Download>
+<Transcode startTime="30135" endTime="30984" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Transcode startTime="30135" endTime="30985" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Download startTime="31204" endTime="34130" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12">
+<Pause type="throttle" startTime="31204" endTime="34117" rate="8" />
+</Download>
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="311960" endOffset="314960">
+<File name="chunk-stream0-00105.m4s" type="video">
+<FileVariant size="395880" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<File name="chunk-stream1-00105.m4s" type="audio">
+<FileVariant size="96406" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<Timelines>
+<Transcode startTime="30984" endTime="31293" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Transcode startTime="30985" endTime="31294" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Download startTime="34177" endTime="34194" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12">
+<Pause type="segmentWait" startTime="34177" endTime="34178" />
+</Download>
+<Download startTime="34203" endTime="34228" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12">
+<Pause type="segmentWait" startTime="34203" endTime="34204" />
+</Download>
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="314960" endOffset="317960">
+<File name="chunk-stream0-00106.m4s" type="video">
+<FileVariant size="285189" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<File name="chunk-stream1-00106.m4s" type="audio">
+<FileVariant size="97916" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<Timelines>
+<Transcode startTime="31293" endTime="31612" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Transcode startTime="31294" endTime="31613" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Download startTime="34213" endTime="34227" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Download startTime="34282" endTime="34317" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="317960" endOffset="320960">
+<File name="chunk-stream0-00107.m4s" type="video">
+<FileVariant size="326374" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<File name="chunk-stream1-00107.m4s" type="audio">
+<FileVariant size="96229" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<Timelines>
+<Transcode startTime="31612" endTime="31989" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Transcode startTime="31613" endTime="31995" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Download startTime="34284" endTime="34295" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Download startTime="34340" endTime="34355" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="320960" endOffset="323960">
+<File name="chunk-stream0-00108.m4s" type="video">
+<FileVariant size="327932" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<File name="chunk-stream1-00108.m4s" type="audio">
+<FileVariant size="91129" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<Timelines>
+<Transcode startTime="31989" endTime="32453" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Transcode startTime="31995" endTime="32454" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Download startTime="34388" endTime="34398" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="323960" endOffset="326960">
+<File name="chunk-stream0-00109.m4s" type="video">
+<FileVariant size="271671" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<File name="chunk-stream1-00109.m4s" type="audio">
+<FileVariant size="94540" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<Timelines>
+<Transcode startTime="32453" endTime="32844" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Transcode startTime="32454" endTime="32845" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Download startTime="34422" endTime="34450" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="326960" endOffset="329960">
+<File name="chunk-stream0-00110.m4s" type="video">
+<FileVariant size="332198" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<File name="chunk-stream1-00110.m4s" type="audio">
+<FileVariant size="98094" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<Timelines>
+<Transcode startTime="32844" endTime="33269" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Transcode startTime="32845" endTime="33270" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="329960" endOffset="332960">
+<File name="chunk-stream0-00111.m4s" type="video">
+<FileVariant size="356800" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<File name="chunk-stream1-00111.m4s" type="audio">
+<FileVariant size="96500" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<Timelines>
+<Transcode startTime="33269" endTime="33684" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Transcode startTime="33270" endTime="33687" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="332960" endOffset="335960">
+<File name="chunk-stream0-00112.m4s" type="video">
+<FileVariant size="357911" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<File name="chunk-stream1-00112.m4s" type="audio">
+<FileVariant size="95393" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<Timelines>
+<Transcode startTime="33684" endTime="34067" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Transcode startTime="33687" endTime="34069" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="335960" endOffset="338960">
+<File name="chunk-stream0-00113.m4s" type="video">
+<FileVariant size="357428" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<File name="chunk-stream1-00113.m4s" type="audio">
+<FileVariant size="97621" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<Timelines>
+<Transcode startTime="34067" endTime="34602" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Transcode startTime="34069" endTime="34604" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</Timelines>
+</Segment>
+<Segment duration="3000" startOffset="338960" endOffset="341960">
+<File name="chunk-stream0-00114.m4s" type="video">
+<FileVariant size="314210" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<File name="chunk-stream1-00114.m4s" type="audio">
+<FileVariant size="99985" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</File>
+<Timelines>
+<Transcode startTime="34602" endTime="35034" complete="1" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+<Transcode startTime="34604" endTime="35036" complete="1" fileType="audio" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</Timelines>
+</Segment>
+<Segment duration="0" startOffset="-1" endOffset="-1">
+<Timelines>
+<Download startTime="35173" fileType="video" variant="d61060e0-36d0-4846-b921-5e220fec8e12" />
+</Timelines>
+</Segment>
+</SegmentList>
+<PlaybackReports>
+<Playback startTime="3465" endTime="4473" state="buffering" progress="0" />
+<Playback startTime="4473" endTime="8007" state="playing" progress="0" />
+<Playback startTime="8007" endTime="12702" state="paused" progress="3000" />
+<Playback startTime="12702" endTime="14088" state="paused" progress="3000" />
+<Playback startTime="14088" endTime="22595" state="playing" progress="3000" />
+<Playback startTime="22595" endTime="24322" state="playing" progress="11000" />
+<Playback startTime="24322" endTime="29156" state="buffering" progress="284000" />
+<Playback startTime="29156" endTime="32439" state="playing" progress="284000" />
+<Playback startTime="32439" endTime="32690" state="paused" progress="287000" />
+<Playback startTime="32690" endTime="35172" state="paused" progress="287000" />
+</PlaybackReports>
+<StateReports type="abr">
+<State startTime="2413" endTime="2413" currentBandwidth="1581" delay1="0" delay2="0" estimatedBandwidth="0" idleTime="1.7976931348623157e+308" segment1TransferTime="-0" segment2TransferTime="0" segmentsSinceStateChange="2" state="clientBuffering" timeSinceFirstSegmentOfState="0.00040899300000019068" timeSinceLastRequest="1000" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.00040899300000019068" totalDelay="0" />
+<State startTime="2413" endTime="2548" currentBandwidth="1581" delay1="0" delay2="0" estimatedBandwidth="0" idleTime="1.7976931348623157e+308" segment1TransferTime="-0" segment2TransferTime="0" segmentsSinceStateChange="2" state="clientBuffering" timeSinceFirstSegmentOfState="0.0005880910000000128" timeSinceLastRequest="1000" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.0005880910000000128" totalDelay="0" />
+<State startTime="2548" endTime="2549" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="99965" idleTime="0.12716078700000022" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="3" state="clientBuffering" timeSinceFirstSegmentOfState="0.13538576299999994" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.13538576299999994" totalDelay="0" />
+<State startTime="2549" endTime="3467" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="99965" idleTime="0.12763663700000016" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="4" state="clientBuffering" timeSinceFirstSegmentOfState="0.13586295800000014" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.13586295800000014" totalDelay="0" />
+<State startTime="3467" endTime="3818" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="7254" idleTime="0.88108788100000002" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="4" state="clientBuffering" timeSinceFirstSegmentOfState="1.054146093" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="1.054146093" totalDelay="0" />
+<State startTime="3818" endTime="3837" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="7254" idleTime="1.2317785639999999" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="4" state="clientBuffering" timeSinceFirstSegmentOfState="1.4048331760000003" timeSinceLastRequest="1000" timeSinceLastSegmentReplyStart="1000" timeToMeasureBandwidth="1.4048331760000003" totalDelay="0" />
+<State startTime="3837" endTime="3838" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="7254" idleTime="1.2510160810000004" segment1TransferTime="-1000" segment2TransferTime="1000" segmentsSinceStateChange="5" state="clientBuffering" timeSinceFirstSegmentOfState="1.4239418969999997" timeSinceLastRequest="1000" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="1.4239418969999997" totalDelay="0" />
+<State startTime="3838" endTime="4171" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="7254" idleTime="1.2523899810000003" segment1TransferTime="-1000" segment2TransferTime="0" segmentsSinceStateChange="6" state="clientBuffering" timeSinceFirstSegmentOfState="1.4254485270000004" timeSinceLastRequest="1000" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="1.4254485270000004" totalDelay="0" />
+<State startTime="4171" endTime="4172" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="1483" idleTime="0.31601207100000028" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="7" state="clientBuffering" timeSinceFirstSegmentOfState="1.7588206550000001" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="1.7588206550000001" totalDelay="0" />
+<State startTime="4172" endTime="4399" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="1483" idleTime="0.31627114000000045" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="8" state="clientBuffering" timeSinceFirstSegmentOfState="1.7590810709999998" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="1.7590810709999998" totalDelay="0" />
+<State startTime="4399" endTime="4406" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="1855" idleTime="0.21981997000000053" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="9" state="clientBuffering" timeSinceFirstSegmentOfState="1.9866160920000002" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="1.9866160920000002" totalDelay="0" />
+<State startTime="4406" endTime="4474" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="1859" idleTime="0.0023183650000007106" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="10" state="clientBuffering" timeSinceFirstSegmentOfState="1.9930842640000002" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="1.9930842640000002" totalDelay="0" />
+<State startTime="4474" endTime="4719" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="2195" idleTime="0.061279856999999716" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="10" state="clientBuffering" timeSinceFirstSegmentOfState="2.0608266500000001" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.0608266500000001" totalDelay="0" />
+<State startTime="4719" endTime="4727" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="2195" idleTime="0.30635203699999991" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="11" state="clientBuffering" timeSinceFirstSegmentOfState="2.3059276909999999" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.3059276909999999" totalDelay="0" />
+<State startTime="4727" endTime="4938" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="1828" idleTime="0.0039982600000003643" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="12" state="clientBuffering" timeSinceFirstSegmentOfState="2.3147062500000004" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.3147062500000004" totalDelay="0" />
+<State startTime="4938" endTime="4949" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="2241" idleTime="0.20215091900000015" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="13" state="clientBuffering" timeSinceFirstSegmentOfState="2.5257527130000001" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.5257527130000001" totalDelay="0" />
+<State startTime="4949" endTime="5263" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="2227" idleTime="0.00091715900000011175" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="14" state="clientBuffering" timeSinceFirstSegmentOfState="2.5362669069999999" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.5362669069999999" totalDelay="0" />
+<State startTime="5263" endTime="5271" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="3337" idleTime="0.30338508500000039" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="15" state="clientBuffering" timeSinceFirstSegmentOfState="2.8505837229999997" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.8505837229999997" totalDelay="0" />
+<State startTime="5271" endTime="5494" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="2978" idleTime="0.0046536210000001077" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="16" state="clientBuffering" timeSinceFirstSegmentOfState="2.8587214010000004" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.8587214010000004" totalDelay="0" />
+<State startTime="5494" endTime="5569" currentBandwidth="1581" delay1="2000" delay2="0" delay3="0" estimatedBandwidth="3011" idleTime="0.013404581999999721" newState="clientBuffered" segment1TransferTime="-2000" segment2TransferTime="0" segmentsSinceStateChange="17" state="clientBuffering" timeSinceFirstSegmentOfState="3.0810345400000001" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="3.0810345400000001" totalDelay="3000" />
+<State startTime="5569" endTime="5818" currentBandwidth="1581" delay1="0" estimatedBandwidth="0" idleTime="0.016814798999999603" newState="clientBuffering" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="1" state="clientBuffered" timeSinceFirstSegmentOfState="0.00073594800000000016" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.00073594800000000016" totalDelay="0" />
+<State startTime="5818" endTime="6392" currentBandwidth="1581" delay1="0" estimatedBandwidth="146124" idleTime="0.014209474000000277" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="0" state="clientBuffering" timeSinceFirstSegmentOfState="0.250435081" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.250435081" totalDelay="0" />
+<State startTime="6392" endTime="7819" currentBandwidth="1581" delay1="5000" delay2="0" estimatedBandwidth="0" idleTime="0.032840746999999837" newState="clientBuffered" segment1TransferTime="-5000" segment2TransferTime="0" segmentsSinceStateChange="1" state="clientBuffering" timeSinceFirstSegmentOfState="0.00011182300000001089" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.00011182300000001089" totalDelay="5000" />
+<State startTime="7819" endTime="8007" currentBandwidth="1581" delay1="5000" delay2="0" estimatedBandwidth="0" idleTime="0.03937721099999969" segment1TransferTime="-3000" segment2TransferTime="0" segmentsSinceStateChange="0" state="clientBuffered" timeSinceFirstSegmentOfState="1.427245106" timeSinceLastRequest="2000" timeSinceLastSegmentReplyStart="1000" timeToMeasureBandwidth="1.427245106" totalDelay="5000" />
+<State startTime="8007" endTime="8505" currentBandwidth="1581" delay1="5000" delay2="0" estimatedBandwidth="0" idleTime="0.025225198000001114" segment1TransferTime="-3000" segment2TransferTime="0" segmentsSinceStateChange="0" state="clientBuffered" timeSinceFirstSegmentOfState="1.6155638560000001" timeSinceLastRequest="2000" timeSinceLastSegmentReplyStart="1000" timeToMeasureBandwidth="1.6155638560000001" totalDelay="5000" />
+<State startTime="8505" endTime="9820" currentBandwidth="1581" delay1="3000" delay2="5000" delay3="0" estimatedBandwidth="0" idleTime="0.012545446000000737" segment1TransferTime="-3000" segment2TransferTime="-2000" segmentsSinceStateChange="1" state="clientBuffered" timeSinceFirstSegmentOfState="0.00013407399999998404" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.00013407399999998404" totalDelay="9000" />
+<State startTime="9820" endTime="11486" currentBandwidth="1581" delay1="3000" delay2="5000" delay3="0" estimatedBandwidth="0" idleTime="0.014132990000000234" segment1TransferTime="-2000" segment2TransferTime="-2000" segmentsSinceStateChange="1" state="clientBuffered" timeSinceFirstSegmentOfState="1.3153119610000004" timeSinceLastRequest="1000" timeSinceLastSegmentReplyStart="1000" timeToMeasureBandwidth="1.3153119610000004" totalDelay="9000" />
+<State startTime="11486" endTime="11821" currentBandwidth="1581" delay1="6000" delay2="3000" delay3="5000" estimatedBandwidth="313" idleTime="0.0097628300000014434" segment1TransferTime="-6000" segment2TransferTime="0" segmentsSinceStateChange="2" state="clientBuffered" timeSinceFirstSegmentOfState="2.9812464159999998" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.9812464159999998" totalDelay="15000" />
+<State startTime="11821" endTime="12499" currentBandwidth="1581" delay1="6000" delay2="3000" delay3="5000" estimatedBandwidth="252" idleTime="0.0091983960000003862" segment1TransferTime="-5000" segment2TransferTime="0" segmentsSinceStateChange="2" state="clientBuffered" timeSinceFirstSegmentOfState="3.3157216550000004" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="3.3157216550000004" totalDelay="15000" />
+<State startTime="12499" endTime="12702" currentBandwidth="1581" delay1="6000" delay2="6000" delay3="3000" estimatedBandwidth="182" idleTime="0.010302821000001572" segment1TransferTime="-6000" segment2TransferTime="-4000" segmentsSinceStateChange="3" state="clientBuffered" timeSinceFirstSegmentOfState="3.9940071879999999" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="3.9940071879999999" totalDelay="15000" />
+<State startTime="12702" endTime="13821" currentBandwidth="1581" delay1="6000" delay2="6000" delay3="3000" estimatedBandwidth="182" idleTime="0.025729536000000053" segment1TransferTime="-5000" segment2TransferTime="-4000" segmentsSinceStateChange="3" state="clientBuffered" timeSinceFirstSegmentOfState="4.1973266670000005" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="4.1973266670000005" totalDelay="15000" />
+<State startTime="13821" endTime="14088" currentBandwidth="1581" delay1="6000" delay2="6000" delay3="3000" estimatedBandwidth="182" idleTime="0.02923090400000028" segment1TransferTime="-4000" segment2TransferTime="-4000" segmentsSinceStateChange="3" state="clientBuffered" timeSinceFirstSegmentOfState="5.3160601360000008" timeSinceLastRequest="1000" timeSinceLastSegmentReplyStart="1000" timeToMeasureBandwidth="5.3160601360000008" totalDelay="15000" />
+<State startTime="14088" endTime="15821" currentBandwidth="1581" delay1="6000" delay2="6000" delay3="3000" estimatedBandwidth="182" idleTime="0.044590858999999483" segment1TransferTime="-4000" segment2TransferTime="-4000" segmentsSinceStateChange="3" state="clientBuffered" timeSinceFirstSegmentOfState="5.5831162620000008" timeSinceLastRequest="1000" timeSinceLastSegmentReplyStart="1000" timeToMeasureBandwidth="5.5831162620000008" totalDelay="15000" />
+<State startTime="15821" endTime="17539" currentBandwidth="1581" delay1="6000" delay2="6000" delay3="3000" estimatedBandwidth="182" idleTime="0.012453400999998365" segment1TransferTime="-2000" segment2TransferTime="-4000" segmentsSinceStateChange="3" state="clientBuffered" timeSinceFirstSegmentOfState="7.3165274270000005" timeSinceLastRequest="3000" timeSinceLastSegmentReplyStart="3000" timeToMeasureBandwidth="7.3165274270000005" totalDelay="15000" />
+<State startTime="17539" endTime="17822" currentBandwidth="1581" delay1="6000" delay2="6000" delay3="6000" estimatedBandwidth="114" idleTime="0.0072907889999989095" segment1TransferTime="-6000" segment2TransferTime="0" segmentsSinceStateChange="4" state="clientBuffered" timeSinceFirstSegmentOfState="9.033599198000001" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="9.033599198000001" totalDelay="18000" />
+<State startTime="17822" endTime="18558" currentBandwidth="1581" delay1="6000" delay2="6000" delay3="6000" estimatedBandwidth="114" idleTime="0.026872305999997792" segment1TransferTime="-5000" segment2TransferTime="0" segmentsSinceStateChange="4" state="clientBuffered" timeSinceFirstSegmentOfState="9.3168869120000011" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="9.3168869120000011" totalDelay="18000" />
+<State startTime="18558" endTime="19822" currentBandwidth="1581" delay1="5000" delay2="6000" delay3="6000" estimatedBandwidth="158" idleTime="0.0067452639999991959" segment1TransferTime="-5000" segment2TransferTime="-4000" segmentsSinceStateChange="5" state="clientBuffered" timeSinceFirstSegmentOfState="10.052903164" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="10.006745263999999" totalDelay="17000" />
+<State startTime="19822" endTime="21823" currentBandwidth="1581" delay1="5000" delay2="6000" delay3="6000" estimatedBandwidth="158" idleTime="0.040727315999998126" segment1TransferTime="-4000" segment2TransferTime="-4000" segmentsSinceStateChange="5" state="clientBuffered" timeSinceFirstSegmentOfState="11.317233886" timeSinceLastRequest="1000" timeSinceLastSegmentReplyStart="1000" timeToMeasureBandwidth="10.040727315999998" totalDelay="17000" />
+<State startTime="21823" endTime="22596" currentBandwidth="1581" delay1="5000" delay2="6000" delay3="6000" estimatedBandwidth="134" idleTime="0.019355025000002968" segment1TransferTime="-2000" segment2TransferTime="-4000" segmentsSinceStateChange="5" state="clientBuffered" timeSinceFirstSegmentOfState="13.317602149000001" timeSinceLastRequest="3000" timeSinceLastSegmentReplyStart="3000" timeToMeasureBandwidth="10.019355025000003" totalDelay="17000" />
+<State startTime="22596" endTime="23823" currentBandwidth="1581" delay1="5000" delay2="6000" delay3="6000" estimatedBandwidth="156" idleTime="0.032818038000002048" segment1TransferTime="-1000" segment2TransferTime="-4000" segmentsSinceStateChange="5" state="clientBuffered" timeSinceFirstSegmentOfState="14.090707355000001" timeSinceLastRequest="4000" timeSinceLastSegmentReplyStart="4000" timeToMeasureBandwidth="10.032818038000002" totalDelay="17000" />
+<State startTime="23823" endTime="24322" currentBandwidth="1581" delay1="5000" delay2="6000" delay3="6000" estimatedBandwidth="46" idleTime="0.047563703999998097" segment1TransferTime="0" segment2TransferTime="-4000" segmentsSinceStateChange="5" state="clientBuffered" timeSinceFirstSegmentOfState="15.317994497999999" timeSinceLastRequest="5000" timeSinceLastSegmentReplyStart="5000" timeToMeasureBandwidth="10.047563703999998" totalDelay="17000" />
+<State startTime="24322" endTime="25889" currentBandwidth="1581" delay1="5000" delay2="6000" delay3="6000" estimatedBandwidth="150" idleTime="0.24078254699999846" segment1TransferTime="0" segment2TransferTime="-4000" segmentsSinceStateChange="5" state="clientBuffered" timeSinceFirstSegmentOfState="15.817475869000001" timeSinceLastRequest="5000" timeSinceLastSegmentReplyStart="5000" timeToMeasureBandwidth="10.240782546999998" totalDelay="17000" />
+<State startTime="25889" endTime="27257" currentBandwidth="1581" delay1="5000" delay2="6000" delay3="6000" estimatedBandwidth="150" idleTime="1.785494847999999" segment1TransferTime="0" segment2TransferTime="-4000" segmentsSinceStateChange="5" state="clientBuffered" timeSinceFirstSegmentOfState="17.36214897" timeSinceLastRequest="7000" timeSinceLastSegmentReplyStart="7000" timeToMeasureBandwidth="11.785494847999999" totalDelay="17000" />
+<State startTime="27257" endTime="27338" currentBandwidth="1581" delay1="0" delay2="5000" delay3="6000" estimatedBandwidth="387" idleTime="0.22960084800000047" newState="clientBuffering" segment1TransferTime="0" segment2TransferTime="3000" segmentsSinceStateChange="6" state="clientBuffered" timeSinceFirstSegmentOfState="18.750232544999999" timeSinceLastRequest="8000" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="10.229600848" totalDelay="11000" />
+<State startTime="27338" endTime="27590" currentBandwidth="1581" delay1="0" delay2="0" delay3="5000" estimatedBandwidth="0" idleTime="0.066102976999999896" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="1" state="clientBuffering" timeSinceFirstSegmentOfState="8.9719000001764471e-05" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="8.9719000001764471e-05" totalDelay="5000" />
+<State startTime="27590" endTime="27660" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="291072" idleTime="0.24614904199999899" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="2" state="clientBuffering" timeSinceFirstSegmentOfState="0.25222708900000157" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.25222708900000157" totalDelay="0" />
+<State startTime="27660" endTime="27890" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="9621" idleTime="0.059173331999996748" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="3" state="clientBuffering" timeSinceFirstSegmentOfState="0.3218953219999996" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.3218953219999996" totalDelay="0" />
+<State startTime="27890" endTime="27976" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="10130" idleTime="0.22587673700000011" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="3" state="clientBuffering" timeSinceFirstSegmentOfState="0.5520773460000008" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.5520773460000008" totalDelay="0" />
+<State startTime="27976" endTime="28017" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="10130" idleTime="0.31215868600000007" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="4" state="clientBuffering" timeSinceFirstSegmentOfState="0.6383693120000018" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.6383693120000018" totalDelay="0" />
+<State startTime="28017" endTime="28303" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="6188" idleTime="0.028226167999999774" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="5" state="clientBuffering" timeSinceFirstSegmentOfState="0.67904591199999942" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.67904591199999942" totalDelay="0" />
+<State startTime="28303" endTime="28358" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="8547" idleTime="0.25941223100000244" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="6" state="clientBuffering" timeSinceFirstSegmentOfState="0.96522829499999929" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.96522829499999929" totalDelay="0" />
+<State startTime="28358" endTime="28740" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="6991" idleTime="0.045433732999999421" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="7" state="clientBuffering" timeSinceFirstSegmentOfState="1.0201759290000005" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="1.0201759290000005" totalDelay="0" />
+<State startTime="28740" endTime="28747" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="8720" idleTime="0.36327399299999996" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="8" state="clientBuffering" timeSinceFirstSegmentOfState="1.4021795909999994" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="1.4021795909999994" totalDelay="0" />
+<State startTime="28747" endTime="29070" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="8720" idleTime="0.37078309300000001" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="9" state="clientBuffering" timeSinceFirstSegmentOfState="1.409683029" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="1.409683029" totalDelay="0" />
+<State startTime="29070" endTime="29085" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="8248" idleTime="0.29827338299999795" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="10" state="clientBuffering" timeSinceFirstSegmentOfState="1.7324594070000003" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="1.7324594070000003" totalDelay="0" />
+<State startTime="29085" endTime="29156" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="7248" idleTime="0.0090089720000001705" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="11" state="clientBuffering" timeSinceFirstSegmentOfState="1.7472561530000021" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="1.7472561530000021" totalDelay="0" />
+<State startTime="29156" endTime="29352" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="8824" idleTime="0.061049268999997963" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="11" state="clientBuffering" timeSinceFirstSegmentOfState="1.8185265820000005" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="1.8185265820000005" totalDelay="0" />
+<State startTime="29352" endTime="29402" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="8824" idleTime="0.25662770099999932" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="12" state="clientBuffering" timeSinceFirstSegmentOfState="2.0141531229999998" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.0141531229999998" totalDelay="0" />
+<State startTime="29402" endTime="29677" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="7801" idleTime="0.04234618999999995" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="13" state="clientBuffering" timeSinceFirstSegmentOfState="2.0639174300000001" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.0639174300000001" totalDelay="0" />
+<State startTime="29677" endTime="29727" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="9309" idleTime="0.26933689099999825" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="14" state="clientBuffering" timeSinceFirstSegmentOfState="2.3388124910000023" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.3388124910000023" totalDelay="0" />
+<State startTime="29727" endTime="29890" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="8694" idleTime="0.038686002000002162" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="15" state="clientBuffering" timeSinceFirstSegmentOfState="2.3895245980000013" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.3895245980000013" totalDelay="0" />
+<State startTime="29890" endTime="30058" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="9260" idleTime="0.15155375399999826" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="15" state="clientBuffering" timeSinceFirstSegmentOfState="2.5527008080000009" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.5527008080000009" totalDelay="0" />
+<State startTime="30058" endTime="30136" currentBandwidth="1581" delay1="1000" delay2="0" delay3="0" estimatedBandwidth="9260" idleTime="0.3193306829999969" newState="clientBuffered" segment1TransferTime="-1000" segment2TransferTime="0" segmentsSinceStateChange="16" state="clientBuffering" timeSinceFirstSegmentOfState="2.7204839780000007" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="2.7204839780000007" totalDelay="1000" />
+<State startTime="30136" endTime="31014" currentBandwidth="1581" delay1="0" estimatedBandwidth="0" idleTime="0.022559899000000883" newState="clientBuffering" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="1" state="clientBuffered" timeSinceFirstSegmentOfState="0.00016835699999999398" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.00016835699999999398" totalDelay="0" />
+<State startTime="31014" endTime="31205" currentBandwidth="1581" delay1="3000" delay2="0" estimatedBandwidth="0" idleTime="0.035123990000002436" newState="clientBuffered" segment1TransferTime="-3000" segment2TransferTime="0" segmentsSinceStateChange="1" state="clientBuffering" timeSinceFirstSegmentOfState="0.00026827200000001383" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.00026827200000001383" totalDelay="3000" />
+<State startTime="31205" endTime="31891" currentBandwidth="1581" delay1="2000" delay2="3000" delay3="0" estimatedBandwidth="0" idleTime="0.016612902999998624" newState="measuring" segment1TransferTime="-2000" segment2TransferTime="-2000" segmentsSinceStateChange="1" state="clientBuffered" timeSinceFirstSegmentOfState="8.7012999999913632e-05" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="8.7012999999913632e-05" totalDelay="6000" />
+<State startTime="31891" endTime="32439" currentBandwidth="1581" delay1="2000" delay2="3000" delay3="0" estimatedBandwidth="0" idleTime="0.0014476560000034056" segment1TransferTime="-2000" segment2TransferTime="-2000" segmentsSinceStateChange="0" state="measuring" timeSinceFirstSegmentOfState="0.68669639300000007" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.68669639300000007" totalDelay="6000" />
+<State startTime="32439" endTime="32691" currentBandwidth="1581" delay1="2000" delay2="3000" delay3="0" estimatedBandwidth="0" idleTime="0.00072635900000506126" segment1TransferTime="-1000" segment2TransferTime="-2000" segmentsSinceStateChange="0" state="measuring" timeSinceFirstSegmentOfState="1.2348883159999999" timeSinceLastRequest="1000" timeSinceLastSegmentReplyStart="1000" timeToMeasureBandwidth="1.2348883159999999" totalDelay="6000" />
+<State startTime="32691" endTime="33892" currentBandwidth="1581" delay1="2000" delay2="3000" delay3="0" estimatedBandwidth="0" idleTime="0.032464954000005264" segment1TransferTime="-1000" segment2TransferTime="-2000" segmentsSinceStateChange="0" state="measuring" timeSinceFirstSegmentOfState="1.4860375099999998" timeSinceLastRequest="1000" timeSinceLastSegmentReplyStart="1000" timeToMeasureBandwidth="1.4860375099999998" totalDelay="6000" />
+<State startTime="33892" endTime="34178" currentBandwidth="1581" delay1="2000" delay2="3000" delay3="0" estimatedBandwidth="0" idleTime="0.0031751160000013101" segment1TransferTime="0" segment2TransferTime="-2000" segmentsSinceStateChange="0" state="measuring" timeSinceFirstSegmentOfState="2.6872551260000002" timeSinceLastRequest="2000" timeSinceLastSegmentReplyStart="2000" timeToMeasureBandwidth="2.6872551260000002" totalDelay="6000" />
+<State startTime="34178" endTime="34207" currentBandwidth="1581" delay1="0" delay2="2000" delay3="3000" estimatedBandwidth="0" idleTime="0.015577806000003136" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="1" state="measuring" timeSinceFirstSegmentOfState="0.00025860899999941012" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.00025860899999941012" totalDelay="6000" />
+<State startTime="34207" endTime="34213" currentBandwidth="1581" delay1="0" delay2="0" delay3="2000" estimatedBandwidth="221822" idleTime="0.012588473999997518" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="2" state="measuring" timeSinceFirstSegmentOfState="0.029225341000000071" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.029225341000000071" totalDelay="2000" />
+<State startTime="34213" endTime="34284" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="221822" idleTime="0.018473770999996475" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="3" state="measuring" timeSinceFirstSegmentOfState="0.035107575999999696" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.035107575999999696" totalDelay="0" />
+<State startTime="34284" endTime="34287" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="125366" idleTime="0.054791540000003636" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="4" state="measuring" timeSinceFirstSegmentOfState="0.10574189499999953" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.10574189499999953" totalDelay="0" />
+<State startTime="34287" endTime="34340" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="125366" idleTime="0.057191441000000509" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="5" state="measuring" timeSinceFirstSegmentOfState="0.10805422099999973" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.10805422099999973" totalDelay="0" />
+<State startTime="34340" endTime="34388" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="61985" idleTime="0.023398616999998012" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="6" state="measuring" timeSinceFirstSegmentOfState="0.16237817000000021" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.16237817000000021" totalDelay="0" />
+<State startTime="34388" endTime="34423" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="63451" idleTime="0.032980602000002079" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="7" state="measuring" timeSinceFirstSegmentOfState="0.21036295299999974" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.21036295299999974" totalDelay="0" />
+<State startTime="34423" endTime="35172" currentBandwidth="1581" delay1="0" delay2="0" delay3="0" estimatedBandwidth="62822" idleTime="0.024190821999994228" segment1TransferTime="0" segment2TransferTime="0" segmentsSinceStateChange="8" state="measuring" timeSinceFirstSegmentOfState="0.24508240299999962" timeSinceLastRequest="0" timeSinceLastSegmentReplyStart="0" timeToMeasureBandwidth="0.24508240299999962" totalDelay="0" />
+</StateReports>
+<StateReports type="sloth">
+<State startTime="12224" endTime="26365" slothMode="1" />
+<State startTime="26365" endTime="35172" slothMode="0" />
+</StateReports>
+</SessionReport>

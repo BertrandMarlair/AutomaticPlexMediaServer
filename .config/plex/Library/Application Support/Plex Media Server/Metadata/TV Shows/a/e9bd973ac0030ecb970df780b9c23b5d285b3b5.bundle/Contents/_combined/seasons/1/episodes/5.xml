@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Episode>
+  <directors/>
+  <guest_stars/>
+  <originally_available_at>2019-06-03</originally_available_at>
+  <producers/>
+  <rating>9.8</rating>
+  <summary>La recherche de la vérité sur Tchernobyl ne se fait pas sans risque. Legasov, Shcherbina et Khomyuk vont l'apprendre.</summary>
+  <tags/>
+  <thumbs>
+    <item external="True" url="https://artworks.thetvdb.com/banners/episodes/360893/7116987.jpg" provider="com.plexapp.agents.thetvdb" media="com.plexapp.agents.thetvdb_100a483ec9096c1b676e6d82d43c3c993480bb64"/>
+  </thumbs>
+  <title>Vichnaya Pamyat</title>
+  <writers>
+    <item index="0">
+      <photo/>
+      <role/>
+      <name>Craig Mazin</name>
+    </item>
+  </writers>
+</Episode>
