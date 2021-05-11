@@ -1,54 +1,213 @@
-May 07, 2021 07:06:51.615 [0x7f608a868700] INFO - Plex Media Scanner v1.22.3.4392-d7c624def - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
-May 07, 2021 07:06:51.616 [0x7f608a868700] INFO - Linux version: 5.10.25-linuxkit, language: en-US
-May 07, 2021 07:06:51.616 [0x7f608a868700] INFO - Processor Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
-May 07, 2021 07:06:51.617 [0x7f608a868700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 2 --activity 482a925c-02c2-44b7-a771-ba2efa0164c9
-May 07, 2021 07:06:51.604 [0x7f608b357780] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.26.0, threadsafe=1
-May 07, 2021 07:06:51.713 [0x7f608b357780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=0
-May 07, 2021 07:06:51.714 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1620370011
-May 07, 2021 07:06:51.714 [0x7f608b357780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=0
-May 07, 2021 07:06:51.714 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1620370011
-May 07, 2021 07:06:51.715 [0x7f608b357780] DEBUG - Scanning Séries TV using fr(Plex Series Scanner) with 12 current media items and 1 section locations in the database.
-May 07, 2021 07:06:51.781 [0x7f608b357780] DEBUG - Performing a scan with 'Plex Series Scanner' (language: fr virtual: 0).
-May 07, 2021 07:06:51.781 [0x7f608b357780] DEBUG -   * Scanning /tv
-May 07, 2021 07:06:51.781 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv (parent: no)
-May 07, 2021 07:06:51.783 [0x7f608b357780] DEBUG - Skipping over directory '', as nothing has changed; removing 0 media items from map.
-May 07, 2021 07:06:51.784 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/Chernobyl (parent: yes)
-May 07, 2021 07:06:51.786 [0x7f608b357780] DEBUG - Skipping over directory 'Chernobyl', as nothing has changed; removing 0 media items from map.
-May 07, 2021 07:06:51.786 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl
-May 07, 2021 07:06:51.787 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl (reused)
-May 07, 2021 07:06:51.788 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1 (parent: yes)
-May 07, 2021 07:06:51.790 [0x7f608b357780] DEBUG - Skipping over directory 'Chernobyl/Season 1', as nothing has changed; removing 5 media items from map.
-May 07, 2021 07:06:51.790 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201
-May 07, 2021 07:06:51.790 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions (parent: yes)
-May 07, 2021 07:06:51.791 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201 (reused)
-May 07, 2021 07:06:51.791 [0x7f608b357780] DEBUG - Skipping over directory 'Chernobyl/Season 1/Plex Versions', as nothing has changed; removing 0 media items from map.
-May 07, 2021 07:06:51.791 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions
-May 07, 2021 07:06:51.791 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV (parent: yes)
-May 07, 2021 07:06:51.792 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions (reused)
-May 07, 2021 07:06:51.794 [0x7f608b357780] DEBUG - Skipping over directory 'Chernobyl/Season 1/Plex Versions/Optimized for TV', as nothing has changed; removing 0 media items from map.
-May 07, 2021 07:06:51.794 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV
-May 07, 2021 07:06:51.794 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl (parent: yes)
-May 07, 2021 07:06:51.795 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV (reused)
-May 07, 2021 07:06:51.798 [0x7f608b357780] DEBUG - Skipping over directory 'Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl', as nothing has changed; removing 5 media items from map.
-May 07, 2021 07:06:51.799 [0x7f608b357780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=%2B49%2E5&subtitle=Optimized%20for%20TV%20-%20Chernobyl
-May 07, 2021 07:06:51.799 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV%2FChernobyl
-May 07, 2021 07:06:51.799 [0x7f608b357780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=%2B49%2E5&subtitle=Optimized%20for%20TV%20-%20Chernobyl (reused)
-May 07, 2021 07:06:51.799 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/The Big Bang Theory (parent: yes)
-May 07, 2021 07:06:51.800 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV%2FChernobyl (reused)
-May 07, 2021 07:06:51.802 [0x7f608b357780] DEBUG - Skipping over directory 'The Big Bang Theory', as nothing has changed; removing 0 media items from map.
-May 07, 2021 07:06:51.802 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory
-May 07, 2021 07:06:51.803 [0x7f608b357780] DEBUG - Scanner: Processing directory /tv/The Big Bang Theory/Season 12 (parent: yes)
-May 07, 2021 07:06:51.803 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory (reused)
-May 07, 2021 07:06:51.804 [0x7f608b357780] DEBUG - Skipping over directory 'The Big Bang Theory/Season 12', as nothing has changed; removing 2 media items from map.
-May 07, 2021 07:06:51.804 [0x7f608899b700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory%2FSeason%2012
-May 07, 2021 07:06:51.805 [0x7f608b357780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=%2B49%2E5&subtitle=The%20Big%20Bang%20Theory%20-%20Season%2012
-May 07, 2021 07:06:51.805 [0x7f608899b700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory%2FSeason%2012 (reused)
-May 07, 2021 07:06:51.806 [0x7f608b357780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=%2B49%2E5&subtitle=The%20Big%20Bang%20Theory%20-%20Season%2012 (reused)
-May 07, 2021 07:06:51.807 [0x7f608b357780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=99.000000
-May 07, 2021 07:06:51.808 [0x7f608b357780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=99.000000 (reused)
-May 07, 2021 07:06:51.809 [0x7f608b357780] DEBUG - Removing 0 media items that were left.
-May 07, 2021 07:06:51.809 [0x7f608b357780] DEBUG - Removing 0 directories that were left.
-May 07, 2021 07:06:51.816 [0x7f608b357780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=100
-May 07, 2021 07:06:51.817 [0x7f608b357780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/482a925c-02c2-44b7-a771-ba2efa0164c9?percentComplete=100 (reused)
-May 07, 2021 07:06:51.819 [0x7f608b357780] DEBUG - Refreshing section 2 of type: 2
-May 07, 2021 07:06:51.823 [0x7f60823d9700] DEBUG - Refreshing 0 IDs.
+May 10, 2021 21:38:44.976 [0x7f2badd2c700] INFO - Plex Media Scanner v1.22.3.4392-d7c624def - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+May 10, 2021 21:38:44.977 [0x7f2badd2c700] INFO - Linux version: 5.10.25-linuxkit, language: en-US
+May 10, 2021 21:38:44.977 [0x7f2badd2c700] INFO - Processor Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+May 10, 2021 21:38:44.978 [0x7f2badd2c700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 2 --activity 66567d1b-0239-4e46-8784-fd0313a436bc
+May 10, 2021 21:38:44.966 [0x7f2bae81b780] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.26.0, threadsafe=1
+May 10, 2021 21:38:45.098 [0x7f2bae81b780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/66567d1b-0239-4e46-8784-fd0313a436bc?percentComplete=0
+May 10, 2021 21:38:45.098 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1620681525
+May 10, 2021 21:38:45.100 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1620681525
+May 10, 2021 21:38:45.101 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/66567d1b-0239-4e46-8784-fd0313a436bc?percentComplete=0
+May 10, 2021 21:38:45.101 [0x7f2bae81b780] DEBUG - Scanning Séries TV using fr(Plex Series Scanner) with 12 current media items and 1 section locations in the database.
+May 10, 2021 21:38:45.204 [0x7f2bae81b780] DEBUG - Performing a scan with 'Plex Series Scanner' (language: fr virtual: 0).
+May 10, 2021 21:38:45.204 [0x7f2bae81b780] DEBUG -   * Scanning /tv
+May 10, 2021 21:38:45.206 [0x7f2bae81b780] DEBUG - Scanner: Processing directory /tv (parent: no)
+May 10, 2021 21:38:45.210 [0x7f2bae81b780] DEBUG - Skipping over directory '', as nothing has changed; removing 0 media items from map.
+May 10, 2021 21:38:45.212 [0x7f2bae81b780] DEBUG - Scanner: Processing directory /tv/Chernobyl (parent: yes)
+May 10, 2021 21:38:45.214 [0x7f2bae81b780] DEBUG - Skipping over directory 'Chernobyl', as nothing has changed; removing 0 media items from map.
+May 10, 2021 21:38:45.215 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl
+May 10, 2021 21:38:45.216 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl (reused)
+May 10, 2021 21:38:45.218 [0x7f2bae81b780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1 (parent: yes)
+May 10, 2021 21:38:45.219 [0x7f2bae81b780] DEBUG - File '/tv/Chernobyl/Season 1/Chernobyl - S01E01 - 1-23-45 WEBRip-480p.avi' didn't exist, can't skip.
+May 10, 2021 21:38:45.220 [0x7f2bae81b780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions (parent: yes)
+May 10, 2021 21:38:45.221 [0x7f2bae81b780] DEBUG - Skipping over directory 'Chernobyl/Season 1/Plex Versions', as nothing has changed; removing 0 media items from map.
+May 10, 2021 21:38:45.221 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions
+May 10, 2021 21:38:45.222 [0x7f2bae81b780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV (parent: yes)
+May 10, 2021 21:38:45.222 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions (reused)
+May 10, 2021 21:38:45.223 [0x7f2bae81b780] DEBUG - Skipping over directory 'Chernobyl/Season 1/Plex Versions/Optimized for TV', as nothing has changed; removing 0 media items from map.
+May 10, 2021 21:38:45.223 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV
+May 10, 2021 21:38:45.224 [0x7f2bae81b780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl (parent: yes)
+May 10, 2021 21:38:45.224 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV (reused)
+May 10, 2021 21:38:45.225 [0x7f2bae81b780] DEBUG - File '/tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl/S01E01.mp4' didn't exist, can't skip.
+May 10, 2021 21:38:45.225 [0x7f2bae81b780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/66567d1b-0239-4e46-8784-fd0313a436bc?percentComplete=%2B49%2E5&subtitle=Optimized%20for%20TV%20-%20Chernobyl
+May 10, 2021 21:38:45.227 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/66567d1b-0239-4e46-8784-fd0313a436bc?percentComplete=%2B49%2E5&subtitle=Optimized%20for%20TV%20-%20Chernobyl (reused)
+May 10, 2021 21:38:45.227 [0x7f2bae81b780] DEBUG - Scanner: Processing directory /tv/The Big Bang Theory (parent: yes)
+May 10, 2021 21:38:45.228 [0x7f2bae81b780] DEBUG - Skipping over directory 'The Big Bang Theory', as nothing has changed; removing 0 media items from map.
+May 10, 2021 21:38:45.228 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory
+May 10, 2021 21:38:45.229 [0x7f2bae81b780] DEBUG - Scanner: Processing directory /tv/The Big Bang Theory/Season 12 (parent: yes)
+May 10, 2021 21:38:45.229 [0x7f2bae81b780] DEBUG - File '/tv/The Big Bang Theory/Season 12/The Big Bang Theory - S12E24 - The Stockholm Syndrome WEBRip-480p.avi' didn't exist, can't skip.
+May 10, 2021 21:38:45.230 [0x7f2bae81b780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/66567d1b-0239-4e46-8784-fd0313a436bc?percentComplete=%2B49%2E5&subtitle=The%20Big%20Bang%20Theory%20-%20Season%2012
+May 10, 2021 21:38:45.230 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory (reused)
+May 10, 2021 21:38:45.231 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/66567d1b-0239-4e46-8784-fd0313a436bc?percentComplete=%2B49%2E5&subtitle=The%20Big%20Bang%20Theory%20-%20Season%2012 (reused)
+May 10, 2021 21:38:45.233 [0x7f2bae81b780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/66567d1b-0239-4e46-8784-fd0313a436bc?percentComplete=99.000000
+May 10, 2021 21:38:45.234 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/66567d1b-0239-4e46-8784-fd0313a436bc?percentComplete=99.000000 (reused)
+May 10, 2021 21:38:45.235 [0x7f2bae81b780] DEBUG - Removing 12 media items that were left.
+May 10, 2021 21:38:45.235 [0x7f2bae81b780] DEBUG - Deleting media item 1.
+May 10, 2021 21:38:45.238 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.238 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.239 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.240 [0x7f2bae81b780] DEBUG - Was connected to metadata item 3, count is now 0.
+May 10, 2021 21:38:45.241 [0x7f2bae81b780] DEBUG - Destroying metadata item 3 (Clap de fin !)
+May 10, 2021 21:38:45.241 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.241 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.243 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.243 [0x7f2bae81b780] DEBUG - Updating deletion state for metadata item 2, is has a dead item count of 0.
+May 10, 2021 21:38:45.244 [0x7f2bae81b780] DEBUG - Updating deletion state for metadata item 1, is has a dead item count of 0.
+May 10, 2021 21:38:45.244 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 10, 2021 21:38:45.245 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
+May 10, 2021 21:38:45.318 [0x7f2bae81b780] DEBUG - Deleting media item 2.
+May 10, 2021 21:38:45.318 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.318 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.320 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.320 [0x7f2bae81b780] DEBUG - Was connected to metadata item 6, count is now 1.
+May 10, 2021 21:38:45.332 [0x7f2bae81b780] DEBUG - Deleting media item 8.
+May 10, 2021 21:38:45.333 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.333 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.334 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.335 [0x7f2bae81b780] DEBUG - Was connected to metadata item 6, count is now 0.
+May 10, 2021 21:38:45.335 [0x7f2bae81b780] DEBUG - Destroying metadata item 6 (1:23:45)
+May 10, 2021 21:38:45.336 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.336 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.337 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.338 [0x7f2bae81b780] DEBUG - Updating deletion state for metadata item 5, is has a dead item count of 0.
+May 10, 2021 21:38:45.338 [0x7f2bae81b780] DEBUG - Updating deletion state for metadata item 4, is has a dead item count of 0.
+May 10, 2021 21:38:45.338 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 10, 2021 21:38:45.339 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
+May 10, 2021 21:38:45.443 [0x7f2bae81b780] DEBUG - Deleting media item 3.
+May 10, 2021 21:38:45.443 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=3&parentID=-1&rootID=-1&metadataState=loading
+May 10, 2021 21:38:45.444 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.444 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.445 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=3&parentID=-1&rootID=-1&metadataState=loading (reused)
+May 10, 2021 21:38:45.445 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=5&parentID=-1&rootID=-1&metadataState=idle
+May 10, 2021 21:38:45.445 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.445 [0x7f2bae81b780] DEBUG - Was connected to metadata item 7, count is now 1.
+May 10, 2021 21:38:45.446 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=5&parentID=-1&rootID=-1&metadataState=idle (reused)
+May 10, 2021 21:38:45.451 [0x7f2bae81b780] DEBUG - Deleting media item 9.
+May 10, 2021 21:38:45.451 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.452 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.453 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.453 [0x7f2bae81b780] DEBUG - Was connected to metadata item 7, count is now 0.
+May 10, 2021 21:38:45.454 [0x7f2bae81b780] DEBUG - Destroying metadata item 7 (Veuillez garder votre calme)
+May 10, 2021 21:38:45.454 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.454 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.455 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.456 [0x7f2bae81b780] DEBUG - Updating deletion state for metadata item 5, is has a dead item count of 0.
+May 10, 2021 21:38:45.456 [0x7f2bae81b780] DEBUG - Updating deletion state for metadata item 4, is has a dead item count of 0.
+May 10, 2021 21:38:45.456 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 10, 2021 21:38:45.457 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
+May 10, 2021 21:38:45.553 [0x7f2bae81b780] DEBUG - Deleting media item 4.
+May 10, 2021 21:38:45.553 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=3&parentID=-1&rootID=-1&metadataState=loading
+May 10, 2021 21:38:45.554 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.554 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.555 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=3&parentID=-1&rootID=-1&metadataState=loading (reused)
+May 10, 2021 21:38:45.555 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.555 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=5&parentID=-1&rootID=-1&metadataState=idle
+May 10, 2021 21:38:45.555 [0x7f2bae81b780] DEBUG - Was connected to metadata item 8, count is now 1.
+May 10, 2021 21:38:45.556 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=5&parentID=-1&rootID=-1&metadataState=idle (reused)
+May 10, 2021 21:38:45.560 [0x7f2bae81b780] DEBUG - Deleting media item 10.
+May 10, 2021 21:38:45.561 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.561 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.562 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.563 [0x7f2bae81b780] DEBUG - Was connected to metadata item 8, count is now 0.
+May 10, 2021 21:38:45.563 [0x7f2bae81b780] DEBUG - Destroying metadata item 8 (Que la terre s'ouvre !)
+May 10, 2021 21:38:45.564 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.564 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.565 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.565 [0x7f2bae81b780] DEBUG - Updating deletion state for metadata item 5, is has a dead item count of 0.
+May 10, 2021 21:38:45.566 [0x7f2bae81b780] DEBUG - Updating deletion state for metadata item 4, is has a dead item count of 0.
+May 10, 2021 21:38:45.566 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 10, 2021 21:38:45.567 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
+May 10, 2021 21:38:45.665 [0x7f2bae81b780] DEBUG - Deleting media item 5.
+May 10, 2021 21:38:45.665 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=3&parentID=-1&rootID=-1&metadataState=loading
+May 10, 2021 21:38:45.666 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.666 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.667 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=3&parentID=-1&rootID=-1&metadataState=loading (reused)
+May 10, 2021 21:38:45.667 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=5&parentID=-1&rootID=-1&metadataState=idle
+May 10, 2021 21:38:45.668 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.668 [0x7f2bae81b780] DEBUG - Was connected to metadata item 9, count is now 1.
+May 10, 2021 21:38:45.668 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=5&parentID=-1&rootID=-1&metadataState=idle (reused)
+May 10, 2021 21:38:45.675 [0x7f2bae81b780] DEBUG - Deleting media item 11.
+May 10, 2021 21:38:45.675 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.675 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.677 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.677 [0x7f2bae81b780] DEBUG - Was connected to metadata item 9, count is now 0.
+May 10, 2021 21:38:45.677 [0x7f2bae81b780] DEBUG - Destroying metadata item 9 (Le bonheur de toute l'humanité)
+May 10, 2021 21:38:45.678 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.678 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.679 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.679 [0x7f2bae81b780] DEBUG - Updating deletion state for metadata item 5, is has a dead item count of 0.
+May 10, 2021 21:38:45.680 [0x7f2bae81b780] DEBUG - Updating deletion state for metadata item 4, is has a dead item count of 0.
+May 10, 2021 21:38:45.680 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 10, 2021 21:38:45.681 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
+May 10, 2021 21:38:45.784 [0x7f2bae81b780] DEBUG - Deleting media item 6.
+May 10, 2021 21:38:45.784 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=3&parentID=-1&rootID=-1&metadataState=loading
+May 10, 2021 21:38:45.784 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.784 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.785 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=3&parentID=-1&rootID=-1&metadataState=loading (reused)
+May 10, 2021 21:38:45.785 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=5&parentID=-1&rootID=-1&metadataState=idle
+May 10, 2021 21:38:45.785 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.786 [0x7f2bae81b780] DEBUG - Was connected to metadata item 10, count is now 1.
+May 10, 2021 21:38:45.787 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=5&parentID=-1&rootID=-1&metadataState=idle (reused)
+May 10, 2021 21:38:45.792 [0x7f2bae81b780] DEBUG - Deleting media item 12.
+May 10, 2021 21:38:45.792 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.792 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.794 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.794 [0x7f2bae81b780] DEBUG - Was connected to metadata item 10, count is now 0.
+May 10, 2021 21:38:45.794 [0x7f2bae81b780] DEBUG - Destroying metadata item 10 (Vichnaya Pamyat)
+May 10, 2021 21:38:45.795 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.795 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.797 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.797 [0x7f2bae81b780] DEBUG - Destroying metadata item 5 (Season 1)
+May 10, 2021 21:38:45.798 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.798 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.800 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.800 [0x7f2bae81b780] DEBUG - Destroying metadata item 4 (Chernobyl)
+May 10, 2021 21:38:45.801 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.801 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.802 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.803 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 10, 2021 21:38:45.804 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
+May 10, 2021 21:38:45.804 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 10, 2021 21:38:45.805 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
+May 10, 2021 21:38:45.806 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 10, 2021 21:38:45.807 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
+May 10, 2021 21:38:45.902 [0x7f2bae81b780] DEBUG - Deleting media item 7.
+May 10, 2021 21:38:45.902 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=3&parentID=-1&rootID=-1&metadataState=loading
+May 10, 2021 21:38:45.902 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.902 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.903 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=3&parentID=-1&rootID=-1&metadataState=loading (reused)
+May 10, 2021 21:38:45.903 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=5&parentID=-1&rootID=-1&metadataState=idle
+May 10, 2021 21:38:45.904 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.904 [0x7f2bae81b780] DEBUG - Was connected to metadata item 12, count is now 0.
+May 10, 2021 21:38:45.905 [0x7f2bae81b780] DEBUG - Destroying metadata item 12 (Le constant change)
+May 10, 2021 21:38:45.905 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=5&parentID=-1&rootID=-1&metadataState=idle (reused)
+May 10, 2021 21:38:45.905 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.905 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.906 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.907 [0x7f2bae81b780] DEBUG - Destroying metadata item 2 (Season 12)
+May 10, 2021 21:38:45.907 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.907 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.909 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.909 [0x7f2bae81b780] DEBUG - Destroying metadata item 1 (The Big Bang Theory)
+May 10, 2021 21:38:45.909 [0x7f2bae81b780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.909 [0x7f2bae81b780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 10, 2021 21:38:45.910 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 10, 2021 21:38:45.911 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 10, 2021 21:38:45.912 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
+May 10, 2021 21:38:45.912 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 10, 2021 21:38:45.913 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
+May 10, 2021 21:38:45.914 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
+May 10, 2021 21:38:45.914 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
+May 10, 2021 21:38:45.987 [0x7f2bae81b780] DEBUG - Deleting media item 8.
+May 10, 2021 21:38:45.988 [0x7f2bae81b780] DEBUG - Deleting media item 9.
+May 10, 2021 21:38:45.988 [0x7f2bae81b780] DEBUG - Deleting media item 10.
+May 10, 2021 21:38:45.989 [0x7f2bae81b780] DEBUG - Deleting media item 11.
+May 10, 2021 21:38:45.989 [0x7f2bae81b780] DEBUG - Deleting media item 12.
+May 10, 2021 21:38:45.989 [0x7f2bae81b780] DEBUG - Removing 0 directories that were left.
+May 10, 2021 21:38:45.990 [0x7f2bae81b780] DEBUG - Updating directory 'Chernobyl/Season 1' (ID 5) to time 2021-05-10 17:33:48.
+May 10, 2021 21:38:45.996 [0x7f2bae81b780] DEBUG - Updating directory 'Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl' (ID 8) to time 2021-05-10 17:33:47.
+May 10, 2021 21:38:46.003 [0x7f2bae81b780] DEBUG - Updating directory 'The Big Bang Theory/Season 12' (ID 3) to time 2021-05-10 17:33:49.
+May 10, 2021 21:38:46.009 [0x7f2bae81b780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/66567d1b-0239-4e46-8784-fd0313a436bc?percentComplete=100
+May 10, 2021 21:38:46.010 [0x7f2bae81b780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/66567d1b-0239-4e46-8784-fd0313a436bc?percentComplete=100 (reused)
+May 10, 2021 21:38:46.011 [0x7f2ba7dfa700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/destroy?librarySectionID=2&ids=3,6,7,8,9,4,5,10,1,2,12&types=4,4,4,4,4,2,3,4,2,3,4&parentIDs=2,5,5,5,5,-1,4,5,-1,1,2&rootIDs=1,4,4,4,4,-1,-1,4,-1,-1,1
+May 10, 2021 21:38:46.012 [0x7f2ba7dfa700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/destroy?librarySectionID=2&ids=3,6,7,8,9,4,5,10,1,2,12&types=4,4,4,4,4,2,3,4,2,3,4&parentIDs=2,5,5,5,5,-1,4,5,-1,1,2&rootIDs=1,4,4,4,4,-1,-1,4,-1,-1,1 (reused)
+May 10, 2021 21:38:46.012 [0x7f2bae81b780] DEBUG - Refreshing section 2 of type: 2

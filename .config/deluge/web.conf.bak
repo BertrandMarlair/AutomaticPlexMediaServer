@@ -12,92 +12,37 @@
     "language": "",
     "pkey": "ssl/daemon.pkey",
     "port": 8112,
-    "pwd_salt": "ff1644d15a27b009a7f2c6e9d3a7502f75857a98",
-    "pwd_sha1": "c258e7050d05865ed267f6c117a287ca08b3a20d",
+    "pwd_salt": "3138282f01bdb6b34635fe4613ed32a907cb1e59",
+    "pwd_sha1": "de4c001b6a560fac1105f5b3bc475cfeb631dbee",
     "session_timeout": 3600,
     "sessions": {
-        "009d62a6b0cb09cdba2eacee9162fe7e3abfec418377b7b0cd19768b83a1b08c": {
-            "expires": 1620302490.0,
+        "0eced8efcba457e2d258d4234df422efc4315b9a55fb91307124e6bf3a28add4": {
+            "expires": 1620690649.0,
             "level": 10,
             "login": "admin"
         },
-        "057ab1af8b2c4ac9b53d39ec228eb794a49ba91da5cab9c0bb3f6a86afd072d4": {
-            "expires": 1620375073.0,
+        "1ad2ec2a95b632ea38b02bddf80db4a5d7985fdac228abe5446491d4a626fc27": {
+            "expires": 1620690685.0,
             "level": 10,
             "login": "admin"
         },
-        "07d0c3a0dcfe413dfdbd89d542f1528ddaa9068100b12777f66bec1394a0c1ae": {
-            "expires": 1620302323.0,
+        "3b9449d5e6287b2dfbe950f50240b037e9e6c8f7c0b293a561bd7df7054bd627": {
+            "expires": 1620690687.0,
             "level": 10,
             "login": "admin"
         },
-        "0dd07b6684afaf4af5e963f5ae2cd92ad190a57fa99fe01c64de10d339543433": {
-            "expires": 1620302333.0,
+        "a3387f3f494181eb3a1a2090cea59bc78b10e6d87a3ef43dc9472f6b870354f6": {
+            "expires": 1620687365.0,
             "level": 10,
             "login": "admin"
         },
-        "0fcbfb771a9cd8f4197a5984c12922b11c056926c2758aa0a05071d6868e80fd": {
-            "expires": 1620375031.0,
+        "b79db4822300940b5b310d4e9fefee0f2916f3aa2667cc4b0dab50991bd55e82": {
+            "expires": 1620687427.0,
             "level": 10,
             "login": "admin"
         },
-        "2141c1c3e42bf2a86d19c38ec1361a3f87198c3a35e51dab301aa60131ce726b": {
-            "expires": 1620302496.0,
-            "level": 10,
-            "login": "admin"
-        },
-        "23a490491882d071b92af23900bcd090ccc11c182af933a0e946aa65e4c7b6f9": {
-            "expires": 1620375002.0,
-            "level": 10,
-            "login": "admin"
-        },
-        "41ae962f456ca71e61819fbe455e1af32b5f91dd5d6b121752997b0978c467cd": {
-            "expires": 1620373464.0,
-            "level": 10,
-            "login": "admin"
-        },
-        "63597ef60bbcce690a9efc956c5ae506f9f27936d3bfaeb3b47e01d37c5a67b2": {
-            "expires": 1620302825.0,
-            "level": 10,
-            "login": "admin"
-        },
-        "6e3531b2f180f3636636ac0485650c8f76146b2d2294182113b3c585d3a71d33": {
-            "expires": 1620295175.0,
-            "level": 10,
-            "login": "admin"
-        },
-        "8dc30678fbedfa8c20fd3852b55d23e51729c2b96202d008ca0b8706fc5a5684": {
-            "expires": 1620295126.0,
-            "level": 10,
-            "login": "admin"
-        },
-        "a05ab01241e35bed3ee8fd712834167e11c1e6372e3dcc723cec110a4200815d": {
-            "expires": 1620302792.0,
-            "level": 10,
-            "login": "admin"
-        },
-        "c40d6a9d2f7e9e1d4fb05b9a87d6213d1abc100aa7ff63d78a0f576b9a63a870": {
-            "expires": 1620295176.0,
-            "level": 10,
-            "login": "admin"
-        },
-        "e2b99ac688aedcce58a43fb873ed4716a5e2428a2e0b931a7f9a346d4436298f": {
-            "expires": 1620302324.0,
-            "level": 10,
-            "login": "admin"
-        },
-        "ebf425109053485018f933e018a4b710f6f21a803201b956ed54e21893dc0e10": {
-            "expires": 1620302795.0,
-            "level": 10,
-            "login": "admin"
-        },
-        "f03ed5478965fc03e432b8a57dbba6e3bab1619fbe7fc514c68266e06ef5e573": {
-            "expires": 1620302331.0,
-            "level": 10,
-            "login": "admin"
-        },
-        "f16063af21b2e9a41ace956707d7eec6134d978f2c7467b5da85f1ac0ff6567a": {
-            "expires": 1620296754.0,
+        "cc3b2783812c5d088199de120abd609265d8e1485d6c3f526ff9aa9103786565": {
+            "expires": 1620687364.0,
             "level": 10,
             "login": "admin"
         }

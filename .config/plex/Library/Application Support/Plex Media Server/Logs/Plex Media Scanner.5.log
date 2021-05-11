@@ -1,135 +1,60 @@
-May 06, 2021 10:00:40.269 [0x7f7dd0ee0700] INFO - Plex Media Scanner v1.22.3.4392-d7c624def - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
-May 06, 2021 10:00:40.272 [0x7f7dd0ee0700] INFO - Linux version: 5.10.25-linuxkit, language: en-US
-May 06, 2021 10:00:40.274 [0x7f7dd0ee0700] INFO - Processor Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
-May 06, 2021 10:00:40.275 [0x7f7dd0ee0700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 2 --activity dc9ec4eb-c63d-4d91-ba2e-b5db6190de2a
-May 06, 2021 10:00:40.243 [0x7f7dd19cf780] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.26.0, threadsafe=1
-May 06, 2021 10:00:40.478 [0x7f7dd19cf780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/dc9ec4eb-c63d-4d91-ba2e-b5db6190de2a?percentComplete=0
-May 06, 2021 10:00:40.478 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1620294040
-May 06, 2021 10:00:40.479 [0x7f7dd19cf780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dc9ec4eb-c63d-4d91-ba2e-b5db6190de2a?percentComplete=0
-May 06, 2021 10:00:40.479 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1620294040
-May 06, 2021 10:00:40.479 [0x7f7dd19cf780] DEBUG - Scanning Séries TV using fr(Plex Series Scanner) with 6 current media items and 1 section locations in the database.
-May 06, 2021 10:00:40.589 [0x7f7dd19cf780] DEBUG - Performing a scan with 'Plex Series Scanner' (language: fr virtual: 0).
-May 06, 2021 10:00:40.589 [0x7f7dd19cf780] DEBUG -   * Scanning /tv
-May 06, 2021 10:00:40.589 [0x7f7dd19cf780] DEBUG - Scanner: Processing directory /tv (parent: no)
-May 06, 2021 10:00:40.594 [0x7f7dd19cf780] DEBUG - Skipping over directory '', as nothing has changed; removing 0 media items from map.
-May 06, 2021 10:00:40.595 [0x7f7dd19cf780] DEBUG - Scanner: Processing directory /tv/Chernobyl (parent: yes)
-May 06, 2021 10:00:40.599 [0x7f7dd19cf780] DEBUG - Skipping over directory 'Chernobyl', as nothing has changed; removing 0 media items from map.
-May 06, 2021 10:00:40.600 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl
-May 06, 2021 10:00:40.601 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl (reused)
-May 06, 2021 10:00:40.604 [0x7f7dd19cf780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1 (parent: yes)
-May 06, 2021 10:00:40.612 [0x7f7dd19cf780] DEBUG - Skipping over directory 'Chernobyl/Season 1', as nothing has changed; removing 5 media items from map.
-May 06, 2021 10:00:40.613 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201
-May 06, 2021 10:00:40.613 [0x7f7dd19cf780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions (parent: yes)
-May 06, 2021 10:00:40.614 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201 (reused)
-May 06, 2021 10:00:40.631 [0x7f7dd19cf780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV (parent: yes)
-May 06, 2021 10:00:40.642 [0x7f7dd19cf780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl (parent: yes)
-May 06, 2021 10:00:40.653 [0x7f7dd19cf780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/dc9ec4eb-c63d-4d91-ba2e-b5db6190de2a?percentComplete=%2B49%2E5&subtitle=Optimized%20for%20TV%20-%20Chernobyl
-May 06, 2021 10:00:40.655 [0x7f7dd19cf780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dc9ec4eb-c63d-4d91-ba2e-b5db6190de2a?percentComplete=%2B49%2E5&subtitle=Optimized%20for%20TV%20-%20Chernobyl (reused)
-May 06, 2021 10:00:40.657 [0x7f7dd19cf780] DEBUG - Scanner: Processing directory /tv/The Big Bang Theory (parent: yes)
-May 06, 2021 10:00:40.659 [0x7f7dd19cf780] DEBUG - Skipping over directory 'The Big Bang Theory', as nothing has changed; removing 0 media items from map.
-May 06, 2021 10:00:40.660 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory
-May 06, 2021 10:00:40.661 [0x7f7dd19cf780] DEBUG - Scanner: Processing directory /tv/The Big Bang Theory/Season 12 (parent: yes)
-May 06, 2021 10:00:40.661 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory (reused)
-May 06, 2021 10:00:40.664 [0x7f7dd19cf780] DEBUG - Directory had 2 files, database had 1 files, can't skip.
-May 06, 2021 10:00:40.672 [0x7f7dd19cf780] DEBUG - Looking for path match for [/tv/The Big Bang Theory/Season 12/The Big Bang Theory - S12E23 - The Change Constant WEBRip-480p.avi]
-May 06, 2021 10:00:40.676 [0x7f7dd19cf780] DEBUG - Skipping hash check, no size match for 173816590 bytes.
-May 06, 2021 10:00:40.676 [0x7f7dd19cf780] DEBUG - No match for hash.
-May 06, 2021 10:00:40.677 [0x7f7dd19cf780] DEBUG - Checking descendants of The Big Bang Theory
-May 06, 2021 10:00:40.680 [0x7f7dd19cf780] DEBUG -  -> Searching down into The Big Bang Theory/Season 12
-May 06, 2021 10:00:40.680 [0x7f7dd19cf780] DEBUG - Checking descendants of The Big Bang Theory/Season 12
-May 06, 2021 10:00:40.681 [0x7f7dd19cf780] DEBUG -  -> FOUND metadata item (show)
-May 06, 2021 10:00:40.681 [0x7f7dd19cf780] DEBUG -  -> We found a local media item with rooted metadata in The Big Bang Theory/Season 12
-May 06, 2021 10:00:40.681 [0x7f7dd19cf780] DEBUG - Found existing show 1
-May 06, 2021 10:00:40.683 [0x7f7dd19cf780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-May 06, 2021 10:00:40.683 [0x7f7dd19cf780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-May 06, 2021 10:00:40.684 [0x7f7dd19cf780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-May 06, 2021 10:00:40.691 [0x7f7dd19cf780] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-May 06, 2021 10:00:40.691 [0x7f7dd19cf780] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-May 06, 2021 10:00:40.693 [0x7f7dd19cf780] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-May 06, 2021 10:00:40.693 [0x7f7dd19cf780] DEBUG - Added new metadata item () with ID 12
-May 06, 2021 10:00:40.693 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
-May 06, 2021 10:00:40.694 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
-May 06, 2021 10:00:40.762 [0x7f7dd19cf780] DEBUG - Looking for path match for [/tv/The Big Bang Theory/Season 12/The Big Bang Theory - S12E24 - The Stockholm Syndrome WEBRip-480p.avi]
-May 06, 2021 10:00:40.765 [0x7f7dd19cf780] DEBUG - Path matched, we're reusing media item 1
-May 06, 2021 10:00:40.766 [0x7f7dd19cf780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/dc9ec4eb-c63d-4d91-ba2e-b5db6190de2a?percentComplete=%2B49%2E5&subtitle=The%20Big%20Bang%20Theory%20-%20Season%2012
-May 06, 2021 10:00:40.767 [0x7f7dd19cf780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dc9ec4eb-c63d-4d91-ba2e-b5db6190de2a?percentComplete=%2B49%2E5&subtitle=The%20Big%20Bang%20Theory%20-%20Season%2012 (reused)
-May 06, 2021 10:00:40.773 [0x7f7dd19cf780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/dc9ec4eb-c63d-4d91-ba2e-b5db6190de2a?percentComplete=99.000000
-May 06, 2021 10:00:40.774 [0x7f7dd19cf780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dc9ec4eb-c63d-4d91-ba2e-b5db6190de2a?percentComplete=99.000000 (reused)
-May 06, 2021 10:00:40.774 [0x7f7dd19cf780] DEBUG - Removing 0 media items that were left.
-May 06, 2021 10:00:40.774 [0x7f7dd19cf780] DEBUG - Removing 0 directories that were left.
-May 06, 2021 10:00:40.774 [0x7f7dd19cf780] DEBUG - Updating directory 'Chernobyl/Season 1' (ID 5) to time 2021-05-06 10:00:28.
-May 06, 2021 10:00:40.784 [0x7f7dd19cf780] DEBUG - Updating directory 'Chernobyl/Season 1/Plex Versions' (ID 6) to time 2021-05-06 10:00:28.
-May 06, 2021 10:00:40.791 [0x7f7dd19cf780] DEBUG - Updating directory 'Chernobyl/Season 1/Plex Versions/Optimized for TV' (ID 7) to time 2021-05-06 10:00:28.
-May 06, 2021 10:00:40.797 [0x7f7dd19cf780] DEBUG - Updating directory 'Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl' (ID 8) to time 2021-05-06 10:00:29.
-May 06, 2021 10:00:40.804 [0x7f7dd19cf780] DEBUG - Updating directory 'The Big Bang Theory/Season 12' (ID 3) to time 2021-05-06 10:00:22.
-May 06, 2021 10:00:40.811 [0x7f7dd19cf780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/dc9ec4eb-c63d-4d91-ba2e-b5db6190de2a?percentComplete=100
-May 06, 2021 10:00:40.813 [0x7f7dd19cf780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/dc9ec4eb-c63d-4d91-ba2e-b5db6190de2a?percentComplete=100 (reused)
-May 06, 2021 10:00:40.813 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/create?librarySectionID=2&ids=12&types=4&parentIDs=2&rootIDs=1
-May 06, 2021 10:00:40.814 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/create?librarySectionID=2&ids=12&types=4&parentIDs=2&rootIDs=1 (reused)
-May 06, 2021 10:00:40.815 [0x7f7dd19cf780] DEBUG - Refreshing section 2 of type: 2
-May 06, 2021 10:00:40.816 [0x7f7dd19cf780] DEBUG - The show 'The Big Bang Theory' has leaves which have never been refreshed, we'll refresh.
-May 06, 2021 10:00:40.822 [0x7f7dc8e48700] DEBUG - Refreshing 1 IDs.
-May 06, 2021 10:00:40.824 [0x7f7dc8e48700] DEBUG - Refreshing metadata for 'The Big Bang Theory' (agent: com.plexapp.agents.thetvdb)
-May 06, 2021 10:00:40.824 [0x7f7dc8e48700] DEBUG - Refreshing GUID: 'com.plexapp.agents.thetvdb://80379?lang=fr'
-May 06, 2021 10:00:40.824 [0x7f7dc8e48700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/system/agents/update?mediaType=2&force=1&respectTags=0&guid=com%2Eplexapp%2Eagents%2Ethetvdb%3A%2F%2F80379%3Flang%3Dfr&id=1
-May 06, 2021 10:00:40.825 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1&metadataType=2&state=3&parentID=-1&rootID=-1&metadataState=queued
-May 06, 2021 10:00:40.826 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1&metadataType=2&state=3&parentID=-1&rootID=-1&metadataState=queued (reused)
-May 06, 2021 10:00:40.863 [0x7f7dc8e48700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/system/agents/update?mediaType=2&force=1&respectTags=0&guid=com%2Eplexapp%2Eagents%2Ethetvdb%3A%2F%2F80379%3Flang%3Dfr&id=1 (reused)
-May 06, 2021 10:00:40.864 [0x7f7dc3fff700] DEBUG - MediaItem::PerformBackgroundAnalysis on 7
-May 06, 2021 10:00:40.867 [0x7f7dc3fff700] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-May 06, 2021 10:00:40.867 [0x7f7dc3fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-May 06, 2021 10:00:40.870 [0x7f7dc3fff700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-May 06, 2021 10:00:40.870 [0x7f7dc3fff700] DEBUG - Updating metadata item (save) () with ID 12
-May 06, 2021 10:00:40.917 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
-May 06, 2021 10:00:40.919 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
-May 06, 2021 10:00:40.919 [0x7f7dc3fff700] DEBUG - [ID 7] Media part analysis: /tv/The Big Bang Theory/Season 12/The Big Bang Theory - S12E23 - The Change Constant WEBRip-480p.avi
-May 06, 2021 10:00:40.931 [0x7f7dc3fff700] DEBUG - [MI] Opening input file: "/tv/The Big Bang Theory/Season 12/The Big Bang Theory - S12E23 - The Change Constant WEBRip-480p.avi"
-May 06, 2021 10:00:40.932 [0x7f7dc3fff700] DEBUG - [FFMPEG] - Opening '/tv/The Big Bang Theory/Season 12/The Big Bang Theory - S12E23 - The Change Constant WEBRip-480p.avi' for reading
-May 06, 2021 10:00:40.932 [0x7f7dc3fff700] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
-May 06, 2021 10:00:40.933 [0x7f7dc3fff700] DEBUG - [FFMPEG] - Format avi probed with size=2048 and score=100
-May 06, 2021 10:00:40.933 [0x7f7dc3fff700] DEBUG - [FFMPEG] - use odml:1
-May 06, 2021 10:00:40.979 [0x7f7dc3fff700] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 10004 bytes read:1326912 seeks:4 nb_streams:2
-May 06, 2021 10:00:41.002 [0x7f7dc3fff700] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-May 06, 2021 10:00:41.003 [0x7f7dc3fff700] DEBUG - [FFMPEG] - All info found
-May 06, 2021 10:00:41.003 [0x7f7dc3fff700] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 17055 bytes read:1326912 seeks:4 frames:2
-May 06, 2021 10:00:41.003 [0x7f7dc3fff700] DEBUG - [MI]  * 4981e795569c739203b2f93ceec8bde1eba452d3 [avi mpeg4/mp3] Duration: 1138176ms, 720x404 (1.775189) 24.000fps, bitrate=1221kbps, audio channels=2, optimizedForStreaming=0 ("/tv/The Big Bang Theory/Season 12/The Big Bang Theory - S12E23 - The Change Constant WEBRip-480p.avi")
-May 06, 2021 10:00:41.003 [0x7f7dc3fff700] DEBUG - [MI] Chapters had generic titles, clearing.
-May 06, 2021 10:00:41.003 [0x7f7dc3fff700] DEBUG - [MI] Closing input file: "/tv/The Big Bang Theory/Season 12/The Big Bang Theory - S12E23 - The Change Constant WEBRip-480p.avi"
-May 06, 2021 10:00:41.011 [0x7f7dc3fff700] DEBUG - Committing media stream changes for part 7
-May 06, 2021 10:00:41.025 [0x7f7dc3fff700] DEBUG - Updating media item 7, size=173816590, metadata_item_id=12
-May 06, 2021 10:00:41.025 [0x7f7dc3fff700] DEBUG - Updating part with ID=7 [/tv/The Big Bang Theory/Season 12/The Big Bang Theory - S12E23 - The Change Constant WEBRip-480p.avi]
-May 06, 2021 10:00:41.064 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=12&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-May 06, 2021 10:00:41.065 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=12&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
-May 06, 2021 10:00:41.065 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=12&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
-May 06, 2021 10:00:41.067 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=12&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
-May 06, 2021 10:00:41.098 [0x7f7dc3fff700] DEBUG - [MI] Opening input file: "/tv/The Big Bang Theory/Season 12/The Big Bang Theory - S12E23 - The Change Constant WEBRip-480p.avi"
-May 06, 2021 10:00:41.098 [0x7f7dc3fff700] DEBUG - [FFMPEG] - Opening '/tv/The Big Bang Theory/Season 12/The Big Bang Theory - S12E23 - The Change Constant WEBRip-480p.avi' for reading
-May 06, 2021 10:00:41.098 [0x7f7dc3fff700] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
-May 06, 2021 10:00:41.099 [0x7f7dc3fff700] DEBUG - [FFMPEG] - Format avi probed with size=2048 and score=100
-May 06, 2021 10:00:41.099 [0x7f7dc3fff700] DEBUG - [FFMPEG] - use odml:1
-May 06, 2021 10:00:41.128 [0x7f7dc3fff700] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 10004 bytes read:1326912 seeks:4 nb_streams:2
-May 06, 2021 10:00:41.129 [0x7f7dc3fff700] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-May 06, 2021 10:00:41.129 [0x7f7dc3fff700] DEBUG - [FFMPEG] - All info found
-May 06, 2021 10:00:41.129 [0x7f7dc3fff700] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 17055 bytes read:1326912 seeks:4 frames:2
-May 06, 2021 10:00:41.129 [0x7f7dc3fff700] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/4/981e795569c739203b2f93ceec8bde1eba452d3.bundle/Contents/Thumbnails/thumb1.jpg (50.0%, 720x512).
-May 06, 2021 10:00:41.129 [0x7f7dc3fff700] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-May 06, 2021 10:00:41.152 [0x7f7dc3fff700] DEBUG - Loaded memory image of size 720x405.
-May 06, 2021 10:00:41.175 [0x7f7dc3fff700] DEBUG - [MI] Closing input file: "/tv/The Big Bang Theory/Season 12/The Big Bang Theory - S12E23 - The Change Constant WEBRip-480p.avi"
-May 06, 2021 10:00:41.182 [0x7f7dc3fff700] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-May 06, 2021 10:00:41.182 [0x7f7dc3fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-May 06, 2021 10:00:41.184 [0x7f7dc3fff700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-May 06, 2021 10:00:41.184 [0x7f7dc3fff700] DEBUG - Updating metadata item (save) () with ID 12
-May 06, 2021 10:00:41.185 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
-May 06, 2021 10:00:41.186 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
-May 06, 2021 10:00:41.241 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=12&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
-May 06, 2021 10:00:41.243 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=12&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-May 06, 2021 10:00:41.246 [0x7f7dc3fff700] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-May 06, 2021 10:00:41.246 [0x7f7dc3fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-May 06, 2021 10:00:41.247 [0x7f7dc3fff700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-May 06, 2021 10:00:41.247 [0x7f7dc3fff700] DEBUG - Updating metadata item (save) () with ID 12
-May 06, 2021 10:00:41.289 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache
-May 06, 2021 10:00:41.289 [0x7f7dc3fff700] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/library/metadata/2/intro
-May 06, 2021 10:00:41.290 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache (reused)
-May 06, 2021 10:00:41.298 [0x7f7dc3fff700] DEBUG - HTTP/1.1 (0.0s) 404 response from PUT http://127.0.0.1:32400/library/metadata/2/intro (reused)
-May 06, 2021 10:00:41.299 [0x7f7dcb3ef700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=12&metadataType=4&state=1&parentID=-1&rootID=-1
-May 06, 2021 10:00:41.300 [0x7f7dcb3ef700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=12&metadataType=4&state=1&parentID=-1&rootID=-1 (reused)
+May 07, 2021 07:06:32.964 [0x7f134a53f700] INFO - Plex Media Scanner v1.22.3.4392-d7c624def - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+May 07, 2021 07:06:32.966 [0x7f134a53f700] INFO - Linux version: 5.10.25-linuxkit, language: en-US
+May 07, 2021 07:06:32.966 [0x7f134a53f700] INFO - Processor Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+May 07, 2021 07:06:32.967 [0x7f134a53f700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 2 --activity 252bd522-3bf7-4eed-93ad-49ea47413696
+May 07, 2021 07:06:32.950 [0x7f134b02e780] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.26.0, threadsafe=1
+May 07, 2021 07:06:33.140 [0x7f134b02e780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/252bd522-3bf7-4eed-93ad-49ea47413696?percentComplete=0
+May 07, 2021 07:06:33.140 [0x7f1343fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1620369993
+May 07, 2021 07:06:33.143 [0x7f134b02e780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/252bd522-3bf7-4eed-93ad-49ea47413696?percentComplete=0
+May 07, 2021 07:06:33.144 [0x7f134b02e780] DEBUG - Scanning Séries TV using fr(Plex Series Scanner) with 12 current media items and 1 section locations in the database.
+May 07, 2021 07:06:33.144 [0x7f1343fff700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=2&sinceTime=1620369993
+May 07, 2021 07:06:33.375 [0x7f134b02e780] DEBUG - Performing a scan with 'Plex Series Scanner' (language: fr virtual: 0).
+May 07, 2021 07:06:33.375 [0x7f134b02e780] DEBUG -   * Scanning /tv
+May 07, 2021 07:06:33.375 [0x7f134b02e780] DEBUG - Scanner: Processing directory /tv (parent: no)
+May 07, 2021 07:06:33.380 [0x7f134b02e780] DEBUG - Skipping over directory '', as nothing has changed; removing 0 media items from map.
+May 07, 2021 07:06:33.382 [0x7f134b02e780] DEBUG - Scanner: Processing directory /tv/Chernobyl (parent: yes)
+May 07, 2021 07:06:33.386 [0x7f134b02e780] DEBUG - Skipping over directory 'Chernobyl', as nothing has changed; removing 0 media items from map.
+May 07, 2021 07:06:33.386 [0x7f1343fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl
+May 07, 2021 07:06:33.388 [0x7f1343fff700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl (reused)
+May 07, 2021 07:06:33.390 [0x7f134b02e780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1 (parent: yes)
+May 07, 2021 07:06:33.396 [0x7f134b02e780] DEBUG - Skipping over directory 'Chernobyl/Season 1', as nothing has changed; removing 5 media items from map.
+May 07, 2021 07:06:33.397 [0x7f1343fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201
+May 07, 2021 07:06:33.398 [0x7f1343fff700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201 (reused)
+May 07, 2021 07:06:33.398 [0x7f134b02e780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions (parent: yes)
+May 07, 2021 07:06:33.400 [0x7f134b02e780] DEBUG - Skipping over directory 'Chernobyl/Season 1/Plex Versions', as nothing has changed; removing 0 media items from map.
+May 07, 2021 07:06:33.400 [0x7f1343fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions
+May 07, 2021 07:06:33.401 [0x7f134b02e780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV (parent: yes)
+May 07, 2021 07:06:33.401 [0x7f1343fff700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions (reused)
+May 07, 2021 07:06:33.405 [0x7f134b02e780] DEBUG - Skipping over directory 'Chernobyl/Season 1/Plex Versions/Optimized for TV', as nothing has changed; removing 0 media items from map.
+May 07, 2021 07:06:33.405 [0x7f1343fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV
+May 07, 2021 07:06:33.406 [0x7f1343fff700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV (reused)
+May 07, 2021 07:06:33.407 [0x7f134b02e780] DEBUG - Scanner: Processing directory /tv/Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl (parent: yes)
+May 07, 2021 07:06:33.419 [0x7f134b02e780] DEBUG - Skipping over directory 'Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl', as nothing has changed; removing 5 media items from map.
+May 07, 2021 07:06:33.420 [0x7f1343fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV%2FChernobyl
+May 07, 2021 07:06:33.420 [0x7f134b02e780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/252bd522-3bf7-4eed-93ad-49ea47413696?percentComplete=%2B49%2E5&subtitle=Optimized%20for%20TV%20-%20Chernobyl
+May 07, 2021 07:06:33.422 [0x7f1343fff700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20Chernobyl%2FSeason%201%2FPlex%20Versions%2FOptimized%20for%20TV%2FChernobyl (reused)
+May 07, 2021 07:06:33.426 [0x7f134b02e780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/252bd522-3bf7-4eed-93ad-49ea47413696?percentComplete=%2B49%2E5&subtitle=Optimized%20for%20TV%20-%20Chernobyl (reused)
+May 07, 2021 07:06:33.426 [0x7f134b02e780] DEBUG - Scanner: Processing directory /tv/The Big Bang Theory (parent: yes)
+May 07, 2021 07:06:33.430 [0x7f134b02e780] DEBUG - Skipping over directory 'The Big Bang Theory', as nothing has changed; removing 0 media items from map.
+May 07, 2021 07:06:33.431 [0x7f1343fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory
+May 07, 2021 07:06:33.431 [0x7f134b02e780] DEBUG - Scanner: Processing directory /tv/The Big Bang Theory/Season 12 (parent: yes)
+May 07, 2021 07:06:33.433 [0x7f1343fff700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory (reused)
+May 07, 2021 07:06:33.433 [0x7f134b02e780] DEBUG - Skipping over directory 'The Big Bang Theory/Season 12', as nothing has changed; removing 2 media items from map.
+May 07, 2021 07:06:33.434 [0x7f1343fff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory%2FSeason%2012
+May 07, 2021 07:06:33.434 [0x7f134b02e780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/252bd522-3bf7-4eed-93ad-49ea47413696?percentComplete=%2B49%2E5&subtitle=The%20Big%20Bang%20Theory%20-%20Season%2012
+May 07, 2021 07:06:33.436 [0x7f134b02e780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/252bd522-3bf7-4eed-93ad-49ea47413696?percentComplete=%2B49%2E5&subtitle=The%20Big%20Bang%20Theory%20-%20Season%2012 (reused)
+May 07, 2021 07:06:33.436 [0x7f1343fff700] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/updateProgressMessage?message=Scanning%20The%20Big%20Bang%20Theory%2FSeason%2012 (reused)
+May 07, 2021 07:06:33.438 [0x7f134b02e780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/252bd522-3bf7-4eed-93ad-49ea47413696?percentComplete=99.000000
+May 07, 2021 07:06:33.439 [0x7f134b02e780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/252bd522-3bf7-4eed-93ad-49ea47413696?percentComplete=99.000000 (reused)
+May 07, 2021 07:06:33.440 [0x7f134b02e780] DEBUG - Removing 0 media items that were left.
+May 07, 2021 07:06:33.440 [0x7f134b02e780] DEBUG - Removing 0 directories that were left.
+May 07, 2021 07:06:33.440 [0x7f134b02e780] DEBUG - Updating directory '' (ID 1) to time 2021-05-06 10:12:39.
+May 07, 2021 07:06:33.448 [0x7f134b02e780] DEBUG - Updating directory 'Chernobyl' (ID 4) to time 2021-05-06 10:12:39.
+May 07, 2021 07:06:33.455 [0x7f134b02e780] DEBUG - Updating directory 'Chernobyl/Season 1' (ID 5) to time 2021-05-06 10:13:27.
+May 07, 2021 07:06:33.461 [0x7f134b02e780] DEBUG - Updating directory 'Chernobyl/Season 1/Plex Versions' (ID 6) to time 2021-05-06 10:13:33.
+May 07, 2021 07:06:33.466 [0x7f134b02e780] DEBUG - Updating directory 'Chernobyl/Season 1/Plex Versions/Optimized for TV' (ID 7) to time 2021-05-06 10:13:33.
+May 07, 2021 07:06:33.472 [0x7f134b02e780] DEBUG - Updating directory 'Chernobyl/Season 1/Plex Versions/Optimized for TV/Chernobyl' (ID 8) to time 2021-05-07 06:31:15.
+May 07, 2021 07:06:33.485 [0x7f134b02e780] DEBUG - HTTP requesting PUT http://127.0.0.1:32400/activities/252bd522-3bf7-4eed-93ad-49ea47413696?percentComplete=100
+May 07, 2021 07:06:33.486 [0x7f134b02e780] DEBUG - HTTP/1.1 (0.0s) 200 response from PUT http://127.0.0.1:32400/activities/252bd522-3bf7-4eed-93ad-49ea47413696?percentComplete=100 (reused)
+May 07, 2021 07:06:33.492 [0x7f134b02e780] DEBUG - Refreshing section 2 of type: 2
+May 07, 2021 07:06:33.502 [0x7f13420ca700] DEBUG - Refreshing 0 IDs.

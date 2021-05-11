@@ -1804,3 +1804,269 @@ qacct:"p-65fDiBy2lVMDM"
 21-5-7 09:17:56.7|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/7/2021 7:02:40 AM and 5/7/2021 7:17:56 AM UTC. Search may be required.
 21-5-7 09:18:00.7|Info|DownloadDecisionMaker|Processing 222 releases
 21-5-7 09:18:05.3|Info|RssSyncService|RSS Sync Completed. Reports found: 222, Reports grabbed: 0
+21-5-10 23:38:00.8|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1196
+21-5-10 23:38:02.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+21-5-10 23:38:02.8|Info|Router|Application mode: Interactive
+21-5-10 23:38:03.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+21-5-10 23:38:04.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+21-5-10 23:38:05.3|Info|OwinHostController|Listening on the following URLs:
+21-5-10 23:38:05.3|Info|OwinHostController|  http://*:8989/
+21-5-10 23:38:07.0|Info|SonarrBootstrapper|Starting Web Server
+21-5-10 23:38:40.2|Info|SceneMappingService|Updating Scene mappings
+21-5-10 23:38:40.3|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from NZBGet
+
+[v3.0.6.1196] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to NzbGet. DNS Name Resolution Failure: 'nzbget' ---> System.Net.WebException: DNS Name Resolution Failure: 'nzbget'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Nzbget.NzbgetProxy.ProcessRequest[T] (NzbDrone.Core.Download.Clients.Nzbget.NzbgetSettings settings, System.String method, System.Object[] parameters) [0x0003b] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\NzbgetProxy.cs:241 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Nzbget.NzbgetProxy.ProcessRequest[T] (NzbDrone.Core.Download.Clients.Nzbget.NzbgetSettings settings, System.String method, System.Object[] parameters) [0x00087] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\NzbgetProxy.cs:254 
+  at NzbDrone.Core.Download.Clients.Nzbget.NzbgetProxy.GetGlobalStatus (NzbDrone.Core.Download.Clients.Nzbget.NzbgetSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\NzbgetProxy.cs:134 
+  at NzbDrone.Core.Download.Clients.Nzbget.Nzbget.GetQueue () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\Nzbget.cs:54 
+  at NzbDrone.Core.Download.Clients.Nzbget.Nzbget.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\Nzbget.cs:191 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+21-5-10 23:38:40.5|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from Deluge
+
+[v3.0.6.1196] System.Net.WebException: DNS Name Resolution Failure: 'deluge'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.AuthenticateClient (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.Boolean reauthenticate) [0x0005b] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:295 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.BuildRequest (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x0006d] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:203 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult] (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.String method, System.Object[] arguments) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetTorrentsByLabel (System.String label, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:96 
+  at NzbDrone.Core.Download.Clients.Deluge.Deluge.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:114 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+21-5-10 23:38:40.7|Info|RefreshSeriesService|Skipping refresh of series: The Big Bang Theory
+21-5-10 23:38:40.7|Info|DiskScanService|Scanning The Big Bang Theory
+21-5-10 23:38:40.8|Info|HousekeepingService|Running housecleaning tasks
+21-5-10 23:38:42.0|Info|Database|Vacuuming Log database
+21-5-10 23:38:42.2|Info|Database|Log database compressed
+21-5-10 23:38:42.2|Info|DiskScanService|Completed scanning disk for The Big Bang Theory
+21-5-10 23:38:42.2|Info|Database|Vacuuming Main database
+21-5-10 23:38:42.3|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-5-10 23:38:42.3|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-5-10 23:38:42.3|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-5-10 23:38:42.3|Info|ExistingExtraFileService|Found 0 extra files
+21-5-10 23:38:42.4|Info|RefreshSeriesService|Skipping refresh of series: Chernobyl
+21-5-10 23:38:42.4|Info|DiskScanService|Scanning Chernobyl
+21-5-10 23:38:42.7|Info|Database|Main database compressed
+21-5-10 23:38:42.7|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+21-5-10 23:38:42.7|Info|ImportListSyncService|Starting Import List Sync
+21-5-10 23:38:42.8|Info|ImportListSyncService|Processing 0 list items
+21-5-10 23:38:42.8|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Series added: 0
+21-5-10 23:38:42.8|Info|RssSyncService|Starting RSS Sync
+21-5-10 23:38:43.3|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/7/2021 7:17:56 AM and 5/10/2021 9:38:43 PM UTC. Search may be required.
+21-5-10 23:38:43.3|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/7/2021 7:17:56 AM and 5/10/2021 9:38:43 PM UTC. Search may be required.
+21-5-10 23:38:43.4|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/7/2021 7:17:56 AM and 5/10/2021 9:38:43 PM UTC. Search may be required.
+21-5-10 23:38:44.5|Info|DiskScanService|Completed scanning disk for Chernobyl
+21-5-10 23:38:44.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+21-5-10 23:38:44.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+21-5-10 23:38:44.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+21-5-10 23:38:44.7|Info|ExistingExtraFileService|Found 0 extra files
+21-5-10 23:39:31.5|Info|DownloadDecisionMaker|Processing 1044 releases
+21-5-10 23:40:08.3|Info|RssSyncService|RSS Sync Completed. Reports found: 1044, Reports grabbed: 0
+21-5-10 23:40:10.3|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from Deluge
+
+[v3.0.6.1196] System.Net.WebException: DNS Name Resolution Failure: 'deluge'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.AuthenticateClient (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.Boolean reauthenticate) [0x0005b] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:295 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.BuildRequest (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x0006d] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:203 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult] (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.String method, System.Object[] arguments) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetTorrentsByLabel (System.String label, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:96 
+  at NzbDrone.Core.Download.Clients.Deluge.Deluge.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:114 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+21-5-10 23:43:17.6|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1196
+21-5-10 23:45:44.8|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1196
+21-5-10 23:45:46.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+21-5-10 23:45:46.3|Info|Router|Application mode: Interactive
+21-5-10 23:45:46.9|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+21-5-10 23:45:47.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+21-5-10 23:45:48.4|Info|OwinHostController|Listening on the following URLs:
+21-5-10 23:45:48.4|Info|OwinHostController|  http://*:8989/
+21-5-10 23:45:49.9|Info|SonarrBootstrapper|Starting Web Server
+21-5-10 23:46:23.6|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from NZBGet
+
+[v3.0.6.1196] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to NzbGet. DNS Name Resolution Failure: 'nzbget' ---> System.Net.WebException: DNS Name Resolution Failure: 'nzbget'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Nzbget.NzbgetProxy.ProcessRequest[T] (NzbDrone.Core.Download.Clients.Nzbget.NzbgetSettings settings, System.String method, System.Object[] parameters) [0x0003b] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\NzbgetProxy.cs:241 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Nzbget.NzbgetProxy.ProcessRequest[T] (NzbDrone.Core.Download.Clients.Nzbget.NzbgetSettings settings, System.String method, System.Object[] parameters) [0x00087] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\NzbgetProxy.cs:254 
+  at NzbDrone.Core.Download.Clients.Nzbget.NzbgetProxy.GetGlobalStatus (NzbDrone.Core.Download.Clients.Nzbget.NzbgetSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\NzbgetProxy.cs:134 
+  at NzbDrone.Core.Download.Clients.Nzbget.Nzbget.GetQueue () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\Nzbget.cs:54 
+  at NzbDrone.Core.Download.Clients.Nzbget.Nzbget.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\Nzbget.cs:191 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+21-5-10 23:46:23.8|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from Deluge
+
+[v3.0.6.1196] NzbDrone.Core.Download.Clients.DownloadClientAuthenticationException: Failed to authenticate with Deluge.
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.AuthenticateClient (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.Boolean reauthenticate) [0x000df] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:316 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.BuildRequest (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x0006d] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:203 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult] (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.String method, System.Object[] arguments) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetTorrentsByLabel (System.String label, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:96 
+  at NzbDrone.Core.Download.Clients.Deluge.Deluge.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:114 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+21-5-10 23:50:53.4|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1196
+21-5-10 23:50:54.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+21-5-10 23:50:54.7|Info|Router|Application mode: Interactive
+21-5-10 23:50:55.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+21-5-10 23:50:55.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+21-5-10 23:50:56.5|Info|OwinHostController|Listening on the following URLs:
+21-5-10 23:50:56.5|Info|OwinHostController|  http://*:8989/
+21-5-10 23:50:57.8|Info|SonarrBootstrapper|Starting Web Server
+21-5-10 23:51:30.6|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from NZBGet
+
+[v3.0.6.1196] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to NzbGet. DNS Name Resolution Failure: 'nzbget' ---> System.Net.WebException: DNS Name Resolution Failure: 'nzbget'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Nzbget.NzbgetProxy.ProcessRequest[T] (NzbDrone.Core.Download.Clients.Nzbget.NzbgetSettings settings, System.String method, System.Object[] parameters) [0x0003b] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\NzbgetProxy.cs:241 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Nzbget.NzbgetProxy.ProcessRequest[T] (NzbDrone.Core.Download.Clients.Nzbget.NzbgetSettings settings, System.String method, System.Object[] parameters) [0x00087] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\NzbgetProxy.cs:254 
+  at NzbDrone.Core.Download.Clients.Nzbget.NzbgetProxy.GetGlobalStatus (NzbDrone.Core.Download.Clients.Nzbget.NzbgetSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\NzbgetProxy.cs:134 
+  at NzbDrone.Core.Download.Clients.Nzbget.Nzbget.GetQueue () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\Nzbget.cs:54 
+  at NzbDrone.Core.Download.Clients.Nzbget.Nzbget.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Nzbget\Nzbget.cs:191 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+21-5-10 23:51:30.8|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from Deluge
+
+[v3.0.6.1196] NzbDrone.Core.Download.Clients.DownloadClientAuthenticationException: Failed to authenticate with Deluge.
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.AuthenticateClient (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.Boolean reauthenticate) [0x000df] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:316 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.BuildRequest (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x0006d] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:203 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult] (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.String method, System.Object[] arguments) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetTorrentsByLabel (System.String label, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:96 
+  at NzbDrone.Core.Download.Clients.Deluge.Deluge.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:114 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+21-5-10 23:53:24.3|Error|Deluge|Failed to authenticate with Deluge.
+
+[v3.0.6.1196] NzbDrone.Core.Download.Clients.DownloadClientAuthenticationException: Failed to authenticate with Deluge.
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.AuthenticateClient (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.Boolean reauthenticate) [0x000df] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:316 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.BuildRequest (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x0006d] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:203 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult] (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.String method, System.Object[] arguments) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetVersion (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x0003f] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:68 
+  at NzbDrone.Core.Download.Clients.Deluge.Deluge.TestConnection () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:228 
+
+21-5-10 23:53:24.5|Warn|SonarrErrorPipeline|Invalid request Validation failed: 
+ -- Password: Authentication failed
+21-5-10 23:53:29.7|Error|Deluge|Failed to authenticate with Deluge.
+
+[v3.0.6.1196] NzbDrone.Core.Download.Clients.DownloadClientAuthenticationException: Failed to authenticate with Deluge.
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.AuthenticateClient (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.Boolean reauthenticate) [0x000df] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:316 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.BuildRequest (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x0006d] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:203 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult] (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.String method, System.Object[] arguments) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetVersion (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x0003f] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:68 
+  at NzbDrone.Core.Download.Clients.Deluge.Deluge.TestConnection () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:228 
+
+21-5-10 23:53:29.8|Warn|SonarrErrorPipeline|Invalid request Validation failed: 
+ -- Password: Authentication failed
+21-5-10 23:55:30.4|Info|RssSyncService|Starting RSS Sync
+21-5-10 23:55:30.5|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/10/2021 9:38:43 PM and 5/10/2021 9:53:18 PM UTC. Search may be required.
+21-5-10 23:55:30.7|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/10/2021 9:38:43 PM and 5/10/2021 9:55:30 PM UTC. Search may be required.
+21-5-10 23:55:30.9|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/10/2021 9:38:43 PM and 5/10/2021 9:55:30 PM UTC. Search may be required.
+21-5-10 23:55:34.8|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-10 23:55:40.5|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 00:10:59.8|Info|RssSyncService|Starting RSS Sync
+21-5-11 00:10:59.9|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/10/2021 9:55:30 PM and 5/10/2021 9:55:30 PM UTC. Search may be required.
+21-5-11 00:10:59.9|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/10/2021 9:55:30 PM and 5/10/2021 9:55:30 PM UTC. Search may be required.
+21-5-11 00:10:59.9|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/10/2021 9:53:18 PM and 5/10/2021 9:53:18 PM UTC. Search may be required.
+21-5-11 00:11:00.4|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 00:11:05.9|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 00:26:28.8|Info|RssSyncService|Starting RSS Sync
+21-5-11 00:26:28.9|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/10/2021 9:55:30 PM and 5/10/2021 9:55:30 PM UTC. Search may be required.
+21-5-11 00:26:28.9|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/10/2021 9:55:30 PM and 5/10/2021 9:55:30 PM UTC. Search may be required.
+21-5-11 00:26:28.9|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/10/2021 9:53:18 PM and 5/10/2021 9:53:18 PM UTC. Search may be required.
+21-5-11 00:26:30.4|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 00:26:35.5|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 00:41:58.1|Info|RssSyncService|Starting RSS Sync
+21-5-11 00:41:58.4|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/10/2021 9:55:30 PM and 5/10/2021 10:41:58 PM UTC. Search may be required.
+21-5-11 00:41:58.6|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/10/2021 9:55:30 PM and 5/10/2021 10:41:58 PM UTC. Search may be required.
+21-5-11 00:41:59.4|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/10/2021 9:53:18 PM and 5/10/2021 10:41:59 PM UTC. Search may be required.
+21-5-11 00:41:59.4|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 00:42:04.9|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 00:52:23.3|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1196
+21-5-11 00:52:24.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+21-5-11 00:52:24.9|Info|Router|Application mode: Interactive
+21-5-11 00:52:25.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+21-5-11 00:52:26.1|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+21-5-11 00:52:26.9|Info|OwinHostController|Listening on the following URLs:
+21-5-11 00:52:26.9|Info|OwinHostController|  http://*:8989/
+21-5-11 00:52:28.3|Info|SonarrBootstrapper|Starting Web Server
+21-5-11 00:54:27.8|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1196
+21-5-11 00:54:28.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+21-5-11 00:54:29.1|Info|Router|Application mode: Interactive
+21-5-11 00:54:29.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+21-5-11 00:54:30.2|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+21-5-11 00:54:30.8|Info|OwinHostController|Listening on the following URLs:
+21-5-11 00:54:30.8|Info|OwinHostController|  http://*:8989/
+21-5-11 00:54:32.1|Info|SonarrBootstrapper|Starting Web Server
+21-5-11 00:57:34.5|Info|RssSyncService|Starting RSS Sync
+21-5-11 00:57:35.7|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/10/2021 10:41:58 PM and 5/10/2021 10:57:35 PM UTC. Search may be required.
+21-5-11 00:57:35.7|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/10/2021 10:41:59 PM and 5/10/2021 10:57:35 PM UTC. Search may be required.
+21-5-11 00:57:35.7|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/10/2021 10:41:58 PM and 5/10/2021 10:57:35 PM UTC. Search may be required.
+21-5-11 00:57:38.9|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 00:57:44.3|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 01:12:54.6|Info|RssSyncService|Starting RSS Sync
+21-5-11 01:12:54.7|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/10/2021 10:57:35 PM and 5/10/2021 10:57:35 PM UTC. Search may be required.
+21-5-11 01:12:54.7|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/10/2021 10:57:35 PM and 5/10/2021 10:57:35 PM UTC. Search may be required.
+21-5-11 01:12:54.7|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/10/2021 10:57:35 PM and 5/10/2021 10:57:35 PM UTC. Search may be required.
+21-5-11 01:12:55.2|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 01:13:00.3|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 01:28:23.8|Info|RssSyncService|Starting RSS Sync
+21-5-11 01:28:23.9|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/10/2021 10:57:35 PM and 5/10/2021 10:57:35 PM UTC. Search may be required.
+21-5-11 01:28:23.9|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/10/2021 10:57:35 PM and 5/10/2021 10:57:35 PM UTC. Search may be required.
+21-5-11 01:28:23.9|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/10/2021 10:57:35 PM and 5/10/2021 10:57:35 PM UTC. Search may be required.
+21-5-11 01:28:24.2|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 01:28:29.8|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 01:43:53.3|Info|RssSyncService|Starting RSS Sync
+21-5-11 01:43:53.5|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/10/2021 10:57:35 PM and 5/10/2021 11:43:53 PM UTC. Search may be required.
+21-5-11 01:43:53.6|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/10/2021 10:57:35 PM and 5/10/2021 11:43:53 PM UTC. Search may be required.
+21-5-11 01:43:53.7|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/10/2021 10:57:35 PM and 5/10/2021 11:43:53 PM UTC. Search may be required.
+21-5-11 01:43:53.8|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 01:43:59.0|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 01:59:22.4|Info|RssSyncService|Starting RSS Sync
+21-5-11 01:59:23.4|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/10/2021 11:43:53 PM and 5/10/2021 11:59:23 PM UTC. Search may be required.
+21-5-11 01:59:23.4|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/10/2021 11:43:53 PM and 5/10/2021 11:59:23 PM UTC. Search may be required.
+21-5-11 01:59:23.4|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/10/2021 11:43:53 PM and 5/10/2021 11:59:23 PM UTC. Search may be required.
+21-5-11 01:59:23.5|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 01:59:28.8|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 02:14:51.8|Info|RssSyncService|Starting RSS Sync
+21-5-11 02:14:51.9|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/10/2021 11:59:23 PM and 5/10/2021 11:59:23 PM UTC. Search may be required.
+21-5-11 02:14:51.9|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/10/2021 11:59:23 PM and 5/10/2021 11:59:23 PM UTC. Search may be required.
+21-5-11 02:14:51.9|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/10/2021 11:59:23 PM and 5/10/2021 11:59:23 PM UTC. Search may be required.
+21-5-11 02:14:52.3|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 02:14:57.6|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 06:16:04.4|Info|SceneMappingService|Updating Scene mappings
+21-5-11 06:16:04.4|Info|RssSyncService|Starting RSS Sync
+21-5-11 06:16:06.1|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/10/2021 11:59:23 PM and 5/11/2021 4:16:05 AM UTC. Search may be required.
+21-5-11 06:16:06.4|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/10/2021 11:59:23 PM and 5/11/2021 4:16:06 AM UTC. Search may be required.
+21-5-11 06:16:06.5|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/10/2021 11:59:23 PM and 5/11/2021 4:16:06 AM UTC. Search may be required.
+21-5-11 06:16:07.7|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 06:16:13.4|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 08:13:56.8|Info|RssSyncService|Starting RSS Sync
+21-5-11 08:20:29.4|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 4:16:06 AM and 5/11/2021 6:20:29 AM UTC. Search may be required.
+21-5-11 08:20:29.4|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 4:16:06 AM and 5/11/2021 6:20:29 AM UTC. Search may be required.
+21-5-11 08:20:29.6|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 4:16:06 AM and 5/11/2021 6:20:29 AM UTC. Search may be required.
+21-5-11 08:20:29.6|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 08:20:36.2|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 08:35:53.3|Info|RssSyncService|Starting RSS Sync
+21-5-11 08:35:53.4|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 6:20:29 AM and 5/11/2021 6:20:29 AM UTC. Search may be required.
+21-5-11 08:35:53.4|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 6:20:29 AM and 5/11/2021 6:20:29 AM UTC. Search may be required.
+21-5-11 08:35:53.4|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 6:20:29 AM and 5/11/2021 6:20:29 AM UTC. Search may be required.
+21-5-11 08:35:59.5|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 08:36:04.6|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 08:51:22.6|Info|RssSyncService|Starting RSS Sync
+21-5-11 08:51:22.7|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 6:20:29 AM and 5/11/2021 6:20:29 AM UTC. Search may be required.
+21-5-11 08:51:22.7|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 6:20:29 AM and 5/11/2021 6:20:29 AM UTC. Search may be required.
+21-5-11 08:51:22.7|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 6:20:29 AM and 5/11/2021 6:20:29 AM UTC. Search may be required.
+21-5-11 08:51:23.0|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 08:51:28.4|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
