@@ -868,3 +868,218 @@
 2021-05-11 09:22:21.2070 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
 2021-05-11 09:22:21.2118 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
 2021-05-11 09:22:21.2138 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 09:37:50.4390 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 09:37:50.4414 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 09:37:50.4553 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 09:53:24.9285 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 09:53:24.9909 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 09:53:25.1237 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 10:08:53.9466 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 10:08:53.9495 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 10:08:53.9528 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 10:20:51.3078 Warn Some of the categories provided are unsupported in OxTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 10:20:51.3078 Warn Some of the categories provided are unsupported in GkTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 10:20:51.3078 Warn Some of the categories provided are unsupported in Torrent9: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 10:20:51.6749 Info Torznab search in OxTorrent => Found 12 releases 
+2021-05-11 10:20:51.7000 Info Torznab search in GkTorrent => Found 12 releases 
+2021-05-11 10:20:51.8241 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 10:24:23.3039 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 10:24:23.3095 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 10:24:23.3148 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 10:39:52.8082 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 10:39:52.8827 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 10:39:53.0354 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 10:59:42.9585 Info Starting Jackett v0.18.15 
+2021-05-11 10:59:43.6452 Info Environment version: 5.0.5 (/app/Jackett/) 
+2021-05-11 10:59:43.6476 Info OS version: Unix 5.10.25.0 (64bit OS) (64bit process) 
+2021-05-11 10:59:43.6491 Info Jackett variant: CoreLinuxAmdx64 
+2021-05-11 10:59:43.6506 Info File /etc/issue: Ubuntu 18.04.5 LTS \n \l 
+2021-05-11 10:59:43.6526 Info Running in Docker: Yes (image build: v0.17.1027-ls31) 
+2021-05-11 10:59:43.6539 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2021-05-11 10:59:43.6554 Info App config/log directory: /config/Jackett 
+2021-05-11 10:59:43.6569 Info Using proxy: Disabled 
+2021-05-11 10:59:43.6581 Info Using FlareSolverr: No 
+2021-05-11 10:59:43.6608 Info Using HTTP Client: HttpWebClient2 
+2021-05-11 10:59:43.6847 Info Loading Native indexers ... 
+2021-05-11 10:59:43.8636 Info Loaded 97 Native indexers: abnormal, alpharatio, anidex, anidub, AniLibria, animebytes, Animedia, animetorrents, anthelion, avistaz, bakabt, bb, beyond-hd-api, bitcityreloaded, bithdtv, bjshare, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, darmowetorenty, dicmusic, digitalcore, divxtotal, epublibre, erai-raws, exoticaz, filelist, funfile, fuzer, gazellegames, gimmepeers, hdbitsapi, hdspace, hdtorrents, hebits, immortalseed, internetarchive, iptorrents, libble, lostfilm, magnetico, mejortorrent, milkie, morethantv, myanonamouse, ncore, nebulance, newpct, norbits, orpheus, partis, passthepopcorn, piratethenet, pixelhd, polishtracker, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, secretcinema, sharewoodapi, shazbat, ShizaProject, showrss, solidtorrents, speedapp, speedcd, subsplease, superbits, thepiratebay, toloka, torrentbytes, torrentday, torrentech, torrentheaven, torrentleech, torrentmafya, torrentnetwork, torrent-paradise-ml, torrentscsv, torrentseeds, torrentsyndikat, tvstore, tvvault, xspeeds, xthor-api, yts, zonaq, animetosho 
+2021-05-11 10:59:43.8691 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2021-05-11 10:59:46.4820 Info Loaded 447 Cardigann indexers: torrentccf, dxp, totallykids, 2fast4you, itorrent, asylumshare, borgzelle, p2pelite, torrent4you, hdzone, boxingtorrents, hellastz, hamsterstudio, torrentfactory, hdchina, uhdbits, newstudiol, hdbits, cinemageddon, empornium, haidan, prostylex, mononokebt, spiritofrevolution, torrentland, opencd, theaudioscene, lastfiles, rintornet, newstudio, demonoid, nyaasi, ourbits, zamundanet, theempire, sexypics, ebookparadijs, moviesdvdr, unlimitz, turktorrent, hdonly, cinemamovies, xwtorrents, aidoruonline, fouducinema, extremetorrents, sukebei-pantsu, aniRena, peersfm, underversel, snowpt, oncesearch, film-paleis, kinozal, gktorrent, insanetracker, hddolby, byrutor, genesismovement, netlab, torrentv, mypornclub, acrossthetasman, backups, kickasstorrents-ws, movietorrent, sktorrent-org, racingforme, underverse, oxtorrent, pleasuredome, purovicio, theshinning, microbit, torrent-explosiv, kinonavse100, gtorrent, piratadigital, btnext, sportscult, mma-torrents, torrentwhiz, btsow, piratbitl, ttsweb, exkinoray, finelite, trancetraffic, skytorrents-to, acgsou, uniondht, pornleech, nntt, theshow, teamos, wdt, bibliotik, linkomanija, theleachzone, sosulki, cinematik, mteamtp, legittorrents, ehentai, parnuxi, audiobookbay, danishbytes, wihd, thesceneplace, unionfansub, hdc, iv-torrents, torrentgalaxy, exttorrents, finvip, rutracker-ru, theplace, fantasticheaven, tjupt, hdolimpo, hqsource, speedmasterhd, metaltracker, hdhouse, xxxtor, arabafenice, bitru, arabp2p, darktracker, mvgroupmain, vizuk, dmhy, trackeros, 52pt, hdcenter, tokyotosho, estone, p2pbg, generationfree, zelkaorg, hdtime, libranet, mnv, montorrent, totheglory, tekno3d, turkseed, totheglorycookie, pwtorrents, extratorrent-it, majomparade, portugas, epizod, torlock, blutopia, acidlounge, btdigg, mactorrents, erzsebetpl, torrentsectorcrew, hdu, yggcookie, abtorrents, bitturk, esharenet, torrentdownload, desireleasers, kinorun, rofd, bigfangroup, mteamtp2fa, gay-torrents, girotorrent, sdbits, jptv, bigtorrent, acgrip, noname-club, 1ptbar, rus-media, crazyhd, 7torrents, tlfbits, hdcity, RockBox, chdbits, beitai, pussytorrents, marinetracker, scenerush, xwtclassics, vsttorrents, rptorrents, cpasbienclone, torrentproject, concen, hd4fans, crnaberza, yourbittorrent, filebase, bootytape, fanoin, gtorrentpro, desitorrents, puntotorrent, classix, latinop2p, myspleen, twilightszoom, firebit, siambit, torrentsurf, hdspain, eniahd, toros, btschool, nordicplus, polishsource, efectodoppler, torrent9clone, aftershock, xiteme, glodls, newretro, seedfile, booktracker, thevault, ptsbao, linuxtracker, chilebt, romanianmetaltorrents, casstudiotv, idope, torrentoyunindir, pirateiro, funkytorrents, nitro, gigatorrents, extremebits, lepornoinfo, eztv, tribalmixes, torrentqq, lechaudron, diablotorrent, bithumen, torrent-turk, lesaloon, magicheaven, concertos, selezen, xxxtorrents, greekdiamond, tasmanit, vsthouse, torrentbd, torrenting, torrentproject2, casatorrent, keepfriends, bitspyder, rainbowtracker, deildu, pornbay, speedtorrentreloaded, 3dtorrents, ptmsg, mixtapetorrent, uniongang, bt4g, trupornolabs, dark-shadow, bwtorrents, witchhunter, sukebeinyaasi, torrentview, ptfiles, teracod, hdforever, piratbit, coastalcrew, racing4everyone, nethd, zooqle, nyaa-pantsu, proporno, learnflakes, torrentlt, karagarga, rutor, noname-clubl, onejav, bluebirdhd, bithorlo, torrenthr, empornium2fa, soulvoice, audionews, ilcorsaroblu, hdhome, nbtorrents, focusx, omgwtftrackr, hdbitscom, amigosshare, springsunday, shareisland, torrentdb, torrentparadise, aither, torrentmax, thegeeks, trezzor, sharewood, limetorrents, erzsebet, pctorrent, anisource, pornbits, cartoonchaos, sktorrent, baibako, teamhd, Das-Unerwartete, torrentkitty, gay-torrentsorg, hon3yhd, ebooks-shares, gamestorrents, pixelcove, 1337x, thefallingangels, divteam, cpasbien, hush, oshenpt, mesevilag, rustorka, beyond-hd-oneurl, btetree, 4thd, tellytorrent, ibit, ilcorsaronero, gaytorrentru, jpopsuki, shokweb, scenepalace, torrentdownloads, zetorrents, tntfork, rapidzona, pornolive, crazyspirits, redstartorrent, torrentleech-pl, u2, tvchaosuk, oasis, anaschcc, frozenlayer, femdomcult, brasiltracker, dragonworldreloaded, yggtorrent, ccfbits, isohunt2, 0daykiev, r3vwtf, magnet4you, carphunter, torrent9, ztracker, pornforall, animeclipse, theoccult, torrentsir, madsrevolution, btdb, hdarea, feedurneed, sdkino, puurhollands, twilight, thehorrorcharnel, comicat, freetorrent, galeriens, hdroute, woot, riperam, pterclub, themixingbowl, dariustracker, asiancinema, arenabg, potuk, broadcity, ettv, hdtorrentsit, emtrek, sporthd, carpathians, Bittorrentfiles, anime-free, magico, pornorip, ydypt, bit-titan, torrentslocal, mvgroupforum, proaudiotorrents, redbits, hdturk, cilipro, losslessclub, torrentfunk, netcosmo, huntorrent, dimeadozen, extratorrent-cd, lemonhd, catorrent, datascene, aussierules, pttime, gfxpeers, pornotor, kickasstorrents-to, hdsky, pthome, animeworld, pier720, hdatmos, legacyhd, sugoimusic, tapochek, xbytesv2, immortuos, torrent-pirat, rintor, beyond-hd, greekteam, 3changtrai, muziekfabriek, hdme, xxxadulttorrent 
+2021-05-11 10:59:46.4844 Info Loaded 544 indexers in total 
+2021-05-11 10:59:46.4871 Info Adding aggregate indexer ('all' indexer) ... 
+2021-05-11 10:59:46.4935 Info Adding filter indexer ('type:public' indexer) ... 
+2021-05-11 10:59:46.4954 Info Adding filter indexer ('type:private' indexer) ... 
+2021-05-11 10:59:46.4970 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2021-05-11 10:59:46.7086 Info Jackett startup finished in 5.265 s 
+2021-05-11 11:00:12.5700 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 11:00:12.5700 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 11:00:12.5700 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 11:15:41.2922 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 11:15:41.2922 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 11:15:41.2922 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 11:21:08.2558 Warn Some of the categories provided are unsupported in OxTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 11:21:08.2558 Warn Some of the categories provided are unsupported in GkTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 11:21:08.2564 Warn Some of the categories provided are unsupported in Torrent9: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 11:21:08.7878 Info Torznab search in OxTorrent => Found 12 releases 
+2021-05-11 11:21:08.9028 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 11:21:08.9347 Info Torznab search in GkTorrent => Found 12 releases 
+2021-05-11 11:31:10.8550 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 11:31:10.8550 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 11:31:10.8553 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 11:46:40.8722 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 11:46:40.8957 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 11:46:40.9944 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 11:59:43.9369 Info Checking for updates... Jackett variant: CoreLinuxAmdx64 
+2021-05-11 11:59:44.3575 Info New release found. Current version: v0.18.15 New version: v0.18.22 
+2021-05-11 11:59:44.3609 Info Downloading release v0.18.22 It could take a while... 
+2021-05-11 11:59:56.9849 Info Starting updater: /tmp/JackettUpdate-v0.18.22-637563311945806692/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "272" --NoRestart 
+2021-05-11 11:59:56.9964 Info Updater started process id: 804 
+2021-05-11 12:00:03.7332 Info Starting Jackett v0.18.22 
+2021-05-11 12:00:04.6042 Info Environment version: 5.0.5 (/app/Jackett/) 
+2021-05-11 12:00:04.6119 Info OS version: Unix 5.10.25.0 (64bit OS) (64bit process) 
+2021-05-11 12:00:04.6175 Info Jackett variant: CoreLinuxAmdx64 
+2021-05-11 12:00:04.6239 Info File /etc/issue: Ubuntu 18.04.5 LTS \n \l 
+2021-05-11 12:00:04.6311 Info Running in Docker: Yes (image build: v0.17.1027-ls31) 
+2021-05-11 12:00:04.6347 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2021-05-11 12:00:04.6387 Info App config/log directory: /config/Jackett 
+2021-05-11 12:00:04.6420 Info Using proxy: Disabled 
+2021-05-11 12:00:04.6471 Info Using FlareSolverr: No 
+2021-05-11 12:00:04.6533 Info Using HTTP Client: HttpWebClient2 
+2021-05-11 12:00:04.7186 Info Loading Native indexers ... 
+2021-05-11 12:00:05.1198 Info Loaded 97 Native indexers: abnormal, alpharatio, anidex, anidub, AniLibria, animebytes, Animedia, animetorrents, anthelion, avistaz, bakabt, bb, beyond-hd-api, bitcityreloaded, bithdtv, bjshare, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, darmowetorenty, dicmusic, digitalcore, divxtotal, epublibre, erai-raws, exoticaz, filelist, funfile, fuzer, gazellegames, gimmepeers, hdbitsapi, hdspace, hdtorrents, hebits, immortalseed, internetarchive, iptorrents, libble, lostfilm, magnetico, mejortorrent, milkie, morethantv, myanonamouse, ncore, nebulance, newpct, norbits, orpheus, partis, passthepopcorn, piratethenet, pixelhd, polishtracker, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, secretcinema, sharewoodapi, shazbat, ShizaProject, showrss, solidtorrents, speedapp, speedcd, subsplease, superbits, thepiratebay, toloka, torrentbytes, torrentday, torrentech, torrentheaven, torrentleech, torrentmafya, torrentnetwork, torrent-paradise-ml, torrentscsv, torrentseeds, torrentsyndikat, tvstore, tvvault, xspeeds, xthor-api, yts, zonaq, animetosho 
+2021-05-11 12:00:05.1263 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2021-05-11 12:00:08.2399 Info Loaded 447 Cardigann indexers: torrentccf, dxp, totallykids, 2fast4you, itorrent, asylumshare, borgzelle, p2pelite, torrent4you, hdzone, boxingtorrents, hellastz, hamsterstudio, torrentfactory, hdchina, uhdbits, newstudiol, hdbits, cinemageddon, empornium, haidan, prostylex, mononokebt, spiritofrevolution, torrentland, opencd, theaudioscene, lastfiles, rintornet, newstudio, demonoid, nyaasi, ourbits, zamundanet, theempire, sexypics, ebookparadijs, moviesdvdr, unlimitz, turktorrent, hdonly, cinemamovies, xwtorrents, aidoruonline, fouducinema, extremetorrents, sukebei-pantsu, aniRena, peersfm, underversel, snowpt, oncesearch, film-paleis, kinozal, gktorrent, insanetracker, hddolby, byrutor, genesismovement, netlab, torrentv, mypornclub, acrossthetasman, backups, kickasstorrents-ws, movietorrent, sktorrent-org, racingforme, underverse, oxtorrent, pleasuredome, purovicio, theshinning, microbit, torrent-explosiv, kinonavse100, gtorrent, piratadigital, btnext, sportscult, mma-torrents, torrentwhiz, btsow, piratbitl, ttsweb, exkinoray, finelite, trancetraffic, skytorrents-to, acgsou, uniondht, pornleech, nntt, theshow, teamos, wdt, bibliotik, linkomanija, theleachzone, sosulki, cinematik, mteamtp, legittorrents, ehentai, parnuxi, audiobookbay, danishbytes, wihd, thesceneplace, unionfansub, hdc, iv-torrents, torrentgalaxy, exttorrents, finvip, rutracker-ru, theplace, fantasticheaven, tjupt, hdolimpo, hqsource, speedmasterhd, metaltracker, hdhouse, xxxtor, arabafenice, bitru, arabp2p, darktracker, mvgroupmain, vizuk, dmhy, trackeros, 52pt, hdcenter, tokyotosho, estone, p2pbg, generationfree, zelkaorg, hdtime, libranet, mnv, montorrent, totheglory, tekno3d, turkseed, totheglorycookie, pwtorrents, extratorrent-it, majomparade, portugas, torlock, blutopia, acidlounge, btdigg, mactorrents, erzsebetpl, torrentsectorcrew, hdu, yggcookie, abtorrents, bitturk, esharenet, torrentdownload, desireleasers, kinorun, rofd, bigfangroup, mteamtp2fa, gay-torrents, girotorrent, sdbits, jptv, bigtorrent, acgrip, noname-club, 1ptbar, rus-media, crazyhd, 7torrents, tlfbits, hdcity, RockBox, chdbits, beitai, pussytorrents, marinetracker, scenerush, xwtclassics, vsttorrents, rptorrents, cpasbienclone, torrentproject, concen, hd4fans, crnaberza, yourbittorrent, filebase, bootytape, fanoin, gtorrentpro, desitorrents, puntotorrent, classix, latinop2p, myspleen, twilightszoom, firebit, siambit, torrentsurf, hdspain, eniahd, toros, btschool, nordicplus, polishsource, efectodoppler, torrent9clone, aftershock, xiteme, glodls, newretro, seedfile, booktracker, thevault, ptsbao, linuxtracker, chilebt, romanianmetaltorrents, casstudiotv, idope, torrentoyunindir, pirateiro, funkytorrents, nitro, gigatorrents, extremebits, lepornoinfo, eztv, tribalmixes, torrentqq, lechaudron, diablotorrent, bithumen, torrent-turk, lesaloon, magicheaven, concertos, selezen, xxxtorrents, greekdiamond, tasmanit, vsthouse, torrentbd, torrenting, torrentproject2, casatorrent, keepfriends, bitspyder, rainbowtracker, deildu, pornbay, speedtorrentreloaded, 3dtorrents, ptmsg, mixtapetorrent, uniongang, bt4g, trupornolabs, dark-shadow, bwtorrents, witchhunter, sukebeinyaasi, torrentview, ptfiles, teracod, hdforever, piratbit, coastalcrew, racing4everyone, nethd, zooqle, nyaa-pantsu, proporno, learnflakes, torrentlt, karagarga, rutor, noname-clubl, onejav, bluebirdhd, bithorlo, torrenthr, empornium2fa, soulvoice, audionews, ilcorsaroblu, hdhome, nbtorrents, focusx, omgwtftrackr, hdbitscom, amigosshare, springsunday, shareisland, torrentdb, torrentparadise, aither, torrentmax, thegeeks, trezzor, sharewood, limetorrents, erzsebet, pctorrent, anisource, pornbits, cartoonchaos, sktorrent, baibako, teamhd, Das-Unerwartete, torrentkitty, gay-torrentsorg, hon3yhd, ebooks-shares, gamestorrents, pixelcove, 1337x, thefallingangels, divteam, cpasbien, hush, oshenpt, mesevilag, rustorka, beyond-hd-oneurl, btetree, 4thd, tellytorrent, ibit, ilcorsaronero, gaytorrentru, jpopsuki, shokweb, scenepalace, torrentdownloads, zetorrents, tntfork, rapidzona, pornolive, crazyspirits, redstartorrent, torrentleech-pl, u2, tvchaosuk, oasis, anaschcc, frozenlayer, femdomcult, brasiltracker, dragonworldreloaded, yggtorrent, ccfbits, isohunt2, 0daykiev, r3vwtf, magnet4you, carphunter, torrent9, ztracker, pornforall, animeclipse, theoccult, torrentsir, madsrevolution, btdb, hdarea, feedurneed, sdkino, puurhollands, twilight, thehorrorcharnel, comicat, freetorrent, galeriens, hdroute, woot, riperam, pterclub, themixingbowl, dariustracker, asiancinema, arenabg, potuk, broadcity, ettv, hdtorrentsit, emtrek, sporthd, carpathians, Bittorrentfiles, anime-free, magico, pornorip, ydypt, bit-titan, torrentslocal, mvgroupforum, proaudiotorrents, redbits, hdturk, cilipro, losslessclub, torrentfunk, netcosmo, huntorrent, dimeadozen, extratorrent-cd, lemonhd, catorrent, datascene, aussierules, pttime, gfxpeers, pornotor, kickasstorrents-to, hdsky, pthome, animeworld, pier720, hdatmos, legacyhd, sugoimusic, tapochek, xbytesv2, immortuos, torrent-pirat, rintor, beyond-hd, greekteam, 3changtrai, muziekfabriek, hdme, xxxadulttorrent, sharefiles 
+2021-05-11 12:00:08.2450 Info Loaded 544 indexers in total 
+2021-05-11 12:00:08.2487 Info Adding aggregate indexer ('all' indexer) ... 
+2021-05-11 12:00:08.2596 Info Adding filter indexer ('type:public' indexer) ... 
+2021-05-11 12:00:08.2667 Info Adding filter indexer ('type:private' indexer) ... 
+2021-05-11 12:00:08.2706 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2021-05-11 12:00:08.2867 Info Deleting JackettUpdate temp files from /tmp/JackettUpdate-v0.18.22-637563311945806692 
+2021-05-11 12:00:08.6055 Info Jackett startup finished in 5.672 s 
+2021-05-11 12:02:10.9956 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 12:02:10.9956 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 12:02:10.9956 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 12:17:40.0490 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 12:17:40.0490 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 12:17:40.0490 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 12:21:36.4637 Warn Some of the categories provided are unsupported in Torrent9: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 12:21:36.4684 Warn Some of the categories provided are unsupported in OxTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 12:21:36.4868 Warn Some of the categories provided are unsupported in GkTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 12:21:37.4714 Info Torznab search in GkTorrent => Found 12 releases 
+2021-05-11 12:21:37.7003 Info Torznab search in OxTorrent => Found 12 releases 
+2021-05-11 12:21:37.8934 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 12:33:09.6497 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 12:33:09.6497 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 12:33:09.6497 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 12:48:39.6203 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 12:48:39.6281 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 12:48:39.7108 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 13:00:05.8137 Info Checking for updates... Jackett variant: CoreLinuxAmdx64 
+2021-05-11 13:00:06.2341 Info Jackett is already updated. Current version: v0.18.22 
+2021-05-11 13:04:08.7485 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 13:04:08.7485 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 13:04:08.7493 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 13:19:38.4669 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 13:19:38.4669 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 13:19:38.4669 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 13:22:04.6902 Warn Some of the categories provided are unsupported in GkTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 13:22:04.6902 Warn Some of the categories provided are unsupported in Torrent9: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 13:22:04.6902 Warn Some of the categories provided are unsupported in OxTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 13:22:05.1045 Info Torznab search in OxTorrent => Found 12 releases 
+2021-05-11 13:22:05.2029 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 13:22:05.2333 Info Torznab search in GkTorrent => Found 12 releases 
+2021-05-11 13:35:14.8325 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 13:35:15.5781 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 13:35:19.2886 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 13:50:37.5704 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 13:50:37.5716 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 13:50:37.5716 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 14:06:07.1220 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 14:06:07.1238 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 14:06:07.1731 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 14:21:37.4335 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 14:21:37.4700 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 14:21:37.5230 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 14:22:32.9133 Warn Some of the categories provided are unsupported in Torrent9: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 14:22:32.9133 Warn Some of the categories provided are unsupported in OxTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 14:22:32.9133 Warn Some of the categories provided are unsupported in GkTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 14:22:33.1221 Info Torznab search in OxTorrent => Found 12 releases 
+2021-05-11 14:22:33.1364 Info Torznab search in GkTorrent => Found 12 releases 
+2021-05-11 14:22:33.2961 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 14:37:06.8951 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 14:37:06.8951 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 14:37:06.8951 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 14:52:36.4517 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 14:52:36.4555 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 14:52:36.5000 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 15:08:06.6110 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 15:08:06.6782 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 15:08:06.9113 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 15:23:01.3020 Warn Some of the categories provided are unsupported in OxTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 15:23:01.3020 Warn Some of the categories provided are unsupported in GkTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 15:23:01.3020 Warn Some of the categories provided are unsupported in Torrent9: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 15:23:01.8569 Info Torznab search in OxTorrent => Found 12 releases 
+2021-05-11 15:23:01.8799 Info Torznab search in GkTorrent => Found 12 releases 
+2021-05-11 15:23:02.0465 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 15:23:35.8174 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 15:23:35.8215 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 15:23:35.8259 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 15:39:05.4571 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 15:39:05.4647 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 15:39:05.4833 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 15:54:35.4102 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 15:54:35.5823 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 15:54:35.6516 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 16:10:04.6513 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 16:10:04.6513 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 16:10:04.6513 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 16:23:29.5646 Warn Some of the categories provided are unsupported in GkTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 16:23:29.5652 Warn Some of the categories provided are unsupported in OxTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 16:23:29.5652 Warn Some of the categories provided are unsupported in Torrent9: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 16:23:30.0064 Info Torznab search in GkTorrent => Found 12 releases 
+2021-05-11 16:23:30.1202 Info Torznab search in OxTorrent => Found 12 releases 
+2021-05-11 16:23:30.1463 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 16:25:34.3483 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 16:25:34.3591 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 16:25:34.3620 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 16:41:04.5236 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 16:41:04.5889 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 16:41:04.7094 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 16:56:31.3203 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 16:56:31.3203 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 16:56:31.3203 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 17:12:00.7206 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 17:12:00.7281 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 17:12:00.7323 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 17:23:55.0157 Warn Some of the categories provided are unsupported in OxTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 17:23:55.0157 Warn Some of the categories provided are unsupported in GkTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 17:23:55.0219 Warn Some of the categories provided are unsupported in Torrent9: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 17:23:55.3484 Info Torznab search in OxTorrent => Found 12 releases 
+2021-05-11 17:23:55.4348 Info Torznab search in GkTorrent => Found 12 releases 
+2021-05-11 17:23:55.5773 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 17:27:30.2286 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 17:27:30.2966 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 17:27:30.4815 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 17:42:59.1476 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 17:42:59.1528 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 17:42:59.1551 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 17:58:28.3498 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 17:58:28.3516 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 17:58:28.3595 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 18:13:57.8254 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 18:13:58.0079 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 18:14:01.0659 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 18:24:21.8764 Warn Some of the categories provided are unsupported in Torrent9: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 18:24:21.8771 Warn Some of the categories provided are unsupported in GkTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 18:24:21.8795 Warn Some of the categories provided are unsupported in OxTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 18:24:22.2756 Info Torznab search in GkTorrent => Found 12 releases 
+2021-05-11 18:24:22.3847 Info Torznab search in OxTorrent => Found 12 releases 
+2021-05-11 18:24:22.4535 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 18:29:26.7684 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 18:29:26.7702 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 18:29:26.7744 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 18:44:56.1478 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 18:44:56.1478 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 18:44:56.1693 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 19:00:25.7502 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 19:00:25.8426 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 19:00:25.9594 Info Torznab search in Torrent9 => Found 50 releases 

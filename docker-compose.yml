@@ -1,13 +1,5 @@
 version: "3.8"
 services:
-    homeassistant:
-        container_name: homeassistant
-        image: homeassistant/home-assistant:stable
-        volumes:
-          - ./.config/homeassistant:/config
-          - /etc/localtime:/etc/localtime:ro
-        restart: unless-stopped
-        network_mode: host
     plex:
         image: ghcr.io/linuxserver/plex
         container_name: plex
@@ -146,30 +138,17 @@ services:
             - SKIPUPDATE=no
             - APP_BRANCH=master 
         restart: unless-stopped
-    # dnsmasq:
-    #     container_name: dnsmasq
-    #     restart: unless-stopped
-    #     image: jpillora/dnsmasq:latest
-    #     ports:
-    #         - 53:53/udp
-    #     volumes:
-    #         - ./.config/dnsmasq/dnsmasq.conf:/etc/dnsmasq.conf:ro
-    #         - ./.config/dnsmasq/hosts:/etc/hosts:ro
-    #         - ./.config/dnsmasq/resolv.conf:/etc/resolv.conf:ro
     traefik:
         container_name: traefik
         restart: unless-stopped
         image: traefik:latest
         ports:
-            - "80:80"
-            - "443:443"
+            - "82:80"
         volumes:
             - /var/run/docker.sock:/var/run/docker.sock:ro
             - ./.config/certs:/certs:ro
             - ./.config/traefik/traefik.yml:/traefik.yml:ro
             - ./.config/traefik/dynamic.yml:/dynamic.yml:ro
-        # depends_on:
-        #     - dnsmasq
         labels:
             - traefik.enable=true
             - traefik.http.routers.traefik.entrypoints=http,https
