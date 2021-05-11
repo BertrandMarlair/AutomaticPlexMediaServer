@@ -2077,3 +2077,9 @@ qacct:"p-65fDiBy2lVMDM"
 21-5-11 09:06:52.5|Info|DownloadDecisionMaker|Processing 221 releases
 21-5-11 09:06:57.4|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
 21-5-11 09:16:21.5|Info|SceneMappingService|Updating Scene mappings
+21-5-11 09:22:21.1|Info|RssSyncService|Starting RSS Sync
+21-5-11 09:22:21.2|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 7:06:52 AM and 5/11/2021 7:06:52 AM UTC. Search may be required.
+21-5-11 09:22:21.2|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 7:06:52 AM and 5/11/2021 7:06:52 AM UTC. Search may be required.
+21-5-11 09:22:21.2|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 7:06:52 AM and 5/11/2021 7:06:52 AM UTC. Search may be required.
+21-5-11 09:22:21.6|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 09:22:26.7|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0

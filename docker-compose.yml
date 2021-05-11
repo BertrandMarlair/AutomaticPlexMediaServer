@@ -168,8 +168,8 @@ services:
             - ./.config/certs:/certs:ro
             - ./.config/traefik/traefik.yml:/traefik.yml:ro
             - ./.config/traefik/dynamic.yml:/dynamic.yml:ro
-        depends_on:
-            - dnsmasq
+        # depends_on:
+        #     - dnsmasq
         labels:
             - traefik.enable=true
             - traefik.http.routers.traefik.entrypoints=http,https

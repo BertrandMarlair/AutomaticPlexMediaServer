@@ -859,3 +859,12 @@
 2021-05-11 09:06:52.3936 Info Torznab search in GkTorrent => Found 48 releases 
 2021-05-11 09:06:52.4535 Info Torznab search in OxTorrent => Found 48 releases 
 2021-05-11 09:06:52.4867 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 09:20:49.0686 Warn Some of the categories provided are unsupported in OxTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 09:20:49.0720 Warn Some of the categories provided are unsupported in Torrent9: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 09:20:49.0720 Warn Some of the categories provided are unsupported in GkTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2021-05-11 09:20:49.3294 Info Torznab search in OxTorrent => Found 12 releases 
+2021-05-11 09:20:49.4146 Info Torznab search in GkTorrent => Found 12 releases 
+2021-05-11 09:20:49.5579 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 09:22:21.2070 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 09:22:21.2118 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
+2021-05-11 09:22:21.2138 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
