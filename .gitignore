@@ -2,3 +2,4 @@ downloads
 media
 *.key
 *.crt
+*.log
