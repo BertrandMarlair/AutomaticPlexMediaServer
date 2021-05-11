@@ -515,3 +515,4 @@ May 11, 2021 21:39:41.761 [0x7f1366ffd700] DEBUG - Putting plug-in com.plexapp.a
 May 11, 2021 21:39:41.762 [0x7f1366ffd700] DEBUG - Stopping [com.plexapp.agents.imdb].
 May 11, 2021 21:39:41.762 [0x7f1366ffd700] DEBUG - [com.plexapp.agents.imdb] Killing.
 May 11, 2021 21:39:42.014 [0x7f13b2e11700] WARN - JobManager: Could not find job for handle 419
+May 11, 2021 21:39:51.775 [0x7f1366ffd700] DEBUG - Stopping file watcher for com.plexapp.agents.imdb

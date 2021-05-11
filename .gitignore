@@ -2,6 +2,7 @@
 *.avi
 *.mkv
 *.mp4
+*.jpg
 *.key
 *.crt
 *.log
