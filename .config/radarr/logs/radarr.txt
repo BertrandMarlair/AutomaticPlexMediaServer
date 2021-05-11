@@ -1472,3 +1472,96 @@
 2021-05-11 23:50:31.8|Warn|MediaCoverMapper|File /config/MediaCover/21/poster.jpg not found
 2021-05-11 23:50:31.8|Warn|MediaCoverMapper|File /config/MediaCover/3/poster.jpg not found
 2021-05-11 23:50:31.8|Warn|MediaCoverMapper|File /config/MediaCover/2/poster.jpg not found
+2021-05-12 00:14:53.2|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-12 00:14:53.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-12 00:14:53.6|Info|Router|Application mode: Interactive
+2021-05-12 00:14:53.6|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-12 00:14:53.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-12 00:14:54.1|Info|WebHostController|Listening on the following URLs:
+2021-05-12 00:14:54.1|Info|WebHostController|  http://*:7878
+2021-05-12 00:14:54.3|Info|RadarrBootstrapper|Starting Web Server
+2021-05-12 00:14:55.0|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-12 00:23:00.6|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-12 00:23:00.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-12 00:23:01.0|Info|Router|Application mode: Interactive
+2021-05-12 00:23:01.0|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-12 00:23:01.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-12 00:23:01.5|Info|WebHostController|Listening on the following URLs:
+2021-05-12 00:23:01.5|Info|WebHostController|  http://*:7878
+2021-05-12 00:23:01.6|Info|RadarrBootstrapper|Starting Web Server
+2021-05-12 00:23:02.5|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-12 00:23:02.9|Error|LocalizationService|Missing translation/culture resource: /app/radarr/bin/Localization/Core/fr_FR.json
+2021-05-12 00:23:02.9|Error|DownloadClientRootFolderCheck|Unknown error occured in DownloadClientRootFolderCheck HealthCheck
+
+[v3.1.1.4954] System.Net.WebException: Connection refused [::ffff:172.23.0.4]:8112 (deluge:8112): 'http://deluge:8112/json'
+ ---> System.Net.WebException: Connection refused [::ffff:172.23.0.4]:8112 (deluge:8112)
+ ---> System.Net.Http.HttpRequestException: Connection refused [::ffff:172.23.0.4]:8112 (deluge:8112)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (111): Connection refused [::ffff:172.23.0.4]:8112
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Http.ConnectHelper.Connect(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.Connect(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClientHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 81
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 107
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.AuthenticateClient(JsonRpcRequestBuilder requestBuilder, DelugeSettings settings, Boolean reauthenticate) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 307
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.BuildRequest(DelugeSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 214
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult](DelugeSettings settings, String method, Object[] arguments) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 221
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetConfig(DelugeSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 75
+   at NzbDrone.Core.Download.Clients.Deluge.Deluge.GetStatus() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:line 200
+   at NzbDrone.Core.HealthCheck.Checks.DownloadClientRootFolderCheck.Check() in D:\a\1\s\src\NzbDrone.Core\HealthCheck\Checks\DownloadClientRootFolderCheck.cs:line 46
+
+
+2021-05-12 00:23:03.2|Error|RemotePathMappingCheck|Unknown error occured in RemotePathMapping HealthCheck
+
+[v3.1.1.4954] System.Net.WebException: DNS Name Resolution Failure: 'deluge'
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 95
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.AuthenticateClient(JsonRpcRequestBuilder requestBuilder, DelugeSettings settings, Boolean reauthenticate) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 307
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.BuildRequest(DelugeSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 214
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult](DelugeSettings settings, String method, Object[] arguments) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 221
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetConfig(DelugeSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 75
+   at NzbDrone.Core.Download.Clients.Deluge.Deluge.GetStatus() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:line 200
+   at NzbDrone.Core.HealthCheck.Checks.RemotePathMappingCheck.Check() in D:\a\1\s\src\NzbDrone.Core\HealthCheck\Checks\RemotePathMappingCheck.cs:line 62
+
+
+2021-05-12 00:23:32.7|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from Deluge
+
+[v3.1.1.4954] System.Net.WebException: DNS Name Resolution Failure: 'deluge'
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 95
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.AuthenticateClient(JsonRpcRequestBuilder requestBuilder, DelugeSettings settings, Boolean reauthenticate) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 307
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.BuildRequest(DelugeSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 214
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult](DelugeSettings settings, String method, Object[] arguments) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 221
+   at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetTorrentsByLabel(String label, DelugeSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:line 97
+   at NzbDrone.Core.Download.Clients.Deluge.Deluge.GetItems() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:line 117
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in D:\a\1\s\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:line 89
+
+

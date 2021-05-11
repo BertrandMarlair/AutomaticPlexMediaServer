@@ -1,19 +1,24 @@
-May 11, 2021 21:09:33.013 [0x7fc39f6ee700] INFO - Plex Tuner Service v1.0.0.0 - Docker Docker Container (LinuxServer.io) x86_64 - build: 
-May 11, 2021 21:09:33.014 [0x7fc39f6ee700] INFO - Linux version: 5.10.25-linuxkit (#1 SMP Tue Mar 23 09:27:39 UTC 2021), language: en-US
-May 11, 2021 21:09:33.017 [0x7fc39f6ee700] INFO - Processor Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
-May 11, 2021 21:09:33.018 [0x7fc39f6ee700] INFO - /usr/lib/plexmediaserver/Plex Tuner Service /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.22.3.4392-d7c624def 32600
-May 11, 2021 21:09:32.978 [0x7fc39f9dc740] INFO - [I] broker_t::start...
-May 11, 2021 21:09:32.994 [0x7fc39f9dc740] INFO - [I] device_manager_t::init.
-May 11, 2021 21:09:32.994 [0x7fc39f9dc740] INFO - [I] device_manager_t::init. Initialize provider manager
-May 11, 2021 21:09:32.994 [0x7fc39f9dc740] INFO - [I] device_manager_t::init. Initialize all device auxes
-May 11, 2021 21:09:32.994 [0x7fc39f9dc740] INFO - [I] dvb_device_factory_t::get_aux_list
-May 11, 2021 21:09:32.994 [0x7fc39f9dc740] INFO - [I] tvbutler_aux_t::init
-May 11, 2021 21:09:33.001 [0x7fc39f9dc740] INFO - [I] web_server_t::start. Starting web server on port 32600
-May 11, 2021 21:09:40.908 [0x7fc39e6ec700] INFO - [I] web_service_t::process_device_discovery
-May 11, 2021 21:09:40.908 [0x7fc39e6ec700] INFO - [I] device_reactor_t::get_device_list ()
-May 11, 2021 21:09:40.908 [0x7fc39e6ec700] INFO - [I] dvb_device_factory_t::get_device_list ()
-May 11, 2021 21:09:42.914 [0x7fc39e6ec700] INFO - [I] SAT2IP - discover_satip_servers(): no servers found
-May 11, 2021 21:09:43.324 [0x7fc39e6ec700] INFO - [I] v4l::DeviceGetList_impl. getting v4l device list
-May 11, 2021 21:09:43.328 [0x7fc39e6ec700] INFO - [I] onetv_factory::DeviceGetListEx >>
-May 11, 2021 21:09:43.329 [0x7fc39e6ec700] WARN - [W] onetv_factory::DeviceGetListEx. libusb_init returned an error -99
-May 11, 2021 21:41:20.682 [0x7fc39f9dc740] INFO - Received SIGINT: Interrupt from keyboard.
+May 11, 2021 21:43:58.840 [0x7fce80c8c700] INFO - Plex Tuner Service v1.0.0.0 - Docker Docker Container (LinuxServer.io) x86_64 - build: 
+May 11, 2021 21:43:58.841 [0x7fce80c8c700] INFO - Linux version: 5.10.25-linuxkit (#1 SMP Tue Mar 23 09:27:39 UTC 2021), language: en-US
+May 11, 2021 21:43:58.842 [0x7fce80c8c700] INFO - Processor Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+May 11, 2021 21:43:58.842 [0x7fce80c8c700] INFO - /usr/lib/plexmediaserver/Plex Tuner Service /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.22.3.4392-d7c624def 32600
+May 11, 2021 21:43:58.806 [0x7fce80f7a740] INFO - [I] broker_t::start...
+May 11, 2021 21:43:58.814 [0x7fce80f7a740] INFO - [I] device_manager_t::init.
+May 11, 2021 21:43:58.814 [0x7fce80f7a740] INFO - [I] device_manager_t::init. Initialize provider manager
+May 11, 2021 21:43:58.814 [0x7fce80f7a740] INFO - [I] device_manager_t::init. Initialize all device auxes
+May 11, 2021 21:43:58.814 [0x7fce80f7a740] INFO - [I] dvb_device_factory_t::get_aux_list
+May 11, 2021 21:43:58.814 [0x7fce80f7a740] INFO - [I] tvbutler_aux_t::init
+May 11, 2021 21:43:58.820 [0x7fce80f7a740] INFO - [I] web_server_t::start. Starting web server on port 32600
+May 11, 2021 21:44:05.989 [0x7fce7b7fe700] INFO - [I] web_service_t::process_device_discovery
+May 11, 2021 21:44:05.990 [0x7fce7b7fe700] INFO - [I] device_reactor_t::get_device_list ()
+May 11, 2021 21:44:05.990 [0x7fce7b7fe700] INFO - [I] dvb_device_factory_t::get_device_list ()
+May 11, 2021 21:44:08.003 [0x7fce7b7fe700] INFO - [I] SAT2IP - discover_satip_servers(): no servers found
+May 11, 2021 21:44:08.417 [0x7fce7b7fe700] INFO - [I] v4l::DeviceGetList_impl. getting v4l device list
+May 11, 2021 21:44:08.419 [0x7fce7b7fe700] INFO - [I] onetv_factory::DeviceGetListEx >>
+May 11, 2021 21:44:08.419 [0x7fce7b7fe700] WARN - [W] onetv_factory::DeviceGetListEx. libusb_init returned an error -99
+May 11, 2021 21:47:33.208 [0x7fce80f7a740] INFO - Received SIGINT: Interrupt from keyboard.
+May 11, 2021 21:47:33.213 [0x7fce80f7a740] INFO - [I] device_manager_t::term
+May 11, 2021 21:47:33.213 [0x7fce80f7a740] INFO - [I] device_manager_t::term. Stop all devices
+May 11, 2021 21:47:33.213 [0x7fce80f7a740] INFO - [I] device_manager_t::term. Shut down all device auxes
+May 11, 2021 21:47:33.213 [0x7fce80f7a740] INFO - [I] tvbutler_aux_t::term
+May 11, 2021 21:47:33.238 [0x7fce80f7a740] INFO - [I] web_server_t::stop. Web server is stopped
