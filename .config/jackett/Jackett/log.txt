@@ -856,3 +856,6 @@
 2021-05-11 08:51:22.6942 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
 2021-05-11 08:57:53.4957 Info Checking for updates... Jackett variant: CoreLinuxAmdx64 
 2021-05-11 08:57:53.7599 Info Jackett is already updated. Current version: v0.18.15 
+2021-05-11 09:06:52.3936 Info Torznab search in GkTorrent => Found 48 releases 
+2021-05-11 09:06:52.4535 Info Torznab search in OxTorrent => Found 48 releases 
+2021-05-11 09:06:52.4867 Info Torznab search in Torrent9 => Found 50 releases 
