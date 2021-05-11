@@ -171,25 +171,25 @@ services:
         restart: unless-stopped
         networks:
             - traefik
-    # traktarr:
-    #     container_name: traktarr
-    #     command: traktarr run
-    #     image: eafxx/traktarr
-    #     volumes:
-    #         - ./.config/traktarr:/config
-    #     environment:
-    #         - PUID=100O
-    #         - PGID=1000
-    #         - TZ=Europe/Brussels
-    #         - DELAY=2.5        
-    #         - SORT=rating
-    #         - NOSEARCH=yes
-    #         - NOTIFICATIONS=yes
-    #         - BLACKLIST=yes
-    #         - RUNNOW=no
-    #         - SKIPUPDATE=no
-    #         - APP_BRANCH=master 
-    #     restart: unless-stopped
+    traktarr:
+        container_name: traktarr
+        command: traktarr run
+        image: eafxx/traktarr
+        volumes:
+            - ./.config/traktarr:/config
+        environment:
+            - PUID=100O
+            - PGID=1000
+            - TZ=Europe/Brussels
+            - DELAY=2.5        
+            - SORT=rating
+            - NOSEARCH=yes
+            - NOTIFICATIONS=yes
+            - BLACKLIST=yes
+            - RUNNOW=no
+            - SKIPUPDATE=no
+            - APP_BRANCH=master 
+        restart: unless-stopped
     home-assistant:
         container_name: "home-assistant"
         image: homeassistant/home-assistant:latest
