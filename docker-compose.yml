@@ -274,7 +274,6 @@ services:
             - "443:443"
             - "8080:8080"
         networks:
-            - traefik
             - ext_traefik
             
 networks:
