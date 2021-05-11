@@ -3,3 +3,17 @@ media
 *.key
 *.crt
 *.log
+*.dat
+*.txt
+*.bak
+*.db
+*.db-wal
+*.db-shm
+*.pid
+.config/plex/Library/Application Support/Plex Media Server/Cache
+.config/plex/Library/Application Support/Plex Media Server/Logs
+.config/plex/Library/Application Support/Plex Media Server/Codecs
+.config/plex/Library/Application Support/Plex Media Server/Crash Reports
+.config/plex/Library/Application Support/Plex Media Server/Metadata
+.config/plex/Library/Application Support/Plex Media Server/Plug-in Support
+.config/plex/Library/Application Support/Plex Media Server/Plug-ins

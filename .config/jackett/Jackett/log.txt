@@ -1083,3 +1083,6 @@
 2021-05-11 19:00:25.7502 Info Torznab search in GkTorrent => Found 48 releases 
 2021-05-11 19:00:25.8426 Info Torznab search in OxTorrent => Found 48 releases 
 2021-05-11 19:00:25.9594 Info Torznab search in Torrent9 => Found 50 releases 
+2021-05-11 19:15:54.6494 Info Torznab search in OxTorrent => Found 48 releases (from cache) 
+2021-05-11 19:15:54.6606 Info Torznab search in Torrent9 => Found 50 releases (from cache) 
+2021-05-11 19:15:54.6620 Info Torznab search in GkTorrent => Found 48 releases (from cache) 
