@@ -1,50 +1,52 @@
 version: "3.8"
 services:
-    # plex:
-    #     image: ghcr.io/linuxserver/plex
-    #     container_name: plex
-    #     environment:
-    #         - PUID=100O
-    #         - PGID=1000
-    #         - VERSION=docker
-    #         - PLEX_CLAIM=claim-Pq4AyzqjyTTApf5_88pi
-    #     ports: 
-    #         - 32400:32400
-    #         - 1900:1900/udp
-    #         - 3005:3005
-    #         - 5352:5353/udp
-    #         - 8324:8324
-    #         - 32410:32410/udp
-    #         - 32412:32412/udp
-    #         - 32413:32413/udp
-    #         - 32414:32414/udp
-    #         - 32469:32469
-    #     volumes:
-    #         - ./.config/plex:/config
-    #         - ./media/tv:/tv
-    #         - ./media/movies:/movies
-    #         - ./media/music:/music
-    #         - ./media/photos:/photos
-    #         - ./media/comics:/comics
-    #         - ./media/media:/media
-    #     restart: unless-stopped
-    #     labels:
-    #         - "traefik.enable=true"
-    #         - "traefik.docker.network=traefik"
+    plex:
+        image: ghcr.io/linuxserver/plex
+        container_name: plex
+        environment:
+            - PUID=100O
+            - PGID=1000
+            - VERSION=docker
+            - PLEX_CLAIM=claim-Pq4AyzqjyTTApf5_88pi
+        ports: 
+            - 32400:32400
+            - 1900:1900/udp
+            - 3005:3005
+            - 5352:5353/udp
+            - 8324:8324
+            - 32410:32410/udp
+            - 32412:32412/udp
+            - 32413:32413/udp
+            - 32414:32414/udp
+            - 32469:32469
+        volumes:
+            - ./.config/plex:/config
+            - ./media/tv:/tv
+            - ./media/movies:/movies
+            - ./media/music:/music
+            - ./media/photos:/photos
+            - ./media/comics:/comics
+            - ./media/media:/media
+        restart: unless-stopped
+        networks:
+            - ext_traefik
+        labels:
+            - "traefik.enable=true"
+            - "traefik.docker.network=ext_traefik"
 
-    #         - traefik.http.routers.plex-http.entrypoints=webinsecure
-    #         - traefik.http.routers.plex-http.rule=Host(`plex.${DOMAIN}`)
+            - traefik.http.routers.plex-http.entrypoints=webinsecure
+            - traefik.http.routers.plex-http.rule=Host(`plex.${DOMAIN}`)
             
-    #         - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
-    #         - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
-    #         - traefik.http.routers.plex-http.middlewares=https-redirect@docker
+            - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
+            - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
+            - traefik.http.routers.plex-http.middlewares=https-redirect@docker
             
-    #         - traefik.http.routers.plex.entrypoints=websecure
-    #         - traefik.http.routers.plex.rule=Host(`plex.${DOMAIN}`)
-    #         - traefik.http.routers.plex.tls=true
-    #         - traefik.http.routers.plex.tls.certresolver=letsencrypt
-    #         - traefik.http.services.plex.loadbalancer.server.port=32400
-    #         - "port: 32400"
+            - traefik.http.routers.plex.entrypoints=websecure
+            - traefik.http.routers.plex.rule=Host(`plex.${DOMAIN}`)
+            - traefik.http.routers.plex.tls=true
+            - traefik.http.routers.plex.tls.certresolver=letsencrypt
+            - traefik.http.services.plex.loadbalancer.server.port=32400
+            - "port: 32400"
     sonarr:
         image: ghcr.io/linuxserver/sonarr
         container_name: sonarr
@@ -60,7 +62,6 @@ services:
             - 8989:8989
         restart: unless-stopped
         networks:
-            - traefik
             - ext_traefik
         labels:
             - "traefik.enable=true"
@@ -78,163 +79,167 @@ services:
             - traefik.http.routers.sonarr-https.tls=true
             - traefik.http.routers.sonarr-https.tls.certresolver=letsencrypt
             - "port: 80"
-    # radarr:
-    #     image: ghcr.io/linuxserver/radarr
-    #     container_name: radarr
-    #     environment:
-    #         - PUID=100O
-    #         - PGID=1000
-    #         - TZ=Europe/Brussels
-    #     volumes:
-    #         - ./.config/radarr:/config
-    #         - ./media/movies:/movies
-    #         - ./downloads:/downloads
-    #     ports:
-    #         - 7878:7878
-    #     restart: unless-stopped
-    #     labels:
-    #         - "traefik.enable=true"
-    #         - "traefik.docker.network=traefik"
+    radarr:
+        image: ghcr.io/linuxserver/radarr
+        container_name: radarr
+        environment:
+            - PUID=100O
+            - PGID=1000
+            - TZ=Europe/Brussels
+        volumes:
+            - ./.config/radarr:/config
+            - ./media/movies:/movies
+            - ./downloads:/downloads
+        ports:
+            - 7878:7878
+        restart: unless-stopped
+        networks:
+            - ext_traefik
+        labels:
+            - "traefik.enable=true"
+            - "traefik.docker.network=ext_traefik"
 
-    #         - traefik.http.routers.radarr-http.entrypoints=webinsecure
-    #         - traefik.http.routers.radarr-http.rule=Host(`radarr.${DOMAIN}`)
+            - traefik.http.routers.radarr-http.entrypoints=webinsecure
+            - traefik.http.routers.radarr-http.rule=Host(`radarr.${DOMAIN}`)
             
-    #         - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
-    #         - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
-    #         - traefik.http.routers.radarr-http.middlewares=https-redirect@docker
+            - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
+            - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
+            - traefik.http.routers.radarr-http.middlewares=https-redirect@docker
             
-    #         - traefik.http.routers.radarr.entrypoints=websecure
-    #         - traefik.http.routers.radarr.rule=Host(`radarr.${DOMAIN}`)
-    #         - traefik.http.routers.radarr.tls=true
-    #         - traefik.http.routers.radarr.tls.certresolver=letsencrypt
-    #         - traefik.http.services.radarr.loadbalancer.server.port=7878
-    #         - "port: 7878"
-    # deluge:
-    #     image: ghcr.io/linuxserver/deluge
-    #     container_name: deluge
-    #     ports:
-    #         - 8112:8112
-    #     environment:
-    #         - PUID=100O
-    #         - PGID=1000
-    #         - TZ=Europe/Brussels
-    #         - DELUGE_LOGLEVEL=error 
-    #     volumes:
-    #         - ./.config/deluge:/config
-    #         - ./downloads:/downloads
-    #     restart: unless-stopped
-    #     labels:
-    #         - "traefik.enable=true"
-    #         - "traefik.docker.network=traefik"
+            - traefik.http.routers.radarr.entrypoints=websecure
+            - traefik.http.routers.radarr.rule=Host(`radarr.${DOMAIN}`)
+            - traefik.http.routers.radarr.tls=true
+            - traefik.http.routers.radarr.tls.certresolver=letsencrypt
+            - traefik.http.services.radarr.loadbalancer.server.port=7878
+            - "port: 7878"
+    deluge:
+        image: ghcr.io/linuxserver/deluge
+        container_name: deluge
+        ports:
+            - 8112:8112
+        environment:
+            - PUID=100O
+            - PGID=1000
+            - TZ=Europe/Brussels
+            - DELUGE_LOGLEVEL=error 
+        volumes:
+            - ./.config/deluge:/config
+            - ./downloads:/downloads
+        restart: unless-stopped
+        networks:
+            - ext_traefik
+        labels:
+            - "traefik.enable=true"
+            - "traefik.docker.network=ext_traefik"
 
-    #         - traefik.http.routers.deluge-http.entrypoints=webinsecure
-    #         - traefik.http.routers.deluge-http.rule=Host(`deluge.${DOMAIN}`)
+            - traefik.http.routers.deluge-http.entrypoints=webinsecure
+            - traefik.http.routers.deluge-http.rule=Host(`deluge.${DOMAIN}`)
             
-    #         - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
-    #         - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
-    #         - traefik.http.routers.deluge-http.middlewares=https-redirect@docker
+            - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
+            - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
+            - traefik.http.routers.deluge-http.middlewares=https-redirect@docker
             
-    #         - traefik.http.routers.deluge.entrypoints=websecure
-    #         - traefik.http.routers.deluge.rule=Host(`deluge.${DOMAIN}`)
-    #         - traefik.http.routers.deluge.tls=true
-    #         - traefik.http.routers.deluge.tls.certresolver=letsencrypt
-    #         - traefik.http.services.deluge.loadbalancer.server.port=8112
-    #         - "port: 8112"
-    # jackett:
-    #     image: ghcr.io/linuxserver/jackett
-    #     container_name: jackett
-    #     environment:
-    #         - PUID=100O
-    #         - PGID=1000
-    #         - TZ=Europe/Brussels
-    #         - AUTO_UPDATE=true #optional
-    #     volumes:
-    #         - ./.config/jackett:/config
-    #         - ./downloads:/downloads
-    #     ports:
-    #         - 9117:9117
-    #     labels:
-    #         - "traefik.enable=true"
-    #         - "traefik.docker.network=traefik"
+            - traefik.http.routers.deluge.entrypoints=websecure
+            - traefik.http.routers.deluge.rule=Host(`deluge.${DOMAIN}`)
+            - traefik.http.routers.deluge.tls=true
+            - traefik.http.routers.deluge.tls.certresolver=letsencrypt
+            - traefik.http.services.deluge.loadbalancer.server.port=8112
+            - "port: 8112"
+    jackett:
+        image: ghcr.io/linuxserver/jackett
+        container_name: jackett
+        environment:
+            - PUID=100O
+            - PGID=1000
+            - TZ=Europe/Brussels
+            - AUTO_UPDATE=true #optional
+        volumes:
+            - ./.config/jackett:/config
+            - ./downloads:/downloads
+        ports:
+            - 9117:9117
+        networks:
+            - ext_traefik
+        labels:
+            - "traefik.enable=true"
+            - "traefik.docker.network=ext_traefik"
 
-    #         - traefik.http.routers.jackett-http.entrypoints=webinsecure
-    #         - traefik.http.routers.jackett-http.rule=Host(`jackett.${DOMAIN}`)
+            - traefik.http.routers.jackett-http.entrypoints=webinsecure
+            - traefik.http.routers.jackett-http.rule=Host(`jackett.${DOMAIN}`)
             
-    #         - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
-    #         - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
-    #         - traefik.http.routers.jackett-http.middlewares=https-redirect@docker
+            - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
+            - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
+            - traefik.http.routers.jackett-http.middlewares=https-redirect@docker
             
-    #         - traefik.http.routers.jackett.entrypoints=websecure
-    #         - traefik.http.routers.jackett.rule=Host(`jackett.${DOMAIN}`)
-    #         - traefik.http.routers.jackett.tls=true
-    #         - traefik.http.routers.jackett.tls.certresolver=letsencrypt
-    #         - traefik.http.services.jackett.loadbalancer.server.port=9117
-    #         - "port: 9117"
-    #     restart: unless-stopped
-    #     networks:
-    #         - traefik
-    # traktarr:
-    #     container_name: traktarr
-    #     command: traktarr run
-    #     image: eafxx/traktarr
-    #     volumes:
-    #         - ./.config/traktarr:/config
-    #     environment:
-    #         - PUID=100O
-    #         - PGID=1000
-    #         - TZ=Europe/Brussels
-    #         - DELAY=2.5        
-    #         - SORT=rating
-    #         - NOSEARCH=yes
-    #         - NOTIFICATIONS=yes
-    #         - BLACKLIST=yes
-    #         - RUNNOW=no
-    #         - SKIPUPDATE=no
-    #         - APP_BRANCH=master 
-    #     restart: unless-stopped
-    # home-assistant:
-    #     container_name: "home-assistant"
-    #     image: homeassistant/home-assistant:latest
-    #     devices:
-    #         - /dev/ttyAMA0 
-    #     healthcheck:
-    #         test: ["CMD", "curl", "-f", "http://192.168.0.16:8123"]
-    #         interval: 30s
-    #         timeout: 10s
-    #         retries: 6
-    #     environment:
-    #         - PUID=100O
-    #         - PGID=1000
-    #         - TZ=Europe/Brussels
-    #     ports:
-    #         - 8123:8123
-    #     privileged: true
-    #     volumes:
-    #         - ./.config/ha:/config
-    #     cap_add:
-    #         - NET_ADMIN
-    #         - NET_BIND_SERVICE
-    #         - SYS_ADMIN
-    #     labels:
-    #         - "traefik.enable=true"
-    #         - "traefik.docker.network=traefik"
+            - traefik.http.routers.jackett.entrypoints=websecure
+            - traefik.http.routers.jackett.rule=Host(`jackett.${DOMAIN}`)
+            - traefik.http.routers.jackett.tls=true
+            - traefik.http.routers.jackett.tls.certresolver=letsencrypt
+            - traefik.http.services.jackett.loadbalancer.server.port=9117
+            - "port: 9117"
+        restart: unless-stopped
+    traktarr:
+        container_name: traktarr
+        command: traktarr run
+        image: eafxx/traktarr
+        volumes:
+            - ./.config/traktarr:/config
+        environment:
+            - PUID=100O
+            - PGID=1000
+            - TZ=Europe/Brussels
+            - DELAY=2.5        
+            - SORT=rating
+            - NOSEARCH=yes
+            - NOTIFICATIONS=yes
+            - BLACKLIST=yes
+            - RUNNOW=no
+            - SKIPUPDATE=no
+            - APP_BRANCH=master 
+        restart: unless-stopped
+    home-assistant:
+        container_name: "home-assistant"
+        image: homeassistant/home-assistant:latest
+        devices:
+            - /dev/ttyAMA0 
+        healthcheck:
+            test: ["CMD", "curl", "-f", "http://192.168.0.16:8123"]
+            interval: 30s
+            timeout: 10s
+            retries: 6
+        environment:
+            - PUID=100O
+            - PGID=1000
+            - TZ=Europe/Brussels
+        ports:
+            - 8123:8123
+        privileged: true
+        volumes:
+            - ./.config/ha:/config
+        cap_add:
+            - NET_ADMIN
+            - NET_BIND_SERVICE
+            - SYS_ADMIN
+        networks:
+            - ext_traefik
+        labels:
+            - "traefik.enable=true"
+            - "traefik.docker.network=ext_traefik"
 
-    #         - traefik.http.routers.home-assistant-http.entrypoints=webinsecure
-    #         - traefik.http.routers.home-assistant-http.rule=Host(`ha.${DOMAIN}`)
+            - traefik.http.routers.home-assistant-http.entrypoints=webinsecure
+            - traefik.http.routers.home-assistant-http.rule=Host(`ha.${DOMAIN}`)
             
-    #         - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
-    #         - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
-    #         - traefik.http.routers.home-assistant-http.middlewares=https-redirect@docker
+            - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
+            - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
+            - traefik.http.routers.home-assistant-http.middlewares=https-redirect@docker
             
-    #         - traefik.http.routers.home-assistant.entrypoints=websecure
-    #         - traefik.http.routers.home-assistant.rule=Host(`ha.${DOMAIN}`)
-    #         - traefik.http.routers.home-assistant.tls=true
-    #         - traefik.http.routers.home-assistant.tls.certresolver=letsencrypt
-    #         - traefik.http.services.home-assistant.loadbalancer.server.port=8123
-    #         - "port: 8123"
-    #     restart: unless-stopped
-    #     networks:
-    #         - traefik
+            - traefik.http.routers.home-assistant.entrypoints=websecure
+            - traefik.http.routers.home-assistant.rule=Host(`ha.${DOMAIN}`)
+            - traefik.http.routers.home-assistant.tls=true
+            - traefik.http.routers.home-assistant.tls.certresolver=letsencrypt
+            - traefik.http.services.home-assistant.loadbalancer.server.port=8123
+            - "port: 8123"
+        restart: unless-stopped
     duckdns:
         container_name: duckdns
         image: linuxserver/duckdns:eb04e693-ls56
@@ -273,8 +278,5 @@ services:
             - ext_traefik
             
 networks:
-    traefik:
-        driver: overlay
-        name: traefik
     ext_traefik:
         external: true
