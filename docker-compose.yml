@@ -59,6 +59,9 @@ services:
         ports:
             - 8989:8989
         restart: unless-stopped
+        networks:
+            - traefik
+            - ext_traefik
         labels:
             - "traefik.enable=true"
             - "traefik.docker.network=ext_traefik"
