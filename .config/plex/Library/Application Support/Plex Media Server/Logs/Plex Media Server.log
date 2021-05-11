@@ -510,3 +510,8 @@ May 11, 2021 21:11:32.886 [0x7f138e7fc700] DEBUG - Request: [127.0.0.1:48300 (Lo
 May 11, 2021 21:11:32.887 [0x7f13abfff700] DEBUG - Completed: [127.0.0.1:48300] 200 GET /channels/all (2 live) GZIP 0ms 387 bytes
 May 11, 2021 21:18:40.086 [0x7f13b0c31700] DEBUG - EventSource: Got event [data] '<Message address="" port="0" asyncIdentifier="c2be8681-7e81-406e-979a-230cc9b4885d" connectivity="0" command="notifyConnectivity"/>'
 May 11, 2021 21:18:40.095 [0x7f13b0c31700] WARN - PubSub: Received notifyConnectivity event with incorrect async identifier (c2be8681-7e81-406e-979a-230cc9b4885d, expected 7568d2d2-be6f-4b8c-bc0d-7c6a7a6c9254)
+May 11, 2021 21:39:29.404 [0x7f13b1432700] DEBUG - Sync: uploadStatus
+May 11, 2021 21:39:41.761 [0x7f1366ffd700] DEBUG - Putting plug-in com.plexapp.agents.imdb to sleep.
+May 11, 2021 21:39:41.762 [0x7f1366ffd700] DEBUG - Stopping [com.plexapp.agents.imdb].
+May 11, 2021 21:39:41.762 [0x7f1366ffd700] DEBUG - [com.plexapp.agents.imdb] Killing.
+May 11, 2021 21:39:42.014 [0x7f13b2e11700] WARN - JobManager: Could not find job for handle 419

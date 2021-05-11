@@ -1247,3 +1247,52 @@
 2021-05-11 23:09:16.2|Info|WebHostController|  http://*:7878
 2021-05-11 23:09:16.4|Info|RadarrBootstrapper|Starting Web Server
 2021-05-11 23:09:17.5|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-05-11 23:38:46.9|Info|HousekeepingService|Running housecleaning tasks
+2021-05-11 23:38:46.9|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2021-05-11 23:38:47.0|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2021-05-11 23:38:47.2|Info|Database|Vacuuming Log database
+2021-05-11 23:38:47.2|Info|Database|Log database compressed
+2021-05-11 23:38:47.2|Info|Database|Vacuuming Main database
+2021-05-11 23:38:47.3|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:47.3|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:47.3|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:47.3|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:47.3|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:47.3|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:47.3|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:47.3|Info|RefreshMovieService|Updating info for Godzilla vs. Kong
+2021-05-11 23:38:47.7|Info|Database|Main database compressed
+2021-05-11 23:38:48.1|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:48.1|Info|MediaCoverService|Downloading Poster for [Godzilla vs. Kong (2021)][tt5034838, 399566] https://image.tmdb.org/t/p/original/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg
+2021-05-11 23:38:48.1|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:48.1|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:48.1|Info|RefreshMovieService|Updating info for Mortal Kombat
+2021-05-11 23:38:48.2|Info|MediaCoverService|Downloading Fanart for [Godzilla vs. Kong (2021)][tt5034838, 399566] https://image.tmdb.org/t/p/original/inJjDhCjfhh3RtrJWBmmDqeuSYC.jpg
+2021-05-11 23:38:48.8|Info|MediaCoverService|Downloading Poster for [Mortal Kombat (2021)][tt0293429, 460465] https://image.tmdb.org/t/p/original/xGuOF1T3WmPsAcQEQJfnG7Ud9f8.jpg
+2021-05-11 23:38:48.8|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:48.8|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:48.8|Info|RefreshMovieService|Updating info for Nobody
+2021-05-11 23:38:49.0|Info|MediaCoverService|Downloading Fanart for [Mortal Kombat (2021)][tt0293429, 460465] https://image.tmdb.org/t/p/original/9yBVqNruk6Ykrwc32qrK2TIE5xw.jpg
+2021-05-11 23:38:49.3|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:49.3|Info|MediaCoverService|Downloading Poster for [Nobody (2021)][tt7888964, 615457] https://image.tmdb.org/t/p/original/oBgWY00bEFeZ9N25wWVyuQddbAo.jpg
+2021-05-11 23:38:49.3|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:49.3|Info|RefreshMovieService|Updating info for Oxygen
+2021-05-11 23:38:49.5|Info|MediaCoverService|Downloading Fanart for [Nobody (2021)][tt7888964, 615457] https://image.tmdb.org/t/p/original/6zbKgwgaaCyyBXE4Sun4oWQfQmi.jpg
+2021-05-11 23:38:49.7|Info|MediaCoverService|Downloading Poster for [Oxygen (2021)][tt6341832, 471498] https://image.tmdb.org/t/p/original/u74DFoZGTcZ8cuHO8nvQkCqXEVP.jpg
+2021-05-11 23:38:49.7|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:49.7|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:49.7|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:49.7|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:49.7|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:49.7|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:49.7|Info|RefreshMovieService|Updating info for Together Together
+2021-05-11 23:38:49.8|Info|MediaCoverService|Downloading Fanart for [Oxygen (2021)][tt6341832, 471498] https://image.tmdb.org/t/p/original/ngavnE7Go8uHZBIulRiLccB2yo2.jpg
+2021-05-11 23:38:50.0|Info|MediaCoverService|Downloading Poster for [Together Together (2021)][tt11285280, 776515] https://image.tmdb.org/t/p/original/9WtVYwBs3a5zIzuSc169VLBIiS.jpg
+2021-05-11 23:38:50.0|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:50.0|Warn|DiskScanService|Movie's root folder (/movies/) is empty.
+2021-05-11 23:38:50.1|Info|MediaCoverService|Downloading Fanart for [Together Together (2021)][tt11285280, 776515] https://image.tmdb.org/t/p/original/4AFOBeCrrjAKFHyY7ZrD22GinyL.jpg
+2021-05-11 23:38:50.4|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-11 23:38:50.6|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-11 23:38:50.7|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-11 23:38:50.8|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-05-11 23:38:50.9|Info|MetadataService|Movie folder does not exist, skipping metadata image creation

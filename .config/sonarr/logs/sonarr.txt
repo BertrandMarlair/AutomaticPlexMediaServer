@@ -2401,3 +2401,13 @@ qacct:"p-65fDiBy2lVMDM"
 21-5-11 23:25:16.4|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 9:09:48 PM and 5/11/2021 9:09:48 PM UTC. Search may be required.
 21-5-11 23:25:16.8|Info|DownloadDecisionMaker|Processing 221 releases
 21-5-11 23:25:22.0|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 23:38:46.0|Info|HousekeepingService|Running housecleaning tasks
+21-5-11 23:38:46.1|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+21-5-11 23:38:46.1|Info|ImportListSyncService|Starting Import List Sync
+21-5-11 23:38:46.2|Info|ImportListSyncService|Processing 0 list items
+21-5-11 23:38:46.2|Info|SceneMappingService|Updating Scene mappings
+21-5-11 23:38:46.4|Info|Database|Vacuuming Log database
+21-5-11 23:38:46.5|Info|Database|Log database compressed
+21-5-11 23:38:46.6|Info|Database|Vacuuming Main database
+21-5-11 23:38:47.1|Info|Database|Main database compressed
+21-5-11 23:38:49.7|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Series added: 0

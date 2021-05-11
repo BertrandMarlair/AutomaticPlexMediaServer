@@ -4654,3 +4654,65 @@
 21-5-11 23:25:22.0|Debug|ParsingService|No matching series [DVDISO] Infinite Dendrogram (US)
 21-5-11 23:25:22.0|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
 21-5-11 23:25:22.0|Debug|PendingReleaseService|Removing failed releases from pending
+21-5-11 23:38:46.0|Info|HousekeepingService|Running housecleaning tasks
+21-5-11 23:38:46.0|Debug|HousekeepingService|Starting CleanupAbsolutePathMetadataFiles
+21-5-11 23:38:46.0|Debug|HousekeepingService|Completed CleanupAbsolutePathMetadataFiles
+21-5-11 23:38:46.0|Debug|HousekeepingService|Starting CleanupAdditionalNamingSpecs
+21-5-11 23:38:46.0|Debug|HousekeepingService|Completed CleanupAdditionalNamingSpecs
+21-5-11 23:38:46.0|Debug|HousekeepingService|Starting CleanupAdditionalUsers
+21-5-11 23:38:46.0|Debug|HousekeepingService|Completed CleanupAdditionalUsers
+21-5-11 23:38:46.0|Debug|HousekeepingService|Starting CleanupCommandQueue
+21-5-11 23:38:46.0|Debug|HousekeepingService|Completed CleanupCommandQueue
+21-5-11 23:38:46.0|Debug|HousekeepingService|Starting CleanupDownloadClientUnavailablePendingReleases
+21-5-11 23:38:46.0|Debug|HousekeepingService|Completed CleanupDownloadClientUnavailablePendingReleases
+21-5-11 23:38:46.0|Debug|HousekeepingService|Starting CleanupDuplicateMetadataFiles
+21-5-11 23:38:46.0|Debug|HousekeepingService|Completed CleanupDuplicateMetadataFiles
+21-5-11 23:38:46.0|Debug|HousekeepingService|Starting CleanupOrphanedBlacklist
+21-5-11 23:38:46.1|Debug|HousekeepingService|Completed CleanupOrphanedBlacklist
+21-5-11 23:38:46.1|Debug|HousekeepingService|Starting CleanupOrphanedDownloadClientStatus
+21-5-11 23:38:46.1|Debug|HousekeepingService|Completed CleanupOrphanedDownloadClientStatus
+21-5-11 23:38:46.1|Debug|HousekeepingService|Starting CleanupOrphanedEpisodeFiles
+21-5-11 23:38:46.1|Debug|HousekeepingService|Completed CleanupOrphanedEpisodeFiles
+21-5-11 23:38:46.1|Debug|HousekeepingService|Starting CleanupOrphanedEpisodes
+21-5-11 23:38:46.1|Debug|HousekeepingService|Completed CleanupOrphanedEpisodes
+21-5-11 23:38:46.1|Debug|HousekeepingService|Starting CleanupOrphanedHistoryItems
+21-5-11 23:38:46.1|Debug|HousekeepingService|Completed CleanupOrphanedHistoryItems
+21-5-11 23:38:46.1|Debug|HousekeepingService|Starting CleanupOrphanedImportListStatus
+21-5-11 23:38:46.1|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+21-5-11 23:38:46.1|Info|ImportListSyncService|Starting Import List Sync
+21-5-11 23:38:46.1|Debug|FetchAndParseImportListService|No enabled import lists, skipping.
+21-5-11 23:38:46.2|Info|ImportListSyncService|Processing 0 list items
+21-5-11 23:38:46.2|Debug|HousekeepingService|Completed CleanupOrphanedImportListStatus
+21-5-11 23:38:46.2|Info|SceneMappingService|Updating Scene mappings
+21-5-11 23:38:46.2|Debug|HousekeepingService|Starting CleanupOrphanedIndexerStatus
+21-5-11 23:38:46.2|Debug|HousekeepingService|Completed CleanupOrphanedIndexerStatus
+21-5-11 23:38:46.2|Debug|HousekeepingService|Starting CleanupOrphanedMetadataFiles
+21-5-11 23:38:46.2|Debug|HousekeepingService|Completed CleanupOrphanedMetadataFiles
+21-5-11 23:38:46.2|Debug|XemProxy|Fetching alternate names
+21-5-11 23:38:46.2|Debug|HousekeepingService|Starting CleanupOrphanedPendingReleases
+21-5-11 23:38:46.3|Debug|HousekeepingService|Completed CleanupOrphanedPendingReleases
+21-5-11 23:38:46.3|Debug|HousekeepingService|Starting CleanupTemporaryUpdateFiles
+21-5-11 23:38:46.3|Debug|HousekeepingService|Completed CleanupTemporaryUpdateFiles
+21-5-11 23:38:46.3|Debug|HousekeepingService|Starting CleanupUnusedTags
+21-5-11 23:38:46.4|Debug|HousekeepingService|Completed CleanupUnusedTags
+21-5-11 23:38:46.4|Debug|HousekeepingService|Starting DeleteBadMediaCovers
+21-5-11 23:38:46.4|Debug|HousekeepingService|Completed DeleteBadMediaCovers
+21-5-11 23:38:46.4|Debug|HousekeepingService|Starting EnsureValidLanguageProfileId
+21-5-11 23:38:46.4|Debug|HousekeepingService|Completed EnsureValidLanguageProfileId
+21-5-11 23:38:46.4|Debug|HousekeepingService|Starting FixFutureDownloadClientStatusTimes
+21-5-11 23:38:46.4|Debug|HousekeepingService|Completed FixFutureDownloadClientStatusTimes
+21-5-11 23:38:46.4|Debug|HousekeepingService|Starting FixFutureIndexerStatusTimes
+21-5-11 23:38:46.4|Debug|HousekeepingService|Completed FixFutureIndexerStatusTimes
+21-5-11 23:38:46.4|Debug|HousekeepingService|Starting FixFutureRunScheduledTasks
+21-5-11 23:38:46.4|Debug|HousekeepingService|Completed FixFutureRunScheduledTasks
+21-5-11 23:38:46.4|Debug|HousekeepingService|Starting TrimLogDatabase
+21-5-11 23:38:46.4|Info|Database|Vacuuming Log database
+21-5-11 23:38:46.5|Info|Database|Log database compressed
+21-5-11 23:38:46.6|Debug|HousekeepingService|Completed TrimLogDatabase
+21-5-11 23:38:46.6|Debug|HousekeepingService|Starting UpdateCleanTitleForSeries
+21-5-11 23:38:46.6|Debug|HousekeepingService|Completed UpdateCleanTitleForSeries
+21-5-11 23:38:46.6|Debug|HousekeepingService|Compressing main database after housekeeping
+21-5-11 23:38:46.6|Info|Database|Vacuuming Main database
+21-5-11 23:38:46.9|Debug|XemService|Skipping all numeric name: 86 for 378609
+21-5-11 23:38:47.1|Info|Database|Main database compressed
+21-5-11 23:38:49.7|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Series added: 0

@@ -1,5 +1,7 @@
-downloads
-media
+*.avi
+*.avi
+*.mkv
+*.mp4
 *.key
 *.crt
 *.log
