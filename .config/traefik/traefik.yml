@@ -17,15 +17,12 @@ providers:
     watch: true
     network: docker
     exposedByDefault: false
-  file:
-    filename: /dynamic.yml
-    watch: false
 
 api:
   dashboard: true
-  insecure: false
-  debug: false
+  insecure: true
+  debug: true
 
 log:
-  level: INFO
+  level: DEBUG
 accessLog: true
