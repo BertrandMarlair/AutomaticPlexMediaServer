@@ -61,7 +61,7 @@ services:
         restart: unless-stopped
         labels:
             - "traefik.enable=true"
-            - "traefik.docker.network=traefik"
+            - "traefik.docker.network=ext_traefik"
 
             - traefik.http.routers.sonarr-http.entrypoints=webinsecure
             - traefik.http.routers.sonarr-http.rule=Host(`sonarr.${DOMAIN}`)
@@ -268,8 +268,11 @@ services:
             - "8080:8080"
         networks:
             - traefik
+            - ext_traefik
             
 networks:
     traefik:
         driver: overlay
         name: traefik
+    ext_traefik:
+        external: true
