@@ -190,49 +190,49 @@ services:
             - SKIPUPDATE=no
             - APP_BRANCH=master 
         restart: unless-stopped
-    home-assistant:
-        container_name: "home-assistant"
-        image: homeassistant/home-assistant:latest
-        devices:
-            - /dev/ttyAMA0 
-        healthcheck:
-            test: ["CMD", "curl", "-f", "http://192.168.0.16:8123"]
-            interval: 30s
-            timeout: 10s
-            retries: 6
-        environment:
-            - PUID=100O
-            - PGID=1000
-            - TZ=Europe/Brussels
-        ports:
-            - 8123:8123
-        privileged: true
-        volumes:
-            - ./.config/ha:/config
-        cap_add:
-            - NET_ADMIN
-            - NET_BIND_SERVICE
-            - SYS_ADMIN
-        labels:
-            - "traefik.enable=true"
-            - "traefik.docker.network=traefik"
+    # home-assistant:
+    #     container_name: "home-assistant"
+    #     image: homeassistant/home-assistant:latest
+    #     devices:
+    #         - /dev/ttyAMA0 
+    #     healthcheck:
+    #         test: ["CMD", "curl", "-f", "http://192.168.0.16:8123"]
+    #         interval: 30s
+    #         timeout: 10s
+    #         retries: 6
+    #     environment:
+    #         - PUID=100O
+    #         - PGID=1000
+    #         - TZ=Europe/Brussels
+    #     ports:
+    #         - 8123:8123
+    #     privileged: true
+    #     volumes:
+    #         - ./.config/ha:/config
+    #     cap_add:
+    #         - NET_ADMIN
+    #         - NET_BIND_SERVICE
+    #         - SYS_ADMIN
+    #     labels:
+    #         - "traefik.enable=true"
+    #         - "traefik.docker.network=traefik"
 
-            - traefik.http.routers.home-assistant-http.entrypoints=webinsecure
-            - traefik.http.routers.home-assistant-http.rule=Host(`ha.${DOMAIN}`)
+    #         - traefik.http.routers.home-assistant-http.entrypoints=webinsecure
+    #         - traefik.http.routers.home-assistant-http.rule=Host(`ha.${DOMAIN}`)
             
-            - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
-            - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
-            - traefik.http.routers.home-assistant-http.middlewares=https-redirect@docker
+    #         - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
+    #         - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
+    #         - traefik.http.routers.home-assistant-http.middlewares=https-redirect@docker
             
-            - traefik.http.routers.home-assistant.entrypoints=websecure
-            - traefik.http.routers.home-assistant.rule=Host(`ha.${DOMAIN}`)
-            - traefik.http.routers.home-assistant.tls=true
-            - traefik.http.routers.home-assistant.tls.certresolver=letsencrypt
-            - traefik.http.services.home-assistant.loadbalancer.server.port=8123
-            - "port: 8123"
-        restart: unless-stopped
-        networks:
-            - traefik
+    #         - traefik.http.routers.home-assistant.entrypoints=websecure
+    #         - traefik.http.routers.home-assistant.rule=Host(`ha.${DOMAIN}`)
+    #         - traefik.http.routers.home-assistant.tls=true
+    #         - traefik.http.routers.home-assistant.tls.certresolver=letsencrypt
+    #         - traefik.http.services.home-assistant.loadbalancer.server.port=8123
+    #         - "port: 8123"
+    #     restart: unless-stopped
+    #     networks:
+    #         - traefik
     duckdns:
         container_name: duckdns
         image: linuxserver/duckdns:eb04e693-ls56
