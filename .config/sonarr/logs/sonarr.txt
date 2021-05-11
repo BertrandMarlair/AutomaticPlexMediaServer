@@ -2318,3 +2318,86 @@ qacct:"p-65fDiBy2lVMDM"
 21-5-11 19:15:54.7|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 5:00:25 PM and 5/11/2021 5:00:25 PM UTC. Search may be required.
 21-5-11 19:15:55.0|Info|DownloadDecisionMaker|Processing 221 releases
 21-5-11 19:16:00.7|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 19:31:23.8|Info|RssSyncService|Starting RSS Sync
+21-5-11 19:31:23.9|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 5:00:25 PM and 5/11/2021 5:00:25 PM UTC. Search may be required.
+21-5-11 19:31:23.9|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 5:00:25 PM and 5/11/2021 5:00:25 PM UTC. Search may be required.
+21-5-11 19:31:23.9|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 5:00:25 PM and 5/11/2021 5:00:25 PM UTC. Search may be required.
+21-5-11 19:31:24.6|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 19:31:30.8|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 19:46:53.0|Info|RssSyncService|Starting RSS Sync
+21-5-11 19:46:53.5|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 5:00:25 PM and 5/11/2021 5:46:53 PM UTC. Search may be required.
+21-5-11 19:46:53.5|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 5:00:25 PM and 5/11/2021 5:46:53 PM UTC. Search may be required.
+21-5-11 19:46:53.6|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 5:00:25 PM and 5/11/2021 5:46:53 PM UTC. Search may be required.
+21-5-11 19:46:53.6|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 19:46:59.2|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 20:02:22.3|Info|RssSyncService|Starting RSS Sync
+21-5-11 20:02:22.4|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 5:46:53 PM and 5/11/2021 5:46:53 PM UTC. Search may be required.
+21-5-11 20:02:22.4|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 5:46:53 PM and 5/11/2021 5:46:53 PM UTC. Search may be required.
+21-5-11 20:02:22.4|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 5:46:53 PM and 5/11/2021 5:46:53 PM UTC. Search may be required.
+21-5-11 20:02:22.7|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 20:02:27.7|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 20:46:34.0|Info|RssSyncService|Starting RSS Sync
+21-5-11 20:46:36.7|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 5:46:53 PM and 5/11/2021 6:46:35 PM UTC. Search may be required.
+21-5-11 20:46:36.8|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 5:46:53 PM and 5/11/2021 6:46:35 PM UTC. Search may be required.
+21-5-11 20:46:37.1|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 5:46:53 PM and 5/11/2021 6:46:36 PM UTC. Search may be required.
+21-5-11 20:46:37.2|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 20:47:06.7|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 21:02:29.3|Info|RssSyncService|Starting RSS Sync
+21-5-11 21:02:29.4|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 6:46:36 PM and 5/11/2021 6:46:36 PM UTC. Search may be required.
+21-5-11 21:02:30.7|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 21:02:36.1|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 21:17:58.5|Info|SceneMappingService|Updating Scene mappings
+21-5-11 21:17:58.5|Info|RssSyncService|Starting RSS Sync
+21-5-11 21:17:58.7|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 6:46:36 PM and 5/11/2021 6:46:36 PM UTC. Search may be required.
+21-5-11 21:17:59.0|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 21:18:05.3|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 21:33:27.7|Info|RssSyncService|Starting RSS Sync
+21-5-11 21:33:28.1|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 6:46:36 PM and 5/11/2021 7:33:27 PM UTC. Search may be required.
+21-5-11 21:33:29.0|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 6:46:36 PM and 5/11/2021 7:33:28 PM UTC. Search may be required.
+21-5-11 21:33:29.2|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 6:46:36 PM and 5/11/2021 7:33:29 PM UTC. Search may be required.
+21-5-11 21:33:29.2|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 21:33:35.2|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 21:48:57.0|Info|RssSyncService|Starting RSS Sync
+21-5-11 21:48:57.1|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 7:33:29 PM and 5/11/2021 7:33:29 PM UTC. Search may be required.
+21-5-11 21:48:57.4|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 21:49:02.4|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 22:04:26.2|Info|RssSyncService|Starting RSS Sync
+21-5-11 22:04:26.4|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 7:33:29 PM and 5/11/2021 7:33:29 PM UTC. Search may be required.
+21-5-11 22:04:26.6|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 22:04:31.8|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 22:19:55.5|Info|RssSyncService|Starting RSS Sync
+21-5-11 22:19:55.8|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 7:33:29 PM and 5/11/2021 8:19:55 PM UTC. Search may be required.
+21-5-11 22:19:55.9|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 7:33:28 PM and 5/11/2021 8:19:55 PM UTC. Search may be required.
+21-5-11 22:19:56.0|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 7:33:29 PM and 5/11/2021 8:19:55 PM UTC. Search may be required.
+21-5-11 22:19:56.0|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 22:20:01.3|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 22:35:24.7|Info|RssSyncService|Starting RSS Sync
+21-5-11 22:35:24.8|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 8:19:55 PM and 5/11/2021 8:19:55 PM UTC. Search may be required.
+21-5-11 22:35:24.8|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 8:19:55 PM and 5/11/2021 8:19:55 PM UTC. Search may be required.
+21-5-11 22:35:25.1|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 22:35:30.5|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 22:50:54.1|Info|RssSyncService|Starting RSS Sync
+21-5-11 22:50:54.2|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 8:19:55 PM and 5/11/2021 8:19:55 PM UTC. Search may be required.
+21-5-11 22:50:54.2|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 8:19:55 PM and 5/11/2021 8:19:55 PM UTC. Search may be required.
+21-5-11 22:50:56.5|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 22:51:02.8|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 23:09:12.0|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1196
+21-5-11 23:09:13.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+21-5-11 23:09:13.3|Info|Router|Application mode: Interactive
+21-5-11 23:09:13.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+21-5-11 23:09:14.1|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+21-5-11 23:09:14.6|Info|OwinHostController|Listening on the following URLs:
+21-5-11 23:09:14.6|Info|OwinHostController|  http://*:8989/
+21-5-11 23:09:15.2|Info|SonarrBootstrapper|Starting Web Server
+21-5-11 23:09:46.6|Info|RssSyncService|Starting RSS Sync
+21-5-11 23:09:48.5|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 8:19:55 PM and 5/11/2021 9:09:48 PM UTC. Search may be required.
+21-5-11 23:09:48.5|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 8:19:55 PM and 5/11/2021 9:09:48 PM UTC. Search may be required.
+21-5-11 23:09:48.5|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 8:19:56 PM and 5/11/2021 9:09:48 PM UTC. Search may be required.
+21-5-11 23:09:51.2|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 23:09:56.3|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0
+21-5-11 23:25:16.3|Info|RssSyncService|Starting RSS Sync
+21-5-11 23:25:16.4|Warn|Torznab|Indexer OxTorrent rss sync didn't cover the period between 5/11/2021 9:09:48 PM and 5/11/2021 9:09:48 PM UTC. Search may be required.
+21-5-11 23:25:16.4|Warn|Torznab|Indexer gktorrent rss sync didn't cover the period between 5/11/2021 9:09:48 PM and 5/11/2021 9:09:48 PM UTC. Search may be required.
+21-5-11 23:25:16.4|Warn|Torznab|Indexer Torrent9 rss sync didn't cover the period between 5/11/2021 9:09:48 PM and 5/11/2021 9:09:48 PM UTC. Search may be required.
+21-5-11 23:25:16.8|Info|DownloadDecisionMaker|Processing 221 releases
+21-5-11 23:25:22.0|Info|RssSyncService|RSS Sync Completed. Reports found: 221, Reports grabbed: 0

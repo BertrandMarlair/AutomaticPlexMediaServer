@@ -30,11 +30,12 @@ services:
         restart: unless-stopped
         labels:
             - traefik.enable=true
-            - traefik.http.routers.plex.entrypoints=http,https
-            - traefik.http.routers.plex.rule=Host(`plex.homeassistant.local`)
+            - traefik.http.routers.plex.entrypoints=websecure"
+            - traefik.http.routers.plex.rule=Host(`plex.${DOMAIN}`)
             - traefik.http.routers.plex.tls=true
             - traefik.http.routers.plex.service=plex
             - traefik.http.services.plex.loadbalancer.server.port=32400
+            - traefik.http.routers.home-assistant.tls.certresolver=le
     sonarr:
         image: ghcr.io/linuxserver/sonarr
         container_name: sonarr
@@ -51,11 +52,12 @@ services:
         restart: unless-stopped
         labels:
             - traefik.enable=true
-            - traefik.http.routers.sonarr.entrypoints=http,https
-            - traefik.http.routers.sonarr.rule=Host(`sonarr.homeassistant.local`)
+            - traefik.http.routers.sonarr.entrypoints=websecure"
+            - traefik.http.routers.sonarr.rule=Host(`sonarr.${DOMAIN}`)
             - traefik.http.routers.sonarr.tls=true
             - traefik.http.routers.sonarr.service=sonarr
             - traefik.http.services.sonarr.loadbalancer.server.port=8989
+            - traefik.http.routers.home-assistant.tls.certresolver=le
     radarr:
         image: ghcr.io/linuxserver/radarr
         container_name: radarr
@@ -72,11 +74,12 @@ services:
         restart: unless-stopped
         labels:
             - traefik.enable=true
-            - traefik.http.routers.radarr.entrypoints=http,https
-            - traefik.http.routers.radarr.rule=Host(`radarr.homeassistant.local`)
+            - traefik.http.routers.radarr.entrypoints=websecure"
+            - traefik.http.routers.radarr.rule=Host(`radarr.${DOMAIN}`)
             - traefik.http.routers.radarr.tls=true
             - traefik.http.routers.radarr.service=radarr
             - traefik.http.services.radarr.loadbalancer.server.port=7878
+            - traefik.http.routers.home-assistant.tls.certresolver=le
     deluge:
         image: ghcr.io/linuxserver/deluge
         container_name: deluge
@@ -93,11 +96,12 @@ services:
         restart: unless-stopped
         labels:
             - traefik.enable=true
-            - traefik.http.routers.deluge.entrypoints=http,https
-            - traefik.http.routers.deluge.rule=Host(`deluge.homeassistant.local`)
+            - traefik.http.routers.deluge.entrypoints=websecure"
+            - traefik.http.routers.deluge.rule=Host(`deluge.${DOMAIN}`)
             - traefik.http.routers.deluge.tls=true
             - traefik.http.routers.deluge.service=deluge
             - traefik.http.services.deluge.loadbalancer.server.port=8112
+            - traefik.http.routers.home-assistant.tls.certresolver=le
     jackett:
         image: ghcr.io/linuxserver/jackett
         container_name: jackett
@@ -114,11 +118,12 @@ services:
         restart: unless-stopped
         labels:
             - traefik.enable=true
-            - traefik.http.routers.jackett.entrypoints=http,https
-            - traefik.http.routers.jackett.rule=Host(`jackett.homeassistant.local`)
+            - traefik.http.routers.jackett.entrypoints=websecure"
+            - traefik.http.routers.jackett.rule=Host(`jackett.${DOMAIN}`)
             - traefik.http.routers.jackett.tls=true
             - traefik.http.routers.jackett.service=jackett
             - traefik.http.services.jackett.loadbalancer.server.port=9117
+            - traefik.http.routers.home-assistant.tls.certresolver=le
     traktarr:
         container_name: traktarr
         command: traktarr run
@@ -140,22 +145,72 @@ services:
         restart: unless-stopped
     traefik:
         container_name: traefik
-        restart: unless-stopped
         image: traefik:latest
+        command:
+            - "--log.level=DEBUG"
+            - "--api.insecure=true"
+            - "--providers.docker=true"
+            - "--providers.docker.exposedbydefault=false"
+            - "--entrypoints.web.address=:80"
+            - "--entrypoints.websecure.address=:443"
+            - "--certificatesresolvers.le.acme.tlschallenge=true"
         ports:
-            - "82:80"
+            - 80:80
+            - 8080:8080
+            - 443:443
         volumes:
             - /var/run/docker.sock:/var/run/docker.sock:ro
-            - ./.config/certs:/certs:ro
-            - ./.config/traefik/traefik.yml:/traefik.yml:ro
-            - ./.config/traefik/dynamic.yml:/dynamic.yml:ro
+        network_mode: "host"
+        restart: unless-stopped
+    home-assistant:
+        container_name: "home-assistant"
+        image: homeassistant/home-assistant:latest
+        devices:
+            - /dev/ttyAMA0 
+        healthcheck:
+            test: ["CMD", "curl", "-f", "http://192.168.0.16:8123"]
+            interval: 30s
+            timeout: 10s
+            retries: 6
+        environment:
+            - PUID=100O
+            - PGID=1000
+            - TZ=Europe/Brussels
+        ports:
+            - 8123:8123
+        privileged: true
+        volumes:
+            - ./ha:/config
+        cap_add:
+            - NET_ADMIN
+            - NET_BIND_SERVICE
+            - SYS_ADMIN
+        network_mode: "host"
         labels:
             - traefik.enable=true
-            - traefik.http.routers.traefik.entrypoints=http,https
-            - traefik.http.routers.traefik.rule=Host(`traefik.homeassistant.local`)
-            - traefik.http.routers.traefik.tls=true
-            - traefik.http.routers.traefik.service=api@internal
+            - traefik.http.services.home-assistant.loadbalancer.server.port=8123
+            - traefik.http.routers.home-assistant.rule=Host(`ha.${DOMAIN}`)
+            - traefik.http.routers.home-assistant.entrypoints=websecure
+            - traefik.http.routers.home-assistant.tls=true
+            - traefik.http.routers.jackett.service=homeassistant
+            - traefik.http.routers.home-assistant.tls.certresolver=le
+        restart: unless-stopped
+    duckdns:
+        container_name: duckdns
+        image: linuxserver/duckdns:eb04e693-ls56
+        restart: unless-stopped
+    
+        environment:
+            - PUID=100O
+            - PGID=1000
+            - TZ=Europe/Brussels
+            - TOKEN=${DUCKDNS_TOKEN}
+            - LOG_FILE=true
+        volumes:
+            - /volume1/docker/duckdns:/config
 networks:
     default:
         external:
             name: docker
+
+            

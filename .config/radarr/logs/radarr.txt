@@ -1226,3 +1226,24 @@
 2021-05-11 18:24:21.8|Info|RssSyncService|Starting RSS Sync
 2021-05-11 18:24:22.5|Info|DownloadDecisionMaker|Processing 74 releases
 2021-05-11 18:24:23.2|Info|RssSyncService|RSS Sync Completed. Reports found: 74, Reports grabbed: 0
+2021-05-11 19:24:48.7|Info|RssSyncService|Starting RSS Sync
+2021-05-11 19:24:49.2|Info|DownloadDecisionMaker|Processing 74 releases
+2021-05-11 19:24:49.9|Info|RssSyncService|RSS Sync Completed. Reports found: 74, Reports grabbed: 0
+2021-05-11 20:46:58.4|Info|RssSyncService|Starting RSS Sync
+2021-05-11 20:47:00.1|Info|DownloadDecisionMaker|Processing 74 releases
+2021-05-11 20:47:04.2|Info|RssSyncService|RSS Sync Completed. Reports found: 74, Reports grabbed: 0
+2021-05-11 21:47:21.0|Info|RssSyncService|Starting RSS Sync
+2021-05-11 21:47:22.5|Info|DownloadDecisionMaker|Processing 74 releases
+2021-05-11 21:47:23.1|Info|RssSyncService|RSS Sync Completed. Reports found: 74, Reports grabbed: 0
+2021-05-11 22:47:47.9|Info|RssSyncService|Starting RSS Sync
+2021-05-11 22:47:48.4|Info|DownloadDecisionMaker|Processing 74 releases
+2021-05-11 22:47:48.7|Info|RssSyncService|RSS Sync Completed. Reports found: 74, Reports grabbed: 0
+2021-05-11 23:09:15.0|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.1.1.4954
+2021-05-11 23:09:15.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-05-11 23:09:15.6|Info|Router|Application mode: Interactive
+2021-05-11 23:09:15.7|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-11 23:09:15.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-05-11 23:09:16.2|Info|WebHostController|Listening on the following URLs:
+2021-05-11 23:09:16.2|Info|WebHostController|  http://*:7878
+2021-05-11 23:09:16.4|Info|RadarrBootstrapper|Starting Web Server
+2021-05-11 23:09:17.5|Info|CommandExecutor|Starting 2 threads for tasks.
