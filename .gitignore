@@ -13,6 +13,7 @@
 *.db-wal
 *.db-shm
 *.pid
+acme.json
 .config/plex/Library/Application Support/Plex Media Server/Cache
 .config/plex/Library/Application Support/Plex Media Server/Logs
 .config/plex/Library/Application Support/Plex Media Server/Codecs
@@ -20,3 +21,4 @@
 .config/plex/Library/Application Support/Plex Media Server/Metadata
 .config/plex/Library/Application Support/Plex Media Server/Plug-in Support
 .config/plex/Library/Application Support/Plex Media Server/Plug-ins
+ha/
